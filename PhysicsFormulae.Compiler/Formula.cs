@@ -13,5 +13,10 @@ namespace PhysicsFormulae.Compiler
         public string Interpretation { get; set; }
         public string Content { get; set; }
         public IList<Identifier> Identifiers { get; set; }
+
+        public Formula()
+        {
+            Identifiers = new List<Identifier>();
+        }
     }
 }
