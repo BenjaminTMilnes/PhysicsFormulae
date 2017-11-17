@@ -1,1 +1,40 @@
-[{"Reference":"NewtonsLawOfGravitation","Title":"Newton's Law of Gravitation","Interpretation":"Every point mass is attracted to every single other point mass by a force pointing along a line intersecting both points. The force is proportional to the product of the two masses and inversely proportional to the square of the distance between them.","Content":"F = G \\frac{m_{1} m_{2}}{r^{2}}","Identifiers":[{"Content":"F","Type":"Variable","Reference":"GravitationalForce","Definition":"is the force between the two masses"},{"Content":"G","Type":"Constant","Reference":"UniversalGravitationalConstant","Definition":"is the universal gravitational constant"},{"Content":"m_{1}","Type":"Variable","Reference":"","Definition":"is the mass of the first object"},{"Content":"m_{2}","Type":"Variable","Reference":"","Definition":"is the mass of the second object"},{"Content":"r","Type":"Variable","Reference":"","Definition":"is the distance between the two objects"}]}]
+[
+  {
+    "Reference": "NewtonsLawOfGravitation",
+    "Title": "Newton's Law of Gravitation",
+    "Interpretation": "Every point mass is attracted to every single other point mass by a force pointing along a line intersecting both points. The force is proportional to the product of the two masses and inversely proportional to the square of the distance between them.",
+    "Content": "F = G \\frac{m_{1} m_{2}}{r^{2}}",
+    "Identifiers": [
+      {
+        "Content": "F",
+        "Type": "Variable",
+        "Reference": "GravitationalForce",
+        "Definition": "is the force between the two masses"
+      },
+      {
+        "Content": "G",
+        "Type": "Constant",
+        "Reference": "UniversalGravitationalConstant",
+        "Definition": "is the universal gravitational constant"
+      },
+      {
+        "Content": "m_{1}",
+        "Type": "Variable",
+        "Reference": "",
+        "Definition": "is the mass of the first object"
+      },
+      {
+        "Content": "m_{2}",
+        "Type": "Variable",
+        "Reference": "",
+        "Definition": "is the mass of the second object"
+      },
+      {
+        "Content": "r",
+        "Type": "Variable",
+        "Reference": "",
+        "Definition": "is the distance between the two objects"
+      }
+    ]
+  }
+]

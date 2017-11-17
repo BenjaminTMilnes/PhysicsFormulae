@@ -76,6 +76,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="application.js" />
+    <Content Include="index.html" />
+    <Content Include="style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
