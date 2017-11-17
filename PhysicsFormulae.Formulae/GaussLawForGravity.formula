@@ -1,0 +1,22 @@
+﻿GaussLawForGravity
+
+Gauss' Law for Gravity
+
+The left hand side of the equation is the gravitational flux. The gravitational flux through a closed surface is proportional to the mass enclosed by the surface.
+
+\oint_S \textbf{g} \cdot \mathrm{d} \textbf{A} = -4 \pi GM
+
+where:
+
+\textbf{g} [var. GravitationalField] is the gravitational field
+\mathrm{d} \textbf{A} [var.] is the normal to an infinitesimal area on the surface being integrated over
+S [var.] is any closed surface
+G [const. UniversalGravitationalConstant] is the universal gravitational constant
+M [var. TotalMass] is the total mass enclosed by the surface $S$
+
+derived from:
+
+fields:
+
+references:
+
