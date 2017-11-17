@@ -23,6 +23,7 @@ namespace PhysicsFormulae.TerminalApplication
                 formulae.Add(formula);
 
                 Console.WriteLine(formula.Reference);
+                Console.WriteLine(formula.Identifiers.Count);
             }
 
             var serializer = new JsonSerializer();
@@ -33,7 +34,7 @@ namespace PhysicsFormulae.TerminalApplication
                 serializer.Serialize(jsonTextWriter, formulae);
             }
 
-            Console.ReadLine();
+            //  Console.ReadLine();
         }
     }
 }

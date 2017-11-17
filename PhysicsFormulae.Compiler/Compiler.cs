@@ -80,28 +80,30 @@ namespace PhysicsFormulae.Compiler
 
         private bool IsLineIdentifierLine(string line)
         {
-            return Regex.IsMatch(@"([^\[]+)\[(var.|const.)\s+([A-Za-z0-9_]+)\](.+)", line);
+            var isMatch = Regex.IsMatch(line, @"^([^\[]+)\s*\[\s*(var\.|const\.)\s*([A-Za-z0-9_]+)?\s*\](.+)$");
+
+            return isMatch;
         }
 
         private Identifier GetIdentifier(string line)
         {
             var identifier = new Identifier();
 
-            var match = Regex.Match(@"([^\[]+)\[(var.|const.)\s+([A-Za-z0-9_]+)\](.+)", line);
+            var match = Regex.Match(line, @"^([^\[]+)\s*\[\s*(var\.|const\.)\s*([A-Za-z0-9_]+)?\s*\](.+)$");
 
-            identifier.Content = match.Groups[0].Value;
+            identifier.Content = match.Groups[1].Value.Trim();
 
-            if (match.Groups[1].Value == "var.")
+            if (match.Groups[2].Value == "var.")
             {
                 identifier.Type = IdentifierType.Variable;
             }
-            else if (match.Groups[1].Value == "const.")
+            else if (match.Groups[2].Value == "const.")
             {
                 identifier.Type = IdentifierType.Constant;
             }
 
-            identifier.Reference = match.Groups[2].Value;
-            identifier.Definition = match.Groups[3].Value;
+            identifier.Reference = match.Groups[3].Value.Trim();
+            identifier.Definition = match.Groups[4].Value.Trim();
 
             return identifier;
         }
