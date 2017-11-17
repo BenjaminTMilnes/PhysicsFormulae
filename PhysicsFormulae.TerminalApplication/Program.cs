@@ -26,12 +26,17 @@ namespace PhysicsFormulae.TerminalApplication
                 Console.WriteLine(formula.Identifiers.Count);
             }
 
+            var outputLocations = new List<string>() { @"..\..\..\PhysicsFormulae.Formulae\Compiled.json", @"..\..\..\PhysicsFormulae.WebApplication\formulae.json" };
+
             var serializer = new JsonSerializer();
 
-            using (var streamWriter = new StreamWriter(@"..\..\..\PhysicsFormulae.Formulae\Compiled.json"))
-            using (var jsonTextWriter = new JsonTextWriter(streamWriter))
+            foreach (var outputLocation in outputLocations)
             {
-                serializer.Serialize(jsonTextWriter, formulae);
+                using (var streamWriter = new StreamWriter(outputLocation))
+                using (var jsonTextWriter = new JsonTextWriter(streamWriter))
+                {
+                    serializer.Serialize(jsonTextWriter, formulae);
+                }
             }
 
             //  Console.ReadLine();
