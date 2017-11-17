@@ -1,2 +1,43 @@
 ﻿body {
+    padding: 70px;
+}
+
+.centrecolumn {
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 40px;
+    color: #202020;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    color: #202020;
+    margin: 20px 0px;
+}
+
+.formula {
+    margin: 70px 0px;
+    color: #202020;
+}
+
+.formula-title {
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.formula-content {
+    font-size: 40px;
+    margin: 40px;
 }

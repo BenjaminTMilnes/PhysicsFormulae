@@ -1,8 +1,8 @@
 ﻿<!DOCTYPE html>
 <html ng-app="PhysicsFormulae">
 <head>
-    <title></title>
-	<meta charset="utf-8" />
+    <title>Physics Formulae - Look up common formulae used in physics.</title>
+    <meta charset="utf-8" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i&amp;subset=greek,greek-ext,latin-ext" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="style.css" />
 
@@ -12,10 +12,15 @@
     <script src="application.js"></script>
 </head>
 <body ng-controller="SearchController">
-    <div ng-repeat="formula in formulae">
-        <div>{{formula.Title}}</div>
-        <div>
-            <katex latex="{{formula.Content}}"></katex>
+    <div class="centrecolumn">
+        <h1>Physics Formulae</h1>
+        <p>This website is a physics formulary - essentially a dictionary of physics formulae. You can use it to look up common physics formulae.</p>
+        <p>The list of formulae is being added to all the time - if your favourite equation is not in here yet, it might be soon. You can see the source code for this project on GitHub: <a href="https://github.com/BenjaminTMilnes/PhysicsFormulae" target="_blank">https://github.com/BenjaminTMilnes/PhysicsFormulae</a>. This project has been created by B. T. Milnes.</p>
+        <div class="formula" ng-repeat="formula in formulae">
+            <div class="formula-title">{{formula.Title}}</div>
+            <div class="formula-content">
+                <katex latex="{{formula.Content}}"></katex>
+            </div>
         </div>
     </div>
 </body>

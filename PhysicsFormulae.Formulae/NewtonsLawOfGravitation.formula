@@ -4,7 +4,7 @@ Newton's Law of Gravitation
 
 Every point mass is attracted to every single other point mass by a force pointing along a line intersecting both points. The force is proportional to the product of the two masses and inversely proportional to the square of the distance between them.
 
-F = G \frac{m_{1} m_{2}}{r^{2}}
+\displaystyle F = G \frac{m_{1} m_{2}}{r^{2}}
 
 where:
 
