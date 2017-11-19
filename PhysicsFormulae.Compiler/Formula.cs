@@ -9,10 +9,20 @@ namespace PhysicsFormulae.Compiler
         public string Interpretation { get; set; }
         public string Content { get; set; }
         public IList<Identifier> Identifiers { get; set; }
+        public IList<string> DerivedFrom { get; set; }
+        public IList<string> Fields { get; set; }
+        public IList<Reference> References { get; set; }
+        public IList<SeeMoreLink> SeeMore { get; set; }
+        public IList<string> Tags { get; set; }
 
         public Formula()
         {
             Identifiers = new List<Identifier>();
+            DerivedFrom = new List<string>();
+            Fields = new List<string>();
+            References = new List<Reference>();
+            SeeMore = new List<SeeMoreLink>();
+            Tags = new List<string>();
         }
     }
 }

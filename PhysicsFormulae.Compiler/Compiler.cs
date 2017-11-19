@@ -13,7 +13,9 @@ namespace PhysicsFormulae.Compiler
         Where = 2,
         DerivedFrom = 3,
         Fields = 4,
-        References = 5
+        References = 5,
+        SeeMore = 6,
+        Tags = 7
     }
 
     public class Compiler
@@ -35,27 +37,39 @@ namespace PhysicsFormulae.Compiler
             {
                 var line = lines[n];
 
-                if (line.Trim() == "where:")
+                if (line == "where:")
                 {
                     formulaSection = FormulaSection.Where;
                     continue;
                 }
 
-                if (line.Trim() == "derived from:")
+                if (line == "derived from:")
                 {
                     formulaSection = FormulaSection.DerivedFrom;
                     continue;
                 }
 
-                if (line.Trim() == "fields:")
+                if (line == "fields:")
                 {
                     formulaSection = FormulaSection.Fields;
                     continue;
                 }
 
-                if (line.Trim() == "references:")
+                if (line == "references:")
                 {
                     formulaSection = FormulaSection.References;
+                    continue;
+                }
+
+                if (line == "see more:")
+                {
+                    formulaSection = FormulaSection.SeeMore;
+                    continue;
+                }
+
+                if (line == "tags:")
+                {
+                    formulaSection = FormulaSection.Tags;
                     continue;
                 }
 
@@ -66,7 +80,48 @@ namespace PhysicsFormulae.Compiler
                         var identifier = GetIdentifier(line);
 
                         formula.Identifiers.Add(identifier);
+                        continue;
                     }
+                }
+
+                if (formulaSection == FormulaSection.DerivedFrom)
+                {
+                    formula.DerivedFrom.Add(line);
+                    continue;
+                }
+
+                if (formulaSection == FormulaSection.Fields)
+                {
+                    formula.Fields.Add(line);
+                    continue;
+                }
+
+                if (formulaSection == FormulaSection.References)
+                {
+                    if (IsLineWebpageReferenceLine(line))
+                    {
+                        var webpage = GetWebpageReference(line);
+
+                        formula.References.Add(webpage);
+                        continue;
+                    }
+                }
+
+                if (formulaSection == FormulaSection.SeeMore)
+                {
+                    if (IsSeeMoreLinkLine(line))
+                    {
+                        var seeMoreLink = GetSeeMoreLink(line);
+
+                        formula.SeeMore.Add(seeMoreLink);
+                        continue;
+                    }
+                }
+
+                if (formulaSection == FormulaSection.Tags)
+                {
+                    formula.Tags.Add(line);
+                    continue;
                 }
             }
 
@@ -75,7 +130,7 @@ namespace PhysicsFormulae.Compiler
 
         private string[] RemoveEmptyLines(string[] lines)
         {
-            return lines.Where(l => l.Trim() != "").ToArray();
+            return lines.Select(l => l.Trim()).Where(l => l != "").ToArray();
         }
 
         private bool IsLineIdentifierLine(string line)
@@ -106,6 +161,45 @@ namespace PhysicsFormulae.Compiler
             identifier.Definition = match.Groups[4].Value.Trim();
 
             return identifier;
+        }
+
+        private bool IsSeeMoreLinkLine(string line)
+        {
+            var isMatch = Regex.IsMatch(line, @"^(.+)\s+((http|https)://(.+))$");
+
+            return isMatch;
+        }
+
+        private SeeMoreLink GetSeeMoreLink(string line)
+        {
+            var seeMoreLink = new SeeMoreLink();
+
+            var match = Regex.Match(line, @"^(.+)\s+((http|https)://(.+))$");
+
+            seeMoreLink.Name = match.Groups[1].Value.Trim();
+            seeMoreLink.URL = match.Groups[2].Value.Trim();
+
+            return seeMoreLink;
+        }
+
+        private bool IsLineWebpageReferenceLine(string line)
+        {
+            var isMatch = Regex.IsMatch(line, @"^webpage:\s*""([^""]+)""\s*,\s*([^,]+)\s*,\s*((http|https):\/\/[^\s]+)\s+\((\d{4}-\d{2}-\d{2})\)\s*$");
+
+            return isMatch;
+        }
+
+        private Webpage GetWebpageReference(string line)
+        {
+            var webpage = new Webpage();
+
+            var match = Regex.Match(line, @"^webpage:\s*""([^""]+)""\s*,\s*([^,]+)\s*,\s*((http|https):\/\/[^\s]+)\s+\((\d{4}-\d{2}-\d{2})\)\s*$");
+
+            webpage.Title = match.Groups[1].Value.Trim();
+            webpage.WebsiteTitle = match.Groups[2].Value.Trim();
+            webpage.URL = match.Groups[3].Value.Trim();
+
+            return webpage;
         }
     }
 }
