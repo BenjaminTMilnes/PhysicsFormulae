@@ -21,4 +21,22 @@
         <div class="attribute-header">LaTeX:</div>
         <div class="attribute-content"><input type="text" value="{{formula.Content}}" /></div>
     </div>
+    <div class="formula-references">
+        <h3>References</h3>
+        <ol>
+            <li ng-repeat="reference in formula.References">
+                <span ng-if="reference.Type == 'Webpage'">
+                    <em>{{reference.Title}}</em>, {{reference.WebsiteTitle}} <a href="{{reference.URL}}" target="_blank">{{reference.URL}}</a>
+                </span>
+            </li>
+        </ol>
+    </div>
+    <div class="formula-seemore">
+        <h3>See more</h3>
+        <ul>
+            <li ng-repeat="link in formula.SeeMore">
+                {{link.Name}} <a href="{{link.URL}}" target="_blank">{{link.URL}}</a>
+            </li>
+        </ul>
+    </div>
 </div>
