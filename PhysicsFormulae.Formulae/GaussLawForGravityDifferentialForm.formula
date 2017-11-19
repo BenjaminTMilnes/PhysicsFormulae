@@ -1,0 +1,39 @@
+﻿GaussLawForGravityDifferentialForm
+
+Gauss' Law for Gravity (Differential Form)
+
+The divergence of the gravitational field is directly proportional to the mass density.
+
+\displaystyle \nabla \cdot \textbf{g} = - 4 \pi G \rho
+
+where:
+
+\textbf{g} [var. GravitationalField] is the gravitational field
+G [const. UniversalGravitationalConstant] is the universal gravitational constant
+\rho [var. MassDensity] is the mass density
+
+derived from:
+
+NewtonsLawOfGravitation
+GaussLawForGravityIntegralForm
+
+fields:
+
+Classical Mechanics
+Classical Gravity
+
+references:
+
+webpage: "Gauss's law for gravity", Wikipedia, https://en.wikipedia.org/wiki/Gauss%27s_law_for_gravity (2017-11-19)
+
+see more:
+
+Wikipedia https://en.wikipedia.org/wiki/Gauss%27s_law_for_gravity
+
+tags:
+
+Gauss
+gravity
+gravitational
+flux
+
