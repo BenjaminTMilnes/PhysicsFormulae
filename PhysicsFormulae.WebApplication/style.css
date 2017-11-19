@@ -64,8 +64,9 @@ a {
 }
 
 .formula-content {
-    font-size: 40px;
-    margin: 40px;
+    font-size: 70px;
+    margin: 70px;
+     text-align:center;
 }
 
 .formula-identifiers table td {

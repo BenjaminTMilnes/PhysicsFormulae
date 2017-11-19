@@ -1,4 +1,4 @@
-﻿var application = angular.module("PhysicsFormulae", ["ngRoute"]);
+﻿var application = angular.module("PhysicsFormulae", ["ngRoute", "ngSanitize"]);
 
 application.config(function ($routeProvider) {
     $routeProvider
@@ -22,6 +22,18 @@ application.directive("katex", function () {
         }
     }
 });
+
+
+application.directive("compile", ["$compile", function ($compile) {
+    return function (scope, element, attributes) {
+        scope.$watch(function (scope) {
+            return scope.$eval(attributes.compile);
+        }, function (value) {
+            element.html(value);
+            $compile(element.contents())(scope);
+        });
+    };
+}]);
 
 application.controller("SearchController", ["$scope", "$http", function SearchController($scope, $http) {
 
@@ -47,5 +59,9 @@ application.controller("FormulaController", ["$scope", "$routeParams", "$http", 
             }
         }
     });
+
+    $scope.getFormulaContent = function () {
+        return "<katex latex=\"" + $scope.formula.Content + "\"></katex>";
+    }
 
 }]);

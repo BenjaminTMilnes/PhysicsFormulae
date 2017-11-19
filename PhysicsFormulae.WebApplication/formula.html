@@ -1,7 +1,6 @@
 ﻿<div class="formula">
     <h2 class="formula-title">{{formula.Title}}</h2>
-    <div class="formula-content">
-        <katex latex="{{formula.Content}}"></katex>
+    <div class="formula-content" compile="getFormulaContent()">
     </div>
     <div class="formula-identifiers">
         <p>where:</p>
@@ -23,15 +22,18 @@
     </div>
     <div class="formula-references">
         <h3>References</h3>
-        <ol>
+        <ol ng-show="formula.References.length > 0">
             <li ng-repeat="reference in formula.References">
                 <span ng-if="reference.Type == 'Webpage'">
                     <em>{{reference.Title}}</em>, {{reference.WebsiteTitle}} <a href="{{reference.URL}}" target="_blank">{{reference.URL}}</a>
                 </span>
             </li>
         </ol>
+        <p ng-show="formula.References.length == 0">
+            No references have been given for this formula.
+        </p>
     </div>
-    <div class="formula-seemore">
+    <div class="formula-seemore" ng-show="formula.SeeMore.length > 0">
         <h3>See more</h3>
         <ul>
             <li ng-repeat="link in formula.SeeMore">
