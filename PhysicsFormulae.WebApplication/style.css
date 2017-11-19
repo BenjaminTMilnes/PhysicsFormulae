@@ -1,5 +1,9 @@
 ﻿body {
     padding: 70px;
+    
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    color: #202020;
 }
 
 .centrecolumn {
@@ -8,36 +12,86 @@
 }
 
 h1 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: lighter;
+     font-family:inherit;
+     font-weight:inherit;
     font-size: 40px;
-    color: #202020;
     margin: 20px 0px;
     text-align: center;
 }
 
+h2{
+     font-family:inherit;
+     font-weight:inherit;
+    font-size: 27px;
+    margin: 40px 0px;
+}
+
 p {
-    font-family: "Open Sans", sans-serif;
-    font-weight: lighter;
+     font-family:inherit;
+     font-weight:inherit;
     font-size: 14px;
-    color: #202020;
     margin: 20px 0px;
 }
 
-.formula {
+.search-formula {
     margin: 70px 0px;
-    color: #202020;
 }
 
-.formula-title {
-    font-family: "Open Sans", sans-serif;
-    font-weight: lighter;
+.search-formula-title {
     font-size: 17px;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
 
-.formula-content {
+.search-formula-content {
     font-size: 40px;
     margin: 40px;
+}
+
+.search-formula-content a{
+    color:inherit;
+}
+
+.search-formula-content a:hover{
+     color:#3978C5;
+}
+
+.formula{
+}
+
+.formula-content{
+    font-size: 40px;
+    margin: 40px;
+
+}
+
+.formula-identifiers table td{
+  padding:4px 10px;
+}
+
+.identifier-content{
+     text-align:right;
+}
+
+.attribute{
+     display:flex;
+     flex-direction:row;
+    margin: 40px 0px;
+
+}
+.attribute-header {
+    flex:1;
+       font-size:14px;
+        font-weight:bold;
+      padding:4px 10px 4px 0px;
+}
+.attribute-content{
+
+    flex:7;
+}
+.attribute-content input{
+     font-family:Consolas, Courier New, Courier, monospace;
+      padding:4px 10px;
+      width: 500px;
+       font-size:14px;
 }

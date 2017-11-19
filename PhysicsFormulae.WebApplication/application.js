@@ -1,4 +1,10 @@
-﻿var application = angular.module("PhysicsFormulae", []);
+﻿var application = angular.module("PhysicsFormulae", ["ngRoute"]);
+
+application.config(function ($routeProvider) {
+    $routeProvider
+        .when("/", { templateUrl: "search.html", controller: "SearchController" })
+        .when("/formula/:reference", { templateUrl: "formula.html", controller: "FormulaController" });
+});
 
 application.directive("katex", function () {
     return {
@@ -25,4 +31,21 @@ application.controller("SearchController", ["$scope", "$http", function SearchCo
         $scope.formulae = response.data;
     });
 
-}])
+}]);
+
+
+application.controller("FormulaController", ["$scope", "$routeParams", "$http", function FormulaController($scope, $routeParams, $http) {
+
+    $scope.formulae = [];
+
+    $http.get("formulae.json").then(function (response) {
+        $scope.formulae = response.data;
+
+        for (var i = 0; i < $scope.formulae.length; i++) {
+            if ($scope.formulae[i].Reference == $routeParams.reference) {
+                $scope.formula = $scope.formulae[i];
+            }
+        }
+    });
+
+}]);

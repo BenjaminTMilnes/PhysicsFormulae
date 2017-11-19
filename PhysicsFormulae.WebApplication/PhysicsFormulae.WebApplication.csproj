@@ -66,8 +66,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="formula.html" />
     <Content Include="packages.config" />
     <Content Include="formulae.json" />
+    <None Include="Properties\PublishProfiles\physicsformulae.com.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -78,6 +80,7 @@
   <ItemGroup>
     <Content Include="application.js" />
     <Content Include="index.html" />
+    <Content Include="search.html" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
   </ItemGroup>

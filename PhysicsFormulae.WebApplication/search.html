@@ -1,0 +1,10 @@
+﻿<div class="search">
+    <div class="search-formula" ng-repeat="formula in formulae">
+        <div class="search-formula-title">{{formula.Title}}</div>
+        <div class="search-formula-content">
+            <a href="#/formula/{{formula.Reference}}">
+                <katex latex="{{formula.Content}}"></katex>
+            </a>
+        </div>
+    </div>
+</div>

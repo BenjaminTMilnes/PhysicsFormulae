@@ -1,0 +1,24 @@
+﻿<div class="formula">
+    <h2 class="formula-title">{{formula.Title}}</h2>
+    <div class="formula-content">
+        <katex latex="{{formula.Content}}"></katex>
+    </div>
+    <div class="formula-identifiers">
+        <p>where:</p>
+        <table>
+            <tbody>
+                <tr ng-repeat="identifier in formula.Identifiers">
+                    <td class="identifier-content">
+                        <katex latex="{{identifier.Content}}"></katex>
+                    </td>
+                    <td>{{identifier.Definition}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p class="formula-interpretation">{{formula.Interpretation}}</p>
+    <div class="formula-latex attribute">
+        <div class="attribute-header">LaTeX:</div>
+        <div class="attribute-content"><input type="text" value="{{formula.Content}}" /></div>
+    </div>
+</div>

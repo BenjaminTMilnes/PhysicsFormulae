@@ -3,25 +3,25 @@
 <head>
     <title>Physics Formulae - Look up common formulae used in physics.</title>
     <meta charset="utf-8" />
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i&amp;subset=greek,greek-ext,latin-ext" rel="stylesheet">
+
     <link type="text/css" rel="stylesheet" href="style.css" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.min.js"></script>
+
     <script src="application.js"></script>
 </head>
-<body ng-controller="SearchController">
+<body>
     <div class="centrecolumn">
         <h1>Physics Formulae</h1>
         <p>This website is a physics formulary - essentially a dictionary of physics formulae. You can use it to look up common physics formulae.</p>
         <p>The list of formulae is being added to all the time - if your favourite equation is not in here yet, it might be soon. You can see the source code for this project on GitHub: <a href="https://github.com/BenjaminTMilnes/PhysicsFormulae" target="_blank">https://github.com/BenjaminTMilnes/PhysicsFormulae</a>. This project has been created by B. T. Milnes.</p>
-        <div class="formula" ng-repeat="formula in formulae">
-            <div class="formula-title">{{formula.Title}}</div>
-            <div class="formula-content">
-                <katex latex="{{formula.Content}}"></katex>
-            </div>
-        </div>
+        <div ng-view></div>
     </div>
 </body>
 </html>
