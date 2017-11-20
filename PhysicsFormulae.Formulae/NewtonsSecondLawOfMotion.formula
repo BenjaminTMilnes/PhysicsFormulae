@@ -1,0 +1,26 @@
+﻿NewtonsSecondLawOfMotion
+
+Newton’s Second Law of Motion
+
+The force applied to an object is equal to the rate of change of the momentum of that object.
+
+\displaystyle \textbf{F} = \frac{\mathrm{d} \textbf{p}}{\mathrm{d} t}
+
+where:
+
+\textbf{F} [var. Force] is the force applied to the object
+\textbf{p} [var. Momentum] is the momentum of the object
+t [var. Time] is time
+
+fields:
+
+Classical Mechanics
+
+references:
+
+webpage: “Newton's laws of motion”, Wikipedia, https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion (2017-11-20)
+
+see more:
+
+Wikipedia https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion 
+

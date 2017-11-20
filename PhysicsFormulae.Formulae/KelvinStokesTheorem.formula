@@ -1,0 +1,24 @@
+﻿KelvinStokesTheorem
+
+The Kelvin-Stokes Theorem
+
+The integral of the curl of a vector field across a surface is equal to the integral of the vector field around the closed line bounding the surface.
+
+\displaystyle \int_S ( \nabla \times \textbf{F} ) \cdot \mathrm{d} \textbf{S} = \oint_L \textbf{F} \cdot \mathrm{d} \textbf{L}
+
+where:
+
+S [var.] is any surface
+\textbf{F} [var.] is a vector field
+\mathrm{d} \textbf{S} [var.] is the normal vector to an infinitesimal area of the surface $S$
+L [var.] is the closed line bounding the surface
+\mathrm{d} \textbf{L} [var.] is an infinitesimal segment of line $L$
+
+references:
+
+webpage: “Stokes' theorem”, Wikipedia, https://en.wikipedia.org/wiki/Stokes%27_theorem (2017-11-20)
+
+see more:
+
+Wikipedia https://en.wikipedia.org/wiki/Stokes%27_theorem 
+
