@@ -41,18 +41,52 @@ a {
 
 .search-formula {
     margin: 70px 0px;
+     max-width:700px;
 }
 
 .search-formula-title {
-    font-size: 17px;
+    font-size: 22px;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
 
 .search-formula-content {
-    font-size: 40px;
-    margin: 40px;
+    font-size: 42px;
+    margin: 42px;
 }
+
+.search-formula-content a{
+     color:#202020;
+      text-decoration:none;
+}
+
+.search-formula-content a:hover{
+     color:#105ecc;
+      text-decoration:none;
+}
+
+.search-formula p{
+     font-size:14px;
+}
+
+.search-formula-fields{
+     font-size:14px;
+
+}
+
+.search-formula-field{
+    display: inline-block;
+    padding: 4px 14px;
+    margin: 2px;
+    border-radius: 2px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #105ecc;
+
+}
+
+
+
 
 .formula {
 }
