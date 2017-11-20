@@ -1,6 +1,6 @@
 ﻿body {
     padding: 70px;
-    margin:0px;
+    margin: 0px;
     font-family: "Open Sans", sans-serif;
     font-weight: lighter;
     color: #202020;
@@ -17,31 +17,29 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
 }
 
 h1 {
-     font-size:22px;
-     text-transform:uppercase;
+    font-size: 22px;
+    text-transform: uppercase;
     margin: 22px 0px;
 }
-
 
 p {
     font-size: 17px;
     margin: 17px 0px;
-      text-align:justify;
+    text-align: justify;
 }
 
 a {
-      color: #105ecc;
-        text-decoration: none;
-  
+    color: #105ecc;
+    text-decoration: none;
 }
 
     a:hover {
         text-decoration: underline;
-       }
+    }
 
 .search-formula {
     margin: 70px 0px;
-     max-width:700px;
+    max-width: 700px;
 }
 
 .search-formula-title {
@@ -55,26 +53,25 @@ a {
     margin: 42px;
 }
 
-.search-formula-content a{
-     color:#202020;
-      text-decoration:none;
+    .search-formula-content a {
+        color: #202020;
+        text-decoration: none;
+    }
+
+        .search-formula-content a:hover {
+            color: #105ecc;
+            text-decoration: none;
+        }
+
+.search-formula p {
+    font-size: 14px;
 }
 
-.search-formula-content a:hover{
-     color:#105ecc;
-      text-decoration:none;
+.search-formula-fields {
+    font-size: 14px;
 }
 
-.search-formula p{
-     font-size:14px;
-}
-
-.search-formula-fields{
-     font-size:14px;
-
-}
-
-.search-formula-field{
+.search-formula-field {
     display: inline-block;
     padding: 4px 14px;
     margin: 2px;
@@ -82,11 +79,7 @@ a {
     color: #ffffff;
     font-weight: bold;
     background-color: #105ecc;
-
 }
-
-
-
 
 .formula {
 }
@@ -103,7 +96,7 @@ a {
 
 .formula-title {
     font-size: 42px;
-    margin:0px;
+    margin: 0px;
 }
 
 .formula-content {
@@ -112,8 +105,7 @@ a {
     text-align: center;
 }
 
-.formula-identifiers p, 
-.formula-interpretation {
+.formula-identifiers p, .formula-interpretation {
     font-size: 22px;
     text-indent: 27px;
     margin: 27px 0px;
@@ -134,7 +126,6 @@ a {
 .identifier-content {
     text-align: right;
 }
- 
 
 .formula-fields {
     font-size: 17px;
@@ -169,21 +160,18 @@ a {
     flex: 7;
 }
 
-
 .formula-latex-content {
     font-family: Consolas, Courier New, Courier, monospace;
     font-size: 14px;
     color: #000000;
     background-color: #F0F0F0;
     padding: 14px 14px 42px 14px;
-    cursor:text;
+    cursor: text;
 }
-
 
 .formula-references {
     margin: 70px 0px 0px 0px;
 }
-
 
     .formula-references p {
         font-size: 17px;
