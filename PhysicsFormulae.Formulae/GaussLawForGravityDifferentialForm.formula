@@ -4,7 +4,7 @@ Gauss' Law for Gravity (Differential Form)
 
 The divergence of the gravitational field is directly proportional to the mass density.
 
-\displaystyle \nabla \cdot \textbf{g} = - 4 \pi G \rho
+\nabla \cdot \textbf{g} = - 4 \pi G \rho
 
 where:
 

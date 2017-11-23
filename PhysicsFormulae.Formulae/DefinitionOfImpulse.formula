@@ -4,7 +4,7 @@ The Definition of Impulse
 
 The impulse experienced by an object is the integral over time of the force applied to it. Since force is a derivative of momentum with respect to time, an impulse is a change in the momentum of an object.
 
-\displaystyle \textbf{J} = \int \textbf{F} \mathrm{d} t
+\textbf{J} = \int \textbf{F} \mathrm{d} t
 
 where:
 

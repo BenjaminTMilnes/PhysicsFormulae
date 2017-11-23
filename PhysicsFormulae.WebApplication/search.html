@@ -5,7 +5,7 @@
         <h3 class="search-formula-title">{{formula.Title}}</h3>
         <div class="search-formula-content">
             <a href="#/formula/{{formula.Reference}}" title="{{formula.Title}}">
-                <katex latex="{{formula.Content}}"></katex>
+                <katex latex="{{ '\\displaystyle ' + formula.Content}}"></katex>
             </a>
         </div>
         <p class="search-formula-interpretation">{{formula.Interpretation}}</p>

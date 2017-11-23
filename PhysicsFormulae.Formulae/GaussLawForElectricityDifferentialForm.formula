@@ -4,7 +4,7 @@ Gauss’ Law for Electricity (Differential Form)
 
 The divergence of the electric field is directly proportional to the charge density.
 
-\displaystyle \nabla \cdot \textbf{E} = \frac{\rho}{\epsilon_0}
+\nabla \cdot \textbf{E} = \frac{\rho}{\epsilon_0}
 
 where:
 

@@ -61,7 +61,7 @@ application.controller("FormulaController", ["$scope", "$routeParams", "$http", 
     });
 
     $scope.getFormulaContent = function () {
-        return "<katex latex=\"" + $scope.formula.Content + "\"></katex>";
+        return "<katex latex=\"\\displaystyle " + $scope.formula.Content + "\"></katex>";
     }
 
 }]);

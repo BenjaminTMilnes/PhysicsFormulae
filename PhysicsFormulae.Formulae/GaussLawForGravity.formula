@@ -4,7 +4,7 @@ Gauss' Law for Gravity
 
 The left hand side of the equation is the gravitational flux. The gravitational flux through a closed surface is proportional to the mass enclosed by the surface.
 
-\displaystyle \oint_S \textbf{g} \cdot \mathrm{d} \textbf{A} = -4 \pi GM
+\oint_S \textbf{g} \cdot \mathrm{d} \textbf{A} = -4 \pi GM
 
 where:
 

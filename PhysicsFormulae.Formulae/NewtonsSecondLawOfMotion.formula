@@ -4,7 +4,7 @@ Newton’s Second Law of Motion
 
 The force applied to an object is equal to the rate of change of the momentum of that object.
 
-\displaystyle \textbf{F} = \frac{\mathrm{d} \textbf{p}}{\mathrm{d} t}
+\textbf{F} = \frac{\mathrm{d} \textbf{p}}{\mathrm{d} t}
 
 where:
 

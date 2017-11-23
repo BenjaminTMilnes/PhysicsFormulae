@@ -4,7 +4,7 @@ The Maxwell-Faraday Equation (Differential Form)
 
 The curl of the electric field is directly proportional to the rate of change of a time-varying magnetic field.
 
-\displaystyle \nabla \times \textbf{E} = - \frac{\partial \textbf{B}}{\partial t}
+\nabla \times \textbf{E} = - \frac{\partial \textbf{B}}{\partial t}
 
 where:
 

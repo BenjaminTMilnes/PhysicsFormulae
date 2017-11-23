@@ -4,7 +4,7 @@ The Kelvin-Stokes Theorem
 
 The integral of the curl of a vector field across a surface is equal to the integral of the vector field around the closed line bounding the surface.
 
-\displaystyle \int_S ( \nabla \times \textbf{F} ) \cdot \mathrm{d} \textbf{S} = \oint_L \textbf{F} \cdot \mathrm{d} \textbf{L}
+\int_S ( \nabla \times \textbf{F} ) \cdot \mathrm{d} \textbf{S} = \oint_L \textbf{F} \cdot \mathrm{d} \textbf{L}
 
 where:
 

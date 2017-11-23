@@ -4,7 +4,7 @@ Gauss’ Law for Magnetism (Differential Form)
 
 The divergence of the magnetic field is zero. There are no magnetic monopoles.
 
-\displaystyle \nabla \cdot \textbf{B} = 0
+\nabla \cdot \textbf{B} = 0
 
 where:
 
