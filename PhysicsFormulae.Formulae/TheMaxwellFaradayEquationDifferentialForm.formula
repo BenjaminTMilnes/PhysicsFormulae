@@ -1,0 +1,31 @@
+﻿TheMaxwellFaradayEquationDifferentialForm
+
+The Maxwell-Faraday Equation (Differential Form)
+
+The curl of the electric field is directly proportional to the rate of change of a time-varying magnetic field.
+
+\displaystyle \nabla \times \textbf{E} = - \frac{\partial \textbf{B}}{\partial t}
+
+where:
+
+\textbf{E} [var. ElectricField] is the electric field
+\textbf{B} [var. MagneticField] is the magnetic field
+t [var. Time] is time
+
+derived from:
+
+fields:
+
+Classical Electromagnetism
+
+references:
+
+webpage: "Maxwell's equations", Wikipedia, https://en.wikipedia.org/wiki/Maxwell%27s_equations (2017-11-23)
+
+see also:
+
+Wikipedia https://en.wikipedia.org/wiki/Maxwell%27s_equations
+
+tags:
+
+

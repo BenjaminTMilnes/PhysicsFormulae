@@ -1,0 +1,28 @@
+﻿GaussLawForMagnetismDifferentialForm
+
+Gauss’ Law for Magnetism (Differential Form)
+
+The divergence of the magnetic field is zero. There are no magnetic monopoles.
+
+\displaystyle \nabla \cdot \textbf{B} = 0
+
+where:
+
+\textbf{B} [var. MagneticField] is the magnetic field
+
+derived from:
+
+fields:
+
+Classical Electromagnetism
+
+references:
+
+webpage: "Maxwell's equations", Wikipedia, https://en.wikipedia.org/wiki/Maxwell%27s_equations (2017-11-23)
+
+see also:
+
+Wikipedia https://en.wikipedia.org/wiki/Maxwell%27s_equations
+
+tags:
+
