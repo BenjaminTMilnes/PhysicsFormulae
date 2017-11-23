@@ -82,7 +82,7 @@ a {
 }
 
 .formula {
-    margin:0px 0px 400px 0px;
+    margin: 0px 0px 400px 0px;
 }
 
     .formula h3 {
@@ -187,3 +187,18 @@ a {
         .formula-references a:hover, .formula-seemore a:hover {
             text-decoration: underline;
         }
+
+.copybutton {
+    font-size: 17px;
+    padding: 7px 17px;
+    margin: 2px;
+    border-radius: 2px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #105ecc;
+    border: none;
+}
+
+    .copybutton:hover {
+        background-color: #2f7ae2;
+    }
