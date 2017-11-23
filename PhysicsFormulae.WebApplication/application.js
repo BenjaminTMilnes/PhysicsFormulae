@@ -45,7 +45,6 @@ application.controller("SearchController", ["$scope", "$http", function SearchCo
 
 }]);
 
-
 application.controller("FormulaController", ["$scope", "$routeParams", "$http", function FormulaController($scope, $routeParams, $http) {
 
     $scope.formulae = [];
@@ -63,5 +62,16 @@ application.controller("FormulaController", ["$scope", "$routeParams", "$http", 
     $scope.getFormulaContent = function () {
         return "<katex latex=\"\\displaystyle " + $scope.formula.Content + "\"></katex>";
     }
+
+    $scope.replaceMathematicsMarkers = function (text) {
+
+        var re = /\$(.+?)\$/gi;
+        var textWithKaTeX = text.replace(re, "<katex latex=\"$1\"></katex>")
+
+        return textWithKaTeX;
+
+    }
+
+    new Clipboard(".copybutton");
 
 }]);
