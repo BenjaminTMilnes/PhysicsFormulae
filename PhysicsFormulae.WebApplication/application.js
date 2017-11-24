@@ -1,5 +1,18 @@
 ﻿var application = angular.module("PhysicsFormulae", ["ngRoute", "ngSanitize"]);
 
+
+function makeSearchableString(array) {
+    return array.join(", ");
+}
+
+function stringContains(string1, string2) {
+    return (string1.indexOf(string2) >= 0);
+}
+
+function stringIsNullOrEmpty(string) {
+    return (!string || /^\s*$/.test(string));
+}
+
 application.config(function ($routeProvider) {
     $routeProvider
         .when("/", { templateUrl: "search.html", controller: "SearchController" })
@@ -34,6 +47,28 @@ application.directive("compile", ["$compile", function ($compile) {
         });
     };
 }]);
+
+application.filter("searchFormulae", function () {
+    return function (formulae, text) {
+        if (stringIsNullOrEmpty(text)) {
+            return formulae;
+        }
+        else {
+            var matchingFormulae = [];
+
+            for (var i = 0; i < formulae.length; i++) {
+                var formula = formulae[i];
+                var formulaText = formula.Title + ", " + formula.Interpretation + ", " + formula.Content + ", " + makeSearchableString(formula.Fields) + ", " + makeSearchableString(formula.Tags);
+
+                if (stringContains(formulaText.toLowerCase(), text.toLowerCase())) {
+                    matchingFormulae.push(formula);
+                }
+            }
+
+            return matchingFormulae;
+        }
+    }
+});
 
 application.controller("SearchController", ["$scope", "$http", function SearchController($scope, $http) {
 
