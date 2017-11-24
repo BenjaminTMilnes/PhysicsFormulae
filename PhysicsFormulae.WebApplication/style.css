@@ -37,6 +37,17 @@ a {
         text-decoration: underline;
     }
 
+    .search-textbox input{
+       width:100%;
+       box-sizing:border-box;
+        padding:10px 17px;
+         font-size:17px;
+    font-family: inherit;
+    font-weight: inherit;
+    border:1px solid #D0D0D0;
+     border-radius:2px;
+    }
+
 .search-formula {
     margin: 70px 0px;
     max-width: 700px;
