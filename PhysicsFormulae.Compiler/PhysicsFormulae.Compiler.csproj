@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Book.cs" />
     <Compile Include="Compiler.cs" />
     <Compile Include="Formula.cs" />
     <Compile Include="Identifier.cs" />

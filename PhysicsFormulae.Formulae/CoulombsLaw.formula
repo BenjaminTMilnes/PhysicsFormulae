@@ -1,0 +1,34 @@
+﻿CoulombsLaw
+
+Coulomb's Law
+
+The force between two point charges is directly proportional to the product of the two charges, and inversely proportional to the square of the distance between them.
+
+F = \frac{q_1 q_2}{4 \pi \epsilon_0 r^2}
+
+where:
+
+F [var. Force] is the force experienced by both point charges
+q_1 [var. Charge] is the electric charge of the first point charge
+q_2 [var. Charge] is the electric charge of the second point charge
+\epsilon_0 [const. PermittivityOfFreeSpace] is the permittivity of free space
+r [var.] is the distance between the point charges
+
+fields:
+
+Classical Electromagnetism
+
+derived from:
+
+
+
+references:
+
+book: "Sears and Zemansky's University Physics with Modern Physics", H. D. Young and R. A. Freedman (12. Edition) (Pearson) ISBN 9780321501301
+
+see more:
+
+
+
+tags:
+

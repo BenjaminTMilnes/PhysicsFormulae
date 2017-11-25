@@ -105,6 +105,13 @@ namespace PhysicsFormulae.Compiler
                         formula.References.Add(webpage);
                         continue;
                     }
+                    if (IsLineBookReferenceLine(line))
+                    {
+                        var book = GetBookReference(line);
+
+                        formula.References.Add(book);
+                        continue;
+                    }
                 }
 
                 if (formulaSection == FormulaSection.SeeMore)
@@ -200,6 +207,29 @@ namespace PhysicsFormulae.Compiler
             webpage.URL = match.Groups[3].Value.Trim();
 
             return webpage;
+        }
+
+        private bool IsLineBookReferenceLine(string line)
+        {
+            var isMatch = Regex.IsMatch(line, @"^book:\s*""([^""]+)""\s*,\s*([^,]+)\s*\((\d{1,3})\. Edition\)\s*\(([^\)]+)\)\s*ISBN\s+([0-9\-]+)\s*$");
+
+            return isMatch;
+        }
+
+        private Book GetBookReference(string line)
+        {
+            var book = new Book();
+
+            var match = Regex.Match(line, @"^book:\s*""([^""]+)""\s*,\s*([^,]+)\s*\((\d{1,3})\. Edition\)\s*\(([^\)]+)\)\s*ISBN\s+([0-9\-]+)\s*$");
+
+            book.Title = match.Groups[1].Value.Trim();
+            book.Authors = match.Groups[2].Value.Split(new string[] { "and" }, StringSplitOptions.RemoveEmptyEntries).Select(s => s.Trim()).ToArray();
+            book.Edition = int.Parse(match.Groups[3].Value.Trim());
+            //book.Year = int.Parse(match.Groups[4].Value.Trim());
+            book.PublisherName = match.Groups[4].Value.Trim();
+            book.ISBN = match.Groups[5].Value.Trim();
+
+            return book;
         }
     }
 }
