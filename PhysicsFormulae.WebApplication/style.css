@@ -1,9 +1,23 @@
 ﻿body {
-    padding: 70px;
+    padding: 20px;
     margin: 0px;
     font-family: "Open Sans", sans-serif;
     font-weight: lighter;
     color: #202020;
+    overflow-wrap: break-word;
+}
+
+@media (min-width:400px) {
+    body {
+        padding: 40px;
+    }
+}
+
+@media (min-width:700px) {
+    body {
+        padding: 70px;
+        overflow-wrap: normal;
+    }
 }
 
 .centrecolumn {
@@ -17,15 +31,30 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
 }
 
 h1 {
-    font-size: 22px;
+    font-size: 17px;
     text-transform: uppercase;
-    margin: 22px 0px;
+    margin: 17px 0px;
+    text-align: center;
 }
 
 p {
-    font-size: 17px;
+    font-size: 14px;
     margin: 17px 0px;
-    text-align: justify;
+    text-align: left;
+}
+
+@media (min-width:400px) {
+    h1 {
+        font-size: 22px;
+        margin: 0px 0px 22px 0px;
+        text-align: left;
+    }
+
+    p {
+        font-size: 17px;
+        margin: 22px 0px;
+        text-align: justify;
+    }
 }
 
 a {
@@ -37,54 +66,100 @@ a {
         text-decoration: underline;
     }
 
+.search {
+    margin: 0px 0px 200px 0px;
+}
+
 .search-textbox input {
     width: 100%;
     box-sizing: border-box;
-    padding: 10px 17px;
-    font-size: 17px;
+    padding: 9px 14px;
+    font-size: 14px;
     font-family: inherit;
     font-weight: inherit;
     border: 1px solid #D0D0D0;
     border-radius: 2px;
 }
 
+@media (min-width:400px) {
+
+    .search-textbox input {
+        padding: 10px 17px;
+        font-size: 17px;
+    }
+}
+
 .search-formula {
-    margin: 70px 0px;
+    margin: 40px 0px;
     max-width: 700px;
 }
 
+@media (min-width:400px) {
+
+    .search-formula {
+        margin: 70px 0px;
+    }
+}
+
+@media (min-width:700px) {
+
+    .search-formula {
+        margin: 100px 0px;
+    }
+}
+
 .search-formula-title {
-    font-size: 22px;
+    font-size: 17px;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
 
 .search-formula-content {
-    font-size: 42px;
-    margin: 42px;
+    font-size: 22px;
+    margin: 22px 0px;
+    text-align: center;
 }
 
-    .search-formula-content a {
-        color: #202020;
+@media (min-width:400px) {
+    .search-formula-title {
+        font-size: 22px;
+    }
+
+    .search-formula-content {
+        font-size: 42px;
+        margin: 42px 0px;
+    }
+}
+
+@media (min-width:700px) {
+    .search-formula-content {
+        margin: 42px;
+        text-align: left;
+    }
+}
+
+.search-formula-content a {
+    color: #202020;
+    text-decoration: none;
+}
+
+    .search-formula-content a:hover {
+        color: #105ecc;
         text-decoration: none;
     }
 
-        .search-formula-content a:hover {
-            color: #105ecc;
-            text-decoration: none;
-        }
-
 .search-formula p {
     font-size: 14px;
+    margin: 14px 0px;
 }
 
 .search-formula-fields {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .search-formula-field {
     display: inline-block;
-    padding: 4px 14px;
+    padding: 2px 12px;
     margin: 2px;
     border-radius: 2px;
     color: #ffffff;
@@ -92,9 +167,32 @@ a {
     background-color: #105ecc;
 }
 
-.formula {
-    margin: 0px 0px 400px 0px;
+@media (min-width:400px) {
+    .search-formula-fields {
+        font-size: 14px;
+    }
+
+    .search-formula-field {
+        padding: 4px 14px;
+    }
 }
+
+.formula {
+    margin: 0px 0px 200px 0px;
+}
+
+    .formula h3 {
+        font-size: 20px;
+        margin: 27px 0px 14px 0px;
+    }
+
+
+    .formula ul, .formula ol {
+        font-size: 14px;
+        margin: 14px 0px;
+    }
+
+@media (min-width:400px) {
 
     .formula h3 {
         font-size: 27px;
@@ -105,47 +203,103 @@ a {
         font-size: 17px;
         margin: 17px 0px;
     }
-
-.formula-title {
-    font-size: 42px;
-    margin: 0px;
 }
 
-.formula-content {
-    font-size: 70px;
-    margin: 100px 0px;
+.formula-title {
+    font-size: 27px;
+    margin: 0px;
     text-align: center;
 }
 
+.formula-content {
+    font-size: 40px;
+    margin: 70px 0px;
+    text-align: center;
+}
+
+@media (min-width:400px) {
+
+    .formula-title {
+        font-size: 33px;
+        text-align: left;
+    }
+
+    .formula-content {
+        font-size: 49px;
+    }
+}
+
+@media (min-width:700px) {
+
+    .formula-title {
+        font-size: 40px;
+    }
+
+    .formula-content {
+        font-size: 70px;
+        margin: 100px 0px;
+    }
+}
+
 .formula-identifiers p, .formula-interpretation {
-    font-size: 22px;
-    text-indent: 27px;
-    margin: 27px 0px;
+    font-size: 17px;
+    margin: 20px 0px;
 }
 
 .formula-identifiers table {
-    font-size: 22px;
-    margin: 27px auto;
+    font-size: 17px;
+    margin: 0px 10px;
     max-width: 700px;
     border-collapse: separate;
-    border-spacing: 17px;
+    border-spacing: 10px;
 }
 
     .formula-identifiers table td {
-        padding: 0px 10px;
+        padding: 0px;
     }
 
-.identifier-content {
+@media (min-width:400px) {
+
+    .formula-identifiers p, .formula-interpretation {
+        font-size: 22px;
+        margin: 27px 0px;
+        text-align: justify;
+    }
+
+    .formula-identifiers table {
+        font-size: 22px;
+        margin: 27px auto;
+        border-spacing: 14px;
+    }
+
+        .formula-identifiers table td {
+            padding: 0px 7px;
+        }
+}
+
+@media (min-width:700px) {
+
+    .formula-identifiers p, .formula-interpretation {
+        text-indent: 27px;
+    }
+
+    .formula-identifiers table {
+        border-spacing: 17px;
+    }
+
+        .formula-identifiers table td {
+            padding: 0px 10px;
+        }
 }
 
 .formula-fields {
-    font-size: 17px;
-    margin: 27px 0px 70px 0px;
+    font-size: 14px;
+    margin: 20px 0px;
 }
 
 .field {
     display: inline-block;
-    padding: 7px 17px;
+    padding: 4px 14px;
     margin: 2px;
     border-radius: 2px;
     color: #ffffff;
@@ -153,9 +307,28 @@ a {
     background-color: #105ecc;
 }
 
+@media (min-width:400px) {
+
+    .formula-fields {
+        font-size: 17px;
+        margin: 27px 0px;
+    }
+
+    .field {
+        padding: 7px 17px;
+    }
+}
+
+@media (min-width:700px) {
+
+    .formula-fields {
+        margin: 27px 0px 70px 0px;
+    }
+}
+
 .attribute {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 0px;
 }
 
@@ -168,7 +341,32 @@ a {
 }
 
 .attribute-content {
-    flex: 7;
+    flex: 1;
+}
+
+@media (min-width:400px) {
+
+    .attribute {
+        flex-direction: row;
+    }
+
+    .attribute-header {
+        flex: 1;
+    }
+
+    .attribute-content {
+        flex: 7;
+    }
+}
+
+.formula-latex {
+    display: none;
+}
+
+@media (min-width:700px) {
+    .formula-latex {
+        display: block;
+    }
 }
 
 .formula-latex-content {
@@ -180,13 +378,13 @@ a {
     cursor: text;
 }
 
+
 .formula-references {
-    margin: 70px 0px 0px 0px;
 }
 
     .formula-references p {
-        font-size: 17px;
-        margin: 17px 0px;
+        font-size: 14px;
+        margin: 14px 0px;
     }
 
     .formula-references a, .formula-seemore a {
@@ -197,6 +395,18 @@ a {
         .formula-references a:hover, .formula-seemore a:hover {
             text-decoration: underline;
         }
+
+@media (min-width:700px) {
+
+    .formula-references {
+        margin: 70px 0px 0px 0px;
+    }
+
+        .formula-references p {
+            font-size: 17px;
+            margin: 17px 0px;
+        }
+}
 
 .copybutton {
     font-size: 17px;
