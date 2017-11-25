@@ -20,10 +20,8 @@
         <span class="field" ng-repeat="field in formula.Fields">{{field}}</span>
     </div>
     <div class="formula-latex">
-        <div class="attribute">
-            <div class="attribute-header">LaTeX:</div>
-            <div id="formula-latex-copyfrom" class="formula-latex-content attribute-content">{{formula.Content}}</div>
-        </div>
+        <h4>LaTeX</h4>
+        <div id="formula-latex-copyfrom" class="formula-latex-content">{{formula.Content}}</div>
         <button class="copybutton" data-clipboard-target="#formula-latex-copyfrom">Copy</button>
     </div>
     <div class="formula-references">

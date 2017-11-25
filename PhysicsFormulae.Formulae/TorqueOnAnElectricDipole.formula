@@ -1,0 +1,32 @@
+﻿TorqueOnAnElectricDipole
+
+The Torque on an Electric Dipole
+
+The torque exerted on an electric dipole in the presence of an electric field is the vector product of the electric dipole moment and the electric field.
+
+\tau = \textbf{p} \times \textbf{E}
+
+where:
+
+\tau [var. Torque] is the torque
+\textbf{p} [var. ElectricDipoleMoment] is the electric dipole moment
+\textbf{E} [var. ElectricField] is the electric field
+
+fields:
+
+Classical Electromagnetism
+
+derived from:
+
+
+
+references:
+
+book: "Sears and Zemansky's University Physics with Modern Physics", H. D. Young and R. A. Freedman (12. Edition) (Pearson) ISBN 9780321501301
+
+see more:
+
+
+
+tags:
+

@@ -185,7 +185,12 @@ a {
         font-size: 20px;
         margin: 27px 0px 14px 0px;
     }
-
+    
+    .formula h4 {
+        font-size: 17px;
+        margin: 17px 0px;
+         text-decoration:underline;
+    }
 
     .formula ul, .formula ol {
         font-size: 14px;
@@ -197,6 +202,11 @@ a {
     .formula h3 {
         font-size: 27px;
         margin: 42px 0px 17px 0px;
+    }
+
+    .formula h4 {
+        font-size: 22px;
+        margin: 22px 0px;
     }
 
     .formula ul, .formula ol {
@@ -375,6 +385,7 @@ a {
     color: #000000;
     background-color: #F0F0F0;
     padding: 14px 14px 42px 14px;
+    margin: 14px 0px;
     cursor: text;
 }
 
