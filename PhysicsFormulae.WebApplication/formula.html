@@ -31,6 +31,9 @@
                 <span ng-if="reference.Type == 'Webpage'">
                     <em>{{reference.Title}}</em>, {{reference.WebsiteTitle}} - <a href="{{reference.URL}}" target="_blank" title="{{reference.Title}}">{{reference.URL}}</a>
                 </span>
+                <span ng-if="reference.Type == 'Book'">
+                    <em>{{reference.Title}}</em>, {{getAuthorsString(reference.Authors)}} ({{reference.PublisherName}}) <strong>ISBN {{reference.ISBN}}</strong>
+                </span>
             </li>
         </ol>
         <p ng-show="formula.References.length == 0">

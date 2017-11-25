@@ -107,6 +107,28 @@ application.controller("FormulaController", ["$scope", "$routeParams", "$http", 
 
     }
 
+    $scope.getAuthorsString = function (authors) {
+
+        var authorsString = "";
+
+        for (var i = 0; i < authors.length; i++) {
+            if (i > 0 && authors.length > 2) {
+                authorsString += ", ";
+            }
+            else if (authors.length <= 2) {
+                authorsString += " ";
+            }
+            if (i == authors.length - 1) {
+                authorsString += "and ";
+            }
+
+            authorsString += authors[i];
+        }
+
+        return authorsString;
+
+    }
+
     new Clipboard(".copybutton");
 
 }]);
