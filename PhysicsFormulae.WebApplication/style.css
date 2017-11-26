@@ -387,6 +387,7 @@ a {
     padding: 14px 14px 42px 14px;
     margin: 14px 0px;
     cursor: text;
+     white-space:pre-line;
 }
 
 
@@ -422,7 +423,7 @@ a {
 .copybutton {
     font-size: 17px;
     padding: 7px 17px;
-    margin: 2px;
+    margin: 2px 2px 2px 0px;
     border-radius: 2px;
     color: #ffffff;
     font-weight: bold;

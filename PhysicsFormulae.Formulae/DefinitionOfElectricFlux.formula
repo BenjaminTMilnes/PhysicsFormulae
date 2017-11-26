@@ -1,0 +1,33 @@
+﻿DefinitionOfElectricFlux
+
+The Definition of Electric Flux
+
+The electric flux through a surface is equal to the integral of the scalar product of the electric field and the normal to the surface. In a uniform electric field, if a flat surface is perpendicular to the direction of the electric field, then the electric flux is equal to the field strength multiplied by the area of the surface. If the surface is parallel to the field, then the flux is zero.
+
+\phi_E = \int_S \textbf{E} \cdot \mathrm{d} \textbf{A}
+
+where:
+
+\phi_E [var. ElectricFlux] is the electric flux
+S [var.] is the surface being integrated over
+\textbf{E} [var. ElectricField] is the electric field
+\mathrm{d} \textbf{A} [var.] is an infinitesimal area on the surface $S$
+
+fields:
+
+Classical Electromagnetism
+
+derived from:
+
+
+
+references:
+
+book: "Sears and Zemansky's University Physics with Modern Physics", H. D. Young and R. A. Freedman (12. Edition) (Pearson) ISBN 9780321501301
+
+see more:
+
+
+
+tags:
+

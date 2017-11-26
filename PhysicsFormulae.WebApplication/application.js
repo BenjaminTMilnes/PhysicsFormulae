@@ -107,6 +107,38 @@ application.controller("FormulaController", ["$scope", "$routeParams", "$http", 
 
     }
 
+    $scope.getLaTeXForEntireFormula = function () {
+
+        var latex = "";
+
+        latex += "\\begin{align*}\n";
+        latex += $scope.formula.Content + "\n";
+        latex += "\\end{align*}\n\n";
+        latex += "where ";
+
+        for (var i = 0; i < $scope.formula.Identifiers.length; i++) {
+            if (i > 0 && $scope.formula.Identifiers.length > 2) {
+                latex += ", ";
+            }
+            else if ($scope.formula.Identifiers.length <= 2) {
+                latex += " ";
+            }
+            if (i == $scope.formula.Identifiers.length - 1) {
+                latex += "and ";
+            }
+
+            var identifier = $scope.formula.Identifiers[i];
+
+            latex += "$" + identifier.Content + "$ ";
+            latex += identifier.Definition;
+        }
+
+        latex += ".";
+
+        return latex;
+
+    }
+
     $scope.getAuthorsString = function (authors) {
 
         var authorsString = "";

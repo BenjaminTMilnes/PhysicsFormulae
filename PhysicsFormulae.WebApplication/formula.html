@@ -21,8 +21,12 @@
     </div>
     <div class="formula-latex">
         <h4>LaTeX</h4>
+        <p>Just the mathematics:</p>
         <div id="formula-latex-copyfrom" class="formula-latex-content">{{formula.Content}}</div>
         <button class="copybutton" data-clipboard-target="#formula-latex-copyfrom">Copy</button>
+        <p>Including the 'where' statement:</p>
+        <div id="formula-latex-withwhere-copyfrom" class="formula-latex-content">{{getLaTeXForEntireFormula()}}</div>
+        <button class="copybutton" data-clipboard-target="#formula-latex-withwhere-copyfrom">Copy</button>
     </div>
     <div class="formula-references">
         <h3>References</h3>
