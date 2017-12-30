@@ -70,30 +70,38 @@ application.filter("searchFormulae", function () {
     }
 });
 
-application.controller("SearchController", ["$scope", "$http", function SearchController($scope, $http) {
-
-    $scope.formulae = [];
+application.factory("formulae", ["$http", function ($http) {
+    var formulae = { data: [] };
 
     $http.get("formulae.json").then(function (response) {
-        $scope.formulae = response.data;
+        formulae.data = response.data;
     });
+
+    return formulae;
+}]);
+
+application.controller("SearchController", ["$scope", "formulae", function SearchController($scope, formulae) {
+
+    $scope.formulae = formulae;
 
 }]);
 
-application.controller("FormulaController", ["$scope", "$routeParams", "$http", function FormulaController($scope, $routeParams, $http) {
+application.controller("FormulaController", ["$scope", "$routeParams", "formulae", function FormulaController($scope, $routeParams, formulae) {
 
-    $scope.formulae = [];
+    $scope.formulae = formulae;
 
-    $http.get("formulae.json").then(function (response) {
-        $scope.formulae = response.data;
-
-        for (var i = 0; i < $scope.formulae.length; i++) {
-            if ($scope.formulae[i].Reference == $routeParams.reference) {
-                $scope.formula = $scope.formulae[i];
+    $scope.$watch("formulae.data", function () {
+        $scope.showFormula();
+    });
+    
+    $scope.showFormula = function () {
+        for (var i = 0; i < $scope.formulae.data.length; i++) {
+            if ($scope.formulae.data[i].Reference == $routeParams.reference) {
+                $scope.formula = $scope.formulae.data[i];
             }
         }
-    });
-
+    }
+    
     $scope.getFormulaContent = function () {
         return "<katex latex=\"\\displaystyle " + $scope.formula.Content + "\"></katex>";
     }

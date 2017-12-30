@@ -1,0 +1,32 @@
+﻿LorentzFactor
+
+The Lorentz Factor
+
+The Lorentz Factor is a factor commonly used in equations in Special Relativity. As the relative speed of a reference frame, $u$, approaches the speed of light, $c$, the Lorentz Factor $\gamma$ approaches infinity.
+
+\gamma = \frac{1}{\sqrt{1 - \frac{u^2}{c^2}}}
+
+where:
+
+\gamma [var. LorentzFactor] is the Lorentz Factor
+u [var. RelativeSpeed] is the relative speed of the inertial reference frame
+c [const. SpeedOfLight] is the speed of light in free space
+
+fields:
+
+Special Relativity
+
+derived from:
+
+
+
+references:
+
+book: "Sears and Zemansky's University Physics with Modern Physics", H. D. Young and R. A. Freedman (12. Edition) (Pearson) ISBN 9780321501301
+
+see more:
+
+
+
+tags:
+

@@ -15,7 +15,7 @@
             </tbody>
         </table>
     </div>
-    <p class="formula-interpretation">{{formula.Interpretation}}</p>
+    <p class="formula-interpretation" compile="replaceMathematicsMarkers(formula.Interpretation)"></p>
     <div class="formula-fields">
         <span class="field" ng-repeat="field in formula.Fields">{{field}}</span>
     </div>

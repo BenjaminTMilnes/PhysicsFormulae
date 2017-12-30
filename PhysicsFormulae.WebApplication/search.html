@@ -4,7 +4,7 @@
     <div class="search-textbox">
         <input type="text" value="" ng-model="searchTerms" placeholder="Search for a formula" />
     </div>
-    <div class="search-formula" ng-repeat="formula in formulae | searchFormulae : searchTerms">
+    <div class="search-formula" ng-repeat="formula in formulae.data | searchFormulae : searchTerms">
         <h3 class="search-formula-title">{{formula.Title}}</h3>
         <div class="search-formula-content">
             <a href="#/formula/{{formula.Reference}}" title="{{formula.Title}}">
