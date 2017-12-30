@@ -1,0 +1,32 @@
+﻿LengthContractionInSpecialRelativity
+
+The Length Contraction Formula in Special Relativity
+
+For two points in space in the same frame of reference, for an observer moving at a constant speed $u$ relative to the rest frame of the two points, the observed distance between the points $l$ is equal to the observed distance as measured in the rest frame of the two points, $l_0$, divided by the Lorentz Factor $\gamma$. Lengths in a frame of reference with a relative velocity $u$ will appear shorter than in the rest frame.
+
+l = \frac{l_0}{\gamma}
+
+where:
+
+l [var. Separation] is the distance between two points in space as measured by an observer moving at a speed $u$ relative to the rest frame of the two points
+l_0 [var. Separation] is the distance between two points in space as measured by an observer in the rest frame of the two points
+\gamma [var. LorentzFactor] is the Lorentz Factor
+
+fields:
+
+Special Relativity
+
+derived from:
+
+
+
+references:
+
+book: "Sears and Zemansky's University Physics with Modern Physics", H. D. Young and R. A. Freedman (12. Edition) (Pearson) ISBN 9780321501301
+
+see more:
+
+
+
+tags:
+
