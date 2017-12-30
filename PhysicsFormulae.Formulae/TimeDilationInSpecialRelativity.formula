@@ -1,0 +1,32 @@
+﻿TimeDilationInSpecialRelativity
+
+The Time Dilation Formula in Special Relativity
+
+For two events that occur at the same point in space, for an observer moving at a constant speed $u$ relative to the rest frame of the two events, the observed time interval between the two events $\Delta t$ will be equal to the observed time interval as measured in the rest frame of the two events, $\Delta t_0$ multiplied by the Lorentz Factor, $\gamma$.
+
+\Delta t = \gamma \Delta t_0
+
+where:
+
+\Delta t [var. TimeInterval] is the time interval as measured by an observer moving at a speed $u$ relative to the rest frame of the two events
+\Delta t_0 [var. TimeInterval] is the time interval as measured by an observer in the rest frame of the two events
+\gamma [var. LorentzFactor] is the Lorentz Factor of Special Relativity
+
+fields:
+
+Special Relativity
+
+derived from:
+
+
+
+references:
+
+book: "Sears and Zemansky's University Physics with Modern Physics", H. D. Young and R. A. Freedman (12. Edition) (Pearson) ISBN 9780321501301
+
+see more:
+
+
+
+tags:
+
