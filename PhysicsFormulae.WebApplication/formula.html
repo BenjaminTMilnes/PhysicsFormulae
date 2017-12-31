@@ -40,6 +40,12 @@
                 </span>
             </li>
         </ol>
+        <div class="formula-bibtex">
+            <h4>BibTeX</h4>
+            <p>For the sources that this webpage references:</p>
+            <div id="formula-bibtex-originalsources" class="formula-bibtex-content">{{getBibTeXForOriginalReferences()}}</div>
+            <button class="copybutton" data-clipboard-target="#formula-bibtex-originalsources">Copy</button>
+        </div>
         <p ng-show="formula.References.length == 0">
             No references have been given for this formula.
         </p>

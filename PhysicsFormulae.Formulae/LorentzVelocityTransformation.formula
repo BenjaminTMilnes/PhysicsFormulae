@@ -1,0 +1,33 @@
+﻿LorentzVelocityTransformation
+
+The Lorentz Velocity Transformation
+
+When $v_x$ and $u$ are both much smaller than $c$, the denominator of this equation approaches $1$, and $v_x^{\prime} \rightarrow v_x - u$, which is the Galilean velocity transformation. In the case where $v_x = c$, $v_x^{\prime} = c$, which is Einstein's Second Postulate.
+
+v_x^{\prime} = \frac{v_x - u}{1 - \frac{uv_x}{c^2}}
+
+where:
+
+v_x [var. Velocity] is a velocity as measured in the frame of reference $S$
+v_x^{\prime} [var. Velocity] is a velocity as measured in the frame of reference $S^{\prime}$
+u [var. Velocity] is the speed of frame $S^{\prime}$ relative to frame $S$
+c [const. SpeedOfLight] is the speed of light in free space
+
+fields:
+
+Special Relativity
+
+derived from:
+
+
+
+references:
+
+book: "Sears and Zemansky's University Physics with Modern Physics", H. D. Young and R. A. Freedman (12. Edition) (Pearson) ISBN 9780321501301
+
+see more:
+
+
+
+tags:
+

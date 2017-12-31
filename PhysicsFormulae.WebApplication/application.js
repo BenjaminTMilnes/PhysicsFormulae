@@ -147,6 +147,33 @@ application.controller("FormulaController", ["$scope", "$routeParams", "formulae
 
     }
 
+    $scope.getBibTeXForOriginalReferences = function () {
+        var bibtex = "";
+
+        var database = new BibTeXDatabase();
+
+        for (var i = 0; i < $scope.formula.References.length; i++) {
+            var reference = $scope.formula.References[i];
+
+            if (reference.Type == "Book") {
+                var book = new BibTeXBook();
+                book.citationKey = "r" + i;
+                book.title.value = reference.Title;
+                book.author.value = $scope.getAuthorsString(reference.Authors);
+                book.publisher.value = reference.Publisher;
+
+                database.entries.push(book);
+            }
+        }
+
+        var exporter = new BibTeXExporter();
+
+        bibtex = exporter.convertBibTeXDatabaseToText(database);
+
+        return bibtex;
+
+    }
+
     $scope.getAuthorsString = function (authors) {
 
         var authorsString = "";

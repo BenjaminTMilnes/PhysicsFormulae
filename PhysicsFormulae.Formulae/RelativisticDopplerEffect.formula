@@ -1,0 +1,33 @@
+﻿RelativisticDopplerEffect
+
+The Relativistic Doppler Effect
+
+When an electromagnetic wave source is moving towards an observer, the observed frequency is greater than the emitted frequency. When an electromagnetic wave source is moving away from an observer, the observed frequency is less than the emitted frequency. Thus light from objects moving towards an observer appears bluer, and light from objects moving away from an observer appears redder.
+
+f = \sqrt{\frac{c+u}{c-u}} f_0
+
+where:
+
+f_0 [var. WaveFrequency] is the emitted frequency of the wave
+f [var. WaveFrequency] is the observed frequency of the wave
+u [var. Velocity] is the speed at which the wave source is moving towards the observer
+c [const. SpeedOfLight] is the speed of light in free space
+
+fields:
+
+Special Relativity
+
+derived from:
+
+
+
+references:
+
+book: "Sears and Zemansky's University Physics with Modern Physics", H. D. Young and R. A. Freedman (12. Edition) (Pearson) ISBN 9780321501301
+
+see more:
+
+
+
+tags:
+

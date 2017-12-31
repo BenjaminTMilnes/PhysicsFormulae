@@ -185,11 +185,11 @@ a {
         font-size: 20px;
         margin: 27px 0px 14px 0px;
     }
-    
+
     .formula h4 {
         font-size: 17px;
         margin: 17px 0px;
-         text-decoration:underline;
+        text-decoration: underline;
     }
 
     .formula ul, .formula ol {
@@ -369,17 +369,17 @@ a {
     }
 }
 
-.formula-latex {
+.formula-latex, .formula-bibtex {
     display: none;
 }
 
 @media (min-width:700px) {
-    .formula-latex {
+    .formula-latex, .formula-bibtex {
         display: block;
     }
 }
 
-.formula-latex-content {
+.formula-latex-content, .formula-bibtex-content {
     font-family: Consolas, Courier New, Courier, monospace;
     font-size: 14px;
     color: #000000;
@@ -387,7 +387,7 @@ a {
     padding: 14px 14px 42px 14px;
     margin: 14px 0px;
     cursor: text;
-     white-space:pre-line;
+    white-space: pre-line;
 }
 
 
