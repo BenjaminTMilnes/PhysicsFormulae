@@ -379,6 +379,10 @@ a {
     }
 }
 
+.formula-bibtex {
+    margin-top: 70px;
+}
+
 .formula-latex-content, .formula-bibtex-content {
     font-family: Consolas, Courier New, Courier, monospace;
     font-size: 14px;
