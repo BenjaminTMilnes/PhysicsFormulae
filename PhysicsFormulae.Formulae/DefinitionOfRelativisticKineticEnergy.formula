@@ -1,0 +1,33 @@
+﻿DefinitionOfRelativisticKineticEnergy
+
+The Definition of Relativistic Kinetic Energy
+
+The relativistic kinetic energy of an object is equal to the Lorentz Factor minus one, multiplied by the rest mass of the object, multiplied by the speed of light squared.
+
+K = \left( \gamma - 1 \right) m_0 c^2
+
+where:
+
+K [var. KineticEnergy] is the relativistic kinetic energy of the object
+\gamma [var. LorentzFactor] is the Lorentz Factor
+m_0 [var. Mass] is the rest mass of the object
+c [const. SpeedOfLight] is the speed of light in free space
+
+fields:
+
+Special Relativity
+
+derived from:
+
+
+
+references:
+
+book: "Sears and Zemansky's University Physics with Modern Physics", H. D. Young and R. A. Freedman (12. Edition) (Pearson) ISBN 9780321501301
+
+see more:
+
+
+
+tags:
+

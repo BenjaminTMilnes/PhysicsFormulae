@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bibtex.js" />
     <Content Include="formula.html" />
     <Content Include="packages.config" />
     <Content Include="formulae.json" />
@@ -98,7 +99,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>53644</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>

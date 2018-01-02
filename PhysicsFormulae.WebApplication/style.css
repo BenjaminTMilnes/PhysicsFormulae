@@ -387,9 +387,15 @@ a {
     padding: 14px 14px 42px 14px;
     margin: 14px 0px;
     cursor: text;
+}
+
+.formula-latex-content {
     white-space: pre-line;
 }
 
+.formula-bibtex-content {
+    white-space: pre;
+}
 
 .formula-references {
 }

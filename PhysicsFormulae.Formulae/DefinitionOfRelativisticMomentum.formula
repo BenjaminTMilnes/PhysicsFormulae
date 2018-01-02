@@ -1,0 +1,33 @@
+﻿DefinitionOfRelativisticMomentum
+
+The Definition of Relativistic Momentum
+
+The relativistic momentum of an object is its mass multiplied by its observed velocity, multiplied by the Lorentz Factor, where the Lorentz Factor is based on the relative speed of the rest frame of the observer and the rest frame of the object.
+
+\textbf{p} = \gamma m_0 \textbf{v}
+
+where:
+
+\textbf{p} [var. Momentum] is the relativistic vector momentum of the object
+\gamma [var. LorentzFactor] is the Lorentz Factor
+m_0 [var. Mass] is the rest mass of the object
+\textbf{v} [var. Velocity] is the vector velocity of the object
+
+fields:
+
+Special Relativity
+
+derived from:
+
+
+
+references:
+
+book: "Sears and Zemansky's University Physics with Modern Physics", H. D. Young and R. A. Freedman (12. Edition) (Pearson) ISBN 9780321501301
+
+see more:
+
+
+
+tags:
+
