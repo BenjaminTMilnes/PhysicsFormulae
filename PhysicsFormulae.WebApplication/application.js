@@ -88,6 +88,17 @@ application.controller("SearchController", ["$scope", "dataService", function Se
         $scope.formulae = data;
     });
 
+    $scope.replaceMathematicsMarkers = function (text) {
+        if (!text) {
+            return "";
+        }
+
+        var re = /\$(.+?)\$/gi;
+        var textWithKaTeX = text.replace(re, "<katex latex=\"$1\"></katex>")
+
+        return textWithKaTeX;
+    }
+
 }]);
 
 application.controller("FormulaController", ["$scope", "$routeParams", "dataService", function FormulaController($scope, $routeParams, dataService) {

@@ -57,6 +57,10 @@ p {
     }
 }
 
+p strong{
+     font-weight:normal;
+}
+
 a {
     color: #105ecc;
     text-decoration: none;

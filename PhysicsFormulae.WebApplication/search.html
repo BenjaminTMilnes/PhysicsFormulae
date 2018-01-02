@@ -1,4 +1,4 @@
-﻿<p>This website is a physics formulary - essentially a dictionary of physics formulae. You can use it to look up common physics formulae. It currently contains <strong>{{formulae.data.length}}</strong> physics formulae.</p>
+﻿<p>This website is a physics formulary - essentially a dictionary of physics formulae. You can use it to look up common physics formulae. It currently contains <strong>{{formulae.length}}</strong> physics formulae.</p>
 <p>The list of formulae is being added to all the time - if your favourite equation is not in here yet, it might be soon. You can see the source code for this project on GitHub: <a href="https://github.com/BenjaminTMilnes/PhysicsFormulae" target="_blank" title="Physics Formulae on GitHub">https://github.com/BenjaminTMilnes/PhysicsFormulae</a>. This project has been created by <a href="http://www.benjamintmilnes.com" title="B. T. Milnes' Blog">B. T. Milnes</a>.</p>
 <div class="search">
     <div class="search-textbox">
@@ -11,7 +11,7 @@
                 <katex latex="{{ '\\displaystyle ' + formula.Content}}"></katex>
             </a>
         </div>
-        <p class="search-formula-interpretation">{{formula.Interpretation}}</p>
+        <p class="search-formula-interpretation" compile="replaceMathematicsMarkers(formula.Interpretation)"></p>
         <div class="search-formula-fields">
             <span class="search-formula-field" ng-repeat="field in formula.Fields">{{field}}</span>
         </div>
