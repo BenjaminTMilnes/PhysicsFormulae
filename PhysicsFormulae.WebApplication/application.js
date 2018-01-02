@@ -84,6 +84,9 @@ application.factory("dataService", ["$http", function ($http) {
 
 application.controller("SearchController", ["$scope", "dataService", function SearchController($scope, dataService) {
 
+    $scope.pageNumber = 1;
+    $scope.numberOfFormulaePerPage = 10;
+
     dataService.getData().then(function (data) {
         $scope.formulae = data;
     });
@@ -117,9 +120,25 @@ application.controller("FormulaController", ["$scope", "$routeParams", "dataServ
         }
     });
 
+    $scope.getNumberOfGoodReferences = function () {
+        if (!$scope.formula) {
+            return 0;
+        }
+
+        var n = 0;
+
+        for (var i = 0; i < $scope.formula.References.length; i++) {
+            if ($scope.formula.References[i].Type == "Book") {
+                n += 1;
+            }
+        }
+
+        return n;
+    }
+
     $scope.getFormulaContent = function () {
         if (!$scope.formula) {
-            return "";  
+            return "";
         }
 
         return "<katex latex=\"\\displaystyle " + $scope.formula.Content + "\"></katex>";

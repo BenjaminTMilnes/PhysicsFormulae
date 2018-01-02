@@ -10,6 +10,10 @@
                     <td class="identifier-content">
                         <katex latex="{{identifier.Content}}"></katex>
                     </td>
+                    <td>
+                        <span ng-show="identifier.Type == 'Variable'" class="variable" title="Variable">var.</span>
+                        <span ng-show="identifier.Type == 'Constant'" class="constant" title="Constant">const.</span>
+                    </td>
                     <td compile="replaceMathematicsMarkers(identifier.Definition)"></td>
                 </tr>
             </tbody>
@@ -40,18 +44,20 @@
                 </span>
             </li>
         </ol>
+        <p ng-show="formula.References.length == 0">
+            No references have been given for this formula.
+        </p>
         <div class="formula-bibtex">
             <h4>BibTeX</h4>
             <p>For this webpage:</p>
             <div id="formula-bibtex-thiswebpage" class="formula-bibtex-content">{{getBibTeXForThisWebpage()}}</div>
             <button class="copybutton" data-clipboard-target="#formula-bibtex-thiswebpage">Copy</button>
-            <p>For the sources that this webpage references:</p>
-            <div id="formula-bibtex-originalsources" class="formula-bibtex-content">{{getBibTeXForOriginalReferences()}}</div>
-            <button class="copybutton" data-clipboard-target="#formula-bibtex-originalsources">Copy</button>
+            <div ng-show="getNumberOfGoodReferences() > 0">
+                <p>For the sources that this webpage references:</p>
+                <div id="formula-bibtex-originalsources" class="formula-bibtex-content">{{getBibTeXForOriginalReferences()}}</div>
+                <button class="copybutton" data-clipboard-target="#formula-bibtex-originalsources">Copy</button>
+            </div>
         </div>
-        <p ng-show="formula.References.length == 0">
-            No references have been given for this formula.
-        </p>
     </div>
     <div class="formula-seemore" ng-show="formula.SeeMore.length > 0">
         <h3>See more</h3>

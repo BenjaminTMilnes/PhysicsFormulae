@@ -57,8 +57,8 @@ p {
     }
 }
 
-p strong{
-     font-weight:normal;
+p strong {
+    font-weight: normal;
 }
 
 a {
@@ -306,6 +306,33 @@ a {
         }
 }
 
+.variable, .constant {
+    font-size: 14px;
+    display: inline-block;
+    padding: 4px 14px;
+    margin: 2px;
+    border-radius: 2px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: default;
+    min-width: 40px;
+    text-align: center;
+}
+
+.variable {
+    background-color: #dd1c83;
+}
+
+.constant {
+    background-color: #1a7c62;
+}
+
+@media (min-width:400px) {
+    .variable, .constant {
+        font-size: 17px;
+    }
+}
+
 .formula-fields {
     font-size: 14px;
     margin: 20px 0px;
@@ -318,7 +345,7 @@ a {
     border-radius: 2px;
     color: #ffffff;
     font-weight: bold;
-    background-color: #105ecc;
+    background-color: #643491;
 }
 
 @media (min-width:400px) {
