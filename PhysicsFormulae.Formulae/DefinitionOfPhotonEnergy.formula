@@ -1,0 +1,32 @@
+﻿DefinitionOfPhotonEnergy
+
+The Definition of Photon Energy
+
+The energy of a photon is equal to Planck's constant multiplied by the frequency of the photon.
+
+E = hf
+
+where:
+
+E [var. Energy] is the energy of the photon
+h [const. PlancksConstant] is Planck's constant
+f [var. Frequency] is the frequency of the photon
+
+fields:
+
+Quantum Mechanics
+
+derived from:
+
+
+
+references:
+
+book: "Sears and Zemansky's University Physics with Modern Physics", H. D. Young and R. A. Freedman (12. Edition) (Pearson) ISBN 9780321501301
+
+see more:
+
+
+
+tags:
+

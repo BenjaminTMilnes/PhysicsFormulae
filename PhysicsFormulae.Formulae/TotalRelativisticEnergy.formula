@@ -1,0 +1,33 @@
+﻿TotalRelativisticEnergy
+
+The Total Relativistic Energy of an Object
+
+The total energy of a moving object is equal to the Lorentz Factor, multiplied by the rest mass of the object, multiplied by the speed of light squared. In the case where the object is at rest, the Lorentz Factor is equal to $1$, and the total energy of the object is just its rest mass multiplied by the speed of light squared.
+
+E = \gamma m_0 c^2
+
+where:
+
+E [var. TotalEnergy] is the total relativistic energy of the object
+\gamma [var. LorentzFactor] is the Lorentz Factor
+m_0 [var. RestMass] is the rest mass of the object
+c [const. SpeedOfLight] is the speed of light in free space
+
+fields:
+
+Special Relativity
+
+derived from:
+
+
+
+references:
+
+book: "Sears and Zemansky's University Physics with Modern Physics", H. D. Young and R. A. Freedman (12. Edition) (Pearson) ISBN 9780321501301
+
+see more:
+
+
+
+tags:
+
