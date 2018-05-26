@@ -1,0 +1,33 @@
+﻿ElectricPotentialOfAPointCharge
+
+The Absolute Electric Potential of a Point Charge
+
+The absolute electric potential at a distance $r$ from a point charge is directly proportional to the size of the charge, $q$, and inversely proportional to the distance $r$.
+
+V = \frac{q}{4 \pi \epsilon_{0} r}
+
+where:
+
+V [var. AbsoluteElectricPotential] is the absolute electric potential
+q [var. Charge] is the electric charge of the point charge
+\epsilon_0 [const. PermittivityOfFreeSpace] is the permittivity of free space
+r [var.] is the distance from the charge
+
+fields:
+
+Classical Electromagnetism
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
