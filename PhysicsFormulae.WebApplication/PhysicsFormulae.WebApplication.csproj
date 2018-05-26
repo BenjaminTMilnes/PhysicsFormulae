@@ -69,7 +69,9 @@
     <Content Include="bibtex.js" />
     <Content Include="formula.html" />
     <Content Include="packages.config" />
-    <Content Include="formulae.json" />
+    <Content Include="formulae.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="Properties\PublishProfiles\physicsformulae.com.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
