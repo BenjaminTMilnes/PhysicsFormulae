@@ -294,7 +294,6 @@ a {
 @media (min-width:700px) {
 
     .formula-identifiers p, .formula-interpretation {
-        text-indent: 27px;
     }
 
     .formula-identifiers table {
