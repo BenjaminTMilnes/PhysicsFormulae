@@ -337,6 +337,11 @@ a {
     margin: 20px 0px;
 }
 
+.formula-tags {
+    display: none;
+    font-size: 12px;
+}
+
 .field {
     display: inline-block;
     padding: 4px 14px;
@@ -347,10 +352,28 @@ a {
     background-color: #643491;
 }
 
+.tag {
+    color: #105ecc;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+    .tag:hover {
+        text-decoration: underline;
+    }
+
 @media (min-width:400px) {
 
     .formula-fields {
         font-size: 17px;
+        margin: 27px 0px;
+    }
+
+    .formula-tags {
+        display: block;
+        font-size: 14px;
         margin: 27px 0px;
     }
 
@@ -362,6 +385,9 @@ a {
 @media (min-width:700px) {
 
     .formula-fields {
+    }
+
+    .formula-tags {
         margin: 27px 0px 70px 0px;
     }
 }

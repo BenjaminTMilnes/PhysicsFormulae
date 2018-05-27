@@ -3,7 +3,6 @@
     <div class="formula-content" compile="getFormulaContent()">
     </div>
     <div class="formula-identifiers">
-        <p>where,</p>
         <table>
             <tbody>
                 <tr ng-repeat="identifier in formula.Identifiers">
@@ -22,6 +21,9 @@
     <p class="formula-interpretation" compile="replaceMathematicsMarkers(formula.Interpretation)"></p>
     <div class="formula-fields">
         <span class="field" ng-repeat="field in formula.Fields">{{field}}</span>
+    </div>
+    <div class="formula-tags">
+        <span class="tag" ng-repeat="tag in formula.Tags">{{tag}} </span>
     </div>
     <div class="formula-latex">
         <h4>LaTeX</h4>
