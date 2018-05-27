@@ -1,0 +1,34 @@
+﻿RadialAccelerationInCircularMotion
+
+Radial Acceleration in Uniform Circular Motion
+
+For an object moving in perfectly circular motion, the instantaneous acceleration of that object at each point along the radius of the circle is proportional to the velocity squared and inversely proportional to the radius of the circle.
+
+a = \frac{v^{2}}{r}
+
+where:
+
+a [var. Acceleration] is the instantaneous acceleration of the object at each point along the path, pointing along the radius of the circle
+v [var. Velocity] is the magnitude of the velocity of the object
+r [var. Radius] is the radius of the circle
+
+fields:
+
+Classical Mechanics
+
+derived from:
+
+
+
+references:
+
+book: "Sears and Zemansky's University Physics with Modern Physics", H. D. Young and R. A. Freedman (12. Edition) (Pearson) ISBN 9780321501301
+
+see more:
+
+Wikipedia https://en.wikipedia.org/wiki/Circular_motion
+
+tags:
+
+radial, acceleration, circle, circular motion, uniform motion, uniform circular motion, object, instantaneous, instantaneous acceleration, radius, proportional, velocity, inverse, inversely proportional, a, v, r, path, magnitude, classical mechanics, mechanics
+
