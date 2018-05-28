@@ -1,0 +1,45 @@
+﻿LinearThermalExpansion
+
+Linear Thermal Expansion
+
+For a rod made of a given material, with a coefficient of linear expansion $\alpha$, the change in the length of the rod is proportional to the change in the temperature of the rod.
+
+\Delta L = \alpha L_{0} \Delta T
+
+where:
+
+\Delta L [var.] is the change in the length of the rod
+\alpha [const.] is the coefficient of linear expansion of the material
+L_{0} [const.] is the initial length of the rod
+\Delta T [var.] is the change in the temperature of the rod
+
+fields:
+
+Classical Thermodynamics
+
+derived from:
+
+
+
+references:
+
+book: "Sears and Zemansky's University Physics with Modern Physics", H. D. Young and R. A. Freedman (12. Edition) (Pearson) ISBN 9780321501301
+
+see more:
+
+tags:
+
+linear
+thermal
+expansion
+thermal expansion
+rod
+material
+coefficient
+coefficient of linear expansion
+change
+length
+proportional
+temperature
+thermodynamics
+
