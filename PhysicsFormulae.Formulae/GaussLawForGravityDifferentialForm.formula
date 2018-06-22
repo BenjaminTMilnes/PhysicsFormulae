@@ -8,9 +8,9 @@ The divergence of the gravitational field is directly proportional to the mass d
 
 where:
 
-\textbf{g} [var. GravitationalField] is the gravitational field
-G [const. UniversalGravitationalConstant] is the universal gravitational constant
-\rho [var. MassDensity] is the mass density
+\textbf{g} [var. vec. GravitationalField] is the gravitational field
+G [const. scal. UniversalGravitationalConstant] is the universal gravitational constant
+\rho [var. scal. MassDensity] is the mass density
 
 derived from:
 

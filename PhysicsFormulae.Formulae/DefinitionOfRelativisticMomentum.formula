@@ -8,10 +8,10 @@ The relativistic momentum of an object is its mass multiplied by its observed ve
 
 where:
 
-\textbf{p} [var. Momentum] is the relativistic vector momentum of the object
-\gamma [var. LorentzFactor] is the Lorentz Factor
-m_0 [var. Mass] is the rest mass of the object
-\textbf{v} [var. Velocity] is the vector velocity of the object
+\textbf{p} [var. vec. Momentum] is the relativistic vector momentum of the object
+\gamma [var. scal. LorentzFactor] is the Lorentz Factor
+m_0 [var. scal. Mass] is the rest mass of the object
+\textbf{v} [var. vec. Velocity] is the vector velocity of the object
 
 fields:
 

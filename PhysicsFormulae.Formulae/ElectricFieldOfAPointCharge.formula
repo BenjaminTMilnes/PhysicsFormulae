@@ -8,10 +8,10 @@ E = \frac{q}{4 \pi \epsilon_0 r^2}
 
 where:
 
-E [var. ElectricField] is the electric field
-q [var. Charge] is the electric charge of the point charge
-\epsilon_0 [const. PermittivityOfFreeSpace] is the permittivity of free space
-r [var.] is the distance from the charge
+E [var. scal. ElectricField] is the electric field
+q [var. scal. Charge] is the electric charge of the point charge
+\epsilon_0 [const. scal. PermittivityOfFreeSpace] is the permittivity of free space
+r [var. scal.] is the distance from the charge
 
 fields:
 

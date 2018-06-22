@@ -8,11 +8,11 @@ The left hand side of the equation is the gravitational flux. The gravitational 
 
 where:
 
-\textbf{g} [var. GravitationalField] is the gravitational field
-\mathrm{d} \textbf{A} [var.] is the normal to an infinitesimal area on the surface being integrated over
+\textbf{g} [var. vec. GravitationalField] is the gravitational field
+\mathrm{d} \textbf{A} [var. vec.] is the normal to an infinitesimal area on the surface being integrated over
 S [var.] is any closed surface
-G [const. UniversalGravitationalConstant] is the universal gravitational constant
-M [var. TotalMass] is the total mass enclosed by the surface $S$
+G [const. scal. UniversalGravitationalConstant] is the universal gravitational constant
+M [var. scal. TotalMass] is the total mass enclosed by the surface $S$
 
 derived from:
 

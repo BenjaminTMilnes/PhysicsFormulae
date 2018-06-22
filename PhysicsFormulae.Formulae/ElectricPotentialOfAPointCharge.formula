@@ -8,10 +8,10 @@ V = \frac{q}{4 \pi \epsilon_{0} r}
 
 where:
 
-V [var. AbsoluteElectricPotential] is the absolute electric potential
-q [var. Charge] is the electric charge of the point charge
-\epsilon_0 [const. PermittivityOfFreeSpace] is the permittivity of free space
-r [var.] is the distance from the charge
+V [var. scal. AbsoluteElectricPotential] is the absolute electric potential
+q [var. scal. Charge] is the electric charge of the point charge
+\epsilon_0 [const. scal. PermittivityOfFreeSpace] is the permittivity of free space
+r [var. scal.] is the distance from the charge
 
 fields:
 
