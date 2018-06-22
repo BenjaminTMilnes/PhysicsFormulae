@@ -8,9 +8,9 @@ The impulse experienced by an object is the integral over time of the force appl
 
 where:
 
-\textbf{J} [var. Impulse] is the impulse experienced by the object
-\textbf{F} [var. Force] is the force applied to the object
-t [var. Time] is time
+\textbf{J} [var. vec. Impulse] is the impulse experienced by the object
+\textbf{F} [var. vec. Force] is the force applied to the object
+t [var. scal. Time] is time
 
 fields:
 

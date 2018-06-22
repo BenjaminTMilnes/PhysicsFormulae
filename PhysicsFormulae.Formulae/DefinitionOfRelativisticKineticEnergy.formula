@@ -8,10 +8,10 @@ K = \left( \gamma - 1 \right) m_0 c^2
 
 where:
 
-K [var. KineticEnergy] is the relativistic kinetic energy of the object
-\gamma [var. LorentzFactor] is the Lorentz Factor
-m_0 [var. Mass] is the rest mass of the object
-c [const. SpeedOfLight] is the speed of light in free space
+K [var. scal. KineticEnergy] is the relativistic kinetic energy of the object
+\gamma [var. scal. LorentzFactor] is the Lorentz Factor
+m_0 [var. scal. Mass] is the rest mass of the object
+c [const. scal. SpeedOfLight] is the speed of light in free space
 
 fields:
 

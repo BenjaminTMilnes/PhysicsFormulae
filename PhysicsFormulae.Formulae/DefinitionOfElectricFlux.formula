@@ -8,10 +8,10 @@ The electric flux through a surface is equal to the integral of the scalar produ
 
 where:
 
-\phi _E [var. ElectricFlux] is the electric flux
+\phi _E [var. scal. ElectricFlux] is the electric flux
 S [var.] is the surface being integrated over
-\textbf{E} [var. ElectricField] is the electric field
-\mathrm{d} \textbf{A} [var.] is an infinitesimal area on the surface $S$
+\textbf{E} [var. vec. ElectricField] is the electric field
+\mathrm{d} \textbf{A} [var. vec.] is an infinitesimal area on the surface $S$
 
 fields:
 

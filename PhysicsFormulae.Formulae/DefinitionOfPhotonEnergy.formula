@@ -8,9 +8,9 @@ E = hf
 
 where:
 
-E [var. Energy] is the energy of the photon
-h [const. PlancksConstant] is Planck's constant
-f [var. Frequency] is the frequency of the photon
+E [var. scal. Energy] is the energy of the photon
+h [const. scal. PlancksConstant] is Planck's constant
+f [var. scal. Frequency] is the frequency of the photon
 
 fields:
 
