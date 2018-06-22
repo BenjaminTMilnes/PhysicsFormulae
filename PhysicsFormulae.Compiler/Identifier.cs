@@ -10,6 +10,9 @@ namespace PhysicsFormulae.Compiler
         [JsonConverter(typeof(StringEnumConverter))]
         public IdentifierType Type { get; set; }
 
+        [JsonConverter(typeof(StringEnumConverter))]
+        public ObjectType ObjectType { get; set; }
+
         public string Reference { get; set; }
 
         public string Definition { get; set; }

@@ -142,7 +142,7 @@ namespace PhysicsFormulae.Compiler
 
         private bool IsLineIdentifierLine(string line)
         {
-            var isMatch = Regex.IsMatch(line, @"^([^\[]+)\s*\[\s*(var\.|const\.)\s*([A-Za-z0-9_]+)?\s*\](.+)$");
+            var isMatch = Regex.IsMatch(line, @"^([^\[]+)\s*\[\s*(var\.|const\.)\s*(scal\.|vec\.|matr\.|tens|.)?\s*([A-Za-z0-9_]+)?\s*\](.+)$");
 
             return isMatch;
         }
@@ -151,7 +151,7 @@ namespace PhysicsFormulae.Compiler
         {
             var identifier = new Identifier();
 
-            var match = Regex.Match(line, @"^([^\[]+)\s*\[\s*(var\.|const\.)\s*([A-Za-z0-9_]+)?\s*\](.+)$");
+            var match = Regex.Match(line, @"^([^\[]+)\s*\[\s*(var\.|const\.)\s*(scal\.|vec\.|matr\.|tens|.)?\s*([A-Za-z0-9_]+)?\s*\](.+)$");
 
             identifier.Content = match.Groups[1].Value.Trim();
 
@@ -164,8 +164,25 @@ namespace PhysicsFormulae.Compiler
                 identifier.Type = IdentifierType.Constant;
             }
 
-            identifier.Reference = match.Groups[3].Value.Trim();
-            identifier.Definition = match.Groups[4].Value.Trim();
+            if (match.Groups[3].Value == "scal.")
+            {
+                identifier.ObjectType = ObjectType.Scalar;
+            }
+            else if (match.Groups[3].Value == "vec.")
+            {
+                identifier.ObjectType = ObjectType.Vector;
+            }
+            else if (match.Groups[3].Value == "matr.")
+            {
+                identifier.ObjectType = ObjectType.Matrix;
+            }
+            else if (match.Groups[3].Value == "tens.")
+            {
+                identifier.ObjectType = ObjectType.Tensor;
+            }
+
+            identifier.Reference = match.Groups[4].Value.Trim();
+            identifier.Definition = match.Groups[5].Value.Trim();
 
             return identifier;
         }

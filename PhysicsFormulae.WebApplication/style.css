@@ -263,7 +263,7 @@ a {
 .formula-identifiers table {
     font-size: 17px;
     margin: 0px 10px;
-    max-width: 700px;
+    max-width: 900px;
     border-collapse: separate;
     border-spacing: 10px;
 }
@@ -305,7 +305,7 @@ a {
         }
 }
 
-.variable, .constant {
+.variable, .constant, .scalar, .vector, .matrix, .tensor {
     font-size: 14px;
     display: inline-block;
     padding: 4px 14px;
@@ -326,8 +326,24 @@ a {
     background-color: #1a7c62;
 }
 
+.scalar {
+    background-color: #f79216;
+}
+
+.vector {
+    background-color: #2cb5f4;
+}
+
+.matrix {
+    background-color: #1da011;
+}
+
+.tensor {
+    background-color: #c4119a;
+}
+
 @media (min-width:400px) {
-    .variable, .constant {
+    .variable, .constant, .scalar, .vector, .matrix, .tensor {
         font-size: 17px;
     }
 }

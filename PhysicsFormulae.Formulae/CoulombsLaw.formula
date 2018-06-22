@@ -8,11 +8,11 @@ F = \frac{q_1 q_2}{4 \pi \epsilon_0 r^2}
 
 where:
 
-F [var. Force] is the force experienced by both point charges
-q_1 [var. Charge] is the electric charge of the first point charge
-q_2 [var. Charge] is the electric charge of the second point charge
-\epsilon_0 [const. PermittivityOfFreeSpace] is the permittivity of free space
-r [var.] is the distance between the point charges
+F [var. scal. Force] is the force experienced by both point charges
+q_1 [var. scal. Charge] is the electric charge of the first point charge
+q_2 [var. scal. Charge] is the electric charge of the second point charge
+\epsilon_0 [const. scal. PermittivityOfFreeSpace] is the permittivity of free space
+r [var. scal.] is the distance between the point charges
 
 fields:
 

@@ -10,8 +10,12 @@
                         <katex latex="{{identifier.Content}}"></katex>
                     </td>
                     <td>
-                        <span ng-show="identifier.Type == 'Variable'" class="variable" title="Variable">var.</span>
-                        <span ng-show="identifier.Type == 'Constant'" class="constant" title="Constant">const.</span>
+                        <span ng-show="identifier.Type == 'Variable'" class="variable" title="a variable">var.</span>
+                        <span ng-show="identifier.Type == 'Constant'" class="constant" title="a constant">const.</span>
+                        <span ng-show="identifier.ObjectType == 'Scalar'" class="scalar" title="a scalar quantity">scal.</span>
+                        <span ng-show="identifier.ObjectType == 'Vector'" class="vector" title="a vector quantity">vec.</span>
+                        <span ng-show="identifier.ObjectType == 'Matrix'" class="matrix" title="a matrix">matr.</span>
+                        <span ng-show="identifier.ObjectType == 'Tensor'" class="tensor" title="a tensor (one which is more complicated than a vector or a matrix)">tens.</span>
                     </td>
                     <td compile="replaceMathematicsMarkers(identifier.Definition)"></td>
                 </tr>
