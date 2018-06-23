@@ -68,6 +68,7 @@
   <ItemGroup>
     <Content Include="bibtex.js" />
     <Content Include="formula.html" />
+    <Content Include="latex-to-html.js" />
     <Content Include="packages.config" />
     <Content Include="formulae.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

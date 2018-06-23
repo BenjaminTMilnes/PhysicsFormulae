@@ -8,7 +8,6 @@
                 <tr ng-repeat="identifier in formula.Identifiers">
                     <td class="identifier-content">
                         <!--<katex latex="{{identifier.Content}}"></katex>-->
-                        <!--$${{identifier.Content}}$$-->
                         <span class="identifier-htmlcontent" compile="convertLaTeXToHTML(identifier.Content)"></span>
                     </td>
                     <td>
