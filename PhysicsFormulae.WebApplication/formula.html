@@ -7,7 +7,9 @@
             <tbody>
                 <tr ng-repeat="identifier in formula.Identifiers">
                     <td class="identifier-content">
-                        <katex latex="{{identifier.Content}}"></katex>
+                        <!--<katex latex="{{identifier.Content}}"></katex>-->
+                        <!--$${{identifier.Content}}$$-->
+                        <span class="identifier-htmlcontent" compile="convertLaTeXToHTML(identifier.Content)"></span>
                     </td>
                     <td>
                         <span ng-show="identifier.Type == 'Variable'" class="variable" title="a variable">var.</span>
@@ -17,7 +19,7 @@
                         <span ng-show="identifier.ObjectType == 'Matrix'" class="matrix" title="a matrix">matr.</span>
                         <span ng-show="identifier.ObjectType == 'Tensor'" class="tensor" title="a tensor (one which is more complicated than a vector or a matrix)">tens.</span>
                     </td>
-                    <td compile="replaceMathematicsMarkers(identifier.Definition)"></td>
+                    <td style="max-width: 500px;" compile="replaceMathematicsMarkers(identifier.Definition)"></td>
                 </tr>
             </tbody>
         </table>

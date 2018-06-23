@@ -1,5 +1,21 @@
 ﻿var application = angular.module("PhysicsFormulae", ["ngRoute", "ngSanitize"]);
 
+function convertLaTeXToHTML(latex) {
+    var greekLetters = ["alpha", "beta", "gamma", "delta", "epsilon", "zeta", "eta", "theta", "iota", "kappa", "lambda", "mu", "nu", "xi", "omicron", "pi", "rho", "sigma", "tau", "upsilon", "phi", "chi", "psi", "omega"];
+
+    for (var i = 0; i < greekLetters.length; i++) {
+        var greekLetter = greekLetters[i];
+        latex = latex.replace(new RegExp("\\\\" + greekLetter), "&" + greekLetter + ";");
+    }
+
+    latex = latex.replace(/_\{([^\}]*)\}/, "<sub>$1</sub>");
+    latex = latex.replace(/_([A-Za-z0-9]+)/, "<sub>$1</sub>");
+    latex = latex.replace(/\^\{([^\}]*)\}/, "<sup>$1</sup>");
+    latex = latex.replace(/\^([A-Za-z0-9]+)/, "<sup>$1</sup>");
+    latex = latex.replace(/\\textbf\{([^\{]*)\}/, "<strong>$1</strong>");
+    latex = latex.replace(/\\mathrm\{([^\{]*)\}/, "<span style='font-style: normal;'>$1</span>");
+    return latex;
+}
 
 function makeSearchableString(array) {
     return array.join(", ");
@@ -142,6 +158,10 @@ application.controller("FormulaController", ["$scope", "$routeParams", "dataServ
         }
 
         return "<katex latex=\"\\displaystyle " + $scope.formula.Content + "\"></katex>";
+    }
+
+    $scope.convertLaTeXToHTML = function (content) {
+        return convertLaTeXToHTML(content);
     }
 
     $scope.replaceMathematicsMarkers = function (text) {
