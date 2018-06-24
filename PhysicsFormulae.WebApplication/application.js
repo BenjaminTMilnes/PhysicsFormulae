@@ -16,6 +16,8 @@ function stringIsNullOrEmpty(string) {
 application.config(function ($routeProvider) {
     $routeProvider
         .when("/", { templateUrl: "search.html", controller: "SearchController" })
+        .when("/tag/:tagName", { templateUrl: "search.html", controller: "SearchController" })
+        .when("/field/:fieldName", { templateUrl: "search.html", controller: "SearchController" })
         .when("/formula/:reference", { templateUrl: "formula.html", controller: "FormulaController" });
 });
 
@@ -48,20 +50,48 @@ application.directive("compile", ["$compile", function ($compile) {
     };
 }]);
 
+function extractTags(text) {
+    var re = /#[A-Za-z0-9]+/g;
+    var tags = [];
+
+    var m;
+    while ((m = re.exec(text)) !== null) {
+        tags.push(m[0]);
+    }
+
+    text = text.replace(re, " ");
+
+    return [text, tags];
+}
+
 application.filter("searchFormulae", function () {
     return function (formulae, text) {
         if (stringIsNullOrEmpty(text)) {
             return formulae;
         }
         else {
+            var a = extractTags(text);
+            text = a[0];
+            var tags = a[1];
+
             var matchingFormulae = [];
 
             for (var i = 0; i < formulae.length; i++) {
                 var formula = formulae[i];
-                var formulaText = formula.Title + ", " + formula.Interpretation + ", " + formula.Content + ", " + makeSearchableString(formula.Fields) + ", " + makeSearchableString(formula.Tags);
+                var formulaText = formula.Title + ", " + formula.Interpretation + ", " + formula.Content + ", " + makeSearchableString(formula.Fields);
+                var tagsText = makeSearchableString(formula.Tags);
 
-                if (stringContains(formulaText.toLowerCase(), text.toLowerCase())) {
-                    matchingFormulae.push(formula);
+                if (text != "") {
+                    if (stringContains(formulaText.toLowerCase(), text.toLowerCase())) {
+                        matchingFormulae.push(formula);
+                        continue;
+                    }
+                }
+
+                for (var j = 0; j < tags.length; j++) {
+                    if (tagsText.toLowerCase() == tags[j].toLowerCase()) {
+                        matchingFormulae.push(formula);
+                    }
                 }
             }
 
@@ -82,7 +112,7 @@ application.factory("dataService", ["$http", function ($http) {
     return dataService;
 }]);
 
-application.controller("SearchController", ["$scope", "dataService", function SearchController($scope, dataService) {
+application.controller("SearchController", ["$scope", "$routeParams", "dataService", function SearchController($scope, $routeParams, dataService) {
 
     $scope.pageNumber = 1;
     $scope.numberOfFormulaePerPage = 10;

@@ -1,0 +1,47 @@
+﻿CentripetalForceForCircularMotion
+
+The Centripetal Force for Circular Motion
+
+For an object to move along a circular path, there must be a force pointing towards the centre of the circle with a magnitude that is proportional to the mass of the object and its linear velocity squared, and inversely proportional to the radius of the circle.
+
+F = \frac{mv^2}{r}
+
+where:
+
+F [var. scal. Force] is the magnitude of the centripetal force experienced by the object
+m [var. scal. Mass] is the mass of the object
+v [var. scal. LinearVelocity] is the linear velocity of the object
+r [var. scal. Radius] is the radius of the circular path
+
+fields:
+
+Classical Mechanics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+Wikipedia https://en.wikipedia.org/wiki/Centripetal_force
+
+tags:
+
+centripetal
+force
+circular
+motion
+centre
+magnitude
+proportional
+mass
+object
+linear velocity
+inversely proportional
+radius
+classical
+classical mechanics
+

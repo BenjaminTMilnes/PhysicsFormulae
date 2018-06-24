@@ -368,6 +368,11 @@ a {
     background-color: #643491;
 }
 
+    .field a {
+        color: inherit;
+        text-decoration: inherit;
+    }
+
 .tag {
     color: #105ecc;
     text-decoration: none;
