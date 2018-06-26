@@ -97,6 +97,27 @@ class BibTeXWebpage extends BibTeXEntry {
     }
 }
 
+class BibTeXMiscellaneous extends BibTeXEntry{
+    constructor(title, howPublished, note){
+        super("misc");
+
+        this.title = new BibTeXField("title", title);
+        this.howPublished = new BibTeXField("howpublished", howPublished);
+        this.note = new BibTeXField("note", note);
+    }
+}
+
+class BibLaTeXOnline extends BibTeXEntry {
+    constructor(author, title, url, urlDate){
+        super("online");
+
+        this.author = new BibTeXField("author", author, true);
+        this.title = new BibTeXField("title", title);
+        this.url = new BibTeXField("url", url);
+        this.urlDate = new BibTeXField("urldate", urlDate);
+    }
+}
+
 // Represents a BibTeX database, which comprises of a list of entries
 class BibTeXDatabase {
     constructor() {
