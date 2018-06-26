@@ -1,0 +1,28 @@
+﻿DefinitionOfVelocity
+
+The Definition of Velocity
+
+The velocity of an object is the rate of change in that object's position with respect to time.
+
+\textbf{v}(t) = \frac{\mathrm{d} \textbf{s}(t)}{\mathrm{d} t}
+
+where:
+
+\textbf{v}(t) [var. vec. Velocity] is the velocity of the object as a function of time
+\textbf{s}(t) [var. vec. Position] is the position of the object as a function of time
+t [var. Time] is time
+
+fields:
+
+Classical Mechanics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+tags:

@@ -118,6 +118,16 @@ a {
     letter-spacing: 0.1em;
 }
 
+    .search-formula-title a {
+        color: inherit;
+        text-decoration: inherit;
+    }
+
+        .search-formula-title a:hover {
+            color: #105ecc;
+            text-decoration: inherit;
+        }
+
 .search-formula-content {
     font-size: 22px;
     margin: 22px 0px;

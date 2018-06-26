@@ -5,7 +5,7 @@
         <input type="text" value="" ng-model="searchTerms" placeholder="Search for a formula" />
     </div>
     <div class="search-formula" ng-repeat="formula in formulae | searchFormulae : searchTerms | orderBy : formula.Reference">
-        <h3 class="search-formula-title">{{formula.Title}}</h3>
+        <h3 class="search-formula-title"><a href="#/formula/{{formula.Reference}}" title="{{formula.Title}}">{{formula.Title}}</a></h3>
         <div class="search-formula-content">
             <a href="#/formula/{{formula.Reference}}" title="{{formula.Title}}">
                 <katex latex="{{ '\\displaystyle ' + formula.Content}}"></katex>
