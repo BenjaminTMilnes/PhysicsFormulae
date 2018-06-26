@@ -1,0 +1,32 @@
+﻿VelocityKinematicEquation1ForConstantAcceleration
+
+The Kinematic Equation for Final Velocity as a Function of Time for Constant Acceleration
+
+For an object under constant acceleration, the velocity of that object at time $t$ is equal to the initial velocity plus the acceleration times time.
+
+v(t) = v_{0} + at
+
+where:
+
+v [var. scal. Velocity] is the velocity of the object at time $t$
+v_{0} [const. scal. InitialVelocity] is the velocity of the object at time $t = 0$
+a [const. scal. Acceleration] is the acceleration of the object, which does not vary with time
+t [var. scal. Time] is time
+
+fields:
+
+Classical Mechanics
+SUVAT Equations
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+Wikipedia https://en.wikipedia.org/wiki/Equations_of_motion
+
+tags:
