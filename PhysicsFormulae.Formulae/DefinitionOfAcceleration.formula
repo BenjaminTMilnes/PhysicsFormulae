@@ -12,6 +12,30 @@ where:
 \textbf{v}(t) [var. vec. Velocity] is the velocity of the object as a function of time
 t [var. Time] is time
 
+variants:
+
+Simplified Vector Form
+
+\textbf{a} = \frac{\mathrm{d} \textbf{v}}{\mathrm{d} t}
+
+---
+
+Motion in One Dimension
+
+a = \frac{\mathrm{d} v}{\mathrm{d} t}
+
+If only motion in one dimension is being examined, the vector notation can be dropped.
+
+---
+
+Constant or Average Acceleration
+
+a = \frac{\Delta v}{\Delta t} = \frac{v_{2} - v_{1}}{t_{2} - t_{1}}
+
+If the acceleration is constant over the period of time being examined, the acceleration can be expressed as just the difference between the final and initial acceleration divided by the time period.
+
+
+
 fields:
 
 Classical Mechanics

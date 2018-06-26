@@ -9,6 +9,7 @@ namespace PhysicsFormulae.Compiler
         public string Interpretation { get; set; }
         public string Content { get; set; }
         public IList<Identifier> Identifiers { get; set; }
+        public IList<Variant> Variants { get; set; }
         public IList<string> DerivedFrom { get; set; }
         public IList<string> Fields { get; set; }
         public IList<Reference> References { get; set; }
@@ -18,6 +19,7 @@ namespace PhysicsFormulae.Compiler
         public Formula()
         {
             Identifiers = new List<Identifier>();
+            Variants = new List<Variant>();
             DerivedFrom = new List<string>();
             Fields = new List<string>();
             References = new List<Reference>();

@@ -174,6 +174,10 @@ application.controller("FormulaController", ["$scope", "$routeParams", "dataServ
         return "<katex latex=\"\\displaystyle " + $scope.formula.Content + "\"></katex>";
     }
 
+    $scope.getVariant = function (content) {
+        return "<katex latex=\"\\displaystyle " + content + "\"></katex>";
+    }
+
     $scope.replaceMathematicsMarkers = function (text) {
         if (!text) {
             return "";

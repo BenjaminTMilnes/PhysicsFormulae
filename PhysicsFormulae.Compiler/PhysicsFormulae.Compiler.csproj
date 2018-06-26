@@ -54,6 +54,7 @@
     <Compile Include="Reference.cs" />
     <Compile Include="ReferenceType.cs" />
     <Compile Include="SeeMoreLink.cs" />
+    <Compile Include="Variant.cs" />
     <Compile Include="Webpage.cs" />
   </ItemGroup>
   <ItemGroup>

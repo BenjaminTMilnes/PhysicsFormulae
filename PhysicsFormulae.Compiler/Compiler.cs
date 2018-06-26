@@ -11,11 +11,12 @@ namespace PhysicsFormulae.Compiler
     {
         Definition = 1,
         Where = 2,
-        DerivedFrom = 3,
-        Fields = 4,
-        References = 5,
-        SeeMore = 6,
-        Tags = 7
+        Variants = 3,
+        DerivedFrom = 4,
+        Fields = 5,
+        References = 6,
+        SeeMore = 7,
+        Tags = 8
     }
 
     public class Compiler
@@ -33,6 +34,9 @@ namespace PhysicsFormulae.Compiler
 
             var formulaSection = FormulaSection.Definition;
 
+            var variant = new Variant();
+            var variantLine = 1;
+
             for (var n = 4; n < lines.Length; n++)
             {
                 var line = lines[n];
@@ -40,6 +44,12 @@ namespace PhysicsFormulae.Compiler
                 if (line == "where:")
                 {
                     formulaSection = FormulaSection.Where;
+                    continue;
+                }
+
+                if (line == "variants:")
+                {
+                    formulaSection = FormulaSection.Variants;
                     continue;
                 }
 
@@ -51,6 +61,11 @@ namespace PhysicsFormulae.Compiler
 
                 if (line == "fields:")
                 {
+                    if (variant.Content != "")
+                    {
+                        formula.Variants.Add(variant);
+                    }
+
                     formulaSection = FormulaSection.Fields;
                     continue;
                 }
@@ -81,6 +96,36 @@ namespace PhysicsFormulae.Compiler
 
                         formula.Identifiers.Add(identifier);
                         continue;
+                    }
+                }
+
+                if (formulaSection == FormulaSection.Variants)
+                {
+                    if (line == "---")
+                    {
+                        formula.Variants.Add(variant);
+
+                        variant = new Variant();
+
+                        variantLine = 1;
+
+                        continue;
+                    }
+
+                    if (variantLine == 1)
+                    {
+                        variant.Title = line;
+                        variantLine++;
+                    }
+                    else if (variantLine == 2)
+                    {
+                        variant.Content = line;
+                        variantLine++;
+                    }
+                    else if (variantLine == 3)
+                    {
+                        variant.Interpretation = line;
+                        variantLine++;
                     }
                 }
 
