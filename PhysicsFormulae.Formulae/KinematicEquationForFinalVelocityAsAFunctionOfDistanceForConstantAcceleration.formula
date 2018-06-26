@@ -1,0 +1,32 @@
+﻿KinematicEquationForFinalVelocityAsAFunctionOfDistanceForConstantAcceleration
+
+The Kinematic Equation for Final Velocity as a Function of Distance for Constant Acceleration
+
+For an object under constant acceleration, the square of that object's velocity at time $t$ is equal to the square of the initial velocity plus two times the acceleration times the distance travelled.
+
+v^{2} = u^{2} + 2as
+
+where:
+
+v [var. scal. FinalVelocity] is the final velocity of the object
+u [var. scal. InitialVelocity] is the initial velocity of the object
+a [const. scal. Acceleration] is the acceleration of the object, which does not vary with time
+s [var. scal. Distance] is the distance travelled by the object
+
+fields:
+
+Classical Mechanics
+SUVAT Equations
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+Wikipedia https://en.wikipedia.org/wiki/Equations_of_motion
+
+tags:
