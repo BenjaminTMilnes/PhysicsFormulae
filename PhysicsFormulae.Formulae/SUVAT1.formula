@@ -1,0 +1,47 @@
+﻿SUVAT1
+
+The Kinematic Equation for Distance as a Function of Time for Constant Acceleration
+
+For an object under constant acceleration, the distance travelled by that object as a function of time is given by a quadratic formula with respect to time.
+
+s(t) = s_{0} + u t + \frac{1}{2} a t^{2}
+
+where:
+
+s(t) [var. scal. Position] is the position of the object at a time $t$
+s_{0} [const. scal. InitialPosition] is the position of the object at time $t = 0$
+u [const. scal. InitialVelocity] is the initial velocity of the object
+a [const. scal. Acceleration] is the acceleration of the object
+t [var. scal. Time] is time
+
+fields:
+
+Classical Mechanics
+SUVAT Equations
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+Wikipedia https://en.wikipedia.org/wiki/Equations_of_motion
+
+tags:
+
+position
+distance
+displacement
+kinematic
+equation
+motion
+equations of motion
+constant acceleration
+time
+velocity
+acceleration
+classical
+classical mechanics
