@@ -227,16 +227,14 @@ application.controller("FormulaController", ["$scope", "$routeParams", "dataServ
 
         var bibtex = "";
         var database = new BibTeXDatabase();
-        var webpage = new BibTeXWebpage();
+        var misc = new BibTeXMiscellaneous();
 
-        webpage.citationKey = "PhysicsFormulae_" + $scope.formula.Reference;
-        webpage.author.value = "B. T. Milnes";
-        webpage.title.value = $scope.formula.Title;
-        webpage.websiteTitle.value = "Physics Formulae";
-        webpage.url.value = "http://www.physicsformulae.com/#/formula/" + $scope.formula.Reference;
-        webpage.dateAccessed.value = $scope.getTodaysDate();
+        misc.citationKey = "PhysicsFormulae_" + $scope.formula.Reference;
+        misc.title.value = $scope.formula.Title;
+        misc.howPublished.value = "\\url{" + "http://www.physicsformulae.com/#/formula/" + $scope.formula.Reference + "}"
+        misc.note.value = $scope.formula.Title + " (Physics Formulae), edited by B. T. Milnes, accessed on " +  $scope.getTodaysDate();
 
-        database.entries.push(webpage);
+        database.entries.push(misc);
 
         var exporter = new BibTeXExporter();
 
