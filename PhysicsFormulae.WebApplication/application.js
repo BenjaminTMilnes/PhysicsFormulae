@@ -232,7 +232,7 @@ application.controller("FormulaController", ["$scope", "$routeParams", "dataServ
         misc.citationKey = "PhysicsFormulae_" + $scope.formula.Reference;
         misc.title.value = $scope.formula.Title;
         misc.howPublished.value = "\\url{" + "http://www.physicsformulae.com/#/formula/" + $scope.formula.Reference + "}"
-        misc.note.value = $scope.formula.Title + " (Physics Formulae), edited by B. T. Milnes, accessed on " +  $scope.getTodaysDate();
+        misc.note.value = $scope.formula.Title + " (Physics Formulae), edited by B. T. Milnes, accessed on " + $scope.getTodaysDate();
 
         database.entries.push(misc);
 
@@ -241,6 +241,30 @@ application.controller("FormulaController", ["$scope", "$routeParams", "dataServ
         bibtex = exporter.convertBibTeXDatabaseToText(database).trim();
 
         return bibtex;
+    }
+
+    $scope.getBibLaTeXForThisWebpage = function () {
+        if (!$scope.formula) {
+            return "";
+        }
+
+        var biblatex = "";
+        var database = new BibTeXDatabase();
+        var online = new BibLaTeXOnline();
+
+        online.citationKey = "PhysicsFormulae_" + $scope.formula.Reference;
+        online.title.value = $scope.formula.Title + " (Physics Formulae)";
+        online.author.value = "B. T. Milnes";
+        online.url.value = "http://www.physicsformulae.com/#/formula/" + $scope.formula.Reference;
+        online.urlDate.value = $scope.getTodaysDate();
+
+        database.entries.push(online);
+
+        var exporter = new BibTeXExporter();
+
+        biblatex = exporter.convertBibTeXDatabaseToText(database).trim();
+
+        return biblatex;
     }
 
     $scope.getTodaysDate = function () {
