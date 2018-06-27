@@ -423,6 +423,35 @@ a {
     }
 }
 
+.formula-variants {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.paddingbox {
+    padding: 7px;
+    box-sizing: border-box;
+    flex-basis: 33%;
+}
+
+.variant {
+    background-color: #F4F4F4;
+    padding: 27px;
+    border-radius: 1px;
+}
+
+.variant-title {
+    text-align: center;
+}
+
+.variant-content {
+    text-align: center;
+    margin: 27px 0px;
+    font-size: 1.2em;
+}
+
 .attribute {
     display: flex;
     flex-direction: column;

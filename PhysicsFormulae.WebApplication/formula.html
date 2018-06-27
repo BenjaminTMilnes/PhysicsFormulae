@@ -30,11 +30,13 @@
         <span class="tag" ng-repeat="tag in formula.Tags"><a href="#/tag/{{tag}}" title="Search for other formulae with the tag '{{tag}}'.">{{tag}}</a> </span>
     </div>
     <div class="formula-variants">
-        <div class="variant" ng-repeat="variant in formula.Variants">
-            <h4>{{variant.Title}}</h4>
-            <div class="variant-content" compile="getVariant(variant.Content)">
+        <div class="paddingbox" ng-repeat="variant in formula.Variants">
+            <div class="variant">
+                <h4 class="variant-title">{{variant.Title}}</h4>
+                <div class="variant-content" compile="getVariant(variant.Content)">
+                </div>
+                <p class="variant-interpretation">{{variant.Interpretation}}</p>
             </div>
-            <p>{{variant.Interpretation}}</p>
         </div>
     </div>
     <div class="formula-latex">
