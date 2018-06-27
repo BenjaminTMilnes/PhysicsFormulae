@@ -1,0 +1,36 @@
+﻿DefinitionOfKineticEnergy
+
+The Definition of Kinetic Energy
+
+The kinetic energy of an object moving at non-relativistic speeds is proportional to the mass of the object and its speed squared.
+
+K = \frac{1}{2} m v^{2}
+
+where:
+
+K [var. scal. KineticEnergy] is the kinetic energy of the object
+m [var. scal. Mass] is the mass of the object
+v [var. scal. Speed] is the speed / the magnitude of the velocity of the object
+
+
+variants:
+
+In terms of momentum
+
+K = \frac{p^{2}}{2m}
+
+
+fields:
+
+Classical Mechanics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+tags:
