@@ -1,0 +1,53 @@
+﻿DefinitionOfWorkDone
+
+The Definition of Work Done by a Force
+
+The work done by a force on an object is the integral of that force over the distance travelled.
+
+W = \int \textbf{F} \cdot \mathrm{d} \textbf{x}
+
+where:
+
+W [var. scal. WorkDone] is the work done by the force
+\textbf{F} [var. vec. Force] is the force applied to the object
+\mathrm{d} \textbf{x} [vec.] is an infinitesimal distance along the path that the object moved
+
+variants:
+
+Where the force is parallel to the direction of motion
+
+W = \int F \mathrm{d} x
+
+If the force is always parallel to the direction of motion, the vector dot product notation can be dropped.
+
+---
+
+Where the force is constant
+
+W = Fx
+
+If the force is constant, and always parallel to the direction of motion, the integral just becomes an integral over the length.
+
+---
+
+Where the force is at a constant angle
+
+W = F \cos(\theta) x
+
+If the force is constant, and always at an angle $\theta$ to the direction of motion, the integral just becomes the magnitude of the force multiplied by cosine of $\theta$.
+
+
+fields:
+
+Classical Mechanics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+tags:
