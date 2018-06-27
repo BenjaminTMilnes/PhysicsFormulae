@@ -61,7 +61,7 @@ namespace PhysicsFormulae.Compiler
 
                 if (line == "fields:")
                 {
-                    if (variant.Content != "")
+                    if (variant.Title != "" && variant.Content != "")
                     {
                         formula.Variants.Add(variant);
                     }
@@ -103,7 +103,10 @@ namespace PhysicsFormulae.Compiler
                 {
                     if (line == "---")
                     {
-                        formula.Variants.Add(variant);
+                        if (variant.Title != "" && variant.Content != "")
+                        {
+                            formula.Variants.Add(variant);
+                        }
 
                         variant = new Variant();
 
