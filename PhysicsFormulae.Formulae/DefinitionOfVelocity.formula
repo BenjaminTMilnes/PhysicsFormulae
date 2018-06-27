@@ -4,13 +4,39 @@ The Definition of Velocity
 
 The velocity of an object is the rate of change in that object's position with respect to time.
 
-\textbf{v}(t) = \frac{\mathrm{d} \textbf{s}(t)}{\mathrm{d} t}
+\textbf{v} = \frac{\mathrm{d} \textbf{s}(t)}{\mathrm{d} t}
 
 where:
 
-\textbf{v}(t) [var. vec. Velocity] is the velocity of the object as a function of time
+\textbf{v} [var. vec. Velocity] is the velocity of the object
 \textbf{s}(t) [var. vec. Position] is the position of the object as a function of time
 t [var. Time] is time
+
+variants:
+
+Simplified Vector Form
+
+\textbf{v} = \frac{\mathrm{d} \textbf{s}}{\mathrm{d} t}
+
+The parameters of the function are often just implied.
+
+---
+
+Motion in One Dimension
+
+v = \frac{\mathrm{d} s}{\mathrm{d} t}
+
+If only motion in one dimension is being examined, the vector notation can be dropped.
+
+---
+
+Constant or Average Velocity
+
+v = \frac{\Delta s}{\Delta t} = \frac{s_{2} - s_{1}}{t_{2} - t_{1}}
+
+If the velocity is constant over the period of time being examined, the velocity can be expressed as just the difference between the final and initial position divided by the time period.
+
+
 
 fields:
 
