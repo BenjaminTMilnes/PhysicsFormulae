@@ -43,8 +43,8 @@ p {
     text-align: left;
 }
 
-code{
-    display:block;
+code {
+    display: block;
 }
 
 @media (min-width:400px) {
@@ -427,33 +427,71 @@ a {
     }
 }
 
-.formula-variants {
+.cards {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: stretch;
     flex-wrap: wrap;
 }
 
-.paddingbox {
+.card {
     padding: 7px;
     box-sizing: border-box;
-    flex-basis: 33%;
+    flex-basis: 100%;
+}
+
+@media (min-width:700px) {
+    .card {
+        padding: 10px;
+        flex-basis: 50%;
+    }
+}
+
+@media (min-width:1000px) {
+    .card {
+        flex-basis: 33%;
+    }
+}
+
+.formula-variants {
 }
 
 .variant {
     background-color: #F4F4F4;
-    padding: 27px;
+    padding: 20px;
     border-radius: 1px;
 }
 
-.variant-title {
+@media (min-width:400px) {
+    .variant {
+        padding: 27px;
+    }
+}
+
+h4.variant-title {
     text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+@media (min-width:400px) {
+    h4.variant-title {
+        font-size: 17px;
+    }
 }
 
 .variant-content {
     text-align: center;
     margin: 27px 0px;
     font-size: 1.2em;
+}
+
+@media (min-width:400px) {
+    .variant-content {
+        margin: 40px 0px;
+    }
 }
 
 .attribute {

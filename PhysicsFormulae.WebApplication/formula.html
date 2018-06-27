@@ -29,14 +29,16 @@
     <div class="formula-tags">
         <span class="tag" ng-repeat="tag in formula.Tags"><a href="#/tag/{{tag}}" title="Search for other formulae with the tag '{{tag}}'.">{{tag}}</a> </span>
     </div>
-    <h3 ng-show="formula.Variants.length > 0">Variants</h3>
-    <div class="formula-variants">
-        <div class="paddingbox" ng-repeat="variant in formula.Variants">
-            <div class="variant">
-                <h4 class="variant-title">{{variant.Title}}</h4>
-                <div class="variant-content" compile="getVariant(variant.Content)">
+    <div class="formula-variants" ng-show="formula.Variants != null && formula.Variants.length > 0">
+        <h3>Variants</h3>
+        <div class="cards">
+            <div class="card" ng-repeat="variant in formula.Variants">
+                <div class="variant">
+                    <h4 class="variant-title">{{variant.Title}}</h4>
+                    <div class="variant-content" compile="getVariant(variant.Content)">
+                    </div>
+                    <p class="variant-interpretation">{{variant.Interpretation}}</p>
                 </div>
-                <p class="variant-interpretation">{{variant.Interpretation}}</p>
             </div>
         </div>
     </div>
