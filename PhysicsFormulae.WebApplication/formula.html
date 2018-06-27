@@ -29,6 +29,7 @@
     <div class="formula-tags">
         <span class="tag" ng-repeat="tag in formula.Tags"><a href="#/tag/{{tag}}" title="Search for other formulae with the tag '{{tag}}'.">{{tag}}</a> </span>
     </div>
+    <h3 ng-show="formula.Variants.length > 0">Variants</h3>
     <div class="formula-variants">
         <div class="paddingbox" ng-repeat="variant in formula.Variants">
             <div class="variant">
@@ -42,10 +43,10 @@
     <div class="formula-latex">
         <h4>LaTeX</h4>
         <p>Just the mathematics:</p>
-        <div id="formula-latex-copyfrom" class="formula-latex-content">{{formula.Content}}</div>
+        <code id="formula-latex-copyfrom" class="formula-latex-content">{{formula.Content}}</code>
         <button class="copybutton" data-clipboard-target="#formula-latex-copyfrom">Copy</button>
         <p>Including the 'where' statement:</p>
-        <div id="formula-latex-withwhere-copyfrom" class="formula-latex-content">{{getLaTeXForEntireFormula()}}</div>
+        <code id="formula-latex-withwhere-copyfrom" class="formula-latex-content">{{getLaTeXForEntireFormula()}}</code>
         <button class="copybutton" data-clipboard-target="#formula-latex-withwhere-copyfrom">Copy</button>
     </div>
     <div class="formula-references">
@@ -66,16 +67,16 @@
         <div class="formula-bibtex">
             <h4>BibTeX</h4>
             <p>For this webpage:</p>
-            <div id="formula-bibtex-thiswebpage" class="formula-bibtex-content">{{getBibTeXForThisWebpage()}}</div>
+            <code id="formula-bibtex-thiswebpage" class="formula-bibtex-content">{{getBibTeXForThisWebpage()}}</code>
             <button class="copybutton" data-clipboard-target="#formula-bibtex-thiswebpage">Copy</button>
             <div ng-show="getNumberOfGoodReferences() > 0">
                 <p>For the sources that this webpage references:</p>
-                <div id="formula-bibtex-originalsources" class="formula-bibtex-content">{{getBibTeXForOriginalReferences()}}</div>
+                <code id="formula-bibtex-originalsources" class="formula-bibtex-content">{{getBibTeXForOriginalReferences()}}</code>
                 <button class="copybutton" data-clipboard-target="#formula-bibtex-originalsources">Copy</button>
             </div>
             <h4>BibLaTeX</h4>
             <p>For this webpage:</p>
-            <div id="formula-biblatex-thiswebpage" class="formula-bibtex-content">{{getBibLaTeXForThisWebpage()}}</div>
+            <code id="formula-biblatex-thiswebpage" class="formula-bibtex-content">{{getBibLaTeXForThisWebpage()}}</code>
             <button class="copybutton" data-clipboard-target="#formula-biblatex-thiswebpage">Copy</button>
         </div>
     </div>

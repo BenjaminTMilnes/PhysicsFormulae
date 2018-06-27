@@ -43,6 +43,10 @@ p {
     text-align: left;
 }
 
+code{
+    display:block;
+}
+
 @media (min-width:400px) {
     h1 {
         font-size: 22px;

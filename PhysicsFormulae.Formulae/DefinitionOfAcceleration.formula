@@ -4,11 +4,11 @@ The Definition of Acceleration
 
 The acceleration of an object is the rate of change in that object's velocity with respect to time.
 
-\textbf{a}(t) = \frac{\mathrm{d} \textbf{v}(t)}{\mathrm{d} t}
+\textbf{a} = \frac{\mathrm{d} \textbf{v}(t)}{\mathrm{d} t}
 
 where:
 
-\textbf{a}(t) [var. vec. Acceleration] is the acceleration of the object as a function of time
+\textbf{a} [var. vec. Acceleration] is the acceleration of the object
 \textbf{v}(t) [var. vec. Velocity] is the velocity of the object as a function of time
 t [var. Time] is time
 
@@ -17,6 +17,8 @@ variants:
 Simplified Vector Form
 
 \textbf{a} = \frac{\mathrm{d} \textbf{v}}{\mathrm{d} t}
+
+The function parameters for velocity are just implied.
 
 ---
 
