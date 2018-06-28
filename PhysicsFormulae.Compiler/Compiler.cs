@@ -334,6 +334,10 @@ namespace PhysicsFormulae.Compiler
                 {
                     seeMoreLink.Name = "Hyperphysics";
                 }
+                if (seeMoreLink.URL.Contains("physics.info"))
+                {
+                    seeMoreLink.Name = "The Physics Hypertextbook";
+                }
 
                 return seeMoreLink;
             }
