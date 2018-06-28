@@ -261,18 +261,23 @@ namespace PhysicsFormulae.Compiler
             return lines.Select(l => l.Trim()).Where(l => l != "").ToArray();
         }
 
+        protected string _identifierPattern = @"^([^\[]+)\s*\[\s*(var\.|const\.)\s*(scal\.|vec\.|matr\.|tens|.)?\s*([A-Za-z0-9_]+)?\s*\](.+)$";
+        protected string _seeMoreLinkPattern = @"^(.+)\s+((http|https)://(.+))$";
+        protected string _urlPattern = @"^(https?://[^\s]+)$";
+        protected string _webpageReferencePattern = @"^webpage:\s*""([^""]+)""\s*,\s*([^,]+)\s*,\s*((http|https):\/\/[^\s]+)\s+\((\d{4}-\d{2}-\d{2})\)\s*$";
+        protected string _bookCitationPattern = @"^book:\s*([A-Za-z0-9_]+)$";
+        protected string _bookReferencePattern = @"^book:\s*""([^""]+)""\s*,\s*([^,]+)\s*\((\d{1,3})\. Edition\)\s*\(([^\)]+)\)\s*ISBN\s+([0-9\-]+)\s*$";
+
         private bool IsLineIdentifierLine(string line)
         {
-            var isMatch = Regex.IsMatch(line, @"^([^\[]+)\s*\[\s*(var\.|const\.)\s*(scal\.|vec\.|matr\.|tens|.)?\s*([A-Za-z0-9_]+)?\s*\](.+)$");
-
-            return isMatch;
+            return Regex.IsMatch(line, _identifierPattern);
         }
 
         private Identifier GetIdentifier(string line)
         {
             var identifier = new Identifier();
 
-            var match = Regex.Match(line, @"^([^\[]+)\s*\[\s*(var\.|const\.)\s*(scal\.|vec\.|matr\.|tens|.)?\s*([A-Za-z0-9_]+)?\s*\](.+)$");
+            var match = Regex.Match(line, _identifierPattern);
 
             identifier.Content = match.Groups[1].Value.Trim();
 
@@ -310,16 +315,30 @@ namespace PhysicsFormulae.Compiler
 
         private bool IsSeeMoreLinkLine(string line)
         {
-            var isMatch = Regex.IsMatch(line, @"^(.+)\s+((http|https)://(.+))$");
-
-            return isMatch;
+            return (Regex.IsMatch(line, _seeMoreLinkPattern) || Regex.IsMatch(line, _urlPattern));
         }
 
         private SeeMoreLink GetSeeMoreLink(string line)
         {
             var seeMoreLink = new SeeMoreLink();
 
-            var match = Regex.Match(line, @"^(.+)\s+((http|https)://(.+))$");
+            if (Regex.IsMatch(line, _urlPattern))
+            {
+                seeMoreLink.URL = line.Trim();
+
+                if (seeMoreLink.URL.Contains("en.wikipedia.org"))
+                {
+                    seeMoreLink.Name = "Wikipedia";
+                }
+                if (seeMoreLink.URL.Contains("hyperphysics.phy-astr.gsu.edu"))
+                {
+                    seeMoreLink.Name = "Hyperphysics";
+                }
+
+                return seeMoreLink;
+            }
+
+            var match = Regex.Match(line, _seeMoreLinkPattern);
 
             seeMoreLink.Name = match.Groups[1].Value.Trim();
             seeMoreLink.URL = match.Groups[2].Value.Trim();
@@ -329,16 +348,14 @@ namespace PhysicsFormulae.Compiler
 
         private bool IsLineWebpageReferenceLine(string line)
         {
-            var isMatch = Regex.IsMatch(line, @"^webpage:\s*""([^""]+)""\s*,\s*([^,]+)\s*,\s*((http|https):\/\/[^\s]+)\s+\((\d{4}-\d{2}-\d{2})\)\s*$");
-
-            return isMatch;
+            return Regex.IsMatch(line, _webpageReferencePattern);
         }
 
         private Webpage GetWebpageReference(string line)
         {
             var webpage = new Webpage();
 
-            var match = Regex.Match(line, @"^webpage:\s*""([^""]+)""\s*,\s*([^,]+)\s*,\s*((http|https):\/\/[^\s]+)\s+\((\d{4}-\d{2}-\d{2})\)\s*$");
+            var match = Regex.Match(line, _webpageReferencePattern);
 
             webpage.Title = match.Groups[1].Value.Trim();
             webpage.WebsiteTitle = match.Groups[2].Value.Trim();
@@ -347,18 +364,28 @@ namespace PhysicsFormulae.Compiler
             return webpage;
         }
 
+        private bool IsLineBookCitationLine(string line)
+        {
+            return Regex.IsMatch(line, _bookCitationPattern);
+        }
+
+        private string GetBookCitation(string line)
+        {
+            var match = Regex.Match(line, _bookCitationPattern);
+
+            return match.Groups[1].Value.Trim();
+        }
+
         private bool IsLineBookReferenceLine(string line)
         {
-            var isMatch = Regex.IsMatch(line, @"^book:\s*""([^""]+)""\s*,\s*([^,]+)\s*\((\d{1,3})\. Edition\)\s*\(([^\)]+)\)\s*ISBN\s+([0-9\-]+)\s*$");
-
-            return isMatch;
+            return Regex.IsMatch(line, _bookReferencePattern);
         }
 
         private Book GetBookReference(string line)
         {
             var book = new Book();
 
-            var match = Regex.Match(line, @"^book:\s*""([^""]+)""\s*,\s*([^,]+)\s*\((\d{1,3})\. Edition\)\s*\(([^\)]+)\)\s*ISBN\s+([0-9\-]+)\s*$");
+            var match = Regex.Match(line, _bookReferencePattern);
 
             book.Title = match.Groups[1].Value.Trim();
             book.Authors = match.Groups[2].Value.Split(new string[] { "and" }, StringSplitOptions.RemoveEmptyEntries).Select(s => s.Trim()).ToArray();
