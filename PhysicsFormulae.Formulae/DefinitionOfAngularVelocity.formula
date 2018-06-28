@@ -1,0 +1,30 @@
+﻿DefinitionOfAngularVelocity
+
+The Definition of Angular Velocity
+
+Angular velocity is the rate of change of angular position with respect to time.
+
+\bar{\omega} = \frac{\mathrm{d} \bar{\theta}}{\mathrm{d} t}
+
+where:
+
+\bar{\omega} [var. vec. AngularVelocity] is the angular velocity
+\bar{\theta} [var. vec. AngularPosition] is the angular position
+t [var. Time] is time
+
+variants:
+
+fields:
+
+Classical Mechanics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+tags:
