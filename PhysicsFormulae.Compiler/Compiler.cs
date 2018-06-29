@@ -136,6 +136,11 @@ namespace PhysicsFormulae.Compiler
                 }
                 if (line == "references:")
                 {
+                    if (value.Coefficient != "" && value.Exponent != "")
+                    {
+                        constant.Values.Add(value);
+                    }
+
                     constantSection = ConstantSection.References;
                     continue;
                 }
@@ -172,12 +177,12 @@ namespace PhysicsFormulae.Compiler
                     }
                     else if (valueLine == 2)
                     {
-                        value.Coefficient = line;
+                        value.Exponent = line;
                         valueLine++;
                     }
                     else if (valueLine == 3)
                     {
-                        value.Coefficient = line;
+                        value.Units = line;
                         valueLine++;
                     }
                 }

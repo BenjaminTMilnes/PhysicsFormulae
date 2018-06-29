@@ -148,9 +148,41 @@ application.controller("ConstantController", ["$scope", "$routeParams", "dataSer
 
             if (constant.Reference == $routeParams.reference) {
                 $scope.constant = constant;
+
+                $scope.getValues();
             }
         }
     });
+
+    $scope.getSymbolContent = function () {
+        if (!$scope.constant) {
+            return "";
+        }
+
+        return "<katex latex=\"\\displaystyle " + $scope.constant.Symbol + "\"></katex>";
+    }
+
+    $scope.getValues = function () {
+        if (!$scope.constant) {
+            return [];
+        }
+
+        var constant = $scope.constant;
+        var listedValues = [];
+
+        for (var i = 0; i < constant.Values.length; i++) {
+            var value = constant.Values[i];
+
+            var number = value.Coefficient + " &times; 10<sup>" + value.Exponent + "</sup>";
+            var units = value.Units;
+            var numberAndUnits = number + units;
+
+            listedValues.push({ "type": "Precise Value", "number": number, "units": units, "numberAndUnits": numberAndUnits });
+        }
+
+        console.log(constant.Values);
+        $scope.listedValues = listedValues;
+    }
 
 }]);
 
