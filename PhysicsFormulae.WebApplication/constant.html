@@ -8,8 +8,8 @@
                 <td compile="value.number" style="text-align: right;"></td>
                 <td compile="convertLaTeXToHTML(value.units)"></td>
                 <td>
-                    <button class="copybutton" data-clipboard-text="{{numberAndUnits}}">Copy LaTeX</button>
-                    <button class="copybutton">Copy MathML</button>
+                    <button class="copybutton" data-clipboard-text="{{value.latex}}">Copy LaTeX</button>
+                    <button class="copybutton" style="display: none;">Copy MathML</button>
                 </td>
             </tr>
         </tbody>

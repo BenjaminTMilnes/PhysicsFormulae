@@ -184,18 +184,20 @@ application.controller("ConstantController", ["$scope", "$routeParams", "dataSer
 
             var number = value.Coefficient + " &times; 10<sup>" + value.Exponent + "</sup>";
             var units = value.Units;
-            var numberAndUnits = number + units;
+            var latex = value.Coefficient + " \\times 10^{" + value.Exponent + "} \\,\\mathrm{" + value.Units + "}";
 
-            listedValues.push({ "type": "Precise Value", "number": number, "units": units, "numberAndUnits": numberAndUnits });
+            listedValues.push({ "type": "Precise Value", "number": number, "units": units, "latex": latex });
 
             var numberTo3SF = Number.parseFloat(value.Coefficient).toPrecision(3) + " &times; 10<sup>" + value.Exponent + "</sup>";
-            var numberTo3SFAndUnits = numberTo3SF + units;
+            var latexTo3SF = Number.parseFloat(value.Coefficient).toPrecision(3) + " \\times 10^{" + value.Exponent + "} \\,\\mathrm{" + value.Units + "}";
 
-            listedValues.push({ "type": "To 3 s.f.", "number": numberTo3SF, "units": units, "numberAndUnits": numberTo3SFAndUnits });
+            listedValues.push({ "type": "To 3 s.f.", "number": numberTo3SF, "units": units, "latex": latexTo3SF });
         }
 
         $scope.listedValues = listedValues;
     }
+
+    $scope.getAuthorsString = getAuthorsString;
 
     $scope.convertLaTeXToHTML = convertLaTeXToHTML;
 
@@ -341,89 +343,101 @@ application.controller("FormulaController", ["$scope", "$routeParams", "dataServ
         return biblatex;
     }
 
-    $scope.getTodaysDate = function () {
-        var today = new Date();
-
-        var day = today.getDate();
-        var month = today.getMonth() + 1;
-        var year = today.getFullYear();
-
-        if (day < 10) {
-            day = "0" + day;
-        }
-
-        if (month < 10) {
-            month = "0" + month;
-        }
-
-        var todaysDate = year + "/" + month + "/" + day;
-
-        return todaysDate;
-    }
+    $scope.getTodaysDate = getTodaysDate;
 
     $scope.getBibTeXForOriginalReferences = function () {
         if (!$scope.formula) {
             return "";
         }
 
-        var bibtex = "";
-
-        var database = new BibTeXDatabase();
-
-        for (var i = 0; i < $scope.formula.References.length; i++) {
-            var reference = $scope.formula.References[i];
-
-            if (reference.Type == "Book") {
-                var book = new BibTeXBook();
-                book.citationKey = $scope.getCitationKeyForReference(reference);
-                book.title.value = reference.Title;
-                book.author.value = $scope.getAuthorsString(reference.Authors);
-                book.publisher.value = reference.Publisher;
-
-                database.entries.push(book);
-            }
-        }
-
-        var exporter = new BibTeXExporter();
-
-        bibtex = exporter.convertBibTeXDatabaseToText(database).trim();
-
-        return bibtex;
-
+        return getBibTeXForOriginalReferences($scope.formula.References);
     }
 
-    $scope.getCitationKeyForReference = function (reference) {
-
-        var citationKey = "";
-
-        citationKey = reference.Authors[0];
-        citationKey = citationKey.replace(/[\s\.]/g, "");
-
-        return citationKey;
-    }
-
-    $scope.getAuthorsString = function (authors) {
-
-        var authorsString = "";
-
-        for (var i = 0; i < authors.length; i++) {
-            if (i > 0 && authors.length > 2) {
-                authorsString += ", ";
-            }
-            else if (i > 0 && authors.length == 2) {
-                authorsString += " ";
-            }
-            if (i == authors.length - 1) {
-                authorsString += "and ";
-            }
-
-            authorsString += authors[i];
-        }
-
-        return authorsString;
-
-    }
+    $scope.getCitationKeyForReference = getCitationKeyForReference;
+    $scope.getAuthorsString = getAuthorsString;
 
     new ClipboardJS(".copybutton");
 
 }]);
+
+
+function getTodaysDate() {
+    var today = new Date();
+
+    var day = today.getDate();
+    var month = today.getMonth() + 1;
+    var year = today.getFullYear();
+
+    if (day < 10) {
+        day = "0" + day;
+    }
+
+    if (month < 10) {
+        month = "0" + month;
+    }
+
+    var todaysDate = year + "/" + month + "/" + day;
+
+    return todaysDate;
+}
+
+
+function getBibTeXForOriginalReferences(references) {
+
+    var bibtex = "";
+
+    var database = new BibTeXDatabase();
+
+    for (var i = 0; i < references.length; i++) {
+        var reference = references[i];
+
+        if (reference.Type == "Book") {
+            var book = new BibTeXBook();
+            book.citationKey = getCitationKeyForReference(reference);
+            book.title.value = reference.Title;
+            book.author.value = getAuthorsString(reference.Authors);
+            book.publisher.value = reference.Publisher;
+
+            database.entries.push(book);
+        }
+    }
+
+    var exporter = new BibTeXExporter();
+
+    bibtex = exporter.convertBibTeXDatabaseToText(database).trim();
+
+    return bibtex;
+
+}
+
+function getCitationKeyForReference(reference) {
+
+    var citationKey = "";
+
+    citationKey = reference.Authors[0];
+    citationKey = citationKey.replace(/[\s\.]/g, "");
+
+    return citationKey;
+}
+
+function getAuthorsString(authors) {
+
+    var authorsString = "";
+
+    for (var i = 0; i < authors.length; i++) {
+        if (i > 0 && authors.length > 2) {
+            authorsString += ", ";
+        }
+        else if (i > 0 && authors.length == 2) {
+            authorsString += " ";
+        }
+        if (i == authors.length - 1) {
+            authorsString += "and ";
+        }
+
+        authorsString += authors[i];
+    }
+
+    return authorsString;
+
+}
