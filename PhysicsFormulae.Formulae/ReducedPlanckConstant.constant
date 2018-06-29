@@ -1,0 +1,32 @@
+﻿ReducedPlanckConstant
+
+The Reduced Planck Constant (the Dirac Constant)
+
+The Reduced Planck Constant is equal to the Planck Constant divided by $2 \pi$, which is a more convenient value to use in many equations.
+
+universal
+
+\hbar
+
+values:
+
+1.054571800
+-34	
+J s
+
+---
+
+6.582119514
+-16	
+eV s
+
+references:
+
+webpage:"Planck constant", Wikipedia, https://en.wikipedia.org/wiki/Planck_constant (2018-06-29)
+
+see more:
+
+https://en.wikipedia.org/wiki/Planck_constant
+
+tags:
+
