@@ -145,6 +145,10 @@ function convertLaTeXToHTML(latex) {
     return latex;
 }
 
+function changeHyphensToMinusSigns(html) {
+    return html.replace(/\-/g, "&minus;");
+}
+
 application.controller("ConstantController", ["$scope", "$routeParams", "dataService", function ConstantController($scope, $routeParams, dataService) {
 
     $scope.constants = null;
@@ -182,13 +186,13 @@ application.controller("ConstantController", ["$scope", "$routeParams", "dataSer
         for (var i = 0; i < constant.Values.length; i++) {
             var value = constant.Values[i];
 
-            var number = value.Coefficient + " &times; 10<sup>" + value.Exponent + "</sup>";
+            var number = value.Coefficient + " &times; 10<sup>" + changeHyphensToMinusSigns(value.Exponent) + "</sup>";
             var units = value.Units;
             var latex = value.Coefficient + " \\times 10^{" + value.Exponent + "} \\,\\mathrm{" + value.Units + "}";
 
             listedValues.push({ "type": "Precise Value", "number": number, "units": units, "latex": latex });
 
-            var numberTo3SF = Number.parseFloat(value.Coefficient).toPrecision(3) + " &times; 10<sup>" + value.Exponent + "</sup>";
+            var numberTo3SF = Number.parseFloat(value.Coefficient).toPrecision(3) + " &times; 10<sup>" + changeHyphensToMinusSigns(value.Exponent) + "</sup>";
             var latexTo3SF = Number.parseFloat(value.Coefficient).toPrecision(3) + " \\times 10^{" + value.Exponent + "} \\,\\mathrm{" + value.Units + "}";
 
             listedValues.push({ "type": "To 3 s.f.", "number": numberTo3SF, "units": units, "latex": latexTo3SF });
@@ -197,9 +201,58 @@ application.controller("ConstantController", ["$scope", "$routeParams", "dataSer
         $scope.listedValues = listedValues;
     }
 
+    $scope.getBibTeXForThisWebpage = function () {
+        if (!$scope.constant) {
+            return "";
+        }
+
+        var bibtex = "";
+        var database = new BibTeXDatabase();
+        var misc = new BibTeXMiscellaneous();
+
+        misc.citationKey = "PhysicsFormulae_" + $scope.constant.Reference;
+        misc.title.value = $scope.constant.Title;
+        misc.howPublished.value = "\\url{" + "http://www.physicsformulae.com/#/constant/" + $scope.constant.Reference + "}"
+        misc.note.value = $scope.constant.Title + " (Physics Formulae), edited by B. T. Milnes, accessed on " + $scope.getTodaysDate();
+
+        database.entries.push(misc);
+
+        var exporter = new BibTeXExporter();
+
+        bibtex = exporter.convertBibTeXDatabaseToText(database).trim();
+
+        return bibtex;
+    }
+
+    $scope.getBibLaTeXForThisWebpage = function () {
+        if (!$scope.constant) {
+            return "";
+        }
+
+        var biblatex = "";
+        var database = new BibTeXDatabase();
+        var online = new BibLaTeXOnline();
+
+        online.citationKey = "PhysicsFormulae_" + $scope.constant.Reference;
+        online.title.value = $scope.constant.Title + " (Physics Formulae)";
+        online.author.value = "B. T. Milnes";
+        online.url.value = "http://www.physicsformulae.com/#/constant/" + $scope.constant.Reference;
+        online.urlDate.value = $scope.getTodaysDate();
+
+        database.entries.push(online);
+
+        var exporter = new BibTeXExporter();
+
+        biblatex = exporter.convertBibTeXDatabaseToText(database).trim();
+
+        return biblatex;
+    }
+
+    $scope.getTodaysDate = getTodaysDate;
     $scope.getAuthorsString = getAuthorsString;
 
     $scope.convertLaTeXToHTML = convertLaTeXToHTML;
+    $scope.changeHyphensToMinusSigns = changeHyphensToMinusSigns;
 
     new ClipboardJS(".copybutton");
 

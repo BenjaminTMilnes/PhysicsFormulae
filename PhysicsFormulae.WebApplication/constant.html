@@ -6,8 +6,8 @@
             <tr ng-repeat="value in listedValues">
                 <td style="text-align: right; text-transform: lowercase;">{{value.type}}:</td>
                 <td compile="value.number" style="text-align: right;"></td>
-                <td compile="convertLaTeXToHTML(value.units)"></td>
-                <td>
+                <td compile="changeHyphensToMinusSigns(convertLaTeXToHTML(value.units))"></td>
+                <td class="constant-values-copybuttons">
                     <button class="copybutton" data-clipboard-text="{{value.latex}}">Copy LaTeX</button>
                     <button class="copybutton" style="display: none;">Copy MathML</button>
                 </td>

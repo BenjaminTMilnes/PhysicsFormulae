@@ -299,6 +299,7 @@ a {
     max-width: 900px;
     border-collapse: separate;
     border-spacing: 10px;
+    font-weight: normal;
 }
 
 .formula-identifiers table td {
@@ -307,6 +308,10 @@ a {
 
 .constant-values td {
     padding: 0px;
+}
+
+.constant-values-copybuttons {
+    display: none;
 }
 
 @media (min-width:400px) {
@@ -335,6 +340,10 @@ a {
 
     .constant-values td {
         padding: 0px 14px;
+    }
+
+    .constant-values-copybuttons {
+        display: table-cell;
     }
 }
 
