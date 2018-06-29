@@ -97,14 +97,26 @@ a {
     }
 }
 
-.search-formula {
+.search-results {
+    display: flex;
+    flex-direction: row;
+}
+
+.search-results-leftcolumn {
+    flex-basis: 75%;
+}
+
+.search-results-rightcolumn {
+    flex-basis: 25%;
+}
+
+.search-formula, .search-constant {
     margin: 40px 0px;
-    max-width: 700px;
 }
 
 @media (min-width:400px) {
 
-    .search-formula {
+    .search-formula, .search-constant {
         margin: 70px 0px;
     }
 }
@@ -116,34 +128,34 @@ a {
     }
 }
 
-.search-formula-title {
+.search-formula-title, .search-constant-title {
     font-size: 17px;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
 
-    .search-formula-title a {
+    .search-formula-title a, .search-constant-title a {
         color: inherit;
         text-decoration: inherit;
     }
 
-        .search-formula-title a:hover {
+        .search-formula-title a:hover, .search-constant-title a:hover {
             color: #105ecc;
             text-decoration: inherit;
         }
 
-.search-formula-content {
+.search-formula-content, .search-constant-symbol {
     font-size: 22px;
     margin: 22px 0px;
     text-align: center;
 }
 
 @media (min-width:400px) {
-    .search-formula-title {
+    .search-formula-title, .search-constant-title {
         font-size: 22px;
     }
 
-    .search-formula-content {
+    .search-formula-content, .search-constant-content {
         font-size: 42px;
         margin: 42px 0px;
     }
@@ -156,17 +168,17 @@ a {
     }
 }
 
-.search-formula-content a {
+.search-formula-content a, .search-constant-content a {
     color: #202020;
     text-decoration: none;
 }
 
-    .search-formula-content a:hover {
+    .search-formula-content a:hover, .search-constant-content a:hover {
         color: #105ecc;
         text-decoration: none;
     }
 
-.search-formula p {
+.search-formula p, .search-constant p {
     font-size: 14px;
     margin: 14px 0px;
 }
