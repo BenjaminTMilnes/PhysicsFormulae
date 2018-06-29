@@ -6,6 +6,12 @@ using Newtonsoft.Json;
 
 namespace PhysicsFormulae.TerminalApplication
 {
+    public class Model
+    {
+        public IEnumerable<Formula> Formulae { get; set; }
+        public IEnumerable<Constant> Constants { get; set; }
+    }
+
     public class Program
     {
         static void Main(string[] args)
@@ -48,6 +54,11 @@ namespace PhysicsFormulae.TerminalApplication
                 Console.WriteLine(reference.CitationKey);
             }
 
+            var model = new Model();
+
+            model.Formulae = formulae;
+            model.Constants = constants;
+
             var outputLocations = new List<string>() { @"..\..\..\PhysicsFormulae.Formulae\Compiled.json", @"..\..\..\PhysicsFormulae.WebApplication\formulae.json" };
 
             var serializer = new JsonSerializer();
@@ -57,7 +68,7 @@ namespace PhysicsFormulae.TerminalApplication
                 using (var streamWriter = new StreamWriter(outputLocation))
                 using (var jsonTextWriter = new JsonTextWriter(streamWriter))
                 {
-                    serializer.Serialize(jsonTextWriter, formulae);
+                    serializer.Serialize(jsonTextWriter, model);
                 }
             }
 

@@ -18,7 +18,8 @@ application.config(function ($routeProvider) {
         .when("/", { templateUrl: "search.html", controller: "SearchController" })
         .when("/tag/:tagName", { templateUrl: "search.html", controller: "SearchController" })
         .when("/field/:fieldName", { templateUrl: "search.html", controller: "SearchController" })
-        .when("/formula/:reference", { templateUrl: "formula.html", controller: "FormulaController" });
+        .when("/formula/:reference", { templateUrl: "formula.html", controller: "FormulaController" })
+        .when("/constant/:reference", { templateUrl: "constant.html", controller: "ConstantController" });
 });
 
 application.directive("katex", function () {
@@ -118,7 +119,8 @@ application.controller("SearchController", ["$scope", "$routeParams", "dataServi
     $scope.numberOfFormulaePerPage = 10;
 
     dataService.getData().then(function (data) {
-        $scope.formulae = data;
+        $scope.formulae = data.Formulae;
+        $scope.constants = data.Constants;
     });
 
     $scope.replaceMathematicsMarkers = function (text) {
@@ -134,12 +136,31 @@ application.controller("SearchController", ["$scope", "$routeParams", "dataServi
 
 }]);
 
+application.controller("ConstantController", ["$scope", "$routeParams", "dataService", function ConstantController($scope, $routeParams, dataService) {
+
+    $scope.constants = null;
+
+    dataService.getData().then(function (data) {
+        $scope.constants = data.Constants;
+
+        for (var i = 0; i < $scope.constants.length; i++) {
+            var constant = $scope.constants[i];
+
+            if (constant.Reference == $routeParams.reference) {
+                $scope.constant = constant;
+            }
+        }
+    });
+
+}]);
+
+
 application.controller("FormulaController", ["$scope", "$routeParams", "dataService", function FormulaController($scope, $routeParams, dataService) {
 
     $scope.formulae = null;
 
     dataService.getData().then(function (data) {
-        $scope.formulae = data;
+        $scope.formulae = data.Formulae;
 
         for (var i = 0; i < $scope.formulae.length; i++) {
             var formula = $scope.formulae[i];

@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bibtex.js" />
+    <Content Include="constant.html" />
     <Content Include="formula.html" />
     <Content Include="packages.config" />
     <Content Include="formulae.json">
