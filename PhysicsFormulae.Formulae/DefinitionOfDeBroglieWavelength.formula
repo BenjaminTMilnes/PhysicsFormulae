@@ -1,0 +1,33 @@
+﻿DefinitionOfDeBroglieWavelength
+
+The Definition of the de Broglie Wavelength
+
+The de Broglie wavelength is the wavelength associated with a massive particle, and is dependent on the particle's momentum.
+
+\lambda = \frac{h}{p}
+
+where:
+
+\lambda [var. scal. DeBroglieWavelength] is the de Broglie wavelength of the particle
+h [const. scal. PlanckConstant] is the Planck Constant
+p [var. scal. Momentum] is the momentum of the particle
+
+variants:
+
+
+fields:
+
+Quantum Mechanics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+https://en.wikipedia.org/wiki/Matter_wave
+
+tags:
