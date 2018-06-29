@@ -12,10 +12,12 @@ namespace PhysicsFormulae.TerminalApplication
         {
             var compiler = new Compiler.Compiler();
             var formulae = new List<Formula>();
+            var constants = new List<Constant>();
             var references = new List<Reference>();
 
             var directoryInfo = new DirectoryInfo(@"..\..\..\PhysicsFormulae.Formulae");
             var files = directoryInfo.GetFiles("*.formula");
+            var constantFiles = directoryInfo.GetFiles("*.constant");
             var referenceFiles = directoryInfo.GetFiles("*.reference");
 
             foreach (var file in files)
@@ -28,7 +30,16 @@ namespace PhysicsFormulae.TerminalApplication
                 Console.WriteLine(formula.Identifiers.Count);
             }
 
-            foreach(var file in referenceFiles)
+            foreach (var file in constantFiles)
+            {
+                var lines = File.ReadAllLines(file.FullName);
+                var constant = compiler.CompileConstant(lines);
+                constants.Add(constant);
+
+                Console.WriteLine(constant.Reference);
+            }
+
+            foreach (var file in referenceFiles)
             {
                 var lines = File.ReadAllLines(file.FullName);
                 var reference = compiler.CompileReference(lines);
