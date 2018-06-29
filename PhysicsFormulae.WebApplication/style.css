@@ -239,9 +239,15 @@ a {
     text-align: center;
 }
 
-.formula-content, .constant-symbol {
+.formula-content {
     font-size: 40px;
     margin: 70px 0px;
+    text-align: center;
+}
+
+.constant-symbol {
+    font-size: 40px;
+    margin: 40px 0px;
     text-align: center;
 }
 
@@ -263,9 +269,14 @@ a {
         font-size: 40px;
     }
 
-    .formula-content, .constant-symbol {
+    .formula-content {
         font-size: 70px;
         margin: 100px 0px;
+    }
+
+    .constant-symbol {
+        font-size: 70px;
+        margin: 70px 0px;
     }
 }
 
@@ -315,6 +326,7 @@ a {
     .constant-values {
         font-size: 22px;
         margin: 27px auto;
+        border-spacing: 14px;
     }
 
     .formula-identifiers table td {
@@ -322,7 +334,7 @@ a {
     }
 
     .constant-values td {
-        padding: 0px 7px;
+        padding: 0px 14px;
     }
 }
 

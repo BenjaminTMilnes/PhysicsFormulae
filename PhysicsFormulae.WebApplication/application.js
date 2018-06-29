@@ -136,6 +136,15 @@ application.controller("SearchController", ["$scope", "$routeParams", "dataServi
 
 }]);
 
+function convertLaTeXToHTML(latex) {
+    latex = latex.replace(/\^\{(\-?[0-9]+)\}/g, "<sup>$1</sup>");
+    latex = latex.replace(/\^(\-?[0-9]+)/g, "<sup>$1</sup>");
+    latex = latex.replace(/\_\{(\-?[0-9]+)\}/g, "<sub>$1</sub>");
+    latex = latex.replace(/\_(\-?[0-9]+)/g, "<sub>$1</sub>");
+
+    return latex;
+}
+
 application.controller("ConstantController", ["$scope", "$routeParams", "dataService", function ConstantController($scope, $routeParams, dataService) {
 
     $scope.constants = null;
@@ -178,11 +187,19 @@ application.controller("ConstantController", ["$scope", "$routeParams", "dataSer
             var numberAndUnits = number + units;
 
             listedValues.push({ "type": "Precise Value", "number": number, "units": units, "numberAndUnits": numberAndUnits });
+
+            var numberTo3SF = Number.parseFloat(value.Coefficient).toPrecision(3) + " &times; 10<sup>" + value.Exponent + "</sup>";
+            var numberTo3SFAndUnits = numberTo3SF + units;
+
+            listedValues.push({ "type": "To 3 s.f.", "number": numberTo3SF, "units": units, "numberAndUnits": numberTo3SFAndUnits });
         }
 
-        console.log(constant.Values);
         $scope.listedValues = listedValues;
     }
+
+    $scope.convertLaTeXToHTML = convertLaTeXToHTML;
+
+    new ClipboardJS(".copybutton");
 
 }]);
 
@@ -407,6 +424,6 @@ application.controller("FormulaController", ["$scope", "$routeParams", "dataServ
 
     }
 
-    new Clipboard(".copybutton");
+    new ClipboardJS(".copybutton");
 
 }]);

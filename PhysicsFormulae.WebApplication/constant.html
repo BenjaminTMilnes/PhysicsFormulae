@@ -4,11 +4,11 @@
     <table class="constant-values">
         <tbody>
             <tr ng-repeat="value in listedValues">
-                <td>{{value.type}}</td>
-                <td compile="value.number"></td>
-                <td compile="value.units"></td>
+                <td style="text-align: right; text-transform: lowercase;">{{value.type}}:</td>
+                <td compile="value.number" style="text-align: right;"></td>
+                <td compile="convertLaTeXToHTML(value.units)"></td>
                 <td>
-                    <button class="copybutton">Copy LaTeX</button>
+                    <button class="copybutton" data-clipboard-text="{{numberAndUnits}}">Copy LaTeX</button>
                     <button class="copybutton">Copy MathML</button>
                 </td>
             </tr>
