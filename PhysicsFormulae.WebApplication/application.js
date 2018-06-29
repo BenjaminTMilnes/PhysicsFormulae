@@ -101,6 +101,42 @@ application.filter("searchFormulae", function () {
     }
 });
 
+application.filter("searchConstants", function () {
+    return function (constants, text) {
+        if (stringIsNullOrEmpty(text)) {
+            return constants;
+        }
+        else {
+            var a = extractTags(text);
+            text = a[0];
+            var tags = a[1];
+
+            var matchingConstants = [];
+
+            for (var i = 0; i < constants.length; i++) {
+                var constant = constants[i];
+                var constantText = constant.Title + ", " + constant.Interpretation + ", " + constant.Symbol;
+                var tagsText = makeSearchableString(constant.Tags);
+
+                if (text != "") {
+                    if (stringContains(constantText.toLowerCase(), text.toLowerCase())) {
+                        matchingConstants.push(constant);
+                        continue;
+                    }
+                }
+
+                for (var j = 0; j < tags.length; j++) {
+                    if (tagsText.toLowerCase() == tags[j].toLowerCase()) {
+                        matchingConstants.push(constant);
+                    }
+                }
+            }
+
+            return matchingConstants;
+        }
+    }
+});
+
 application.factory("dataService", ["$http", function ($http) {
     var dataService = {
         getData: function () {

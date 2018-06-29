@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="search-results-rightcolumn">
-            <div class="search-constant" ng-repeat="constant in constants">
+            <div class="search-constant" ng-repeat="constant in constants | searchConstants : searchTerms | orderBy : constant.Reference">
                 <h3 class="search-constant-title"><a href="#/constant/{{constant.Reference}}" title="{{constant.Title}}">{{constant.Title}}</a></h3>
                 <div class="search-constant-symbol">
                     <a href="#/constant/{{constant.Reference}}" title="{{constant.Title}}">
