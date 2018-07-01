@@ -7,6 +7,7 @@ namespace PhysicsFormulae.Compiler
     public class Constant
     {
         public string Reference { get; set; }
+        public string URLReference { get; set; }
         public string Title { get; set; }
         public string Interpretation { get; set; }
 

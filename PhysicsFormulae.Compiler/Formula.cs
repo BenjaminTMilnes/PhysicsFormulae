@@ -5,6 +5,7 @@ namespace PhysicsFormulae.Compiler
     public class Formula
     {
         public string Reference { get; set; }
+        public string URLReference { get; set; }
         public string Title { get; set; }
         public string Interpretation { get; set; }
         public string Content { get; set; }

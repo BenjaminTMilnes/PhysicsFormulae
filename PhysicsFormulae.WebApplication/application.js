@@ -197,7 +197,7 @@ application.controller("ConstantController", ["$scope", "$routeParams", "dataSer
         for (var i = 0; i < $scope.constants.length; i++) {
             var constant = $scope.constants[i];
 
-            if (constant.Reference == $routeParams.reference) {
+            if (constant.URLReference == $routeParams.reference) {
                 $scope.constant = constant;
 
                 $rootScope.metaService.set(constant.Title + " - Physics Formulae", constant.Interpretation, constant.Tags.join(", "));
@@ -252,7 +252,7 @@ application.controller("ConstantController", ["$scope", "$routeParams", "dataSer
 
         misc.citationKey = "PhysicsFormulae_" + $scope.constant.Reference;
         misc.title.value = $scope.constant.Title;
-        misc.howPublished.value = "\\url{" + "http://www.physicsformulae.com/#/constant/" + $scope.constant.Reference + "}"
+        misc.howPublished.value = "\\url{" + "http://www.physicsformulae.com/#/constant/" + $scope.constant.URLReference + "}"
         misc.note.value = $scope.constant.Title + " (Physics Formulae), edited by B. T. Milnes, accessed on " + $scope.getTodaysDate();
 
         database.entries.push(misc);
@@ -276,7 +276,7 @@ application.controller("ConstantController", ["$scope", "$routeParams", "dataSer
         online.citationKey = "PhysicsFormulae_" + $scope.constant.Reference;
         online.title.value = $scope.constant.Title + " (Physics Formulae)";
         online.author.value = "B. T. Milnes";
-        online.url.value = "http://www.physicsformulae.com/#/constant/" + $scope.constant.Reference;
+        online.url.value = "http://www.physicsformulae.com/#/constant/" + $scope.constant.URLReference;
         online.urlDate.value = $scope.getTodaysDate();
 
         database.entries.push(online);
@@ -327,7 +327,7 @@ application.controller("FormulaController", ["$scope", "$routeParams", "dataServ
         for (var i = 0; i < $scope.formulae.length; i++) {
             var formula = $scope.formulae[i];
 
-            if (formula.Reference == $routeParams.reference) {
+            if (formula.URLReference == $routeParams.reference) {
                 $scope.formula = formula;
 
                 $rootScope.metaService.set(formula.Title + " - Physics Formulae", formula.Interpretation, formula.Tags.join(", "));
@@ -420,7 +420,7 @@ application.controller("FormulaController", ["$scope", "$routeParams", "dataServ
 
         misc.citationKey = "PhysicsFormulae_" + $scope.formula.Reference;
         misc.title.value = $scope.formula.Title;
-        misc.howPublished.value = "\\url{" + "http://www.physicsformulae.com/#/formula/" + $scope.formula.Reference + "}"
+        misc.howPublished.value = "\\url{" + "http://www.physicsformulae.com/#/formula/" + $scope.formula.URLReference + "}"
         misc.note.value = $scope.formula.Title + " (Physics Formulae), edited by B. T. Milnes, accessed on " + $scope.getTodaysDate();
 
         database.entries.push(misc);
@@ -444,7 +444,7 @@ application.controller("FormulaController", ["$scope", "$routeParams", "dataServ
         online.citationKey = "PhysicsFormulae_" + $scope.formula.Reference;
         online.title.value = $scope.formula.Title + " (Physics Formulae)";
         online.author.value = "B. T. Milnes";
-        online.url.value = "http://www.physicsformulae.com/#/formula/" + $scope.formula.Reference;
+        online.url.value = "http://www.physicsformulae.com/#/formula/" + $scope.formula.URLReference;
         online.urlDate.value = $scope.getTodaysDate();
 
         database.entries.push(online);

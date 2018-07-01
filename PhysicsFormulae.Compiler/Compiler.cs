@@ -223,6 +223,7 @@ namespace PhysicsFormulae.Compiler
                 }
             }
 
+            constant.URLReference = GetURLReference(constant.Reference);
             Autotag(constant);
 
             return constant;
@@ -386,6 +387,8 @@ namespace PhysicsFormulae.Compiler
                     continue;
                 }
             }
+
+            formula.URLReference = GetURLReference(formula.Reference);
 
             return formula;
         }
@@ -596,6 +599,16 @@ namespace PhysicsFormulae.Compiler
             normalisedText = Regex.Replace(normalisedText, @"[\.\,\:\;\'\""\(\)\-]", "");
 
             return normalisedText.Split(' ');
+        }
+
+        private string GetURLReference(string reference)
+        {
+            var urlReference = reference;
+
+            urlReference = Regex.Replace(urlReference, @"^(.+)([A-Z0-9])", @"$1-$2");
+            urlReference = urlReference.ToLower();
+
+            return urlReference;
         }
     }
 }

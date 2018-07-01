@@ -7,9 +7,9 @@
     <div class="search-results">
         <div class="search-results-leftcolumn">
             <div class="search-formula" ng-repeat="formula in formulae | searchFormulae : searchTerms | orderBy : formula.Reference">
-                <h3 class="search-formula-title"><a href="#/formula/{{formula.Reference}}" title="{{formula.Title}}">{{formula.Title}}</a></h3>
+                <h3 class="search-formula-title"><a href="#/formula/{{formula.URLReference}}" title="{{formula.Title}}">{{formula.Title}}</a></h3>
                 <div class="search-formula-content">
-                    <a href="#/formula/{{formula.Reference}}" title="{{formula.Title}}">
+                    <a href="#/formula/{{formula.URLReference}}" title="{{formula.Title}}">
                         <katex latex="{{ '\\displaystyle ' + formula.Content}}"></katex>
                     </a>
                 </div>
@@ -21,9 +21,9 @@
         </div>
         <div class="search-results-rightcolumn">
             <div class="search-constant" ng-repeat="constant in constants | searchConstants : searchTerms | orderBy : constant.Reference">
-                <h3 class="search-constant-title"><a href="#/constant/{{constant.Reference}}" title="{{constant.Title}}">{{constant.Title}}</a></h3>
+                <h3 class="search-constant-title"><a href="#/constant/{{constant.URLReference}}" title="{{constant.Title}}">{{constant.Title}}</a></h3>
                 <div class="search-constant-symbol">
-                    <a href="#/constant/{{constant.Reference}}" title="{{constant.Title}}">
+                    <a href="#/constant/{{constant.URLReference}}" title="{{constant.Title}}">
                         <katex latex="{{ '\\displaystyle ' + constant.Symbol}}"></katex>
                     </a>
                 </div>
