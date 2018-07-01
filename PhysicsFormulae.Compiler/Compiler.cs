@@ -606,7 +606,7 @@ namespace PhysicsFormulae.Compiler
         {
             var urlReference = reference;
 
-            urlReference = Regex.Replace(urlReference, @"^(.+)([A-Z0-9])", @"$1-$2");
+            urlReference = Regex.Replace(urlReference, @"(.+?)([A-Z0-9])", @"$1-$2");
             urlReference = urlReference.ToLower();
 
             return urlReference;
