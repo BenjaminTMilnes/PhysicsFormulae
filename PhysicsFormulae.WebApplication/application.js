@@ -149,14 +149,18 @@ application.factory("dataService", ["$http", function ($http) {
     return dataService;
 }]);
 
-application.controller("SearchController", ["$scope", "$routeParams", "dataService", function SearchController($scope, $routeParams, dataService) {
+application.controller("SearchController", ["$scope", "$routeParams", "dataService", "$rootScope", "metaService", function SearchController($scope, $routeParams, dataService, $rootScope, metaService) {
 
     $scope.pageNumber = 1;
     $scope.numberOfFormulaePerPage = 10;
 
+    $rootScope.metaService = metaService;
+
     dataService.getData().then(function (data) {
         $scope.formulae = data.Formulae;
         $scope.constants = data.Constants;
+
+        $rootScope.metaService.set("Physics Formulae - Look up equations and constants that are commonly used in physics", "", "");
     });
 
     $scope.replaceMathematicsMarkers = function (text) {
