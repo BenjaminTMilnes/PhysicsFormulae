@@ -10,8 +10,24 @@ where:
 
 F [var. scal. Force] is the magnitude of the centripetal force experienced by the object
 m [var. scal. Mass] is the mass of the object
-v [var. scal. LinearVelocity] is the linear velocity of the object
+v [var. scal. LinearVelocity] is the tangential speed / linear velocity of the object
 r [var. scal. Radius] is the radius of the circular path
+
+variants:
+
+Vector Form
+
+\textbf{F} = - \frac{m |\textbf{v}|^2}{|\textbf{r}|} \hat{\textbf{r}}
+
+Since the direction of the force is always towards the centre of the circle, and the magnitude is constant, the vector notation is often dropped, and only the magnitude of the force is given. This variant is the full vector form of the formula.
+
+---
+
+In terms of Angular Velocity
+
+F = m \omega^{2} r
+
+
 
 fields:
 
@@ -30,18 +46,6 @@ Wikipedia https://en.wikipedia.org/wiki/Centripetal_force
 
 tags:
 
-centripetal
-force
-circular
-motion
-centre
-magnitude
 proportional
-mass
-object
-linear velocity
 inversely proportional
-radius
-classical
-classical mechanics
 

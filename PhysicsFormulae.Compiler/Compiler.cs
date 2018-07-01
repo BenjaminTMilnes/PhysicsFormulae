@@ -389,6 +389,7 @@ namespace PhysicsFormulae.Compiler
             }
 
             formula.URLReference = GetURLReference(formula.Reference);
+            Autotag(formula);
 
             return formula;
         }
