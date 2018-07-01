@@ -535,7 +535,6 @@ namespace PhysicsFormulae.Compiler
             return book;
         }
 
-
         protected List<string> excludedWords = new List<string>() { "a", "an", "the", "in", "at", "on", "to", "from", "under", "over", "above", "below", "with", "without", "of", "it", "is", "are", "be", "which", "when", "what", "who", "how", "why", "where", "something", "through", "for", "along", "there", "must", "towards", "that", "and", "its", "know", "known", "travel", "fast", "faster", "than", "this", "carry", "carried", "by", "use", "used", "description", "describe", "described", "number", "include", "including", "", "", "", "", "", "" };
 
         private IEnumerable<string> Autotag(Formula formula)

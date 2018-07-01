@@ -185,7 +185,9 @@ function changeHyphensToMinusSigns(html) {
     return html.replace(/\-/g, "&minus;");
 }
 
-application.controller("ConstantController", ["$scope", "$routeParams", "dataService", function ConstantController($scope, $routeParams, dataService) {
+application.controller("ConstantController", ["$scope", "$routeParams", "dataService", "$rootScope", "metaService", function ConstantController($scope, $routeParams, dataService, $rootScope, metaService) {
+
+    $rootScope.metaService = metaService;
 
     $scope.constants = null;
 
@@ -197,6 +199,8 @@ application.controller("ConstantController", ["$scope", "$routeParams", "dataSer
 
             if (constant.Reference == $routeParams.reference) {
                 $scope.constant = constant;
+
+                $rootScope.metaService.set(constant.Title + " - Physics Formulae", constant.Interpretation, constant.Tags.join(", "));
 
                 $scope.getValues();
             }
@@ -294,8 +298,26 @@ application.controller("ConstantController", ["$scope", "$routeParams", "dataSer
 
 }]);
 
+application.service("metaService", function () {
+    var title = "Physics Formulae";
+    var metaDescription = "";
+    var metaKeywords = "";
 
-application.controller("FormulaController", ["$scope", "$routeParams", "dataService", function FormulaController($scope, $routeParams, dataService) {
+    return {
+        set: function (newTitle, newMetaDescription, newMetaKeywords) {
+            title = newTitle;
+            metaDescription = newMetaDescription;
+            metaKeywords = newMetaKeywords;
+        },
+        metaTitle: function () { return title; },
+        metaDescription: function () { return metaDescription; },
+        metaKeywords: function () { return metaKeywords; }
+    }
+});
+
+application.controller("FormulaController", ["$scope", "$routeParams", "dataService", "$rootScope", "metaService", function FormulaController($scope, $routeParams, dataService, $rootScope, metaService) {
+
+    $rootScope.metaService = metaService;
 
     $scope.formulae = null;
 
@@ -307,6 +329,8 @@ application.controller("FormulaController", ["$scope", "$routeParams", "dataServ
 
             if (formula.Reference == $routeParams.reference) {
                 $scope.formula = formula;
+
+                $rootScope.metaService.set(formula.Title + " - Physics Formulae", formula.Interpretation, formula.Tags.join(", "));
             }
         }
     });
