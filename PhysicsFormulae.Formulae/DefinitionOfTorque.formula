@@ -1,0 +1,33 @@
+﻿DefinitionOfTorque
+
+The Definition of Torque
+
+Torque, or moment, or moment of force, is rotational force. For point particles, the torque is the vector cross product of the position vector and the force vector.
+
+\tau = \textbf{r} \times \textbf{F}
+
+where:
+
+\tau [var. vec. Torque] is the torque
+\textbf{r} [var. vec. Position] is the position
+\textbf{F} [var. vec. Force] is the force
+
+fields:
+
+Classical Mechanics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+https://en.wikipedia.org/wiki/Torque
+https://physics.info/rotational-dynamics/
+
+
+tags:
+

@@ -1,0 +1,32 @@
+﻿DefinitionOfRotationalKineticEnergy
+
+The Definition of Rotational Kinetic Energy
+
+The rotational kinetic energy is simply the kinetic energy of a rotating body. It has a similar form to the formula for linear kinetic energy, but the mass is replaced with the moment of inertia, and the velocity is replaced with the angular velocity.
+
+K = \frac{1}{2} I \omega^{2}
+
+where:
+
+K [var. scal. RotationalKineticEnergy] is the rotational kinetic energy
+I [var. scal. MomentOfInertia] is the moment of inertia
+\omega [var. scal. AngularVelocity] is the angular velocity
+
+fields:
+
+Classical Mechanics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+https://en.wikipedia.org/wiki/Kinetic_energy#Newtonian_kinetic_energy
+https://physics.info/rotational-energy/
+
+tags:
+
