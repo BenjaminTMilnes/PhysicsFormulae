@@ -101,20 +101,31 @@ a {
     }
 }
 
-.search-results {
-    display: flex;
-    flex-direction: row;
-}
-
-.search-results-leftcolumn {
-    flex-basis: 66%;
-    padding-right: 40px;
-    border-right: 1px solid rgba(0, 0, 0, 0.1);
-}
-
+.search-results,
+.search-results-leftcolumn,
 .search-results-rightcolumn {
-    padding-left: 40px;
-    flex-basis: 33%;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+@media (min-width:700px) {
+    .search-results {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .search-results-leftcolumn {
+        flex-basis: 66%;
+        padding-right: 40px;
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .search-results-rightcolumn {
+        padding-left: 40px;
+        flex-basis: 33%;
+    }
 }
 
 .search-formula, .search-constant {
@@ -312,26 +323,88 @@ a {
     border-spacing: 10px;
 }
 
-.constant-values {
+constant-values {
     font-size: 17px;
     margin: 0px 10px;
     max-width: 900px;
-    border-collapse: separate;
-    border-spacing: 10px;
     font-weight: normal;
+}
+
+.value {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.value-type {
+    text-align: center;
+    text-transform: lowercase;
+    padding: 5px 10px;
+    font-weight: normal;
+}
+
+.value-number {
+    text-align: center;
+    padding: 5px 10px;
+    font-weight: normal;
+}
+
+.value-units {
+    text-align: center;
+    padding: 5px 10px;
+    font-weight: normal;
+}
+
+.value-copybuttons {
+    display: none;
+}
+
+@media (min-width:400px) {
+    .constant-values {
+        font-size: 22px;
+        margin: 27px auto;
+    }
+}
+
+@media (min-width:700px) {
+    .value {
+        flex-direction: row;
+        margin: 0px;
+    }
+
+    .value-type {
+        width: 150px;
+        text-align: right;
+        vertical-align: bottom;
+    }
+
+    .value-number {
+        width: 250px;
+        text-align: right;
+        vertical-align: bottom;
+    }
+
+    .value-units {
+        width: 100px;
+        text-align: left;
+        vertical-align: bottom;
+    }
+}
+
+@media (min-width:1000px) {
+    .value-copybuttons {
+        display: block;
+        width: 350px;
+        padding: 5px 10px;
+        vertical-align: bottom;
+    }
 }
 
 .formula-identifiers table td {
     padding: 0px;
 }
 
-.constant-values td {
-    padding: 0px;
-}
-
-.constant-values-copybuttons {
-    display: none;
-}
 
 @media (min-width:400px) {
 
@@ -347,23 +420,10 @@ a {
         border-spacing: 14px;
     }
 
-    .constant-values {
-        font-size: 22px;
-        margin: 27px auto;
-        border-spacing: 14px;
-    }
 
-    .formula-identifiers table td {
-        padding: 0px 7px;
-    }
-
-    .constant-values td {
-        padding: 0px 14px;
-    }
-
-    .constant-values-copybuttons {
-        display: table-cell;
-    }
+        .formula-identifiers table td {
+            padding: 0px 7px;
+        }
 }
 
 @media (min-width:700px) {

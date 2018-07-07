@@ -234,12 +234,12 @@ application.controller("ConstantController", ["$scope", "$routeParams", "dataSer
             var units = value.Units;
             var latex = value.Coefficient + " \\times 10^{" + value.Exponent + "} \\,\\mathrm{" + value.Units + "}";
 
-            listedValues.push({ "type": "Precise Value", "number": number, "units": units, "latex": latex });
+            listedValues.push({ "type": "Precise Value", "significand": value.Coefficient, "number": number, "units": units, "latex": latex });
 
             var numberTo3SF = Number.parseFloat(value.Coefficient).toPrecision(3) + " &times; 10<sup>" + changeHyphensToMinusSigns(value.Exponent) + "</sup>";
             var latexTo3SF = Number.parseFloat(value.Coefficient).toPrecision(3) + " \\times 10^{" + value.Exponent + "} \\,\\mathrm{" + value.Units + "}";
 
-            listedValues.push({ "type": "To 3 s.f.", "number": numberTo3SF, "units": units, "latex": latexTo3SF });
+            listedValues.push({ "type": "To 3 s.f.", "significand": Number.parseFloat(value.Coefficient).toPrecision(3), "number": numberTo3SF, "units": units, "latex": latexTo3SF });
         }
 
         $scope.listedValues = listedValues;
