@@ -1,0 +1,8 @@
+﻿<h3>See more</h3>
+<ul ng-show="links.length > 0">
+    <li ng-repeat="link in links">
+        {{link.Name}} - <a href="{{link.URL}}" target="_blank" title="{{link.Name}}">
+            {{link.URL}}
+        </a>
+    </li>
+</ul>

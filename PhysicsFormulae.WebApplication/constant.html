@@ -48,12 +48,7 @@
         </div>
     </div>
     <div class="constant-seemore">
-        <h3>See more</h3>
-        <ul ng-show="constant.SeeMore.length > 0">
-            <li ng-repeat="link in constant.SeeMore">
-                {{link.Name}} - <a href="{{link.URL}}" target="_blank">{{link.URL}}</a>
-            </li>
-        </ul>
+        <see-more links="constant.SeeMore"></see-more>
         <p style="text-align:left;">The original .constant file that this page was generated from can be viewed at <a target="_blank" title="Physics Formulae Source Code" href="https://github.com/BenjaminTMilnes/PhysicsFormulae/blob/master/PhysicsFormulae.Formulae/{{constant.Reference}}.constant">https://github.com/BenjaminTMilnes/PhysicsFormulae/blob/master/PhysicsFormulae.Formulae/{{constant.Reference}}.constant</a></p>
     </div>
 </div>

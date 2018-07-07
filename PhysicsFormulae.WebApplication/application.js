@@ -39,6 +39,14 @@ application.directive("compile", ["$compile", function ($compile) {
     };
 }]);
 
+application.directive("seeMore", function () {
+    return {
+        restrict: "E",
+        templateUrl: "see-more.html",
+        scope: { links: "=links" }
+    };
+});
+
 application.factory("dataService", ["$http", function ($http) {
     var dataService = {
         getData: function () {
