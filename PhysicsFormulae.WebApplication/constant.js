@@ -26,7 +26,7 @@ application.controller("ConstantController", ["$scope", "$routeParams", "dataSer
             return "";
         }
 
-        return "<katex latex=\"\\displaystyle " + $scope.constant.Symbol + "\"></katex>";
+        return "<mathematics content-type=\"latex\" content=\"\\displaystyle " + $scope.constant.Symbol + "\"></mathematics>";
     }
 
     $scope.getValues = function () {

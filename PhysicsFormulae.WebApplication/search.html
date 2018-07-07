@@ -10,7 +10,7 @@
                 <h3 class="search-formula-title"><a href="#/formula/{{formula.URLReference}}" title="{{formula.Title}}">{{formula.Title}}</a></h3>
                 <div class="search-formula-content">
                     <a href="#/formula/{{formula.URLReference}}" title="{{formula.Title}}">
-                        <katex latex="{{ '\\displaystyle ' + formula.Content}}"></katex>
+                        <mathematics content-type="latex" content="{{ '\\displaystyle ' + formula.Content}}"></mathematics>
                     </a>
                 </div>
                 <p class="search-formula-interpretation" compile="replaceMathematicsMarkers(formula.Interpretation)"></p>
@@ -24,7 +24,7 @@
                 <h3 class="search-constant-title"><a href="#/constant/{{constant.URLReference}}" title="{{constant.Title}}">{{constant.Title}}</a></h3>
                 <div class="search-constant-symbol">
                     <a href="#/constant/{{constant.URLReference}}" title="{{constant.Title}}">
-                        <katex latex="{{ '\\displaystyle ' + constant.Symbol}}"></katex>
+                        <mathematics content-type="latex" content="{{ '\\displaystyle ' + constant.Symbol}}"></mathematics>
                     </a>
                 </div>
                 <p class="search-constant-interpretation">{{constant.Interpretation}}</p>

@@ -40,11 +40,11 @@ application.controller("FormulaController", ["$scope", "$routeParams", "dataServ
             return "";
         }
 
-        return "<katex latex=\"\\displaystyle " + $scope.formula.Content + "\"></katex>";
+        return "<mathematics content-type=\"latex\" content=\"\\displaystyle " + $scope.formula.Content + "\"></mathematics>";
     }
 
     $scope.getVariant = function (content) {
-        return "<katex latex=\"\\displaystyle " + content + "\"></katex>";
+        return "<mathematics content-type=\"latex\" content=\"\\displaystyle " + content + "\"></mathematics>";
     }
 
     $scope.replaceMathematicsMarkers = function (text) {
@@ -53,7 +53,7 @@ application.controller("FormulaController", ["$scope", "$routeParams", "dataServ
         }
 
         var re = /\$(.+?)\$/gi;
-        var textWithKaTeX = text.replace(re, "<katex latex=\"$1\"></katex>")
+        var textWithKaTeX = text.replace(re, "<mathematics content-type=\"latex\" content=\"$1\"></mathematics>")
 
         return textWithKaTeX;
     }

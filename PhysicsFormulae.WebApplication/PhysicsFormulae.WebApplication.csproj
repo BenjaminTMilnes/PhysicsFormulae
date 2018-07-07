@@ -67,9 +67,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bibtex.js" />
+    <Content Include="colour-codes.txt" />
     <Content Include="constant.css" />
     <Content Include="constant.html" />
     <Content Include="constant.js" />
+    <Content Include="core.js" />
     <Content Include="formula.css" />
     <Content Include="formula.html" />
     <Content Include="formula.js" />
@@ -90,6 +92,7 @@
     <Content Include="index.html" />
     <Content Include="search.css" />
     <Content Include="search.html" />
+    <Content Include="search.js" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
   </ItemGroup>

@@ -5,7 +5,7 @@
     <div class="formula-identifiers">
         <div class="identifier" ng-repeat="identifier in formula.Identifiers">
             <div class="identifier-content">
-                <katex latex="{{identifier.Content}}"></katex>
+                <mathematics content-type="latex" content="{{identifier.Content}}"></mathematics>
             </div>
             <div class="identifier-classes">
                 <span ng-show="identifier.Type == 'Variable'" class="variable" title="a variable">var.</span>
