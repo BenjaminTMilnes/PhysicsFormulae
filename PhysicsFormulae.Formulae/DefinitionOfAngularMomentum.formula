@@ -1,0 +1,39 @@
+﻿DefinitionOfAngularMomentum
+
+The Definition of Angular Momentum
+
+The angular momentum of an object moving along a circular path is the vector product of its radial position and its linear momentum.
+
+\textbf{L} = \textbf{r} \times \textbf{p}
+
+where:
+
+\textbf{L} [var. vec. AngularMomentum] is the angular momentum of the object
+\textbf{r} [var. vec. RadialPosition] is the radial position of the object
+\textbf{p} [var. vec. LinearMomentum] is the linear momentum of the object
+
+variants:
+
+In terms of moment of inertia
+
+\textbf{L} = I \omega
+
+The angular momentum of an object or a group of objects can also be expressed as the product of its moment of inertia and its angular velocity.
+
+fields:
+
+Classical Mechanics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+https://physics.info/rotational-momentum/
+
+tags:
+

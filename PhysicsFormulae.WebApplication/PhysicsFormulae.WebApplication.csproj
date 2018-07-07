@@ -91,6 +91,7 @@
   <ItemGroup>
     <Content Include="application.js" />
     <Content Include="index.html" />
+    <Content Include="references.html" />
     <Content Include="search.css" />
     <Content Include="search.html" />
     <Content Include="search.js" />
