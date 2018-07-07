@@ -14,7 +14,7 @@
     </div>
     <p class="constant-interpretation">{{constant.Interpretation}}</p>
     <div class="constant-tags">
-        <span class="tag" ng-repeat="tag in constant.Tags"><a href="#/tag/{{tag}}" title="Search for other constants with the tag '{{tag}}'.">{{tag}}</a> </span>
+        <span class="tag" ng-repeat="tag in constant.Tags"><a href="#/tag/{{tag}}" title="Search for other constants with the tag '{{tag}}'.">{{tag}}</a>{{$last ? '' : ',&nbsp;'}}</span>
     </div>
     <div class="constant-references">
         <h3>References</h3>

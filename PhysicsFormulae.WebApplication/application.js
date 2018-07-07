@@ -38,7 +38,6 @@ application.directive("katex", function () {
     }
 });
 
-
 application.directive("compile", ["$compile", function ($compile) {
     return function (scope, element, attributes) {
         scope.$watch(function (scope) {
@@ -64,7 +63,6 @@ function extractTags(text) {
     return [text, tags];
 }
 
-
 application.factory("dataService", ["$http", function ($http) {
     var dataService = {
         getData: function () {
@@ -76,7 +74,6 @@ application.factory("dataService", ["$http", function ($http) {
 
     return dataService;
 }]);
-
 
 function convertLaTeXToHTML(latex) {
     latex = latex.replace(/\^\{(\-?[0-9]+)\}/g, "<sup>$1</sup>");
@@ -108,8 +105,6 @@ application.service("metaService", function () {
     }
 });
 
-
-
 function getTodaysDate() {
     var today = new Date();
 
@@ -129,7 +124,6 @@ function getTodaysDate() {
 
     return todaysDate;
 }
-
 
 function getBibTeXForOriginalReferences(references) {
 

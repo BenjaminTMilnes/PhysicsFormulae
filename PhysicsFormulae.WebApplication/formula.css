@@ -84,57 +84,69 @@
     }
 }
 
-.formula-identifiers p, .formula-interpretation, .constant-interpretation {
+.formula-interpretation, .constant-interpretation {
     font-size: 17px;
     margin: 20px 0px;
 }
 
-.formula-identifiers table {
+.formula-identifiers {
     font-size: 17px;
-    margin: 0px 10px;
     max-width: 900px;
-    border-collapse: separate;
-    border-spacing: 10px;
+    margin: 70px 0px;
 }
 
+.identifier {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
 
-    .formula-identifiers table td {
-        padding: 0px;
-    }
+.identifier-content {
+    margin: 7px;
+}
 
+.identifier-classes, .identifier-interpretation {
+    margin: 4px 0px;
+}
 
 @media (min-width:400px) {
 
-    .formula-identifiers p, .formula-interpretation, .constant-interpretation {
+    .formula-interpretation, .constant-interpretation {
         font-size: 22px;
         margin: 27px 0px;
         text-align: justify;
     }
 
-    .formula-identifiers table {
+    .formula-identifiers {
         font-size: 22px;
-        margin: 27px auto;
-        border-spacing: 14px;
     }
 
-
-        .formula-identifiers table td {
-            padding: 0px 7px;
-        }
+    .identifier-content {
+        margin: 10px;
+    }
 }
 
 @media (min-width:700px) {
 
-    .formula-identifiers p, .formula-interpretation, .constant-interpretation {
+    .formula-identifiers {
+        margin: 70px auto;
     }
 
-    .formula-identifiers table {
-        border-spacing: 17px;
+    .identifier {
+        flex-direction: row;
     }
 
-        .formula-identifiers table td {
-            padding: 0px 10px;
-        }
+    .identifier-content, .identifier-classes, .identifier-interpretation {
+        margin: 2px 14px;
+    }
+
+    .identifier-content {
+        min-width: 50px;
+    }
+
+    .identifier-classes {
+        min-width: 200px;
+    }
 }
 
 .variable, .constant, .scalar, .vector, .matrix, .tensor {
@@ -155,7 +167,7 @@
 }
 
 .constant {
-    background-color: #1a7c62;
+    background-color: #4fbc14;
 }
 
 .scalar {
@@ -206,16 +218,18 @@
     }
 
 .tag {
-    color: #105ecc;
-    text-decoration: none;
-    cursor: pointer;
     display: inline-block;
-    margin-right: 12px;
 }
 
-    .tag:hover {
-        text-decoration: underline;
+    .tag a {
+        color: #105ecc;
+        text-decoration: none;
+        cursor: pointer;
     }
+
+        .tag a:hover {
+            text-decoration: underline;
+        }
 
 @media (min-width:400px) {
 
@@ -236,9 +250,6 @@
 }
 
 @media (min-width:700px) {
-
-    .formula-fields {
-    }
 
     .formula-tags, .constant-tags {
         margin: 27px 0px 70px 0px;
@@ -271,9 +282,6 @@
     }
 }
 
-.formula-variants {
-}
-
 .variant {
     background-color: #F4F4F4;
     padding: 20px;
@@ -294,54 +302,29 @@ h4.variant-title {
     text-transform: uppercase;
 }
 
-@media (min-width:400px) {
-    h4.variant-title {
-        font-size: 17px;
-    }
-}
-
 .variant-content {
     text-align: center;
     margin: 27px 0px;
     font-size: 1.2em;
 }
 
+.variant .copybutton {
+    display: none;
+}
+
 @media (min-width:400px) {
+    h4.variant-title {
+        font-size: 17px;
+    }
+
     .variant-content {
         margin: 40px 0px;
     }
 }
 
-.attribute {
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
-}
-
-.attribute-header {
-    flex: 1;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 14px;
-    text-align: center;
-}
-
-.attribute-content {
-    flex: 1;
-}
-
-@media (min-width:400px) {
-
-    .attribute {
-        flex-direction: row;
-    }
-
-    .attribute-header {
-        flex: 1;
-    }
-
-    .attribute-content {
-        flex: 7;
+@media (min-width:700px) {
+    .variant .copybutton {
+        display: inline-block;
     }
 }
 
@@ -375,6 +358,7 @@ h4.variant-title {
 
 .formula-bibtex-content, .constant-bibtex-content {
     white-space: pre;
+    overflow-x: scroll;
 }
 
 .formula-references, .constant-references {
@@ -384,15 +368,6 @@ h4.variant-title {
         font-size: 14px;
         margin: 14px 0px;
     }
-
-    .formula-references a, .formula-seemore a, .constant-references a, .constant-seemore a {
-        color: #105ecc;
-        text-decoration: none;
-    }
-
-        .formula-references a:hover, .formula-seemore a:hover, .constant-references a:hover, .constant-seemore a:hover {
-            text-decoration: underline;
-        }
 
 @media (min-width:700px) {
 
