@@ -67,8 +67,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bibtex.js" />
+    <Content Include="constant.css" />
     <Content Include="constant.html" />
+    <Content Include="constant.js" />
+    <Content Include="formula.css" />
     <Content Include="formula.html" />
+    <Content Include="formula.js" />
     <Content Include="packages.config" />
     <Content Include="formulae.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -84,6 +88,7 @@
   <ItemGroup>
     <Content Include="application.js" />
     <Content Include="index.html" />
+    <Content Include="search.css" />
     <Content Include="search.html" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
