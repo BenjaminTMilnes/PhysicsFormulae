@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bibtex.html" />
     <Content Include="bibtex.js" />
     <Content Include="colour-codes.txt" />
     <Content Include="constant.css" />
@@ -93,6 +94,7 @@
     <Content Include="search.css" />
     <Content Include="search.html" />
     <Content Include="search.js" />
+    <Content Include="see-more.html" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
   </ItemGroup>

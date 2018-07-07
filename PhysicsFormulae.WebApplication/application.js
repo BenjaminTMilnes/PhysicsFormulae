@@ -39,6 +39,30 @@ application.directive("compile", ["$compile", function ($compile) {
     };
 }]);
 
+application.directive("references", function () {
+    return {
+        restrict: "E",
+        templateUrl: "references.html",
+        scope: {
+            references: "=references",
+            pageType: "=pageType"
+        }
+    };
+});
+
+application.directive("bibtex", function () {
+    return {
+        restrict: "E",
+        templateUrl: "bibtex.html",
+        scope: {
+            bibtexForThisWebpage: "=bibtexForThisWebpage",
+            numberOfGoodReferences: "=numberOfGoodReferences",
+            bibtexForOriginalSources: "=bibtexForOriginalSources",
+            biblatexForThisWebpage: "=biblatexForThisWebpage"
+        }
+    };
+});
+
 application.directive("seeMore", function () {
     return {
         restrict: "E",

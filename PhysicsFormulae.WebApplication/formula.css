@@ -328,21 +328,21 @@ h4.variant-title {
     }
 }
 
-.formula-latex, .formula-bibtex, .constant-bibtex {
+.formula-latex, .bibtex {
     display: none;
 }
 
 @media (min-width:700px) {
-    .formula-latex, .formula-bibtex, .constant-bibtex {
+    .formula-latex, .bibtex {
         display: block;
     }
 }
 
-.formula-bibtex, .constant-bibtex {
+.bibtex {
     margin-top: 70px;
 }
 
-.formula-latex-content, .formula-bibtex-content, .constant-bibtex-content {
+.formula-latex-content, .bibtex-content {
     font-family: Consolas, Courier New, Courier, monospace;
     font-size: 14px;
     color: #000000;
@@ -356,7 +356,7 @@ h4.variant-title {
     white-space: pre-line;
 }
 
-.formula-bibtex-content, .constant-bibtex-content {
+.bibtex-content {
     white-space: pre;
     overflow-x: scroll;
 }
