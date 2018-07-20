@@ -3,31 +3,36 @@
     <div class="formula-content" compile="getFormulaContent()">
     </div>
     <div class="formula-identifiers">
-        <table>
-            <tbody>
-                <tr ng-repeat="identifier in formula.Identifiers">
-                    <td class="identifier-content">
-                        <katex latex="{{identifier.Content}}"></katex>
-                    </td>
-                    <td>
-                        <span ng-show="identifier.Type == 'Variable'" class="variable" title="a variable">var.</span>
-                        <span ng-show="identifier.Type == 'Constant'" class="constant" title="a constant">const.</span>
-                        <span ng-show="identifier.ObjectType == 'Scalar'" class="scalar" title="a scalar quantity">scal.</span>
-                        <span ng-show="identifier.ObjectType == 'Vector'" class="vector" title="a vector quantity">vec.</span>
-                        <span ng-show="identifier.ObjectType == 'Matrix'" class="matrix" title="a matrix">matr.</span>
-                        <span ng-show="identifier.ObjectType == 'Tensor'" class="tensor" title="a tensor (one which is more complicated than a vector or a matrix)">tens.</span>
-                    </td>
-                    <td compile="replaceMathematicsMarkers(identifier.Definition)"></td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="identifier" ng-repeat="identifier in formula.Identifiers">
+            <div class="identifier-content">
+                <mathematics content-type="latex" content="{{identifier.Content}}"></mathematics>
+            </div>
+            <div class="identifier-classes">
+                <span ng-show="identifier.Type == 'Variable'" class="variable" title="a variable">var.</span>
+                <span ng-show="identifier.Type == 'Constant'" class="constant" title="a constant">const.</span>
+                <span ng-show="identifier.ObjectType == 'Scalar'" class="scalar" title="a scalar quantity">scal.</span>
+                <span ng-show="identifier.ObjectType == 'Vector'" class="vector" title="a vector quantity">vec.</span>
+                <span ng-show="identifier.ObjectType == 'Matrix'" class="matrix" title="a matrix">matr.</span>
+                <span ng-show="identifier.ObjectType == 'Tensor'" class="tensor" title="a tensor (one which is more complicated than a vector or a matrix)">tens.</span>
+            </div>
+            <div class="identifier-interpretation" compile="replaceMathematicsMarkers(identifier.Definition)"></div>
+        </div>
     </div>
     <p class="formula-interpretation" compile="replaceMathematicsMarkers(formula.Interpretation)"></p>
     <div class="formula-fields">
         <span class="field" ng-repeat="field in formula.Fields"><a href="#/field/{{field}}" title="Search for other formulae in {{field}}.">{{field}}</a></span>
     </div>
     <div class="formula-tags">
-        <span class="tag" ng-repeat="tag in formula.Tags"><a href="#/tag/{{tag}}" title="Search for other formulae with the tag '{{tag}}'.">{{tag}}</a> </span>
+        <span class="tag" ng-repeat="tag in formula.Tags"><a href="#/tag/{{tag}}" title="Search for other formulae with the tag '{{tag}}'.">{{tag}}</a>{{$last ? '' : ',&nbsp;'}}</span>
+    </div>
+    <div class="formula-latex">
+        <h4>LaTeX</h4>
+        <p>Just the mathematics:</p>
+        <code id="formula-latex-copyfrom" class="formula-latex-content">{{formula.Content}}</code>
+        <button class="copybutton" data-clipboard-target="#formula-latex-copyfrom">Copy</button>
+        <p>Including the 'where' statement:</p>
+        <code id="formula-latex-withwhere-copyfrom" class="formula-latex-content">{{getLaTeXForEntireFormula()}}</code>
+        <button class="copybutton" data-clipboard-target="#formula-latex-withwhere-copyfrom">Copy</button>
     </div>
     <div class="formula-variants" ng-show="formula.Variants != null && formula.Variants.length > 0">
         <h3>Variants</h3>
@@ -43,53 +48,12 @@
             </div>
         </div>
     </div>
-    <div class="formula-latex">
-        <h4>LaTeX</h4>
-        <p>Just the mathematics:</p>
-        <code id="formula-latex-copyfrom" class="formula-latex-content">{{formula.Content}}</code>
-        <button class="copybutton" data-clipboard-target="#formula-latex-copyfrom">Copy</button>
-        <p>Including the 'where' statement:</p>
-        <code id="formula-latex-withwhere-copyfrom" class="formula-latex-content">{{getLaTeXForEntireFormula()}}</code>
-        <button class="copybutton" data-clipboard-target="#formula-latex-withwhere-copyfrom">Copy</button>
-    </div>
     <div class="formula-references">
-        <h3>References</h3>
-        <ol ng-show="formula.References.length > 0">
-            <li ng-repeat="reference in formula.References">
-                <span ng-if="reference.Type == 'Webpage'">
-                    <em>{{reference.Title}}</em>, {{reference.WebsiteTitle}} - <a href="{{reference.URL}}" target="_blank" title="{{reference.Title}}">{{reference.URL}}</a>
-                </span>
-                <span ng-if="reference.Type == 'Book'">
-                    <em>{{reference.Title}}</em>, {{getAuthorsString(reference.Authors)}} ({{reference.PublisherName}}) <strong>ISBN {{reference.ISBN}}</strong>
-                </span>
-            </li>
-        </ol>
-        <p ng-show="formula.References.length == 0">
-            No references have been given for this formula.
-        </p>
-        <div class="formula-bibtex">
-            <h4>BibTeX</h4>
-            <p>For this webpage:</p>
-            <code id="formula-bibtex-thiswebpage" class="formula-bibtex-content">{{getBibTeXForThisWebpage()}}</code>
-            <button class="copybutton" data-clipboard-target="#formula-bibtex-thiswebpage">Copy</button>
-            <div ng-show="getNumberOfGoodReferences() > 0">
-                <p>For the sources that this webpage references:</p>
-                <code id="formula-bibtex-originalsources" class="formula-bibtex-content">{{getBibTeXForOriginalReferences()}}</code>
-                <button class="copybutton" data-clipboard-target="#formula-bibtex-originalsources">Copy</button>
-            </div>
-            <h4>BibLaTeX</h4>
-            <p>For this webpage:</p>
-            <code id="formula-biblatex-thiswebpage" class="formula-bibtex-content">{{getBibLaTeXForThisWebpage()}}</code>
-            <button class="copybutton" data-clipboard-target="#formula-biblatex-thiswebpage">Copy</button>
-        </div>
+        <references references="formula.References" page-type="'formula'"></references>
+        <bibtex bibtex-for-this-webpage="getBibTeXForThisWebpage()" number-of-good-references="getNumberOfGoodReferences()" bibtex-for-original-sources="getBibTeXForOriginalReferences()" biblatex-for-this-webpage="getBibLaTeXForThisWebpage()"></bibtex>
     </div>
     <div class="formula-seemore">
-        <h3>See more</h3>
-        <ul ng-show="formula.SeeMore.length > 0">
-            <li ng-repeat="link in formula.SeeMore">
-                {{link.Name}} - <a href="{{link.URL}}" target="_blank">{{link.URL}}</a>
-            </li>
-        </ul>
+        <see-more links="formula.SeeMore"></see-more>
         <p style="text-align:left;">The original .formula file that this page was generated from can be viewed at <a target="_blank" title="Physics Formulae Source Code" href="https://github.com/BenjaminTMilnes/PhysicsFormulae/blob/master/PhysicsFormulae.Formulae/{{formula.Reference}}.formula">https://github.com/BenjaminTMilnes/PhysicsFormulae/blob/master/PhysicsFormulae.Formulae/{{formula.Reference}}.formula</a></p>
     </div>
 </div>

@@ -1,61 +1,27 @@
 ﻿<div class="listedconstant">
     <h2 class="constant-title">{{constant.Title}}</h2>
     <div class="constant-symbol" compile="getSymbolContent()"></div>
-    <table class="constant-values">
-        <tbody>
-            <tr ng-repeat="value in listedValues">
-                <td style="text-align: right; text-transform: lowercase;">{{value.type}}:</td>
-                <td compile="value.number" style="text-align: right;"></td>
-                <td compile="changeHyphensToMinusSigns(convertLaTeXToHTML(value.units))"></td>
-                <td class="constant-values-copybuttons">
-                    <button class="copybutton" data-clipboard-text="{{value.latex}}">Copy LaTeX</button>
-                    <button class="copybutton" style="display: none;">Copy MathML</button>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <p class="constant-interpretation">{{constant.Interpretation}}</p>
-    <div class="constant-tags">
-        <span class="tag" ng-repeat="tag in constant.Tags"><a href="#/tag/{{tag}}" title="Search for other constants with the tag '{{tag}}'.">{{tag}}</a> </span>
-    </div>
-    <div class="constant-references">
-        <h3>References</h3>
-        <ol ng-show="constant.References.length > 0">
-            <li ng-repeat="reference in constant.References">
-                <span ng-if="reference.Type == 'Webpage'">
-                    <em>{{reference.Title}}</em>, {{reference.WebsiteTitle}} - <a href="{{reference.URL}}" target="_blank" title="{{reference.Title}}">{{reference.URL}}</a>
-                </span>
-                <span ng-if="reference.Type == 'Book'">
-                    <em>{{reference.Title}}</em>, {{getAuthorsString(reference.Authors)}} ({{reference.PublisherName}}) <strong>ISBN {{reference.ISBN}}</strong>
-                </span>
-            </li>
-        </ol>
-        <p ng-show="constant.References.length == 0">
-            No references have been given for this constant.
-        </p>
-        <div class="constant-bibtex">
-            <h4>BibTeX</h4>
-            <p>For this webpage:</p>
-            <code id="constant-bibtex-thiswebpage" class="constant-bibtex-content">{{getBibTeXForThisWebpage()}}</code>
-            <button class="copybutton" data-clipboard-target="#constant-bibtex-thiswebpage">Copy</button>
-            <div ng-show="getNumberOfGoodReferences() > 0">
-                <p>For the sources that this webpage references:</p>
-                <code id="constant-bibtex-originalsources" class="constant-bibtex-content">{{getBibTeXForOriginalReferences()}}</code>
-                <button class="copybutton" data-clipboard-target="#constant-bibtex-originalsources">Copy</button>
+    <div class="constant-values">
+        <div class="value" ng-repeat="value in listedValues">
+            <div class="value-type">{{value.type}}:</div>
+            <div class="value-number" compile="value.number"></div>
+            <div class="value-units" compile="changeHyphensToMinusSigns(convertLaTeXToHTML(value.units))"></div>
+            <div class="value-copybuttons">
+                <button class="copybutton" data-clipboard-text="{{value.latex}}">Copy LaTeX</button>
+                <button class="copybutton" data-clipboard-text="{{value.significand}}">Copy Significand</button>
             </div>
-            <h4>BibLaTeX</h4>
-            <p>For this webpage:</p>
-            <code id="constant-biblatex-thiswebpage" class="constant-bibtex-content">{{getBibLaTeXForThisWebpage()}}</code>
-            <button class="copybutton" data-clipboard-target="#constant-biblatex-thiswebpage">Copy</button>
         </div>
     </div>
+    <p class="constant-interpretation">{{constant.Interpretation}}</p>
+    <div class="constant-tags">
+        <span class="tag" ng-repeat="tag in constant.Tags"><a href="#/tag/{{tag}}" title="Search for other constants with the tag '{{tag}}'.">{{tag}}</a>{{$last ? '' : ',&nbsp;'}}</span>
+    </div>
+    <div class="constant-references">
+        <references references="constant.References" page-type="'constant'"></references>
+        <bibtex bibtex-for-this-webpage="getBibTeXForThisWebpage()" number-of-good-references="getNumberOfGoodReferences()" bibtex-for-original-sources="getBibTeXForOriginalReferences()" biblatex-for-this-webpage="getBibLaTeXForThisWebpage()"></bibtex>
+    </div>
     <div class="constant-seemore">
-        <h3>See more</h3>
-        <ul ng-show="constant.SeeMore.length > 0">
-            <li ng-repeat="link in constant.SeeMore">
-                {{link.Name}} - <a href="{{link.URL}}" target="_blank">{{link.URL}}</a>
-            </li>
-        </ul>
+        <see-more links="constant.SeeMore"></see-more>
         <p style="text-align:left;">The original .constant file that this page was generated from can be viewed at <a target="_blank" title="Physics Formulae Source Code" href="https://github.com/BenjaminTMilnes/PhysicsFormulae/blob/master/PhysicsFormulae.Formulae/{{constant.Reference}}.constant">https://github.com/BenjaminTMilnes/PhysicsFormulae/blob/master/PhysicsFormulae.Formulae/{{constant.Reference}}.constant</a></p>
     </div>
 </div>
