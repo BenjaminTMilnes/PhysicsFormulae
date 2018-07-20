@@ -1,0 +1,46 @@
+﻿DefinitionOfDensity
+
+The Definition of Density
+
+For an object made of a homogenous material, the density of that object is its mass divided by its volume.
+
+\rho = \frac{M}{V}
+
+where:
+
+\rho [var. scal. Density] is the density of the object
+M [var. scal. Mass] is the mass of the object
+V [var. scal. Volume] is the volume of the object
+
+variants:
+
+The Density of an Inhomogenous Material
+
+\rho = \frac{\mathrm{d} M}{\mathrm{d} V}
+
+For an object where the density is not constant throughout, the density of an infinitesimal volume, $\mathrm{d}V$, is the derivative of the mass with respect to the volume.
+
+---
+
+Mass in terms of Density for an Inhomogenous Material
+
+M = \int_V \rho(\textbf{r}) \mathrm{d} V
+
+The mass of an object is equal to the integral of its density over its volume.
+
+fields:
+
+Classical Mechanics
+
+derived from:
+
+
+
+references:
+
+see more:
+
+https://en.wikipedia.org/wiki/Density
+
+tags:
+
