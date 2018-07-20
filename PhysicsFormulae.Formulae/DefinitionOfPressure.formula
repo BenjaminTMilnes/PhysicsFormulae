@@ -1,0 +1,38 @@
+﻿DefinitionOfPressure
+
+The Definition of Pressure
+
+The pressure on a surface is the force exerted on that surface per unit area, where the force is constant over the area.
+
+P = \frac{F}{A}
+
+where:
+
+P [var. scal. Pressure] is the pressure on the surface
+F [var. scal. Force] is the magnitude of the normal force applied to the surface
+A [var. scal. Area] is the area of the surface
+
+variants:
+
+Force as an Integral of Pressure
+
+F = \int - P \mathrm{d} \textbf{A}
+
+The total force being applied to a surface is the integral of the pressure on that surface over the area.
+
+fields:
+
+Classical Mechanics
+
+derived from:
+
+
+
+references:
+
+see more:
+
+https://en.wikipedia.org/wiki/Pressure
+
+tags:
+

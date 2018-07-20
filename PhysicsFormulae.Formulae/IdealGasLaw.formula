@@ -1,0 +1,41 @@
+﻿IdealGasLaw
+
+The Ideal Gas Law
+
+For an ideal gas, the pressure is proportional to the temperature, $P \propto T$, and the volume is also proportional to the temperature, $V \propto T$, but the pressure is inversely proportional to the volume, $P \propto \frac{1}{V}$.
+
+P V = N k_{B} T
+
+where:
+
+P [var. scal. Pressure] is the pressure of the gas
+V [var. scal. Volume] is the volume of the gas
+N [var. scal. NumberOfMolecules] is the number of molecules in the gas
+k_{B} [const. scal. BoltzmannConstant] is the Boltzmann Constant
+T [var. scal. Temperature] is the temperature of the gas
+
+variants:
+
+In terms of the number of Moles
+
+P V = n R T
+
+where $n$ is the number of moles of the gas and $R$ is the ideal gas constant.
+
+fields:
+
+Classical Thermodynamics
+
+derived from:
+
+
+
+references:
+
+see more:
+
+https://en.wikipedia.org/wiki/Ideal_gas_law
+https://physics.info/gas-laws/
+
+tags:
+
