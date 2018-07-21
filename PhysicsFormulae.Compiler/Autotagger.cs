@@ -20,6 +20,7 @@ namespace PhysicsFormulae.Compiler
         {
             var normalisedText = text;
 
+            normalisedText = RemoveLaTeX(normalisedText);
             normalisedText = normalisedText.ToLower();
             normalisedText = Regex.Replace(normalisedText, @"[\.\,\:\;\'\""\(\)\-\$\\\/]", "");
 
