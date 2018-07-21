@@ -40,10 +40,12 @@ namespace PhysicsFormulae.Compiler
 
     public class Compiler
     {
-    protected Autotagger _autotagger { get; set; }
+        protected ReferenceConverter _referenceConverter { get; set; }
+        protected Autotagger _autotagger { get; set; }
 
         public Compiler()
         {
+            _referenceConverter = new ReferenceConverter();
             _autotagger = new Autotagger();
         }
 
@@ -230,8 +232,8 @@ namespace PhysicsFormulae.Compiler
                 }
             }
 
-            constant.URLReference = GetURLReference(constant.Reference);
-             _autotagger.Autotag(constant);
+            constant.URLReference = _referenceConverter.GetURLReference(constant.Reference);
+            _autotagger.Autotag(constant);
 
             return constant;
         }
@@ -395,7 +397,7 @@ namespace PhysicsFormulae.Compiler
                 }
             }
 
-            formula.URLReference = GetURLReference(formula.Reference);
+            formula.URLReference = _referenceConverter.GetURLReference(formula.Reference);
             _autotagger.Autotag(formula);
 
             return formula;
@@ -544,16 +546,6 @@ namespace PhysicsFormulae.Compiler
             book.ISBN = match.Groups[5].Value.Trim();
 
             return book;
-        }
-        
-        private string GetURLReference(string reference)
-        {
-            var urlReference = reference;
-
-            urlReference = Regex.Replace(urlReference, @"(.+?)([A-Z0-9])", @"$1-$2");
-            urlReference = urlReference.ToLower();
-
-            return urlReference;
         }
     }
 }

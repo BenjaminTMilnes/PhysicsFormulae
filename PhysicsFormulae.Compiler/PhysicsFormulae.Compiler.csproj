@@ -55,6 +55,7 @@
     <Compile Include="ObjectType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reference.cs" />
+    <Compile Include="ReferenceConverter.cs" />
     <Compile Include="ReferenceType.cs" />
     <Compile Include="SeeMoreLink.cs" />
     <Compile Include="Value.cs" />
