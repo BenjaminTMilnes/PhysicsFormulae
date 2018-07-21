@@ -23,5 +23,11 @@ namespace PhysicsFormulae.Compiler.Tests
         {
             Assert.AreEqual("definition-of-pressure", _referenceConverter.GetURLReference("DefinitionOfPressure"));
         }
+
+        [TestMethod]
+        public void TestGetURLReference2()
+        {
+            Assert.AreEqual("suvat1", _referenceConverter.GetURLReference("SUVAT1"));
+        }
     }
 }
