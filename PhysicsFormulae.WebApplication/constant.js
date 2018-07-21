@@ -21,6 +21,17 @@ application.controller("ConstantController", ["$scope", "$routeParams", "dataSer
         }
     });
 
+    $scope.replaceMathematicsMarkers = function (text) {
+        if (!text) {
+            return "";
+        }
+
+        var re = /\$(.+?)\$/gi;
+        var textWithKaTeX = text.replace(re, "<mathematics content-type=\"latex\" content=\"$1\"></mathematics>")
+
+        return textWithKaTeX;
+    }
+
     $scope.getSymbolContent = function () {
         if (!$scope.constant) {
             return "";

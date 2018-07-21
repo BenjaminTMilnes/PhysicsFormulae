@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace PhysicsFormulae.Compiler
+namespace PhysicsFormulae.Compiler.References
 {
     public class Book : Reference
     {

@@ -84,6 +84,7 @@ a {
     font-weight: bold;
     background-color: #105ecc;
     border: none;
+    cursor: pointer;
 }
 
     .copybutton:hover {

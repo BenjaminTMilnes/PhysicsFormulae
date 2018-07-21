@@ -1,28 +1,29 @@
 ﻿using System.Collections.Generic;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
+using PhysicsFormulae.Compiler.References;
 
-namespace PhysicsFormulae.Compiler
+namespace PhysicsFormulae.Compiler.Constants
 {
-    public class Formula
+    public class Constant
     {
         public string Reference { get; set; }
         public string URLReference { get; set; }
         public string Title { get; set; }
         public string Interpretation { get; set; }
-        public string Content { get; set; }
-        public IList<Identifier> Identifiers { get; set; }
-        public IList<Variant> Variants { get; set; }
-        public IList<string> DerivedFrom { get; set; }
-        public IList<string> Fields { get; set; }
+
+        [JsonConverter(typeof(StringEnumConverter))]
+        public ConstantType Type { get; set; }
+
+        public string Symbol { get; set; }
+        public IList<Value> Values { get; set; }
         public IList<Reference> References { get; set; }
         public IList<SeeMoreLink> SeeMore { get; set; }
         public IList<string> Tags { get; set; }
 
-        public Formula()
+        public Constant()
         {
-            Identifiers = new List<Identifier>();
-            Variants = new List<Variant>();
-            DerivedFrom = new List<string>();
-            Fields = new List<string>();
+            Values = new List<Value>();
             References = new List<Reference>();
             SeeMore = new List<SeeMoreLink>();
             Tags = new List<string>();

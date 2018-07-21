@@ -1,0 +1,238 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Text.RegularExpressions;
+
+namespace PhysicsFormulae.Compiler.Formulae
+{
+    public enum FormulaSection
+    {
+        Definition = 1,
+        Where = 2,
+        Variants = 3,
+        DerivedFrom = 4,
+        Fields = 5,
+        References = 6,
+        SeeMore = 7,
+        Tags = 8
+    }
+
+    public class FormulaCompiler : Compiler
+    {
+        public FormulaCompiler() : base() { }
+
+        protected string _identifierPattern = @"^([^\[]+)\s*\[\s*(var\.|const\.)\s*(scal\.|vec\.|matr\.|tens|.)?\s*([A-Za-z0-9_]+)?\s*\](.+)$";
+
+        private bool IsLineIdentifierLine(string line)
+        {
+            return Regex.IsMatch(line, _identifierPattern);
+        }
+
+        private Identifier GetIdentifier(string line)
+        {
+            var identifier = new Identifier();
+
+            var match = Regex.Match(line, _identifierPattern);
+
+            identifier.Content = match.Groups[1].Value.Trim();
+
+            if (match.Groups[2].Value == "var.")
+            {
+                identifier.Type = IdentifierType.Variable;
+            }
+            else if (match.Groups[2].Value == "const.")
+            {
+                identifier.Type = IdentifierType.Constant;
+            }
+
+            if (match.Groups[3].Value == "scal.")
+            {
+                identifier.ObjectType = ObjectType.Scalar;
+            }
+            else if (match.Groups[3].Value == "vec.")
+            {
+                identifier.ObjectType = ObjectType.Vector;
+            }
+            else if (match.Groups[3].Value == "matr.")
+            {
+                identifier.ObjectType = ObjectType.Matrix;
+            }
+            else if (match.Groups[3].Value == "tens.")
+            {
+                identifier.ObjectType = ObjectType.Tensor;
+            }
+
+            identifier.Reference = match.Groups[4].Value.Trim();
+            identifier.Definition = match.Groups[5].Value.Trim();
+
+            return identifier;
+        }
+
+        public Formula CompileFormula(string[] lines)
+        {
+            lines = RemoveEmptyLines(lines);
+
+            var formula = new Formula();
+
+            formula.Reference = lines[0].Trim();
+            formula.Title = lines[1].Trim();
+            formula.Interpretation = lines[2].Trim();
+            formula.Content = lines[3].Trim();
+
+            var formulaSection = FormulaSection.Definition;
+
+            var variant = new Variant();
+            var variantLine = 1;
+
+            for (var n = 4; n < lines.Length; n++)
+            {
+                var line = lines[n];
+
+                if (line == "where:")
+                {
+                    formulaSection = FormulaSection.Where;
+                    continue;
+                }
+
+                if (line == "variants:")
+                {
+                    formulaSection = FormulaSection.Variants;
+                    continue;
+                }
+
+                if (line == "derived from:")
+                {
+                    formulaSection = FormulaSection.DerivedFrom;
+                    continue;
+                }
+
+                if (line == "fields:")
+                {
+                    if (variant.Title != "" && variant.Content != "")
+                    {
+                        formula.Variants.Add(variant);
+                    }
+
+                    formulaSection = FormulaSection.Fields;
+                    continue;
+                }
+
+                if (line == "references:")
+                {
+                    formulaSection = FormulaSection.References;
+                    continue;
+                }
+
+                if (line == "see more:")
+                {
+                    formulaSection = FormulaSection.SeeMore;
+                    continue;
+                }
+
+                if (line == "tags:")
+                {
+                    formulaSection = FormulaSection.Tags;
+                    continue;
+                }
+
+                if (formulaSection == FormulaSection.Where)
+                {
+                    if (IsLineIdentifierLine(line))
+                    {
+                        var identifier = GetIdentifier(line);
+
+                        formula.Identifiers.Add(identifier);
+                        continue;
+                    }
+                }
+
+                if (formulaSection == FormulaSection.Variants)
+                {
+                    if (line == "---")
+                    {
+                        if (variant.Title != "" && variant.Content != "")
+                        {
+                            formula.Variants.Add(variant);
+                        }
+
+                        variant = new Variant();
+
+                        variantLine = 1;
+
+                        continue;
+                    }
+
+                    if (variantLine == 1)
+                    {
+                        variant.Title = line;
+                        variantLine++;
+                    }
+                    else if (variantLine == 2)
+                    {
+                        variant.Content = line;
+                        variantLine++;
+                    }
+                    else if (variantLine == 3)
+                    {
+                        variant.Interpretation = line;
+                        variantLine++;
+                    }
+                }
+
+                if (formulaSection == FormulaSection.DerivedFrom)
+                {
+                    formula.DerivedFrom.Add(line);
+                    continue;
+                }
+
+                if (formulaSection == FormulaSection.Fields)
+                {
+                    formula.Fields.Add(line);
+                    continue;
+                }
+
+                if (formulaSection == FormulaSection.References)
+                {
+                    if (IsLineWebpageReferenceLine(line))
+                    {
+                        var webpage = GetWebpageReference(line);
+
+                        formula.References.Add(webpage);
+                        continue;
+                    }
+                    if (IsLineBookReferenceLine(line))
+                    {
+                        var book = GetBookReference(line);
+
+                        formula.References.Add(book);
+                        continue;
+                    }
+                }
+
+                if (formulaSection == FormulaSection.SeeMore)
+                {
+                    if (IsSeeMoreLinkLine(line))
+                    {
+                        var seeMoreLink = GetSeeMoreLink(line);
+
+                        formula.SeeMore.Add(seeMoreLink);
+                        continue;
+                    }
+                }
+
+                if (formulaSection == FormulaSection.Tags)
+                {
+                    formula.Tags.Add(line);
+                    continue;
+                }
+            }
+
+            formula.URLReference = _referenceConverter.GetURLReference(formula.Reference);
+            _autotagger.Autotag(formula);
+
+            return formula;
+        }
+    }
+}

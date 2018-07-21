@@ -45,26 +45,30 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Autotagger.cs" />
-    <Compile Include="Book.cs" />
+    <Compile Include="Constants\ConstantCompiler.cs" />
+    <Compile Include="Formulae\FormulaCompiler.cs" />
+    <Compile Include="References\Book.cs" />
     <Compile Include="Compiler.cs" />
-    <Compile Include="Constant.cs" />
-    <Compile Include="ConstantType.cs" />
-    <Compile Include="Formula.cs" />
-    <Compile Include="Identifier.cs" />
-    <Compile Include="IdentifierType.cs" />
-    <Compile Include="ObjectType.cs" />
+    <Compile Include="Constants\Constant.cs" />
+    <Compile Include="Constants\ConstantType.cs" />
+    <Compile Include="Formulae\Formula.cs" />
+    <Compile Include="Formulae\Identifier.cs" />
+    <Compile Include="Formulae\IdentifierType.cs" />
+    <Compile Include="Formulae\ObjectType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Reference.cs" />
+    <Compile Include="References\Reference.cs" />
     <Compile Include="ReferenceConverter.cs" />
-    <Compile Include="ReferenceType.cs" />
+    <Compile Include="References\ReferenceCompiler.cs" />
+    <Compile Include="References\ReferenceType.cs" />
     <Compile Include="SeeMoreLink.cs" />
-    <Compile Include="Value.cs" />
-    <Compile Include="Variant.cs" />
-    <Compile Include="Webpage.cs" />
+    <Compile Include="Constants\Value.cs" />
+    <Compile Include="Formulae\Variant.cs" />
+    <Compile Include="References\Webpage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

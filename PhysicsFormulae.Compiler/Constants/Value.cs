@@ -1,4 +1,4 @@
-﻿namespace PhysicsFormulae.Compiler
+﻿namespace PhysicsFormulae.Compiler.Constants
 {
     public class Value
     {

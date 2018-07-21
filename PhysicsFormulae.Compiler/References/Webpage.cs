@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PhysicsFormulae.Compiler
+namespace PhysicsFormulae.Compiler.References
 {
     public class Webpage : Reference
     {

@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace PhysicsFormulae.Compiler
+namespace PhysicsFormulae.Compiler.References
 {
     public abstract class Reference
     {

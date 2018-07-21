@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using PhysicsFormulae.Compiler;
 using Newtonsoft.Json;
+using PhysicsFormulae.Compiler.Formulae;
+using PhysicsFormulae.Compiler.Constants;
+using PhysicsFormulae.Compiler.References;
 
 namespace PhysicsFormulae.TerminalApplication
 {
@@ -16,7 +19,10 @@ namespace PhysicsFormulae.TerminalApplication
     {
         static void Main(string[] args)
         {
-            var compiler = new Compiler.Compiler();
+            var formulaCompiler = new FormulaCompiler();
+            var constantCompiler = new ConstantCompiler();
+            var referenceCompiler = new ReferenceCompiler();
+
             var formulae = new List<Formula>();
             var constants = new List<Constant>();
             var references = new List<Reference>();
@@ -29,7 +35,7 @@ namespace PhysicsFormulae.TerminalApplication
             foreach (var file in files)
             {
                 var lines = File.ReadAllLines(file.FullName);
-                var formula = compiler.CompileFormula(lines);
+                var formula = formulaCompiler.CompileFormula(lines);
                 formulae.Add(formula);
 
                 Console.WriteLine(formula.Reference);
@@ -39,7 +45,7 @@ namespace PhysicsFormulae.TerminalApplication
             foreach (var file in constantFiles)
             {
                 var lines = File.ReadAllLines(file.FullName);
-                var constant = compiler.CompileConstant(lines);
+                var constant = constantCompiler.CompileConstant(lines);
                 constants.Add(constant);
 
                 Console.WriteLine(constant.Reference);
@@ -48,7 +54,7 @@ namespace PhysicsFormulae.TerminalApplication
             foreach (var file in referenceFiles)
             {
                 var lines = File.ReadAllLines(file.FullName);
-                var reference = compiler.CompileReference(lines);
+                var reference = referenceCompiler.CompileReference(lines);
                 references.Add(reference);
 
                 Console.WriteLine(reference.CitationKey);
