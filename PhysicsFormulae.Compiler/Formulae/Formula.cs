@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using PhysicsFormulae.Compiler.References;
 
-namespace PhysicsFormulae.Compiler
+namespace PhysicsFormulae.Compiler.Formulae
 {
     public class Formula
     {

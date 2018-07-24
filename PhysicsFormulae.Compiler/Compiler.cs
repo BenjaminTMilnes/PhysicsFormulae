@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Text.RegularExpressions;
 using PhysicsFormulae.Compiler.References;
 
@@ -26,16 +23,18 @@ namespace PhysicsFormulae.Compiler
 
         protected string _seeMoreLinkPattern = @"^(.+)\s+((http|https)://(.+))$";
         protected string _urlPattern = @"^(https?://[^\s]+)$";
+
         protected string _webpageReferencePattern = @"^webpage:\s*""([^""]+)""\s*,\s*([^,]+)\s*,\s*((http|https):\/\/[^\s]+)\s+\((\d{4}-\d{2}-\d{2})\)\s*$";
+
         protected string _bookCitationPattern = @"^book:\s*([A-Za-z0-9_]+)$";
         protected string _bookReferencePattern = @"^book:\s*""([^""]+)""\s*,\s*([^,]+)\s*\((\d{1,3})\. Edition\)\s*\(([^\)]+)\)\s*ISBN\s+([0-9\-]+)\s*$";
 
-        protected bool IsSeeMoreLinkLine(string line)
+        public bool IsSeeMoreLinkLine(string line)
         {
             return (Regex.IsMatch(line, _seeMoreLinkPattern) || Regex.IsMatch(line, _urlPattern));
         }
 
-        protected SeeMoreLink GetSeeMoreLink(string line)
+        public SeeMoreLink GetSeeMoreLink(string line)
         {
             var seeMoreLink = new SeeMoreLink();
 
@@ -67,12 +66,12 @@ namespace PhysicsFormulae.Compiler
             return seeMoreLink;
         }
 
-        protected bool IsLineWebpageReferenceLine(string line)
+        public bool IsLineWebpageReferenceLine(string line)
         {
             return Regex.IsMatch(line, _webpageReferencePattern);
         }
 
-        protected Webpage GetWebpageReference(string line)
+        public Webpage GetWebpageReference(string line)
         {
             var webpage = new Webpage();
 
@@ -85,24 +84,24 @@ namespace PhysicsFormulae.Compiler
             return webpage;
         }
 
-        protected bool IsLineBookCitationLine(string line)
+        public bool IsLineBookCitationLine(string line)
         {
             return Regex.IsMatch(line, _bookCitationPattern);
         }
 
-        protected string GetBookCitation(string line)
+        public string GetBookCitation(string line)
         {
             var match = Regex.Match(line, _bookCitationPattern);
 
             return match.Groups[1].Value.Trim();
         }
 
-        protected bool IsLineBookReferenceLine(string line)
+        public bool IsLineBookReferenceLine(string line)
         {
             return Regex.IsMatch(line, _bookReferencePattern);
         }
 
-        protected Book GetBookReference(string line)
+        public Book GetBookReference(string line)
         {
             var book = new Book();
 

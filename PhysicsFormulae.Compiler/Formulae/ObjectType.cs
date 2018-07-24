@@ -1,4 +1,4 @@
-﻿namespace PhysicsFormulae.Compiler
+﻿namespace PhysicsFormulae.Compiler.Formulae
 {
     public enum ObjectType
     {

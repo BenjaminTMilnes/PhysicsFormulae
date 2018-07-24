@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using PhysicsFormulae.Compiler;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace PhysicsFormulae.Compiler.Tests
 {
     [TestClass]
     public class ReferenceConverterTests
     {
-        protected ReferenceConverter _referenceConverter { get; set; }
+        protected ReferenceConverter _referenceConverter;
 
         public ReferenceConverterTests()
         {
