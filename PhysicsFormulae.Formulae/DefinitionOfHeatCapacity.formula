@@ -1,0 +1,52 @@
+﻿DefinitionOfHeatCapacity
+
+The Definition of Heat Capacity
+
+The heat capacity of an object is the amount of heat needed to raise the temperature of the object by 1 degree.
+
+C = \frac{\mathrm{d} Q}{\mathrm{d} T}
+
+where:
+
+C [var. scal. HeatCapacity] is the heat capacity of the object
+Q [var. scal. Heat] is the heat being transferred to the object
+T [var. scal. Temperature] is the temperature of the object
+
+variants:
+
+The Specific Heat Capacity
+
+c = \frac{1}{m} \frac{\mathrm{d} Q}{\mathrm{d} T}
+
+The specific heat capacity of a material is its heat capacity per unit mass.
+
+---
+
+The Heat Capacity at Constant Volume
+
+C_{V} = \left( \frac{\mathrm{d} Q}{\mathrm{d} T} \right)_{V}
+
+The heat capacity at a constant volume is how much heat is needed to raise the temperature of an object by increasing the pressure but keeping the volume constant.
+
+---
+
+The Heat Capacity at Constant Pressure
+
+C_{P} = \left( \frac{\mathrm{d} Q}{\mathrm{d} T} \right)_{P}
+
+The heat capacity at a constant pressure is how much heat is needed to raise the temperature of an object allowing the volume to increase but keeping the pressure constant.
+
+fields:
+
+Classical Thermodynamics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+tags:

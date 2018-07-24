@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using PhysicsFormulae.Compiler;
 using Newtonsoft.Json;
 using PhysicsFormulae.Compiler.Formulae;
 using PhysicsFormulae.Compiler.Constants;
@@ -28,18 +27,17 @@ namespace PhysicsFormulae.TerminalApplication
             var references = new List<Reference>();
 
             var directoryInfo = new DirectoryInfo(@"..\..\..\PhysicsFormulae.Formulae");
-            var files = directoryInfo.GetFiles("*.formula");
+            var formulaFiles = directoryInfo.GetFiles("*.formula");
             var constantFiles = directoryInfo.GetFiles("*.constant");
             var referenceFiles = directoryInfo.GetFiles("*.reference");
 
-            foreach (var file in files)
+            foreach (var file in formulaFiles)
             {
                 var lines = File.ReadAllLines(file.FullName);
                 var formula = formulaCompiler.CompileFormula(lines);
                 formulae.Add(formula);
 
                 Console.WriteLine(formula.Reference);
-                Console.WriteLine(formula.Identifiers.Count);
             }
 
             foreach (var file in constantFiles)
@@ -77,8 +75,6 @@ namespace PhysicsFormulae.TerminalApplication
                     serializer.Serialize(jsonTextWriter, model);
                 }
             }
-
-            //  Console.ReadLine();
         }
     }
 }
