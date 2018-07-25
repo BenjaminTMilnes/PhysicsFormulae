@@ -1,4 +1,17 @@
-﻿application.filter("searchFormulae", function () {
+﻿function extractField(text) {
+    var re = /field\s+=\s+'([A-Za-z0-9 ]*)'/;
+    var matches = text.match(re);
+
+    if (matches) {
+        var remainingText = text.replace(re, "");
+
+        return [remainingText, matches[1]];
+    }
+
+    return [remainingText, ""];
+}
+
+application.filter("searchFormulae", function () {
     return function (formulae, text) {
         if (stringIsNullOrEmpty(text)) {
             return formulae;
@@ -7,6 +20,10 @@
             var a = extractTags(text);
             text = a[0];
             var tags = a[1];
+
+            var b = extractField(text);
+            text = b[0];
+            var field = b[1];
 
             var matchingFormulae = [];
 
@@ -24,6 +41,12 @@
 
                 for (var j = 0; j < tags.length; j++) {
                     if (stringContains(tagsText.toLowerCase(), tags[j].toLowerCase())) {
+                        matchingFormulae.push(formula);
+                    }
+                }
+
+                for (var k = 0; k < formula.Fields.length; k++) {
+                    if (formula.Fields[k] == field) {
                         matchingFormulae.push(formula);
                     }
                 }
@@ -79,13 +102,22 @@ application.controller("SearchController", ["$scope", "$rootScope", "$routeParam
     $scope.pageNumber = 1;
     $scope.numberOfFormulaePerPage = 10;
 
+    if (!stringIsNullOrEmpty($routeParams.fieldName)) {
+        $scope.searchTerms = "field = '" + $routeParams.fieldName + "'";
+    }
+
     $rootScope.metaService = metaService;
 
     dataService.getData().then(function (data) {
         $scope.formulae = data.Formulae;
         $scope.constants = data.Constants;
 
-        $rootScope.metaService.set(defaultTitle, defaultDescription, defaultKeywords);
+        if (!stringIsNullOrEmpty($routeParams.fieldName)) {
+            $rootScope.metaService.set($routeParams.fieldName + " - Physics Formulae", defaultDescription, defaultKeywords);
+        }
+        else {
+            $rootScope.metaService.set(defaultTitle, defaultDescription, defaultKeywords);
+        }
     });
 
     $scope.replaceMathematicsMarkers = function (text) {
