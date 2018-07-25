@@ -17,7 +17,7 @@ function extractTags(text) {
 
     var m;
     while ((m = re.exec(text)) !== null) {
-        tags.push(m[0]);
+        tags.push(m[0].substring(1));
     }
 
     text = text.replace(re, " ");

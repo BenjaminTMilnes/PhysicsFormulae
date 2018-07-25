@@ -1,10 +1,9 @@
 ﻿function extractField(text) {
     var re = /field\s+=\s+'([A-Za-z0-9 ]*)'/;
+    var remainingText = text.replace(re, "");
     var matches = text.match(re);
 
     if (matches) {
-        var remainingText = text.replace(re, "");
-
         return [remainingText, matches[1]];
     }
 
@@ -21,6 +20,8 @@ application.filter("searchFormulae", function () {
             text = a[0];
             var tags = a[1];
 
+            console.log(tags);
+
             var b = extractField(text);
             text = b[0];
             var field = b[1];
@@ -29,7 +30,7 @@ application.filter("searchFormulae", function () {
 
             for (var i = 0; i < formulae.length; i++) {
                 var formula = formulae[i];
-                var formulaText = formula.Title + ", " + formula.Interpretation + ", " + formula.Content + ", " + makeSearchableString(formula.Fields);
+                var formulaText = formula.Title + ", " + formula.Interpretation + ", " + formula.Content;
                 var tagsText = makeSearchableString(formula.Tags);
 
                 if (text != "") {
@@ -40,7 +41,7 @@ application.filter("searchFormulae", function () {
                 }
 
                 for (var j = 0; j < tags.length; j++) {
-                    if (stringContains(tagsText.toLowerCase(), tags[j].toLowerCase())) {
+                    if (stringContains(tagsText, tags[j])) {
                         matchingFormulae.push(formula);
                     }
                 }
@@ -106,6 +107,10 @@ application.controller("SearchController", ["$scope", "$rootScope", "$routeParam
         $scope.searchTerms = "field = '" + $routeParams.fieldName + "'";
     }
 
+    if (!stringIsNullOrEmpty($routeParams.tagName)) {
+        $scope.searchTerms = "#" + $routeParams.tagName;
+    }
+
     $rootScope.metaService = metaService;
 
     dataService.getData().then(function (data) {
@@ -114,6 +119,9 @@ application.controller("SearchController", ["$scope", "$rootScope", "$routeParam
 
         if (!stringIsNullOrEmpty($routeParams.fieldName)) {
             $rootScope.metaService.set($routeParams.fieldName + " - Physics Formulae", defaultDescription, defaultKeywords);
+        }
+        else if (!stringIsNullOrEmpty($routeParams.tagName)) {
+            $rootScope.metaService.set("'" + $routeParams.tagName + "' - " + defaultTitle, defaultDescription, defaultKeywords);
         }
         else {
             $rootScope.metaService.set(defaultTitle, defaultDescription, defaultKeywords);
