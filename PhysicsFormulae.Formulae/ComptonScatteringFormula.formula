@@ -1,0 +1,38 @@
+﻿ComptonScatteringFormula
+
+The Compton Scattering Formula
+
+The change in the wavelength of a high-energy photon that scatters off an electron depends on the mass of the electron and the scattering angle.
+
+\lambda^{\prime} - \lambda = \frac{2 \pi \hbar}{mc} \left( 1 - \cos \theta \right)
+
+where:
+
+\lambda^{\prime} [var. scal. Wavelength] is the wavelength of the scattered photon
+\lambda [var. scal. Wavelength] is the wavelength of the incident photon
+\hbar [const. scal. ReducedPlanckConstant] is the Reduced Planck Constant
+m [var. scal. Mass] is the mass of the electron
+c [const. scal. SpeedOfLight] is the speed of light in free space
+\theta [var. scal. ScatteringAngle] is the scattering angle of the photon.
+
+variants:
+
+In terms of angular frequency
+
+\frac{1}{\omega^{\prime}} - \frac{1}{\omega} = \frac{\hbar}{mc^{2}} \left( 1 - \cos \theta \right)
+
+fields:
+
+Scattering
+
+derived from:
+
+
+
+references:
+
+book: "Quantum Mechanics", Alastair I. M. Rae (5. Edition) (Taylor & Francis Group) ISBN 9781584889700
+
+see more:
+
+tags:
