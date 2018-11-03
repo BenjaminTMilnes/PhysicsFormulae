@@ -15,9 +15,15 @@ namespace PhysicsFormulae.Compiler
 
         protected IList<string> keyPhrases = new List<string>() { "special relativity", "general relativity", "length contraction", "time dilation", "rest frame", "Lorentz Factor", "frame of reference", "constant speed", "relative velocity" };
 
-         protected IEnumerable<string> getWordsInKeyPhrases()
+        protected string normaliseText(string text)
         {
-            return string.Join(" ", keyPhrases.ToArray()).Split(' ');
+            var normalisedText = text;
+
+            normalisedText = RemoveLaTeX(normalisedText);
+            normalisedText = normalisedText.ToLower();
+            normalisedText = Regex.Replace(normalisedText, @"[\.\,\:\;\'\""\(\)\-\$\\\/]", "");
+
+            return normalisedText;
         }
 
         public string RemoveLaTeX(string text)
@@ -27,24 +33,14 @@ namespace PhysicsFormulae.Compiler
 
         public IEnumerable<string> GetWords(string text)
         {
-            var normalisedText = text;
-
-            normalisedText = RemoveLaTeX(normalisedText);
-            normalisedText = normalisedText.ToLower();
-            normalisedText = Regex.Replace(normalisedText, @"[\.\,\:\;\'\""\(\)\-\$\\\/]", "");
-
-            var words = normalisedText.Split(' ');
-
-            return words;
+            return normaliseText(text).Split(' ');
         }
 
         public IEnumerable<string> Autotag(Formula formula)
         {
             var words = new List<string>();
 
-            var normalisedText = formula.Title + " " + formula.Interpretation;
-            normalisedText = RemoveLaTeX(normalisedText);
-            normalisedText = normalisedText.ToLower();
+            var normalisedText = normaliseText(formula.Title + " " + formula.Interpretation);
 
             var phraseText = "";
 
@@ -88,9 +84,7 @@ namespace PhysicsFormulae.Compiler
         {
             var words = new List<string>();
 
-            var normalisedText = constant.Title + " " + constant.Interpretation;
-            normalisedText = RemoveLaTeX(normalisedText);
-            normalisedText = normalisedText.ToLower();
+            var normalisedText = normaliseText(constant.Title + " " + constant.Interpretation);
 
             var phraseText = "";
 
