@@ -8,6 +8,7 @@ namespace PhysicsFormulae.Compiler.References
         CitationKey = 1,
         Title = 2,
         Authors = 3,
+        Other = 4,
     }
 
     public class ReferenceCompiler : Compiler
@@ -41,6 +42,24 @@ namespace PhysicsFormulae.Compiler.References
                         continue;
                     }
 
+                    if (line.StartsWith("edition:"))
+                    {
+                        referenceSection = ReferenceSection.Other;
+                        book.Edition = int.Parse(line.Substring(8));
+                    }
+
+                    if (line.StartsWith("publisher:"))
+                    {
+                        referenceSection = ReferenceSection.Other;
+                        book.PublisherName = line.Substring(10).Trim();
+                    }
+
+                    if (line.StartsWith("isbn:"))
+                    {
+                        referenceSection = ReferenceSection.Other;
+                        book.ISBN = line.Substring(5).Trim();
+                    }
+
                     if (referenceSection == ReferenceSection.Title)
                     {
                         book.Title = line.Trim();
@@ -49,21 +68,6 @@ namespace PhysicsFormulae.Compiler.References
                     if (referenceSection == ReferenceSection.Authors)
                     {
                         authors.Add(line.Trim());
-                    }
-
-                    if (line.StartsWith("edition:"))
-                    {
-                        book.Edition = int.Parse(line.Substring(8));
-                    }
-
-                    if (line.StartsWith("publisher:"))
-                    {
-                        book.PublisherName = line.Substring(10);
-                    }
-
-                    if (line.StartsWith("isbn:"))
-                    {
-                        book.ISBN = line.Substring(5);
                     }
                 }
 

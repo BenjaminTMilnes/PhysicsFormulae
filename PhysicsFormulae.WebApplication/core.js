@@ -72,7 +72,9 @@ function getBibTeXForOriginalReferences(references) {
             book.citationKey = getCitationKeyForReference(reference);
             book.title.value = reference.Title;
             book.author.value = getAuthorsString(reference.Authors);
-            book.publisher.value = reference.Publisher;
+            book.publisher.value = reference.PublisherName;
+            book.edition.value = reference.Edition;
+            book.isbn.value = reference.ISBN;
 
             database.entries.push(book);
         }
@@ -87,6 +89,10 @@ function getBibTeXForOriginalReferences(references) {
 }
 
 function getCitationKeyForReference(reference) {
+
+    if (reference.CitationKey != "") {
+        return reference.CitationKey;
+    }
 
     var citationKey = "";
 
@@ -113,7 +119,7 @@ function getAuthorsString(authors) {
 
         authorsString += authors[i];
     }
-
+    
     return authorsString;
 
 }

@@ -14,6 +14,7 @@ namespace PhysicsFormulae.Compiler.References
 
         public Book()
         {
+            CitationKey = "";
             Type = ReferenceType.Book;
         }
     }

@@ -81,6 +81,7 @@ class BibTeXBook extends BibTeXEntry {
         this.address = new BibTeXField("address", "", true);
         this.edition = new BibTeXField("edition", "", true);
         this.month = new BibTeXField("month", BibTeXMonth.None, true);
+        this.isbn = new BibTeXField("isbn", "", true);
     }
 }
 

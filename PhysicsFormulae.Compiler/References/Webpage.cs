@@ -11,6 +11,7 @@ namespace PhysicsFormulae.Compiler.References
 
         public Webpage()
         {
+            CitationKey = "";
             Type = ReferenceType.Webpage;
         }
     }
