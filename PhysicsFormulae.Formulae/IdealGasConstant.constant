@@ -1,0 +1,26 @@
+﻿IdealGasConstant
+
+The Ideal Gas Constant
+
+The Ideal Gas Constant is a physical constant that is equivalent to the Boltzmann Constant but expressed in units of energy per temperature increment per mole.
+
+universal
+
+R
+
+values:
+
+8.3144598
+0
+J K^{-1} mol^{-1}
+
+references:
+
+webpage: "Gas constant", Wikipedia, https://en.wikipedia.org/wiki/Gas_constant (2018-11-03)
+
+see more:
+
+https://en.wikipedia.org/wiki/Gas_constant
+https://physics.info/constants/
+
+tags:

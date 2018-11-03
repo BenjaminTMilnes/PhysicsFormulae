@@ -1,0 +1,38 @@
+﻿BoltzmannConstant
+
+The Boltzmann Constant
+
+The Boltzmann Constant is a physical constant that relates the average kinetic energy of particles in a gas to the temperature of the gas.
+
+universal
+
+k_{B}
+
+values:
+
+1.38064852
+-23
+J K^{-1}
+
+---
+
+8.6173303
+-5
+eV K^{-1}
+
+---
+
+1.38064852
+-16
+erg K^{-1}
+
+references:
+
+webpage: "Boltzmann constant", Wikipedia, https://en.wikipedia.org/wiki/Boltzmann_constant (2018-11-03)
+
+see more:
+
+https://en.wikipedia.org/wiki/Boltzmann_constant
+https://physics.info/constants/
+
+tags:

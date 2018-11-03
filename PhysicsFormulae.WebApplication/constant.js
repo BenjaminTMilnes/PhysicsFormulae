@@ -52,12 +52,22 @@ application.controller("ConstantController", ["$scope", "$routeParams", "dataSer
             var value = constant.Values[i];
 
             var number = value.Coefficient + " &times; 10<sup>" + changeHyphensToMinusSigns(value.Exponent) + "</sup>";
+
+            if (value.Exponent == 0) {
+                number = value.Coefficient;
+            }
+
             var units = value.Units;
             var latex = value.Coefficient + " \\times 10^{" + value.Exponent + "} \\,\\mathrm{" + value.Units + "}";
 
             listedValues.push({ "type": "Precise Value", "significand": value.Coefficient, "number": number, "units": units, "latex": latex });
 
             var numberTo3SF = Number.parseFloat(value.Coefficient).toPrecision(3) + " &times; 10<sup>" + changeHyphensToMinusSigns(value.Exponent) + "</sup>";
+
+            if (value.Exponent == 0) {
+                numberTo3SF = Number.parseFloat(value.Coefficient).toPrecision(3);
+            }
+
             var latexTo3SF = Number.parseFloat(value.Coefficient).toPrecision(3) + " \\times 10^{" + value.Exponent + "} \\,\\mathrm{" + value.Units + "}";
 
             listedValues.push({ "type": "To 3 s.f.", "significand": Number.parseFloat(value.Coefficient).toPrecision(3), "number": numberTo3SF, "units": units, "latex": latexTo3SF });
