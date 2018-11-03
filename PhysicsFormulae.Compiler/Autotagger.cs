@@ -13,6 +13,13 @@ namespace PhysicsFormulae.Compiler
     {
         protected IList<string> excludedWords = new List<string>() { "a", "an", "the", "in", "at", "on", "to", "from", "under", "over", "above", "below", "with", "without", "of", "it", "is", "are", "be", "which", "when", "what", "who", "how", "why", "where", "something", "through", "for", "along", "there", "must", "towards", "that", "and", "its", "know", "known", "travel", "fast", "faster", "than", "this", "carry", "carried", "by", "use", "used", "description", "describe", "described", "number", "include", "including", "move", "moving", "speeds", "or", "respect", "equal", "minus", "one", "multiply", "multiplied", "travel", "travelled", "produce", "produced", "directly", "direct", "left", "right", "hand", "side", "open", "closed", "per", "two", "same", "between", "as", "divided", "will", "appear", "shorter", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" };
 
+        protected IList<string> keyPhrases = new List<string>() { "special relativity", "general relativity", "length contraction", "time dilation", "rest frame", "Lorentz Factor", "frame of reference", "constant speed", "relative velocity" };
+
+         protected IEnumerable<string> getWordsInKeyPhrases()
+        {
+            return string.Join(" ", keyPhrases.ToArray()).Split(' ');
+        }
+
         public string RemoveLaTeX(string text)
         {
             return Regex.Replace(text, @"\$[^\$]*\$", "");
@@ -35,6 +42,22 @@ namespace PhysicsFormulae.Compiler
         {
             var words = new List<string>();
 
+            var normalisedText = formula.Title + " " + formula.Interpretation;
+            normalisedText = RemoveLaTeX(normalisedText);
+            normalisedText = normalisedText.ToLower();
+
+            var phraseText = "";
+
+            foreach (var phrase in keyPhrases)
+            {
+                if (normalisedText.Contains(phrase.ToLower()))
+                {
+                    formula.Tags.Add(phrase);
+
+                    phraseText += " " + phrase.ToLower();
+                }
+            }
+
             words.AddRange(GetWords(formula.Title));
             words.AddRange(GetWords(formula.Interpretation));
 
@@ -50,6 +73,11 @@ namespace PhysicsFormulae.Compiler
                     continue;
                 }
 
+                if (phraseText.Contains(word))
+                {
+                    continue;
+                }
+
                 formula.Tags.Add(word);
             }
 
@@ -59,6 +87,22 @@ namespace PhysicsFormulae.Compiler
         public IEnumerable<string> Autotag(Constant constant)
         {
             var words = new List<string>();
+
+            var normalisedText = constant.Title + " " + constant.Interpretation;
+            normalisedText = RemoveLaTeX(normalisedText);
+            normalisedText = normalisedText.ToLower();
+
+            var phraseText = "";
+
+            foreach (var phrase in keyPhrases)
+            {
+                if (normalisedText.Contains(phrase.ToLower()))
+                {
+                    constant.Tags.Add(phrase);
+
+                    phraseText += " " + phrase.ToLower();
+                }
+            }
 
             words.AddRange(GetWords(constant.Title));
             words.AddRange(GetWords(constant.Interpretation));
@@ -71,6 +115,11 @@ namespace PhysicsFormulae.Compiler
                 }
 
                 if (excludedWords.Any(w => w == word))
+                {
+                    continue;
+                }
+
+                if (phraseText.Contains(word))
                 {
                     continue;
                 }
