@@ -21,12 +21,15 @@ namespace PhysicsFormulae.Compiler.Constants
         public IList<SeeMoreLink> SeeMore { get; set; }
         public IList<string> Tags { get; set; }
 
+         public IList<string> UsedInFormulae { get; set; }
+
         public Constant()
         {
             Values = new List<Value>();
             References = new List<Reference>();
             SeeMore = new List<SeeMoreLink>();
             Tags = new List<string>();
+            UsedInFormulae = new List<string>();
         }
     }
 }

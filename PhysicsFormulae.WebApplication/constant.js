@@ -7,12 +7,18 @@ application.controller("ConstantController", ["$scope", "$routeParams", "dataSer
 
     dataService.getData().then(function (data) {
         $scope.constants = data.Constants;
+        $scope.formulae = data.Formulae;
 
         for (var i = 0; i < $scope.constants.length; i++) {
             var constant = $scope.constants[i];
 
             if (constant.URLReference == $routeParams.reference) {
                 $scope.constant = constant;
+                $scope.usedInFormulae = [];
+
+                for (var j = 0; j < $scope.constant.UsedInFormulae.length; j++) {
+                    $scope.usedInFormulae = $scope.usedInFormulae.concat($scope.formulae.filter(f => f.Reference == $scope.constant.UsedInFormulae[j]));
+                }
 
                 $rootScope.metaService.set(constant.Title + " - Physics Formulae", constant.Interpretation, constant.Tags.join(", "));
 
@@ -38,6 +44,10 @@ application.controller("ConstantController", ["$scope", "$routeParams", "dataSer
         }
 
         return "<mathematics content-type=\"latex\" content=\"\\displaystyle " + $scope.constant.Symbol + "\"></mathematics>";
+    }
+
+    $scope.getUsedInFormula = function (content) {
+        return "<mathematics content-type=\"latex\" content=\"\\displaystyle " + content + "\"></mathematics>";
     }
 
     $scope.getValues = function () {

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using Newtonsoft.Json;
 using PhysicsFormulae.Compiler.Formulae;
 using PhysicsFormulae.Compiler.Constants;
@@ -56,6 +57,17 @@ namespace PhysicsFormulae.TerminalApplication
                 constants.Add(constant);
 
                 Console.WriteLine(constant.Reference);
+            }
+
+            foreach(var constant in constants)
+            {
+                foreach(var formula in formulae)
+                {
+                    if (formula.Identifiers.Any(i => i.Reference == constant.Reference))
+                    {
+                        constant.UsedInFormulae.Add(formula.Reference);
+                    }
+                }
             }
 
             var model = new Model();

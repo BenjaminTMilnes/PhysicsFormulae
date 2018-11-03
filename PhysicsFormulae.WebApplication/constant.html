@@ -16,6 +16,19 @@
     <div class="constant-tags">
         <span class="tag" ng-repeat="tag in constant.Tags"><a href="#/tag/{{tag}}" title="Search for other constants with the tag '{{tag}}'.">{{tag}}</a>{{$last ? '' : ',&nbsp;'}}</span>
     </div>
+    <div class="constant-usedinformulae">
+        <h3>Used in</h3>
+        <div class="cards">
+            <div class="card" ng-repeat="formula in usedInFormulae">
+                <div class="variant">
+                    <h4 class="variant-title"><a href="#/formula/{{formula.URLReference}}" title="{{formula.Title}}">{{formula.Title}}</a></h4>
+                    <div class="variant-content" compile="getUsedInFormula(formula.Content)" >
+                    </div>
+                    <p class="variant-interpretation">{{formula.Interpretation}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="constant-references">
         <references references="constant.References" page-type="'constant'"></references>
         <bibtex bibtex-for-this-webpage="getBibTeXForThisWebpage()" number-of-good-references="getNumberOfGoodReferences()" bibtex-for-original-sources="getBibTeXForOriginalReferences()" biblatex-for-this-webpage="getBibLaTeXForThisWebpage()"></bibtex>
