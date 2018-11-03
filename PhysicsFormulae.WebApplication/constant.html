@@ -16,7 +16,7 @@
     <div class="constant-tags">
         <span class="tag" ng-repeat="tag in constant.Tags"><a href="#/tag/{{tag}}" title="Search for other constants with the tag '{{tag}}'.">{{tag}}</a>{{$last ? '' : ',&nbsp;'}}</span>
     </div>
-    <div class="constant-usedinformulae">
+    <div class="constant-usedinformulae" ng-show="usedInFormulae.length > 0">
         <h3>Used in</h3>
         <div class="cards">
             <div class="card" ng-repeat="formula in usedInFormulae">
