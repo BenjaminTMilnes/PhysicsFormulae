@@ -4,15 +4,29 @@ application.controller("FormulaController", ["$scope", "$routeParams", "dataServ
     $rootScope.metaService = metaService;
 
     $scope.formulae = null;
+    $scope.constants = null;
 
     dataService.getData().then(function (data) {
         $scope.formulae = data.Formulae;
+        $scope.constants = data.Constants;
 
         for (var i = 0; i < $scope.formulae.length; i++) {
             var formula = $scope.formulae[i];
 
             if (formula.URLReference == $routeParams.reference) {
                 $scope.formula = formula;
+
+                for (var j = 0; j < $scope.formula.Identifiers.length; j++) {
+                    var identifier = $scope.formula.Identifiers[j];
+                    var matches = $scope.constants.filter(c => c.Reference == identifier.Reference);
+
+                    if (matches.length > 0) {
+                        identifier.Link = "/#/constant/" + matches[0].URLReference;
+                    }
+                    else {
+                        identifier.Link = "";
+                    }
+                }
 
                 $rootScope.metaService.set(formula.Title + " - Physics Formulae", formula.Interpretation, formula.Tags.join(", "));
             }

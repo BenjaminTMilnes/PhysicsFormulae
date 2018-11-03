@@ -6,7 +6,8 @@
         Values = 2,
         References = 3,
         SeeMore = 4,
-        Tags = 5
+        Tags = 5,
+        Rating = 6
     }
 
     public class ConstantCompiler : Compiler
@@ -60,6 +61,11 @@
                 if (line == "tags:")
                 {
                     constantSection = ConstantSection.Tags;
+                    continue;
+                }
+                if (line.StartsWith("rating:"))
+                {
+                    constantSection = ConstantSection.Rating;
                     continue;
                 }
 
