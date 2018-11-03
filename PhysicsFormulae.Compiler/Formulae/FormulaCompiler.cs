@@ -1,4 +1,6 @@
 ﻿using System.Text.RegularExpressions;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace PhysicsFormulae.Compiler.Formulae
 {
@@ -65,7 +67,7 @@ namespace PhysicsFormulae.Compiler.Formulae
             return identifier;
         }
 
-        public Formula CompileFormula(string[] lines)
+        public Formula CompileFormula(string[] lines, IEnumerable<References.Reference> references )
         {
             lines = RemoveEmptyLines(lines);
 
@@ -201,6 +203,15 @@ namespace PhysicsFormulae.Compiler.Formulae
                     {
                         var book = GetBookReference(line);
 
+                        formula.References.Add(book);
+                        continue;
+                    }
+                    if (IsLineBookCitationLine(line))
+                    {
+                        var citation = GetBookCitation(line);
+
+                        var book = references.First(r => r.CitationKey == citation);
+                        
                         formula.References.Add(book);
                         continue;
                     }

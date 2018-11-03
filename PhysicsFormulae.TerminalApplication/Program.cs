@@ -31,10 +31,19 @@ namespace PhysicsFormulae.TerminalApplication
             var constantFiles = directoryInfo.GetFiles("*.constant");
             var referenceFiles = directoryInfo.GetFiles("*.reference");
 
+            foreach (var file in referenceFiles)
+            {
+                var lines = File.ReadAllLines(file.FullName);
+                var reference = referenceCompiler.CompileReference(lines);
+                references.Add(reference);
+
+                Console.WriteLine(reference.CitationKey);
+            }
+
             foreach (var file in formulaFiles)
             {
                 var lines = File.ReadAllLines(file.FullName);
-                var formula = formulaCompiler.CompileFormula(lines);
+                var formula = formulaCompiler.CompileFormula(lines, references);
                 formulae.Add(formula);
 
                 Console.WriteLine(formula.Reference);
@@ -47,15 +56,6 @@ namespace PhysicsFormulae.TerminalApplication
                 constants.Add(constant);
 
                 Console.WriteLine(constant.Reference);
-            }
-
-            foreach (var file in referenceFiles)
-            {
-                var lines = File.ReadAllLines(file.FullName);
-                var reference = referenceCompiler.CompileReference(lines);
-                references.Add(reference);
-
-                Console.WriteLine(reference.CitationKey);
             }
 
             var model = new Model();
