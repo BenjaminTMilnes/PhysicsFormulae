@@ -2,15 +2,43 @@
 
 Newton’s Second Law of Motion
 
-The force applied to an object is equal to the rate of change of the momentum of that object.
+The force experienced by an object is defined as the rate of change of the momentum of the object. This is expressed mathematically as the derivative of the momentum with respect to time.
 
 \textbf{F} = \frac{\mathrm{d} \textbf{p}}{\mathrm{d} t}
 
 where:
 
-\textbf{F} [var. Force] is the force applied to the object
-\textbf{p} [var. Momentum] is the momentum of the object
-t [var. Time] is time
+\textbf{F} [var. vec. Force] is the force experienced by the object
+\textbf{p} [var. vec. Momentum] is the momentum of the object
+t [var. scal. Time] is time
+
+variants:
+
+Where mass is constant
+
+\textbf{F} = m \frac{\mathrm{d} \textbf{v}}{\mathrm{d} t} = m \textbf{a}
+
+If the mass of the object remains constant, then it can be brought outside the derivative, and the force is just equal to the mass multiplied by the acceleration of the object.
+
+---
+
+Scalar Form
+
+F = \frac{\mathrm{d} p}{\mathrm{d} t}
+
+If only motion along one dimension is considered, the scalar form can be used.
+
+---
+
+Scalar form where mass is constant
+
+F = m \frac{\mathrm{d} v}{\mathrm{d} t} = ma
+
+---
+
+Average Force
+
+F_{\text{average}} = \frac{\Delta p}{\Delta t} = m \frac{\Delta v}{\Delta t}
 
 fields:
 
@@ -19,8 +47,13 @@ Classical Mechanics
 references:
 
 webpage: "Newton's laws of motion", Wikipedia, https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion (2017-11-20)
+webpage: "Newton's Laws", Hyperphysics, http://hyperphysics.phy-astr.gsu.edu/hbase/Newt.html (2018-11-04)
 
 see more:
 
-Wikipedia https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion 
+https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion
+http://hyperphysics.phy-astr.gsu.edu/hbase/Newt.html
 
+tags:
+
+rating: *****

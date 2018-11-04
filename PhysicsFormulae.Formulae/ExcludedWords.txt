@@ -90,3 +90,5 @@ every
 single
 other
 both
+expressed
+mathematically
