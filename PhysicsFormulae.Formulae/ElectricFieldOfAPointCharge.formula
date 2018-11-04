@@ -2,16 +2,34 @@
 
 The Electric Field of a Point Charge
 
-The magnitude of the electric field produced by a point charge is directly proportional to the charge and inversely proportional to the square of the distance from the charge.
+The magnitude of the electric field produced by a point charge is directly proportional to the value of the charge and inversely proportional to the square of the distance from the charge.
 
-E = \frac{q}{4 \pi \epsilon_0 r^2}
+E = k_{e} \frac{q}{r^{2}}
 
 where:
 
-E [var. scal. ElectricField] is the electric field
+E [var. scal. ElectricField] is the magnitude of the electric field
+k_{e} [const. scal. CoulombConstant] is the Coulomb Constant, equal to $\frac{1}{4 \pi \epsilon_{0}}$
 q [var. scal. Charge] is the electric charge of the point charge
-\epsilon_0 [const. scal. PermittivityOfFreeSpace] is the permittivity of free space
-r [var. scal.] is the distance from the charge
+r [var. scal. RadialDistance] is the distance from the charge
+
+variants:
+
+In terms of the permittivity of free space
+
+E = \frac{q}{4 \pi \epsilon_{0} r^{2}}
+
+---
+
+Vector Form
+
+\textbf{E} = - k_{e} \frac{q}{| \textbf{r} |^{2}} \hat{\textbf{r}}
+
+---
+
+Vector form in terms of the permittivity of free space
+
+\textbf{E} = - \frac{q}{4 \pi \epsilon_{0} | \textbf{r} |^{2}} \hat{\textbf{r}}
 
 fields:
 
@@ -23,11 +41,14 @@ derived from:
 
 references:
 
-book: "Sears and Zemansky's University Physics with Modern Physics", H. D. Young and R. A. Freedman (12. Edition) (Pearson) ISBN 9780321501301
+book: SearsAndZemanskysUniversityPhysics
 
 see more:
 
-
+https://en.wikipedia.org/wiki/Coulomb%27s_law
+http://hyperphysics.phy-astr.gsu.edu/hbase/electric/elefor.html#c1
+https://physics.info/coulomb/
 
 tags:
 
+rating: *****

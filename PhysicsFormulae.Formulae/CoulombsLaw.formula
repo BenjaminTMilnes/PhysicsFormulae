@@ -24,13 +24,13 @@ F = \frac{q_{1} q_{2}}{4 \pi \epsilon_{0} r^{2}}
 
 Vector Form
 
-\textbf{F} = - k_{e} \frac{q_{1} q_{2}}{| \textbf{r} |^{2}} \hat{\mathrm{r}}
+\textbf{F} = - k_{e} \frac{q_{1} q_{2}}{| \textbf{r} |^{2}} \hat{\textbf{r}}
 
 ---
 
 Vector form in terms of the permittivity of free space
 
-\textbf{F} = - \frac{q_{1} q_{2}}{4 \pi \epsilon_{0} | \textbf{r} |^{2}} \hat{\mathrm{r}}
+\textbf{F} = - \frac{q_{1} q_{2}}{4 \pi \epsilon_{0} | \textbf{r} |^{2}} \hat{\textbf{r}}
 
 fields:
 
