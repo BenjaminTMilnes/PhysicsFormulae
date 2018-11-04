@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Newtonsoft.Json;
+using PhysicsFormulae.Compiler;
 using PhysicsFormulae.Compiler.Formulae;
 using PhysicsFormulae.Compiler.Constants;
 using PhysicsFormulae.Compiler.References;
@@ -19,18 +20,26 @@ namespace PhysicsFormulae.TerminalApplication
     {
         static void Main(string[] args)
         {
-            var formulaCompiler = new FormulaCompiler();
-            var constantCompiler = new ConstantCompiler();
-            var referenceCompiler = new ReferenceCompiler();
-
-            var formulae = new List<Formula>();
-            var constants = new List<Constant>();
-            var references = new List<Reference>();
-
             var directoryInfo = new DirectoryInfo(@"..\..\..\PhysicsFormulae.Formulae");
             var formulaFiles = directoryInfo.GetFiles("*.formula");
             var constantFiles = directoryInfo.GetFiles("*.constant");
             var referenceFiles = directoryInfo.GetFiles("*.reference");
+
+            var excludedWordsFile = directoryInfo.GetFiles("ExcludedWords.txt").First();
+            var keyPhrasesFile = directoryInfo.GetFiles("KeyPhrases.txt").First();
+
+            var excludedWords = File.ReadAllLines(excludedWordsFile.FullName).Where(l => l != "").Select(l => l.Trim());
+            var keyPhrases = File.ReadAllLines(keyPhrasesFile.FullName).Where(l => l != "").Select(l => l.Trim());
+
+            var autotagger = new Autotagger(excludedWords, keyPhrases);
+
+            var formulaCompiler = new FormulaCompiler(autotagger);
+            var constantCompiler = new ConstantCompiler(autotagger);
+            var referenceCompiler = new ReferenceCompiler(autotagger);
+
+            var formulae = new List<Formula>();
+            var constants = new List<Constant>();
+            var references = new List<Reference>();
 
             foreach (var file in referenceFiles)
             {
@@ -59,9 +68,9 @@ namespace PhysicsFormulae.TerminalApplication
                 Console.WriteLine(constant.Reference);
             }
 
-            foreach(var constant in constants)
+            foreach (var constant in constants)
             {
-                foreach(var formula in formulae)
+                foreach (var formula in formulae)
                 {
                     if (formula.Identifiers.Any(i => i.Reference == constant.Reference))
                     {

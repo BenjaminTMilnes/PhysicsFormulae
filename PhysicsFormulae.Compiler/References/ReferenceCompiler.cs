@@ -13,6 +13,8 @@ namespace PhysicsFormulae.Compiler.References
 
     public class ReferenceCompiler : Compiler
     {
+        public ReferenceCompiler(Autotagger autotagger) : base(autotagger) { }
+
         public Reference CompileReference(string[] lines)
         {
             lines = RemoveEmptyLines(lines);

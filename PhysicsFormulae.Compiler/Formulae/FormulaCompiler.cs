@@ -13,12 +13,13 @@ namespace PhysicsFormulae.Compiler.Formulae
         Fields = 5,
         References = 6,
         SeeMore = 7,
-        Tags = 8
+        Tags = 8,
+        Rating = 9
     }
 
     public class FormulaCompiler : Compiler
     {
-        public FormulaCompiler() : base() { }
+        public FormulaCompiler(Autotagger autotagger) : base(autotagger) { }
 
         protected string _identifierPattern = @"^([^\[]+)\s*\[\s*(var\.|const\.)\s*(scal\.|vec\.|matr\.|tens|.)?\s*([A-Za-z0-9_]+)?\s*\](.+)$";
 
@@ -67,7 +68,7 @@ namespace PhysicsFormulae.Compiler.Formulae
             return identifier;
         }
 
-        public Formula CompileFormula(string[] lines, IEnumerable<References.Reference> references )
+        public Formula CompileFormula(string[] lines, IEnumerable<References.Reference> references)
         {
             lines = RemoveEmptyLines(lines);
 
@@ -131,6 +132,12 @@ namespace PhysicsFormulae.Compiler.Formulae
                 if (line == "tags:")
                 {
                     formulaSection = FormulaSection.Tags;
+                    continue;
+                }
+
+                if (line.StartsWith("rating:"))
+                {
+                    formulaSection = FormulaSection.Rating;
                     continue;
                 }
 
@@ -211,7 +218,7 @@ namespace PhysicsFormulae.Compiler.Formulae
                         var citation = GetBookCitation(line);
 
                         var book = references.First(r => r.CitationKey == citation);
-                        
+
                         formula.References.Add(book);
                         continue;
                     }

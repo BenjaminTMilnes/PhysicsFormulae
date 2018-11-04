@@ -10,10 +10,10 @@ namespace PhysicsFormulae.Compiler
         protected ReferenceConverter _referenceConverter;
         protected Autotagger _autotagger;
 
-        public Compiler()
+        public Compiler(Autotagger autotagger)
         {
             _referenceConverter = new ReferenceConverter();
-            _autotagger = new Autotagger();
+            _autotagger = autotagger;
         }
 
         protected string[] RemoveEmptyLines(string[] lines)

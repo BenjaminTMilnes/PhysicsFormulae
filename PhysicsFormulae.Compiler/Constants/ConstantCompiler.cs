@@ -12,6 +12,8 @@
 
     public class ConstantCompiler : Compiler
     {
+        public ConstantCompiler(Autotagger autotagger) : base(autotagger) { }
+
         public Constant CompileConstant(string[] lines)
         {
             lines = RemoveEmptyLines(lines);

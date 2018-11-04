@@ -23,6 +23,7 @@ The total force being applied to a surface is the integral of the pressure on th
 fields:
 
 Classical Mechanics
+Thermodynamics
 
 derived from:
 
@@ -30,9 +31,14 @@ derived from:
 
 references:
 
+webpage: "Pressure", Wikipedia, https://en.wikipedia.org/wiki/Pressure (2018-11-04)
+webpage: "Pressure", Hyperphysics, http://hyperphysics.phy-astr.gsu.edu/hbase/press.html (2018-11-04)
+
 see more:
 
 https://en.wikipedia.org/wiki/Pressure
+http://hyperphysics.phy-astr.gsu.edu/hbase/press.html
 
 tags:
 
+rating: *****

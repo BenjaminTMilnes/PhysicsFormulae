@@ -11,9 +11,14 @@ namespace PhysicsFormulae.Compiler
 {
     public class Autotagger
     {
-        protected IList<string> excludedWords = new List<string>() { "a", "an", "the", "in", "at", "on", "to", "from", "under", "over", "above", "below", "with", "without", "of", "it", "is", "are", "be", "which", "when", "what", "who", "how", "why", "where", "something", "through", "for", "along", "there", "must", "towards", "that", "and", "its", "know", "known", "travel", "fast", "faster", "than", "this", "carry", "carried", "by", "use", "used", "description", "describe", "described", "number", "include", "including", "move", "moving", "speeds", "or", "respect", "equal", "minus", "one", "multiply", "multiplied", "travel", "travelled", "produce", "produced", "directly", "direct", "left", "right", "hand", "side", "open", "closed", "per", "two", "same", "between", "as", "divided", "will", "appear", "shorter", "most", "", "", "", "", "", "", "", "", "", "", "", "", "", "" };
+        protected IEnumerable<string> _excludedWords;
+        protected IEnumerable<string> _keyPhrases;
 
-        protected IList<string> keyPhrases = new List<string>() { "special relativity", "general relativity", "length contraction", "time dilation", "rest frame", "Lorentz Factor", "frame of reference", "constant speed", "relative velocity", "Bohr Radius", "physical constant", "ground state" };
+        public Autotagger(IEnumerable<string> excludedWords, IEnumerable<string> keyPhrases)
+        {
+            _excludedWords = excludedWords;
+            _keyPhrases = keyPhrases;
+        }
 
         protected string normaliseText(string text)
         {
@@ -44,7 +49,7 @@ namespace PhysicsFormulae.Compiler
 
             var phraseText = "";
 
-            foreach (var phrase in keyPhrases)
+            foreach (var phrase in _keyPhrases)
             {
                 if (normalisedText.Contains(phrase.ToLower()))
                 {
@@ -64,7 +69,7 @@ namespace PhysicsFormulae.Compiler
                     continue;
                 }
 
-                if (excludedWords.Any(w => w == word))
+                if (_excludedWords.Any(w => w == word))
                 {
                     continue;
                 }
@@ -88,7 +93,7 @@ namespace PhysicsFormulae.Compiler
 
             var phraseText = "";
 
-            foreach (var phrase in keyPhrases)
+            foreach (var phrase in _keyPhrases)
             {
                 if (normalisedText.Contains(phrase.ToLower()))
                 {
@@ -108,7 +113,7 @@ namespace PhysicsFormulae.Compiler
                     continue;
                 }
 
-                if (excludedWords.Any(w => w == word))
+                if (_excludedWords.Any(w => w == word))
                 {
                     continue;
                 }

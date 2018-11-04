@@ -2,17 +2,35 @@
 
 Coulomb's Law
 
-The force between two point charges is directly proportional to the product of the two charges, and inversely proportional to the square of the distance between them.
+The magnitude of the force between two point charges is directly proportional to the product of the two charges and inversely proportional to the square of the distance between them.
 
-F = \frac{q_1 q_2}{4 \pi \epsilon_0 r^2}
+F = k_{e} \frac{q_1 q_2}{r^2}
 
 where:
 
-F [var. scal. Force] is the force experienced by both point charges
+F [var. scal. Force] is the magnitude of the force experienced by each point charge
+k_{e} [const. scal. CoulombConstant] is the Coulomb Constant, equal to $\frac{1}{4 \pi \epsilon_{0}}$
 q_1 [var. scal. Charge] is the electric charge of the first point charge
 q_2 [var. scal. Charge] is the electric charge of the second point charge
-\epsilon_0 [const. scal. PermittivityOfFreeSpace] is the permittivity of free space
-r [var. scal.] is the distance between the point charges
+r [var. scal. RadialDistance] is the distance between the point charges
+
+variants:
+
+In terms of the permittivity of free space
+
+F = \frac{q_{1} q_{2}}{4 \pi \epsilon_{0} r^{2}}
+
+---
+
+Vector Form
+
+\textbf{F} = - k_{e} \frac{q_{1} q_{2}}{| \textbf{r} |^{2}} \hat{\mathrm{r}}
+
+---
+
+Vector form in terms of the permittivity of free space
+
+\textbf{F} = - \frac{q_{1} q_{2}}{4 \pi \epsilon_{0} | \textbf{r} |^{2}} \hat{\mathrm{r}}
 
 fields:
 
@@ -24,7 +42,7 @@ derived from:
 
 references:
 
-book: "Sears and Zemansky's University Physics with Modern Physics", H. D. Young and R. A. Freedman (12. Edition) (Pearson) ISBN 9780321501301
+book: SearsAndZemanskysUniversityPhysics
 
 see more:
 
@@ -33,4 +51,6 @@ http://hyperphysics.phy-astr.gsu.edu/hbase/electric/elefor.html#c1
 https://physics.info/coulomb/
 
 tags:
+
+rating: *****
 
