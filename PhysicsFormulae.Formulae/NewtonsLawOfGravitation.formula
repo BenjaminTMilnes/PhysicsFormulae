@@ -2,21 +2,37 @@
 
 Newton's Law of Gravitation
 
-Every point mass is attracted to every single other point mass by a force pointing along a line intersecting both points. The force is proportional to the product of the two masses and inversely proportional to the square of the distance between them.
+Every point mass is attracted to every single other point mass by a force pointing along a line intersecting both points. The magnitude of the force is proportional to the product of the two masses and inversely proportional to the square of the distance between them.
 
 F = G \frac{m_{1} m_{2}}{r^{2}}
 
 where:
 
-F [var. GravitationalForce] is the force between the two masses
-G [const. UniversalGravitationalConstant] is the universal gravitational constant
-m_{1} [var.] is the mass of the first object
-m_{2} [var.] is the mass of the second object
-r [var.] is the distance between the two objects
+F [var. scal. Force] is the magnitude of the force between the two masses
+G [const. scal. UniversalGravitationalConstant] is the universal gravitational constant
+m_{1} [var. scal. Mass] is the mass of the first object
+m_{2} [var. scal. Mass] is the mass of the second object
+r [var. scal. RadialDistance] is the distance between the two objects
 
-derived from:
+variants:
+
+Vector Form
+
+\textbf{F} = - G \frac{m_{1} m_{2}}{| \textbf{r} |^{2}} \hat{\textbf{r}}
 
 fields:
 
+Classical Mechanics
+Classical Gravity
+
+derived from:
+
 references:
 
+book: SearsAndZemanskysUniversityPhysics
+
+see more:
+
+tags:
+
+rating: *****

@@ -86,3 +86,7 @@ shorter
 most
 them
 value
+every
+single
+other
+both
