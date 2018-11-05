@@ -2,15 +2,33 @@
 
 The Definition of Photon Energy
 
-The energy of a photon is equal to Planck's constant multiplied by the frequency of the photon.
+The energy of a photon is equal to the frequency of the photon multiplied by the Planck Constant.
 
 E = hf
 
 where:
 
 E [var. scal. Energy] is the energy of the photon
-h [const. scal. PlancksConstant] is Planck's constant
+h [const. scal. PlanckConstant] is the Planck Constant
 f [var. scal. Frequency] is the frequency of the photon
+
+variants:
+
+In terms of the wavelength of the photon
+
+E = \frac{hc}{\lambda}
+
+---
+
+In terms of angular frequency
+
+E = \hbar \nu
+
+---
+
+In terms of wavenumber
+
+E = \hbar c k
 
 fields:
 
@@ -22,7 +40,7 @@ derived from:
 
 references:
 
-book: "Sears and Zemansky's University Physics with Modern Physics", H. D. Young and R. A. Freedman (12. Edition) (Pearson) ISBN 9780321501301
+book: SearsAndZemanskysUniversityPhysics
 
 see more:
 
@@ -30,3 +48,5 @@ see more:
 
 tags:
 
+
+rating: *****

@@ -2,25 +2,17 @@
 
 The Definition of Power
 
-Power is the rate of transfer or consumption of energy with respect to time.
+Power is the rate of transfer or consumption of energy.
 
-P = \frac{\mathrm{d} E (t)}{\mathrm{d} t}
+P = \frac{\mathrm{d} E}{\mathrm{d} t}
 
 where:
 
 P [var. scal. Power] is the power
-E (t) [var. scal. Energy] is the energy transferred or consumed as a function of time
+E [var. scal. Energy] is the energy transferred or consumed
 t [var. scal. Time] is time
 
 variants:
-
-Simplified Notation
-
-P = \frac{\mathrm{d} E}{\mathrm{d} t}
-
-The function parameters are often just implied.
-
----
 
 Constant or Average Power
 
@@ -53,3 +45,5 @@ https://physics.info/power/
 
 tags:
 
+
+rating: *****
