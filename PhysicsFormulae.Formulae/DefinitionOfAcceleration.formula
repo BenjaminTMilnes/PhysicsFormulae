@@ -2,25 +2,17 @@
 
 The Definition of Acceleration
 
-The acceleration of an object is the rate of change in that object's velocity with respect to time.
+The acceleration of an object is the rate of change in that object's velocity. It can be expressed mathematically as the derivative of the velocity with respect to time.
 
-\textbf{a} = \frac{\mathrm{d} \textbf{v}(t)}{\mathrm{d} t}
+\textbf{a} = \frac{\mathrm{d} \textbf{v}}{\mathrm{d} t}
 
 where:
 
 \textbf{a} [var. vec. Acceleration] is the acceleration of the object
-\textbf{v}(t) [var. vec. Velocity] is the velocity of the object as a function of time
-t [var. Time] is time
+\textbf{v} [var. vec. Velocity] is the velocity of the object
+t [var. scal. Time] is time
 
 variants:
-
-Simplified Vector Form
-
-\textbf{a} = \frac{\mathrm{d} \textbf{v}}{\mathrm{d} t}
-
-The function parameters for velocity are just implied.
-
----
 
 Motion in One Dimension
 
@@ -36,8 +28,6 @@ a = \frac{\Delta v}{\Delta t} = \frac{v_{2} - v_{1}}{t_{2} - t_{1}}
 
 If the acceleration is constant over the period of time being examined, the acceleration can be expressed as just the difference between the final and initial acceleration divided by the time period.
 
-
-
 fields:
 
 Classical Mechanics
@@ -52,3 +42,5 @@ references:
 see more:
 
 tags:
+
+rating: *****
