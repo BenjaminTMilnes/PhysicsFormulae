@@ -1,0 +1,50 @@
+﻿GaussLawForElectricity
+
+Gauss’ Law for Electricity
+
+The divergence of the electric field is directly proportional to the charge density.
+
+\nabla \cdot \textbf{E} = \frac{\rho}{\epsilon_0}
+
+where:
+
+\textbf{E} [var. vec. ElectricField] is the electric field
+\rho [var. scal. ChargeDensity] is the charge density
+\epsilon_0 [const. scal. PermittivityOfFreeSpace] is the permittivity of free space
+
+variants:
+
+Integral Form
+
+\oint_{\partial \Omega} \textbf{E} \cdot \mathrm{d} \textbf{S} = \frac{1}{\epsilon_{0}} \iiint_{\Omega} \rho \mathrm{d} V
+
+The electric flux through a closed surface is proportional to the charge contained by that surface.
+
+---
+
+Differential Form in Gaussian Units
+
+\nabla \cdot \textbf{E} = 4 \pi \rho
+
+---
+
+Integral Form in Gaussian Units
+
+\oint_{\partial \Omega} \textbf{E} \cdot \mathrm{d} \textbf{S} = 4 \pi \iiint_{\Omega} \rho \mathrm{d} V
+
+fields:
+
+Classical Electromagnetism
+Maxwell's Equations
+
+references:
+
+webpage: "Maxwell's equations", Wikipedia, https://en.wikipedia.org/wiki/Maxwell%27s_equations (2017-11-23)
+
+see also:
+
+https://en.wikipedia.org/wiki/Maxwell%27s_equations
+
+tags:
+
+rating: *****

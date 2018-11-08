@@ -2,17 +2,23 @@
 
 Gauss' Law for Gravity
 
-The left hand side of the equation is the gravitational flux. The gravitational flux through a closed surface is proportional to the mass enclosed by the surface.
+The divergence of the gravitational field is directly proportional to the mass density.
 
-\oint_S \textbf{g} \cdot \mathrm{d} \textbf{A} = -4 \pi GM
+\nabla \cdot \textbf{g} = - 4 \pi G \rho
 
 where:
 
 \textbf{g} [var. vec. GravitationalField] is the gravitational field
-\mathrm{d} \textbf{A} [var. vec.] is the normal to an infinitesimal area on the surface being integrated over
-S [var.] is any closed surface
 G [const. scal. UniversalGravitationalConstant] is the universal gravitational constant
-M [var. scal. TotalMass] is the total mass enclosed by the surface $S$
+\rho [var. scal. MassDensity] is the mass density
+
+variants:
+
+Integral Form
+
+\oint_S \textbf{g} \cdot \mathrm{d} \textbf{A} = -4 \pi GM
+
+The left hand side of the equation is the gravitational flux. The gravitational flux through a closed surface is proportional to the mass enclosed by the surface.
 
 derived from:
 
@@ -29,12 +35,8 @@ webpage: "Gauss's law for gravity", Wikipedia, https://en.wikipedia.org/wiki/Gau
 
 see more:
 
-Wikipedia https://en.wikipedia.org/wiki/Gauss%27s_law_for_gravity
+https://en.wikipedia.org/wiki/Gauss%27s_law_for_gravity
 
 tags:
 
-Gauss
-gravity
-gravitational
-flux
-
+rating: *****
