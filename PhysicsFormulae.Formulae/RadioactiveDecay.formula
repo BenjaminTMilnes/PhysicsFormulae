@@ -1,0 +1,44 @@
+﻿RadioactiveDecay
+
+The Radioactive Decay Formula
+
+The activity of a radioactive sample decreases exponentially with time.
+
+A(t) = A_{0} e^{-\lambda t}
+
+where:
+
+A(t) [var. scal. Activity] is the activity of the sample at a time $t$
+A_{0} [const. scal. InitialActivity] is the activity of the sample at time $t = 0$
+\lambda [const. scal. DecayConstant] is the decay constant of the radioisotope
+t [var. scal. Time] is time
+
+variants:
+
+In terms of half-life
+
+A(t) = A_{0} e^{- \frac{\ln(2) t}{t_{1/2}}}
+
+---
+
+In terms of mean lifetime
+
+A(t) = A_{0} e^{- \frac{t}{\tau}}
+
+fields:
+
+Nuclear Physics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+tags:
+
+rating: *****
+

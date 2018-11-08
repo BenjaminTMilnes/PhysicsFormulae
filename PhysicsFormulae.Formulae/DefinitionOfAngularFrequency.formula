@@ -2,14 +2,20 @@
 
 The Definition of Angular Frequency
 
-Angular frequency is the rate at which something passes through $2\pi$ radians.
+Angular frequency is the number of counts per unit time that a rotating system completes one full rotation, or an oscillating system completes one full oscillation, where one full rotation or oscillation is represented as $2 \pi$ radians.
 
-\omega = 2 \pi f
+\omega = \frac{2 \pi}{T}
 
 where:
 
 \omega [var. scal. AngularFrequency] is the angular frequency
-f [var. scal. Frequency] is the frequency
+T [var. scal. Period] is the period of rotation or oscillation
+
+variants:
+
+In terms of frequency
+
+\omega = 2 \pi f
 
 fields:
 
@@ -24,18 +30,8 @@ references:
 
 see more:
 
-Wikipedia https://en.wikipedia.org/wiki/Angular_frequency
+https://en.wikipedia.org/wiki/Angular_frequency
 
 tags:
 
-circular
-motion
-centre
-classical
-classical mechanics
-angular
-frequency
-definition
-rate
-radians
-
+rating: *****
