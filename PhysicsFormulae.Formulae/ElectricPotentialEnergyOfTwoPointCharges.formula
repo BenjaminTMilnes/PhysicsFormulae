@@ -4,15 +4,15 @@ The Electric Potential Energy of Two Point Charges
 
 The electric potential energy of two point charges is directly proportional to the product of the two charges, and inversely proportional to the distance between them.
 
-U = \frac{q_1 q_2}{4 \pi \epsilon_0 r}
+U = k_{e} \frac{q_{1} q_{2}}{r}
 
 where:
 
 U [var. scal. ElectricPotentialEnergy] is the electric potential energy
+k_{e} [const. scal. CoulombConstant] is the Coulomb Constant, equal to $\frac{1}{4 \pi \epsilon_{0}}$
 q_1 [var. scal. Charge] is the electric charge of the first point charge
 q_2 [var. scal. Charge] is the electric charge of the second point charge
-\epsilon_0 [const. scal. PermittivityOfFreeSpace] is the permittivity of free space
-r [var. scal.] is the distance from the charge
+r [var. scal. RadialDistance] is the distance between the charges
 
 fields:
 
@@ -24,11 +24,14 @@ derived from:
 
 references:
 
-book: "Sears and Zemansky's University Physics with Modern Physics", H. D. Young and R. A. Freedman (12. Edition) (Pearson) ISBN 9780321501301
+book: SearsAndZemanskysUniversityPhysics
 
 see more:
 
-
+https://en.wikipedia.org/wiki/Coulomb%27s_law
+http://hyperphysics.phy-astr.gsu.edu/hbase/electric/elefor.html#c1
+https://physics.info/coulomb/
 
 tags:
 
+rating: *****

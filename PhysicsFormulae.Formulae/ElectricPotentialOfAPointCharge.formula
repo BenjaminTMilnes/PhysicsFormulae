@@ -4,14 +4,14 @@ The Absolute Electric Potential of a Point Charge
 
 The absolute electric potential at a distance $r$ from a point charge is directly proportional to the size of the charge, $q$, and inversely proportional to the distance $r$.
 
-V = \frac{q}{4 \pi \epsilon_{0} r}
+V = k_{e} \frac{q}{r}
 
 where:
 
 V [var. scal. AbsoluteElectricPotential] is the absolute electric potential
+k_{e} [const. scal. CoulombConstant] is the Coulomb Constant, equal to $\frac{1}{4 \pi \epsilon_{0}}$
 q [var. scal. Charge] is the electric charge of the point charge
-\epsilon_0 [const. scal. PermittivityOfFreeSpace] is the permittivity of free space
-r [var. scal.] is the distance from the charge
+r [var. scal. RadialDistance] is the distance from the charge
 
 fields:
 
@@ -27,7 +27,10 @@ references:
 
 see more:
 
-
+https://en.wikipedia.org/wiki/Coulomb%27s_law
+http://hyperphysics.phy-astr.gsu.edu/hbase/electric/elefor.html#c1
+https://physics.info/coulomb/
 
 tags:
 
+rating: *****
