@@ -1,6 +1,6 @@
-﻿TheMaxwellFaradayEquationDifferentialForm
+﻿MaxwellFaradayEquation
 
-The Maxwell-Faraday Equation (Differential Form)
+The Maxwell-Faraday Equation
 
 The curl of the electric field is directly proportional to the rate of change of a time-varying magnetic field.
 
@@ -8,15 +8,36 @@ The curl of the electric field is directly proportional to the rate of change of
 
 where:
 
-\textbf{E} [var. ElectricField] is the electric field
-\textbf{B} [var. MagneticField] is the magnetic field
-t [var. Time] is time
+\textbf{E} [var. vec. ElectricField] is the electric field
+\textbf{B} [var. vec. MagneticField] is the magnetic field
+t [var. scal. Time] is time
+
+variants:
+
+Integral Form
+
+\oint_{\partial \Sigma} \textbf{E} \cdot \mathrm{d} \textbf{l} = - \frac{\mathrm{d}}{\mathrm{d} t} \iint_{\Sigma} \textbf{B} \cdot \mathrm{d} \textbf{S}
+
+The integral of the electric field around a closed path is proportional to the rate of change of the magnetic flux through that surface.
+
+---
+
+Differential Form in Gaussian Units
+
+\nabla \times \textbf{E} = - \frac{1}{c} \frac{\partial \textbf{B}}{\partial t}
+
+---
+
+Integral Form in Gaussian Units
+
+\oint_{\partial \Sigma} \textbf{E} \cdot \mathrm{d} \textbf{l} = - \frac{1}{c} \frac{\mathrm{d}}{\mathrm{d} t} \iint_{\Sigma} \textbf{B} \cdot \mathrm{d} \textbf{S}
 
 derived from:
 
 fields:
 
 Classical Electromagnetism
+Maxwell's Equations
 
 references:
 
@@ -24,8 +45,9 @@ webpage: "Maxwell's equations", Wikipedia, https://en.wikipedia.org/wiki/Maxwell
 
 see also:
 
-Wikipedia https://en.wikipedia.org/wiki/Maxwell%27s_equations
+https://en.wikipedia.org/wiki/Maxwell%27s_equations
 
 tags:
 
+rating: *****
 
