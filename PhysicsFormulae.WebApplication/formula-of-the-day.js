@@ -20,4 +20,28 @@ application.controller("FormulaOfTheDayController", ["$scope", "$routeParams", "
 
         $rootScope.metaService.set("Formula of the Day - Physics Formulae", $scope.formula.Title + " - " + $scope.formula.Interpretation, $scope.formula.Tags.join(", "));
     });
+
+
+    $scope.getFormulaContent = function () {
+        if (!$scope.formula) {
+            return "";
+        }
+
+        return "<mathematics content-type=\"latex\" content=\"\\displaystyle " + $scope.formula.Content + "\"></mathematics>";
+    }
+
+    $scope.getVariant = function (content) {
+        return "<mathematics content-type=\"latex\" content=\"\\displaystyle " + content + "\"></mathematics>";
+    }
+
+    $scope.replaceMathematicsMarkers = function (text) {
+        if (!text) {
+            return "";
+        }
+
+        var re = /\$(.+?)\$/gi;
+        var textWithKaTeX = text.replace(re, "<mathematics content-type=\"latex\" content=\"$1\"></mathematics>")
+
+        return textWithKaTeX;
+    }
 }]);

@@ -1,3 +1,40 @@
 ﻿<div class="formulaoftheday">
-    {{formula.Title}}
+    <h1 class="formulaoftheday-heading">Formula of the Day:</h1>
+    <h2 class="formulaoftheday-title">{{formula.Title}}</h2>
+    <div class="formula-content" compile="getFormulaContent()">
+    </div>
+    <div class="formula-identifiers">
+        <div class="identifier" ng-repeat="identifier in formula.Identifiers">
+            <div class="identifier-content">
+                <mathematics content-type="latex" content="{{identifier.Content}}"></mathematics>
+            </div>
+            <div class="identifier-classes">
+                <span ng-show="identifier.Type == 'Variable'" class="variable" title="a variable">var.</span>
+                <span ng-show="identifier.Type == 'Constant'" class="constant" title="a constant">const.</span>
+                <span ng-show="identifier.ObjectType == 'Scalar'" class="scalar" title="a scalar quantity">scal.</span>
+                <span ng-show="identifier.ObjectType == 'Vector'" class="vector" title="a vector quantity">vec.</span>
+                <span ng-show="identifier.ObjectType == 'Matrix'" class="matrix" title="a matrix">matr.</span>
+                <span ng-show="identifier.ObjectType == 'Tensor'" class="tensor" title="a tensor (one which is more complicated than a vector or a matrix)">tens.</span>
+            </div>
+            <div class="identifier-interpretation" compile="replaceMathematicsMarkers(identifier.Definition)"></div>
+        </div>
+    </div>
+    <p class="formula-interpretation" compile="replaceMathematicsMarkers(formula.Interpretation)"></p>
+    <div class="formula-fields">
+        <span class="field" ng-repeat="field in formula.Fields"><a href="#/field/{{field}}" title="Search for other formulae in {{field}}.">{{field}}</a></span>
+    </div>
+    <div class="formula-variants" ng-show="formula.Variants != null && formula.Variants.length > 0">
+        <h3>Variants</h3>
+        <div class="cards">
+            <div class="card" ng-repeat="variant in formula.Variants">
+                <div class="variant">
+                    <h4 class="variant-title">{{variant.Title}}</h4>
+                    <div class="variant-content" compile="getVariant(variant.Content)">
+                    </div>
+                    <p class="variant-interpretation">{{variant.Interpretation}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p style="text-align:center; margin:50px 0px;"><a href="#/formula/{{formula.URLReference}}" title="{{formula.Title}}">See full entry &rarr;</a></p>
 </div>

@@ -37,6 +37,43 @@
     }
 }
 
+.formulaoftheday-heading {
+    font-size: 35px;
+    text-transform: none;
+    font-family: "Bodoni MT";
+    letter-spacing: -0.02em;
+    margin: 50px 0px 20px 0px;
+    text-align: center;
+}
+
+.formulaoftheday-title {
+    font-size: 17px;
+    font-style: italic;
+    text-align: center;
+}
+
+@media (min-width:400px) {
+    .formulaoftheday-heading {
+        font-size: 50px;
+        margin: 70px 0px 20px 0px;
+    }
+
+    .formulaoftheday-title {
+        font-size: 27px;
+    }
+}
+
+@media (min-width:700px) {
+    .formulaoftheday-heading {
+        font-size: 70px;
+        margin: 80px 0px 20px 0px;
+    }
+
+    .formulaoftheday-title {
+        font-size: 35px;
+    }
+}
+
 .formula-title, .constant-title {
     font-size: 27px;
     margin: 0px;
