@@ -17,3 +17,9 @@
  Newton
  point mass
  rate of change
+ circular path
+ linear velocity
+ tangential speed
+ centripetal force
+ circular motion
+ force

@@ -151,3 +151,24 @@
         padding: 4px 14px;
     }
 }
+
+.search-results-pagenumbers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: 0px 0px 40px 0px;
+}
+
+.pagenumber {
+    padding: 12px 17px;
+    margin: 2px;
+    border: 1px solid #d0d0d0;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+    .pagenumber:hover {
+        background-color: #f4f4f4;
+        color: #105ecc;
+    }

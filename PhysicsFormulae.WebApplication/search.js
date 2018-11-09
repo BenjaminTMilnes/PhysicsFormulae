@@ -11,9 +11,24 @@
 }
 
 application.filter("searchFormulae", function () {
-    return function (formulae, text) {
+    return function (formulae, text, pageNumber, numberOfFormulaePerPage) {
+        if (formulae == undefined) {
+            return [];
+        }
+
+        if (pageNumber == null) {
+            pageNumber = 1;
+        }
+
+        if (numberOfFormulaePerPage == null) {
+            numberOfFormulaePerPage = 10;
+        }
+
+        var p = (pageNumber - 1) * numberOfFormulaePerPage;
+        var q = (pageNumber) * numberOfFormulaePerPage;
+        
         if (stringIsNullOrEmpty(text)) {
-            return formulae;
+            return formulae.slice(p, q);
         }
         else {
             var a = extractTags(text);
@@ -52,16 +67,31 @@ application.filter("searchFormulae", function () {
                     }
                 }
             }
-
-            return matchingFormulae;
+                        
+            return matchingFormulae.slice(p, q);
         }
     }
 });
 
 application.filter("searchConstants", function () {
-    return function (constants, text) {
+    return function (constants, text, pageNumber, numberOfConstantsPerPage) {
+        if (constants == undefined) {
+            return [];
+        }
+
+        if (pageNumber == null) {
+            pageNumber = 1;
+        }
+
+        if (numberOfConstantsPerPage == null) {
+            numberOfConstantsPerPage = 10;
+        }
+
+        var p = (pageNumber - 1) * numberOfConstantsPerPage;
+        var q = (pageNumber) * numberOfConstantsPerPage;
+
         if (stringIsNullOrEmpty(text)) {
-            return constants;
+            return constants.slice(p, q);
         }
         else {
             var a = extractTags(text);
@@ -89,7 +119,7 @@ application.filter("searchConstants", function () {
                 }
             }
 
-            return matchingConstants;
+            return matchingConstants.slice(p, q);
         }
     }
 });
@@ -102,6 +132,7 @@ application.controller("SearchController", ["$scope", "$rootScope", "$routeParam
 
     $scope.pageNumber = 1;
     $scope.numberOfFormulaePerPage = 10;
+    $scope.pages = [];
 
     if (!stringIsNullOrEmpty($routeParams.fieldName)) {
         $scope.searchTerms = "field = '" + $routeParams.fieldName + "'";
@@ -126,6 +157,12 @@ application.controller("SearchController", ["$scope", "$rootScope", "$routeParam
         else {
             $rootScope.metaService.set(defaultTitle, defaultDescription, defaultKeywords);
         }
+
+        var numberOfPages = Math.ceil($scope.formulae.length / $scope.numberOfFormulaePerPage);
+
+        for (var i = 0; i < numberOfPages; i++) {
+            $scope.pages.push({ "pageNumber": i + 1 });
+        }
     });
 
     $scope.replaceMathematicsMarkers = function (text) {
@@ -139,4 +176,7 @@ application.controller("SearchController", ["$scope", "$rootScope", "$routeParam
         return textWithKaTeX;
     }
 
+    $scope.setPageNumber = function (n) {
+        $scope.pageNumber = n;
+    }
 }]);
