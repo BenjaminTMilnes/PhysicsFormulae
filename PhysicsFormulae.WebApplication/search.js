@@ -26,7 +26,7 @@ application.filter("searchFormulae", function () {
 
         var p = (pageNumber - 1) * numberOfFormulaePerPage;
         var q = (pageNumber) * numberOfFormulaePerPage;
-        
+
         if (stringIsNullOrEmpty(text)) {
             return formulae.slice(p, q);
         }
@@ -67,7 +67,7 @@ application.filter("searchFormulae", function () {
                     }
                 }
             }
-                        
+
             return matchingFormulae.slice(p, q);
         }
     }
@@ -128,7 +128,7 @@ var defaultTitle = "Physics Formulae - Look up equations and constants that are 
 var defaultDescription = "Physics Formulae is a website where you can look up the equations and constants that are commonly used in physics. You can also copy the LaTeX for each formula to use in academic papers.";
 var defaultKeywords = "physics, science, maths, equations, equation, formula, formulae, formulary, constants, LaTeX, BibTeX, academia, academic, papers, reports, journals, theses, dissertations";
 
-application.controller("SearchController", ["$scope", "$rootScope", "$routeParams", "dataService", "metaService", function SearchController($scope, $rootScope, $routeParams, dataService, metaService) {
+application.controller("SearchController", ["$scope", "$rootScope", "$routeParams", "dataService", "metaService", "$filter", function SearchController($scope, $rootScope, $routeParams, dataService, metaService, $filter) {
 
     $scope.pageNumber = 1;
     $scope.numberOfFormulaePerPage = 10;
@@ -179,4 +179,21 @@ application.controller("SearchController", ["$scope", "$rootScope", "$routeParam
     $scope.setPageNumber = function (n) {
         $scope.pageNumber = n;
     }
+
+
+    $scope.$watch("searchTerms", function (newValue, oldValue) {
+        if (newValue != "") {
+            var searchResults = $filter("searchFormulae")($scope.formulae, newValue, $scope.pageNumber, $scope.numberOfFormulaePerPage);
+        }
+        else {
+            var searchResults = $scope.formulae;
+        }
+
+        var numberOfPages = Math.ceil(searchResults.length / $scope.numberOfFormulaePerPage);
+        $scope.pages = [];
+
+        for (var i = 0; i < numberOfPages; i++) {
+            $scope.pages.push({ "pageNumber": i + 1 });
+        }
+    });
 }]);
