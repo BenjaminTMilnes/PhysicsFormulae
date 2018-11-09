@@ -4,11 +4,11 @@
     <div class="search-textbox">
         <input type="text" ng-model="searchTerms" placeholder="Search for a formula or constant" />
     </div>
+    <div class="search-results-pagenumbers">
+        <div class="pagenumber" ng-repeat="page in pages" ng-click="setPageNumber(page.pageNumber)" ng-style="pageNumber == page.pageNumber ? {'background-color':'#f0f0f0'} : {}">{{page.pageNumber}}</div>
+    </div>
     <div class="search-results">
         <div class="search-results-leftcolumn">
-            <div class="search-results-pagenumbers">
-                <div class="pagenumber" ng-repeat="page in pages" ng-click="setPageNumber(page.pageNumber)" ng-style="pageNumber == page.pageNumber ? {'background-color':'#f0f0f0'} : {}">{{page.pageNumber}}</div>
-            </div>
             <div class="search-formula" ng-repeat="formula in formulae | searchFormulae : searchTerms : pageNumber : numberOfFormulaePerPage | orderBy : formula.Reference">
                 <h3 class="search-formula-title"><a href="#/formula/{{formula.URLReference}}" title="{{formula.Title}}">{{formula.Title}}</a></h3>
                 <div class="search-formula-content">
@@ -20,9 +20,6 @@
                 <div class="search-formula-fields">
                     <span class="search-formula-field" ng-repeat="field in formula.Fields">{{field}}</span>
                 </div>
-            </div>
-            <div class="search-results-pagenumbers">
-                <div class="pagenumber" ng-repeat="page in pages" ng-click="setPageNumber(page.pageNumber)" ng-style="pageNumber == page.pageNumber ? {'background-color':'#f0f0f0'} : {}">{{page.pageNumber}}</div>
             </div>
         </div>
         <div class="search-results-rightcolumn">
@@ -36,5 +33,8 @@
                 <p class="search-constant-interpretation">{{constant.Interpretation}}</p>
             </div>
         </div>
+    </div>
+    <div class="search-results-pagenumbers">
+        <div class="pagenumber" ng-repeat="page in pages" ng-click="setPageNumber(page.pageNumber)" ng-style="pageNumber == page.pageNumber ? {'background-color':'#f0f0f0'} : {}">{{page.pageNumber}}</div>
     </div>
 </div>
