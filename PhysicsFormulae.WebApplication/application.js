@@ -7,6 +7,7 @@ application.config(function ($routeProvider) {
         .when("/field/:fieldName", { templateUrl: "search.html", controller: "SearchController" })
         .when("/formula/:reference", { templateUrl: "formula.html", controller: "FormulaController" })
         .when("/constant/:reference", { templateUrl: "constant.html", controller: "ConstantController" })
+        .when("/formula-of-the-day", { templateUrl: "formula-of-the-day.html", controller: "FormulaOfTheDayController" })
         .when("/about", { templateUrl: "about.html" });
 });
 
