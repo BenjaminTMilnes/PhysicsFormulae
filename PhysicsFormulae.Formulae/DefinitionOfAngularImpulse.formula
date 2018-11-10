@@ -1,0 +1,39 @@
+﻿DefinitionOfAngularImpulse
+
+The Definition of Angular Impulse
+
+The angular impulse is the integral of the torque over time.
+
+\textbf{H} = \int \tau \mathrm{d} t
+
+where:
+
+\textbf{H} [var. vec. AngularImpulse] is the angular impulse
+\tau [var. vec. Torque] is the torque
+t [var. scal. Time] is time
+
+variants:
+
+Where the torque is constant
+
+\textbf{H} = \tau \Delta t
+
+fields:
+
+Classical Mechanics
+Rotational Dynamics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+https://physics.info/equations/
+
+tags:
+
+rating: *****

@@ -23,3 +23,11 @@
  centripetal force
  circular motion
  force
+ kinetic energy
+ energy
+ rotating body
+ moment of inertia
+ moment
+ inertia
+ angular velocity
+ velocity
