@@ -73,6 +73,8 @@
     <Content Include="constant.html" />
     <Content Include="constant.js" />
     <Content Include="core.js" />
+    <Content Include="formula-of-the-day.html" />
+    <Content Include="formula-of-the-day.js" />
     <Content Include="formula.css" />
     <Content Include="formula.html" />
     <Content Include="formula.js" />

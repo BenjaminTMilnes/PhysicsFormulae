@@ -1,0 +1,35 @@
+﻿DefinitionOfAngularAcceleration
+
+The Definition of Angular Acceleration
+
+Angular acceleration is the rate of change of angular velocity.
+
+\alpha = \frac{\mathrm{d} \omega}{\mathrm{d} t}
+
+where:
+
+\alpha [var. vec. AngularAcceleration] is the angular acceleration
+\omega [var. vec. AngularVelocity] is the angular velocity
+t [var. scal. Time] is time
+
+variants:
+
+fields:
+
+Classical Mechanics
+Rotational Dynamics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+https://physics.info/equations/
+
+tags:
+
+rating: *****

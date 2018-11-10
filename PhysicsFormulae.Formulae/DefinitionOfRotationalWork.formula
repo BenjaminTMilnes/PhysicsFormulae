@@ -1,0 +1,39 @@
+﻿DefinitionOfRotationalWork
+
+The Definition of Rotational Work
+
+Rotational work is the integral of torque over the angle traversed.
+
+W = \int \tau \cdot \mathrm{d} \theta
+
+where:
+
+W [var. scal. WorkDone] is the work done
+\tau [var. vec. Torque] is the torque
+\theta [var. vec. AngularPosition] is the angular position
+
+variants:
+
+Where the torque is constant
+
+W = \tau \Delta \theta
+
+fields:
+
+Classical Mechanics
+Rotational Dynamics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+https://physics.info/equations/
+
+tags:
+
+rating: *****

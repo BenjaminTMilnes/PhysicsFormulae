@@ -1,0 +1,36 @@
+﻿DefinitionOfRotationalPower
+
+The Definition of Rotational Power
+
+Rotational power is the torque multiplied by the angular velocity.
+
+P = \tau \cdot \omega
+
+where:
+
+P [var. scal. Power] is the power
+\tau [var. vec. Torque] is the torque
+\omega [var. vec. AngularVelocity] is the angular velocity
+
+variants:
+
+
+fields:
+
+Classical Mechanics
+Rotational Dynamics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+https://physics.info/equations/
+
+tags:
+
+rating: *****
