@@ -1,0 +1,35 @@
+﻿HeisenbergUncertaintyPrincipleForTimeAndEnergy
+
+The Heisenberg Uncertainty Principle for Time and Energy
+
+The uncertainty in the lifetime of a wave-particle is inversely proportional to the uncertainty in the energy of the wave-particle.
+
+\Delta t \Delta E \geq \frac{\hbar}{2}
+
+where:
+
+\Delta t [var. scal. TimeUncertainty] is the uncertainty in the lifetime of the wave-particle
+\Delta E [var. scal. EnergyUncertainty] is the uncertainty in the energy of the wave-particle
+\hbar [const. scal. ReducedPlanckConstant] is the Reduced Planck Constant
+
+variants:
+
+fields:
+
+Quantum Mechanics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+http://hyperphysics.phy-astr.gsu.edu/hbase/uncer.html
+
+tags:
+
+rating: *****
+
