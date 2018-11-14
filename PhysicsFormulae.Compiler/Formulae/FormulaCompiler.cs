@@ -21,14 +21,14 @@ namespace PhysicsFormulae.Compiler.Formulae
     {
         public FormulaCompiler(Autotagger autotagger) : base(autotagger) { }
 
-        protected string _identifierPattern = @"^([^\[]+)\s*\[\s*(var\.|const\.)\s*(scal\.|vec\.|matr\.|tens|.)?\s*([A-Za-z0-9_]+)?\s*\](.+)$";
+        protected string _identifierPattern = @"^([^\[]+)\s*\[\s*(var\.|const\.)\s*(scal\.|vec\.|matr\.|tens|.)?\s*([A-Za-z0-9_]+)?\s*(,\s*[A-Za-z0-9\-\+\{\}\^_\/\s]+)?(,\s*[A-Za-z0-9\-\+\{\}\^_\/\s]+)?\s*\](.+)$";
 
-        private bool IsLineIdentifierLine(string line)
+        public bool IsLineIdentifierLine(string line)
         {
             return Regex.IsMatch(line, _identifierPattern);
         }
 
-        private Identifier GetIdentifier(string line)
+        public Identifier GetIdentifier(string line)
         {
             var identifier = new Identifier();
 
@@ -63,7 +63,18 @@ namespace PhysicsFormulae.Compiler.Formulae
             }
 
             identifier.Reference = match.Groups[4].Value.Trim();
-            identifier.Definition = match.Groups[5].Value.Trim();
+
+            if (match.Groups[5].Value.Trim() != "")
+            {
+                identifier.Dimensions = "\\mathrm{" + match.Groups[5].Value.Trim().Substring(1).Trim() + "}";
+            }
+
+            if (match.Groups[6].Value.Trim() != "")
+            {
+                identifier.Units = "\\mathrm{" + match.Groups[6].Value.Trim().Substring(1).Trim() + "}";
+            }
+
+            identifier.Definition = match.Groups[7].Value.Trim();
 
             return identifier;
         }

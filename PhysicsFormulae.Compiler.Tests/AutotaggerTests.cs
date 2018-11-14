@@ -15,7 +15,7 @@ namespace PhysicsFormulae.Compiler.Tests
 
         public AutotaggerTests()
         {
-            _autotagger = new Autotagger();
+            _autotagger = new Autotagger(new List<string>(), new List<string>());
         }
 
         [TestMethod]

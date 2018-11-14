@@ -15,6 +15,10 @@ namespace PhysicsFormulae.Compiler.Formulae
 
         public string Reference { get; set; }
 
+        public string Dimensions { get; set; }
+
+        public string Units { get; set; }
+
         public string Definition { get; set; }
     }
 }

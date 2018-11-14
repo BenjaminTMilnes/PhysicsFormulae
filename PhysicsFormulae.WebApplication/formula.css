@@ -146,6 +146,10 @@
     margin: 4px 0px;
 }
 
+.identifier-dimensions, .identifier-units {
+    display: none;
+}
+
 @media (min-width:400px) {
 
     .formula-interpretation, .constant-interpretation {
@@ -182,7 +186,19 @@
     }
 
     .identifier-classes {
-        min-width: 200px;
+        min-width: 170px;
+    }
+}
+
+@media (min-width:1000px) {
+    .identifier-interpretation {
+        min-width: 470px;
+        max-width: 470px;
+    }
+
+    .identifier-dimensions, .identifier-units {
+        display: block;
+        min-width: 120px;
     }
 }
 

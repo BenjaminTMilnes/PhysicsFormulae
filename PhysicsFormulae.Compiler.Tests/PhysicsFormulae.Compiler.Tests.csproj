@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="AutotaggerTests.cs" />
     <Compile Include="CompilerTests.cs" />
+    <Compile Include="FormulaCompilerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReferenceConverterTests.cs" />
   </ItemGroup>

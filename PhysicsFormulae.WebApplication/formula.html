@@ -16,6 +16,12 @@
                 <span ng-show="identifier.ObjectType == 'Tensor'" class="tensor" title="a tensor (one which is more complicated than a vector or a matrix)">tens.</span>
             </div>
             <div class="identifier-interpretation" compile="replaceMathematicsMarkers(identifier.Definition)"></div>
+            <div class="identifier-dimensions">
+                <mathematics content-type="latex" content="{{identifier.Dimensions}}"></mathematics>
+            </div>
+            <div class="identifier-units">
+                <mathematics content-type="latex" content="{{identifier.Units}}"></mathematics>
+            </div>
         </div>
     </div>
     <p class="formula-interpretation" compile="replaceMathematicsMarkers(formula.Interpretation)"></p>

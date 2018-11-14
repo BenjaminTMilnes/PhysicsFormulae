@@ -1,16 +1,19 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PhysicsFormulae.Compiler.Formulae;
+using System.Collections.Generic;
 
 namespace PhysicsFormulae.Compiler.Tests
 {
     [TestClass]
     public class CompilerTests
     {
+        protected Autotagger _autotagger;
         protected FormulaCompiler _formulaCompiler;
 
         public CompilerTests()
         {
-            _formulaCompiler = new FormulaCompiler();
+            _autotagger = new Autotagger(new List<string>(), new List<string>());
+            _formulaCompiler = new FormulaCompiler(_autotagger);
         }
 
         [TestMethod]
