@@ -74,8 +74,18 @@ application.directive("seeMore", function () {
 
 application.factory("dataService", ["$http", function ($http) {
     var dataService = {
+        data: null,
         getData: function () {
+            var that = this;
+
+            if (this.data != null) {
+                console.log("getting from data");
+                return new Promise(function (resolve, reject) { return resolve(that.data); });
+            }
+
             return $http.get("formulae.json").then(function (response) {
+                that.data = response.data;
+
                 return response.data;
             });
         }
