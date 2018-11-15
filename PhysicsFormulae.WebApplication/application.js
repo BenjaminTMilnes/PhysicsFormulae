@@ -108,6 +108,14 @@ class Database {
 
         return null;
     }
+
+    getConstantWithURLReference(urlReference) {
+        var cs = this.constants.filter(c => c.URLReference == urlReference);
+
+        if (cs.length > 0) { return cs[0]; }
+
+        return null;
+    }
 }
 
 application.factory("dataService", ["$http", function ($http) {

@@ -3,28 +3,19 @@ application.controller("ConstantController", ["$scope", "$routeParams", "dataSer
 
     $rootScope.metaService = metaService;
 
-    $scope.constants = null;
-
     dataService.getData().then(function (data) {
-        $scope.constants = data.Constants;
-        $scope.formulae = data.Formulae;
+        var database = new Database(data);
 
-        for (var i = 0; i < $scope.constants.length; i++) {
-            var constant = $scope.constants[i];
+        $scope.constant = database.getConstantWithURLReference($routeParams.reference);
+        $scope.usedInFormulae = [];
 
-            if (constant.URLReference == $routeParams.reference) {
-                $scope.constant = constant;
-                $scope.usedInFormulae = [];
-
-                for (var j = 0; j < $scope.constant.UsedInFormulae.length; j++) {
-                    $scope.usedInFormulae = $scope.usedInFormulae.concat($scope.formulae.filter(f => f.Reference == $scope.constant.UsedInFormulae[j]));
-                }
-
-                $rootScope.metaService.set(constant.Title + " - Physics Formulae", constant.Interpretation, constant.Tags.join(", "));
-
-                $scope.getValues();
-            }
+        for (var j = 0; j < $scope.constant.UsedInFormulae.length; j++) {
+            $scope.usedInFormulae = $scope.usedInFormulae.concat(database.formulae.filter(f => f.Reference == $scope.constant.UsedInFormulae[j]));
         }
+
+        $rootScope.metaService.set($scope.constant.Title + " - Physics Formulae", $scope.constant.Interpretation, $scope.constant.Tags.join(", "));
+
+        $scope.getValues();
     });
 
     $scope.replaceMathematicsMarkers = function (text) {
