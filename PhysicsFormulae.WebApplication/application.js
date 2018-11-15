@@ -72,6 +72,44 @@ application.directive("seeMore", function () {
     };
 });
 
+class Database {
+    constructor(data) {
+        this._data = data;
+    }
+
+    get formulae() {
+        return this._data.Formulae;
+    }
+
+    get constants() {
+        return this._data.Constants;
+    }
+
+    getFormulaWithReference(reference) {
+        var fs = this.formulae.filter(f => f.Reference == reference);
+
+        if (fs.length > 0) { return fs[0]; }
+
+        return null;
+    }
+
+    getFormulaWithURLReference(urlReference) {
+        var fs = this.formulae.filter(f => f.URLReference == urlReference);
+
+        if (fs.length > 0) { return fs[0]; }
+
+        return null;
+    }
+
+    getConstantWithReference(reference) {
+        var cs = this.constants.filter(c => c.Reference == reference);
+
+        if (cs.length > 0) { return cs[0]; }
+
+        return null;
+    }
+}
+
 application.factory("dataService", ["$http", function ($http) {
     var dataService = {
         data: null,
@@ -79,7 +117,6 @@ application.factory("dataService", ["$http", function ($http) {
             var that = this;
 
             if (this.data != null) {
-                console.log("getting from data");
                 return new Promise(function (resolve, reject) { return resolve(that.data); });
             }
 
