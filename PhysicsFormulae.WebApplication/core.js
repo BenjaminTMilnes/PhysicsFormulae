@@ -1,4 +1,12 @@
 ﻿
+function createMathematicsTag(content, displayStyle) {
+    if (!displayStyle) {
+        return "<mathematics content-type=\"latex\" content=\"" + content + "\"></mathematics>";
+    }
+
+    return "<mathematics content-type=\"latex\" content=\"\\displaystyle " + content + "\"></mathematics>";
+}
+
 function makeSearchableString(array) {
     return array.join(", ");
 }
@@ -119,7 +127,7 @@ function getAuthorsString(authors) {
 
         authorsString += authors[i];
     }
-    
+
     return authorsString;
 
 }

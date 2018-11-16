@@ -23,15 +23,11 @@ application.controller("FormulaOfTheDayController", ["$scope", "$routeParams", "
 
 
     $scope.getFormulaContent = function () {
-        if (!$scope.formula) {
-            return "";
-        }
-
-        return "<mathematics content-type=\"latex\" content=\"\\displaystyle " + $scope.formula.Content + "\"></mathematics>";
+        return (!$scope.formula) ? "" : createMathematicsTag($scope.formula.Content, true);
     }
 
     $scope.getVariant = function (content) {
-        return "<mathematics content-type=\"latex\" content=\"\\displaystyle " + content + "\"></mathematics>";
+        return createMathematicsTag(content, true);
     }
 
     $scope.replaceMathematicsMarkers = function (text) {

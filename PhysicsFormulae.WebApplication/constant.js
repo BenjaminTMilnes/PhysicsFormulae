@@ -30,15 +30,11 @@ application.controller("ConstantController", ["$scope", "$routeParams", "dataSer
     }
 
     $scope.getSymbolContent = function () {
-        if (!$scope.constant) {
-            return "";
-        }
-
-        return "<mathematics content-type=\"latex\" content=\"\\displaystyle " + $scope.constant.Symbol + "\"></mathematics>";
+        return (!$scope.constant) ? "" : createMathematicsTag($scope.constant.Symbol, true);
     }
 
     $scope.getUsedInFormula = function (content) {
-        return "<mathematics content-type=\"latex\" content=\"\\displaystyle " + content + "\"></mathematics>";
+        return createMathematicsTag(content, true);
     }
 
     $scope.getValues = function () {
