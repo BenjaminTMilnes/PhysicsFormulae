@@ -7,6 +7,17 @@ function createMathematicsTag(content, displayStyle) {
     return "<mathematics content-type=\"latex\" content=\"\\displaystyle " + content + "\"></mathematics>";
 }
 
+function replaceMathematicsMarkers(text) {
+    if (!text) {
+        return "";
+    }
+
+    var re = /\$(.+?)\$/gi;
+    var textWithKaTeX = text.replace(re, "<mathematics content-type=\"latex\" content=\"$1\"></mathematics>")
+
+    return textWithKaTeX;
+}
+
 function makeSearchableString(array) {
     return array.join(", ");
 }

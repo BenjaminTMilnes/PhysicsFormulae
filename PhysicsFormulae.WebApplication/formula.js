@@ -39,24 +39,11 @@ application.controller("FormulaController", ["$scope", "$routeParams", "dataServ
         return n;
     }
 
-    $scope.getFormulaContent = function () {
-        return (!$scope.formula) ? "" : createMathematicsTag($scope.formula.Content, true);
-    }
+    $scope.getFormulaContent = () => { return (!$scope.formula) ? "" : createMathematicsTag($scope.formula.Content, true); }
 
-    $scope.getVariant = function (content) {
-        return createMathematicsTag(content, true);
-    }
-
-    $scope.replaceMathematicsMarkers = function (text) {
-        if (!text) {
-            return "";
-        }
-
-        var re = /\$(.+?)\$/gi;
-        var textWithKaTeX = text.replace(re, "<mathematics content-type=\"latex\" content=\"$1\"></mathematics>")
-
-        return textWithKaTeX;
-    }
+    $scope.getVariant = (content) => { return createMathematicsTag(content, true); }
+    $scope.replaceMathematicsMarkers = replaceMathematicsMarkers;
+    $scope.getAuthorsString = getAuthorsString;
 
     $scope.getLaTeXForEntireFormula = function () {
         if (!$scope.formula) {

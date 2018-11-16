@@ -18,24 +18,11 @@ application.controller("ConstantController", ["$scope", "$routeParams", "dataSer
         $scope.getValues();
     });
 
-    $scope.replaceMathematicsMarkers = function (text) {
-        if (!text) {
-            return "";
-        }
+    $scope.replaceMathematicsMarkers = replaceMathematicsMarkers;
 
-        var re = /\$(.+?)\$/gi;
-        var textWithKaTeX = text.replace(re, "<mathematics content-type=\"latex\" content=\"$1\"></mathematics>")
+    $scope.getSymbolContent = () => { return (!$scope.constant) ? "" : createMathematicsTag($scope.constant.Symbol, true); }
 
-        return textWithKaTeX;
-    }
-
-    $scope.getSymbolContent = function () {
-        return (!$scope.constant) ? "" : createMathematicsTag($scope.constant.Symbol, true);
-    }
-
-    $scope.getUsedInFormula = function (content) {
-        return createMathematicsTag(content, true);
-    }
+    $scope.getUsedInFormula = (content) => { return createMathematicsTag(content, true); }
 
     $scope.getValues = function () {
         if (!$scope.constant) {
