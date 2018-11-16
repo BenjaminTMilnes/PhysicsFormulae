@@ -180,7 +180,6 @@ application.controller("SearchController", ["$scope", "$rootScope", "$routeParam
         $scope.pageNumber = n;
     }
 
-
     $scope.$watch("searchTerms", function (newValue, oldValue) {
         if (newValue != "") {
             var searchResults = $filter("searchFormulae")($scope.formulae, newValue, $scope.pageNumber, $scope.numberOfFormulaePerPage);
