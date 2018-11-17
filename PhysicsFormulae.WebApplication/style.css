@@ -1,5 +1,4 @@
 ﻿body {
-    padding: 20px;
     margin: 0px;
     font-family: "Open Sans", sans-serif;
     font-weight: lighter;
@@ -7,22 +6,47 @@
     overflow-wrap: break-word;
 }
 
-@media (min-width:400px) {
-    body {
-        padding: 40px;
-    }
+.mainpage {
+    padding: 20px;
 }
 
-@media (min-width:700px) {
-    body {
-        padding: 70px;
-        overflow-wrap: normal;
-    }
+.relatedwebsites {
+    padding: 20px 0px;
+    background-color: #F4F4F4;
+    color: #000000;
 }
 
 .centrecolumn {
     max-width: 1000px;
     margin: 0px auto;
+}
+
+
+@media (min-width:400px) {
+    body {
+    }
+
+    .mainpage {
+        padding: 40px;
+    }
+
+    .relatedwebsites {
+        padding: 40px 0px;
+    }
+}
+
+@media (min-width:700px) {
+    body {
+    }
+
+    .mainpage {
+        padding: 70px;
+        overflow-wrap: normal;
+    }
+
+    .relatedwebsites {
+        padding: 70px 0px;
+    }
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, ol, table, div, input {
@@ -117,22 +141,33 @@ a {
         background-color: #2f7ae2;
     }
 
+.relatedwebsites h2 {
+    margin: 0px 0px 40px 0px;
+}
+
 .website-cards {
     display: flex;
     flex-direction: column;
 }
 
-.website-card h3 {
-    font-weight: normal;
-    text-align: center;
-    margin: 27px 0px 0px 0px;
+.website-card {
+    border: 1px solid #E0E0E0;
+    border-radius: 1px;
+    margin: 0px 20px 20px 0px;
+    padding: 27px;
 }
 
-.website-card p {
-    font-size: 14px;
-    margin: 20px 0px 0px 0px;
-    text-align: justify;
-}
+    .website-card h3 {
+        font-weight: normal;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .website-card p {
+        font-size: 14px;
+        margin: 20px 0px 0px 0px;
+        text-align: justify;
+    }
 
 @media (min-width:700px) {
     .website-cards {
@@ -142,6 +177,5 @@ a {
 
     .website-card {
         flex-basis: 33%;
-        padding-right: 40px;
     }
 }

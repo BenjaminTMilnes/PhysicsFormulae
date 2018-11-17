@@ -137,6 +137,8 @@ application.controller("FormulaController", ["$scope", "$routeParams", "dataServ
         return getBibTeXForOriginalReferences($scope.formula.References);
     }
 
+    $scope.getHTMLLink = () => { return "<a href=\"http://www.physicsformulae.com/#/formula/" + $scope.formula.URLReference + "\" title=\"" + $scope.formula.Title + " - Physics Formulae\">" + $scope.formula.Title + " - Physics Formulae</a>"; }
+
     $scope.getCitationKeyForReference = getCitationKeyForReference;
     $scope.getAuthorsString = getAuthorsString;
 

@@ -58,6 +58,13 @@
         <references references="formula.References" page-type="'formula'"></references>
         <bibtex bibtex-for-this-webpage="getBibTeXForThisWebpage()" number-of-good-references="getNumberOfGoodReferences()" bibtex-for-original-sources="getBibTeXForOriginalReferences()" biblatex-for-this-webpage="getBibLaTeXForThisWebpage()"></bibtex>
     </div>
+    <div class="formula-linktothispage">
+        <h3>Link to this formula</h3>
+        <p>If you want to reference this formula on a page on your own website, add the following HTML &lt;a&gt; tag somewhere on the page.</p>
+        <code id="linktothispage" class="bibtex-content">{{getHTMLLink()}}
+        </code>
+        <button class="copybutton" data-clipboard-target="#linktothispage">Copy</button>
+    </div>
     <div class="formula-seemore">
         <see-more links="formula.SeeMore"></see-more>
         <p style="text-align:left;">The original .formula file that this page was generated from can be viewed at <a target="_blank" title="Physics Formulae Source Code" href="https://github.com/BenjaminTMilnes/PhysicsFormulae/blob/master/PhysicsFormulae.Formulae/{{formula.Reference}}.formula">https://github.com/BenjaminTMilnes/PhysicsFormulae/blob/master/PhysicsFormulae.Formulae/{{formula.Reference}}.formula</a></p>
