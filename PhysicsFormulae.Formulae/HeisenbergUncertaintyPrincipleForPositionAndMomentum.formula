@@ -8,8 +8,8 @@ The uncertainty in the position of a wave-particle is inversely proportional to 
 
 where:
 
-\Delta x [var. scal. PositionUncertainty] is the uncertainty in the position of the wave-particle
-\Delta p [var. scal. MomentumUncertainty] is the uncertainty in the momentum of the wave-particle
+\Delta x [var. scal. PositionUncertainty, L] is the uncertainty in the position of the wave-particle
+\Delta p [var. scal. MomentumUncertainty, M L T^{-1}] is the uncertainty in the momentum of the wave-particle
 \hbar [const. scal. ReducedPlanckConstant] is the Reduced Planck Constant
 
 variants:

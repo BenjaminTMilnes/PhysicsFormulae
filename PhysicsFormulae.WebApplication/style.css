@@ -37,6 +37,11 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-size: 20px;
+    text-align: left;
+}
+
 p {
     font-size: 14px;
     margin: 17px 0px;
@@ -47,6 +52,13 @@ code {
     display: block;
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #D0D0D0;
+    margin: 20px 0px;
+}
+
 @media (min-width:400px) {
     h1 {
         font-size: 22px;
@@ -54,10 +66,24 @@ code {
         text-align: left;
     }
 
+    h2 {
+        font-size: 27px;
+    }
+
     p {
         font-size: 17px;
         margin: 22px 0px;
         text-align: justify;
+    }
+
+    hr {
+        margin: 40px 0px;
+    }
+}
+
+@media (min-width:700px) {
+    hr {
+        margin: 70px 0px;
     }
 }
 
@@ -90,3 +116,32 @@ a {
     .copybutton:hover {
         background-color: #2f7ae2;
     }
+
+.website-cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.website-card h3 {
+    font-weight: normal;
+    text-align: center;
+    margin: 27px 0px 0px 0px;
+}
+
+.website-card p {
+    font-size: 14px;
+    margin: 20px 0px 0px 0px;
+    text-align: justify;
+}
+
+@media (min-width:700px) {
+    .website-cards {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .website-card {
+        flex-basis: 33%;
+        padding-right: 40px;
+    }
+}

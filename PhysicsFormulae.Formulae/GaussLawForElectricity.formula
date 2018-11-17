@@ -9,7 +9,7 @@ The divergence of the electric field is directly proportional to the charge dens
 where:
 
 \textbf{E} [var. vec. ElectricField] is the electric field
-\rho [var. scal. ChargeDensity] is the charge density
+\rho [var. scal. ChargeDensity, Q L^{-3}] is the charge density
 \epsilon_0 [const. scal. PermittivityOfFreeSpace] is the permittivity of free space
 
 variants:
