@@ -1,0 +1,40 @@
+﻿DefinitionOfEfficiency
+
+The Definition of Efficiency
+
+The efficiency of a process is the ratio of its useful energy or power output to its total energy or power input.
+
+\eta = \frac{E_{\text{useful}}}{E_{\text{total}}}
+
+where:
+
+\eta [var. scal. Efficiency] is the efficiency of the process
+E_{\text{useful}} [var. scal. UsefulEnergyOutput] is the useful energy output of the process
+E_{\text{total}} [var. scal. TotalEnergyInput] is the total energy input of the process
+
+variants:
+
+In terms of power
+
+\eta = \frac{P_{\text{useful}}}{P_{\text{total}}}
+
+fields:
+
+Classical Mechanics
+Thermodynamics
+Electromagnetism
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+
+tags:
+
+rating: *****
+

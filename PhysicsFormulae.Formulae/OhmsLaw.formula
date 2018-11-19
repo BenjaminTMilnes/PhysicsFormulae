@@ -1,0 +1,44 @@
+﻿OhmsLaw
+
+Ohm's Law
+
+The current through an electrical conductor is directly proportional to the potential difference across it.
+
+I = \frac{V}{R}
+
+where:
+
+I [var. scal. Current] is the current through the conductor
+V [var. scal. PotentialDifference] is the potential difference across the conductor
+R [var. scal. Resistance] is the resistance of the conductor
+
+variants:
+
+Common Form
+
+V = IR
+
+---
+
+In terms of conductance
+
+I = GV
+
+fields:
+
+Electromagnetism
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+
+tags:
+
+rating: *****
+

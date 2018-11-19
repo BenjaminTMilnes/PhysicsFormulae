@@ -1,0 +1,35 @@
+﻿GravitationalPotentialEnergyForAUniformField
+
+The Gravitational Potential Energy for a Uniform Field
+
+For a uniform gravitational field, the potential energy of an object increases linearly with height.
+
+E_{G} = mgh
+
+where:
+
+E_{G} [var. scal. GravitationalPotentialEnergy, M L^{2} T^{-2}, J] is the gravitational potential energy of an object at a given relative height
+m [var. scal. Mass, M, kg] is the mass of the object
+g [var. scal. AccelerationDueToGravity, L T^{-2}, m s^{-2}] is the acceleration due to gravity
+h [var. scal. Height, L, m] is the height above a given reference point
+
+variants:
+
+fields:
+
+Classical Mechanics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+
+tags:
+
+rating: *****
+

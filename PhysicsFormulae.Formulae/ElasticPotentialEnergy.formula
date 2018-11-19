@@ -1,0 +1,34 @@
+﻿ElasticPotentialEnergy
+
+The Elastic Potential Energy of an Ideal Spring
+
+The potential energy stored in a spring is proportional to the square of the displacement of the spring from its equilibrium position.
+
+E = \frac{1}{2} k x^{2}
+
+where:
+
+E [var. scal. ElasticPotentialEnergy, M L^{2} T^{-2}, J] is the elastic potential energy stored in the spring
+k [const. scal. SpringConstant, M T^{-2}] is the spring constant of the spring
+x [var. scal. Displacement, L, m] is the displacement of the spring from its equilibrium position
+
+variants:
+
+fields:
+
+Classical Mechanics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+
+tags:
+
+rating: *****
+
