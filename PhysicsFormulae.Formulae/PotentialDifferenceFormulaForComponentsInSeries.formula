@@ -1,0 +1,38 @@
+﻿PotentialDifferenceFormulaForComponentsInSeries
+
+The Formula for the Total Potential Difference across Electrical Components Connected in Series
+
+For electrical components that are connected in series, the total potential difference across all of the components is the sum of the potential difference across each component.
+
+V_{\text{total}} = \sum_{j} V_{j}
+
+where:
+
+V_{\text{total}} [var. scal. TotalPotentialDifference] is the total potential difference across all components
+V_{j} [var. scal. PotentialDifference] is the potential difference across component $j$
+
+variants:
+
+Without the summation sign
+
+V_{\text{total}} = V_{1} + V_{2} + V_{3} ...
+
+fields:
+
+Electromagnetism
+Electrical Circuits
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+
+tags:
+
+rating: *****
+

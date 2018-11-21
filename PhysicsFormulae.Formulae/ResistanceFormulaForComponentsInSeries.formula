@@ -1,0 +1,38 @@
+﻿ResistanceFormulaForComponentsInSeries
+
+The Formula for the Total Resistance of Electrical Components Connected in Series
+
+For electrical components that are connected in series, the total resistance of all of the components is the sum of the resistance of each component.
+
+R_{\text{total}} = \sum_{j} R_{j}
+
+where:
+
+R_{\text{total}} [var. scal. TotalResistance] is the total resistance of all of the components
+R_{j} [var. scal. Resistance] is the resistance of component $j$
+
+variants:
+
+Without the summation sign
+
+R_{\text{total}} = R_{1} + R_{2} + R_{3} ...
+
+fields:
+
+Electromagnetism
+Electrical Circuits
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+
+tags:
+
+rating: *****
+
