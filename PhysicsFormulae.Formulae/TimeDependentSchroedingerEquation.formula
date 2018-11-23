@@ -1,0 +1,40 @@
+﻿TimeDependentSchroedingerEquation
+
+The Time-Dependent Schrödinger Equation
+
+The Time-Dependent Schrödinger Equation is the wave equation for a single, non-relativistic particle moving in a potential $V(\textbf{r}, t)$.
+
+i \hbar \frac{\partial}{\partial t} \Psi (\textbf{r}, t) = \left( \frac{\hbar^{2}}{2 \mu} \nabla^{2} + V (\textbf{r}, t) \right) \Psi (\textbf{r}, t)
+
+
+where:
+
+i [const. scal. ImaginaryConstant] is the imaginary constant
+\hbar [const. scal. ReducedPlanckConstant] is the Reduced Planck Constant
+t [var. scal. Time] is time
+\Psi (\textbf{r}, t) [var. w.f.o. WaveFunction] is the wave function of the particle
+\textbf{r} [var. vec. Position] is position
+\mu [var. scal. ReducedMass] is the reduced mass of the particle
+V (\textbf{r}, t) [var. scal. Potential] is the potential
+
+variants:
+
+
+fields:
+
+Quantum Mechanics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+
+tags:
+
+rating: *****
+
