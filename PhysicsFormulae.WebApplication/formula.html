@@ -14,6 +14,7 @@
                 <span ng-show="identifier.ObjectType == 'Vector'" class="vector" title="a vector quantity">vec.</span>
                 <span ng-show="identifier.ObjectType == 'Matrix'" class="matrix" title="a matrix">matr.</span>
                 <span ng-show="identifier.ObjectType == 'Tensor'" class="tensor" title="a tensor (one which is more complicated than a vector or a matrix)">tens.</span>
+                <span ng-show="identifier.ObjectType == 'WaveFunctionObject'" class="tensor" title="a quantum mechanical wave-function">w.f.</span>
             </div>
             <div class="identifier-interpretation" compile="replaceMathematicsMarkers(identifier.Definition)"></div>
             <div class="identifier-dimensions">
@@ -61,7 +62,8 @@
     <div class="formula-linktothispage">
         <h3>Link to this formula</h3>
         <p>If you want to reference this formula on a page on your own website, add the following HTML &lt;a&gt; tag somewhere on the page.</p>
-        <code id="linktothispage" class="bibtex-content">{{getHTMLLink()}}
+        <code id="linktothispage" class="bibtex-content">
+            {{getHTMLLink()}}
         </code>
         <button class="copybutton" data-clipboard-target="#linktothispage">Copy</button>
     </div>

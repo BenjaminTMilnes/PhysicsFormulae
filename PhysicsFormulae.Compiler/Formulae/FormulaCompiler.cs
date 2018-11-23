@@ -21,7 +21,7 @@ namespace PhysicsFormulae.Compiler.Formulae
     {
         public FormulaCompiler(Autotagger autotagger) : base(autotagger) { }
 
-        protected string _identifierPattern = @"^([^\[]+)\s*\[\s*(var\.|const\.)\s*(scal\.|vec\.|matr\.|tens|.)?\s*([A-Za-z0-9_]+)?\s*(,\s*[A-Za-z0-9\-\+\{\}\^_\/\s]+)?(,\s*[A-Za-z0-9\-\+\{\}\^_\/\s]+)?\s*\](.+)$";
+        protected string _identifierPattern = @"^([^\[]+)\s*\[\s*(var\.|const\.)\s*(scal\.|vec\.|matr\.|tens\.|w\.f\.o\.)?\s*([A-Za-z0-9_]+)?\s*(,\s*[A-Za-z0-9\-\+\{\}\^_\/\s]+)?(,\s*[A-Za-z0-9\-\+\{\}\^_\/\s]+)?\s*\](.+)$";
 
         public bool IsLineIdentifierLine(string line)
         {
@@ -60,6 +60,10 @@ namespace PhysicsFormulae.Compiler.Formulae
             else if (match.Groups[3].Value == "tens.")
             {
                 identifier.ObjectType = ObjectType.Tensor;
+            }
+            else if (match.Groups[3].Value == "w.f.o.")
+            {
+                identifier.ObjectType = ObjectType.WaveFunctionObject;
             }
 
             identifier.Reference = match.Groups[4].Value.Trim();

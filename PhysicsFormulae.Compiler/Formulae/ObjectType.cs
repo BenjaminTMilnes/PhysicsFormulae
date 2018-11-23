@@ -5,6 +5,7 @@
         Scalar = 1,
         Vector = 2,
         Matrix = 3,
-        Tensor = 4
+        Tensor = 4,
+        WaveFunctionObject = 5
     }
 }
