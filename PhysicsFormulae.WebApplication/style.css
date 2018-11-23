@@ -11,7 +11,7 @@
 }
 
 .relatedwebsites {
-    padding: 20px 0px;
+    padding: 20px;
     background-color: #F4F4F4;
     color: #000000;
 }
@@ -31,7 +31,7 @@
     }
 
     .relatedwebsites {
-        padding: 40px 0px;
+        padding: 40px;
     }
 }
 
@@ -45,7 +45,6 @@
     }
 
     .relatedwebsites {
-        padding: 70px 0px;
     }
 }
 
@@ -142,7 +141,16 @@ a {
     }
 
 .relatedwebsites h2 {
-    margin: 0px 0px 40px 0px;
+    margin: 20px 0px;
+}
+
+@media (min-width:400px) {
+    .relatedwebsites h2 {
+        margin: 40px 0px;
+    }
+}
+
+@media (min-width:700px) {
 }
 
 .website-cards {
@@ -151,10 +159,11 @@ a {
 }
 
 .website-card {
-    border: 1px solid #E0E0E0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 1px;
-    margin: 0px 20px 20px 0px;
-    padding: 27px;
+    margin: 0px 0px 20px 0px;
+    padding: 22px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
 }
 
     .website-card h3 {
@@ -164,12 +173,27 @@ a {
     }
 
     .website-card p {
-        font-size: 14px;
+        font-size: 12px;
         margin: 20px 0px 0px 0px;
         text-align: justify;
     }
 
+@media (min-width:400px) {
+
+    .website-card {
+        padding: 27px;
+    }
+
+        .website-card p {
+            font-size: 14px;
+        }
+}
+
 @media (min-width:700px) {
+    .website-card {
+        margin: 0px 20px 20px 0px;
+    }
+
     .website-cards {
         display: flex;
         flex-direction: row;

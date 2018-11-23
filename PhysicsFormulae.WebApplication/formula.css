@@ -433,3 +433,13 @@ h4.variant-title {
             margin: 17px 0px;
         }
 }
+
+.formula-linktothispage {
+    display: none;
+}
+
+@media (min-width:700px) {
+    .formula-linktothispage {
+        display: block;
+    }
+}
