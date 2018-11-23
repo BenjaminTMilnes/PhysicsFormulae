@@ -1,0 +1,33 @@
+﻿WaveSpeedFormula
+
+The Wave Speed Formula
+
+The speed of a non-dispersive wave is equal to the frequency of the wave multiplied by its wavelength.
+
+v = f \lambda
+
+where:
+
+v [var. scal. WaveSpeed] is the speed of the wave
+f [var. scal. WaveFrequency] is the frequency of the wave
+\lambda [var. scal. Wavelength] is the wavelength of the wave
+
+variants:
+
+fields:
+
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+
+tags:
+
+rating: *****
+

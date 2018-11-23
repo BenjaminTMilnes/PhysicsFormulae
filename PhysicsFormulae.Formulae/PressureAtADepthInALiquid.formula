@@ -1,0 +1,35 @@
+﻿PressureInADepthInALiquid
+
+The Pressure at a Given Depth in a Liquid
+
+The pressure at a given depth, $h$, in a liquid is proportional to $h$, the density of the liquid, and the strength of the local gravitational field.
+
+p = h \rho g
+
+where:
+
+p [var. scal. Pressure] is the pressure at a given depth
+h [var. scal. Depth] is the depth below the surface of the liquid
+\rho [var. scal. Density] is the density of the liquid
+g [var. scal. AccelerationDueToGravity] is the local acceleration due to gravity
+
+variants:
+
+fields:
+
+Classical Mechanics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+
+tags:
+
+rating: *****
+

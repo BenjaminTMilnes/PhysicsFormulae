@@ -1,0 +1,39 @@
+﻿PowerTransferredByAnElectricalComponent
+
+The Power Transferred by an Electrical Component
+
+The power transferred by an electrical component is equal to the product of the current through the component and the electric potential difference across it.
+
+P = IV
+
+where:
+
+P [var. scal. Power] is the power transferred by the electrical component
+I [var. scal. Current] is the current through the component
+V [var. scal. PotentialDifference] is the potential difference across the component
+
+variants:
+
+In terms of current and resistance
+
+P = I^{2} R
+
+fields:
+
+Electromagnetism
+Electrical Circuits
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+
+tags:
+
+rating: *****
+
