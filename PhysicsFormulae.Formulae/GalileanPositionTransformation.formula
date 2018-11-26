@@ -1,0 +1,34 @@
+﻿GalileanPositionTransformation
+
+The Galilean Transformation for Position
+
+The position of an object in frame $S^{\prime}$, which moves with a velocity $\textbf{v}$ relative to frame $S$, is offset to its position in $S$ by $-\textbf{v}t$.
+
+\textbf{r} = \textbf{r}^{\prime} - \textbf{v} t
+
+where:
+
+\textbf{r} [var. vec. Position, L, m] is the position of the object in frame $S$
+\textbf{r}^{\prime} [var. vec. Position, L, m] is the position of the object in frame $S^{\prime}$
+\textbf{v} [const. vec. RelativeVelocity, L T^{-1}, m/s] is the velocity of frame $S^{\prime}$ relative to $S$
+t [var. scal. Time, T, s] is the time since the origin of the two frames was at the same point
+
+variants:
+
+fields:
+
+Galilean Relativity
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+tags:
+
+rating: *****
+
