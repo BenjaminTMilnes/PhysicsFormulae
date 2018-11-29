@@ -8,6 +8,8 @@ t = t^{\prime}
 
 where:
 
+t [var. scal. Time, T, s] is the time of an event in frame $S$
+t^{\prime} [var. scal. Time, T, s] is the time of an event in frame $S^{\prime}$
 
 variants:
 

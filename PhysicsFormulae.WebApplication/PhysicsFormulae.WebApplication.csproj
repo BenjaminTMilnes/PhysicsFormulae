@@ -98,6 +98,7 @@
     <Content Include="search.html" />
     <Content Include="search.js" />
     <Content Include="see-more.html" />
+    <Content Include="sitemap.xml" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
   </ItemGroup>

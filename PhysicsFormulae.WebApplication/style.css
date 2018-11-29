@@ -203,3 +203,7 @@ a {
         flex-basis: 33%;
     }
 }
+
+.otherlinks ul{
+     list-style:none;
+}
