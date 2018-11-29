@@ -99,51 +99,16 @@ namespace PhysicsFormulae.TerminalApplication
                 }
             }
 
-            var xmlNameSpace = XNamespace.Get("http://www.sitemaps.org/schemas/sitemap/0.9");
-            var sitemap = new XDocument(new XDeclaration("1.0", "UTF-8", null));
-            
-            sitemap.Add(new XElement(xmlNameSpace + "urlset"));
-
-            var root = sitemap.Root;
+            var sitemap = new Sitemap();
 
             foreach (var formula in formulae)
             {
-                var url = new XElement(xmlNameSpace + "url");
-
-                var location = new XElement(xmlNameSpace + "loc");
-                location.Add(new XText( "http://www.physicsformulae.com/#/formula/" + formula.URLReference));
-
-                var lastModifiedDate = new XElement(xmlNameSpace + "lastmod");
-                lastModifiedDate.Add(new XText(DateTime.UtcNow.ToString()));
-
-                var priority = new XElement(xmlNameSpace + "priority");
-                priority.Add(new XText("1.0"));
-
-                url.Add(location);
-                url.Add(lastModifiedDate);
-                url.Add(priority);
-
-                root.Add(url);
+                sitemap.AddURL("http://www.physicsformulae.com/#/formula/" + formula.URLReference);
             }
 
             foreach (var constant in constants)
             {
-                var url = new XElement(xmlNameSpace + "url");
-
-                var location = new XElement(xmlNameSpace + "loc");
-                location.Add(new XText("http://www.physicsformulae.com/#/constant/" + constant.URLReference));
-
-                var lastModifiedDate = new XElement(xmlNameSpace + "lastmod");
-                lastModifiedDate.Add(new XText(DateTime.UtcNow.ToString()));
-
-                var priority = new XElement(xmlNameSpace + "priority");
-                priority.Add(new XText("0.9"));
-
-                url.Add(location);
-                url.Add(lastModifiedDate);
-                url.Add(priority);
-
-                root.Add(url);
+                sitemap.AddURL("http://www.physicsformulae.com/#/constant/" + constant.URLReference, "0.9");
             }
 
             sitemap.Save(@"..\..\..\PhysicsFormulae.WebApplication\sitemap.xml");

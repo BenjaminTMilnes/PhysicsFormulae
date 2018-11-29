@@ -64,6 +64,7 @@
     <Compile Include="Constants\Value.cs" />
     <Compile Include="Formulae\Variant.cs" />
     <Compile Include="References\Webpage.cs" />
+    <Compile Include="Sitemap.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
