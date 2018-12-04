@@ -21,6 +21,13 @@ application.controller("FormulaController", ["$scope", "$routeParams", "dataServ
         }
 
         $rootScope.metaService.set($scope.formula.Title + " - Physics Formulae", $scope.formula.Interpretation, $scope.formula.Tags.join(", "));
+
+        var url = "/formula/" + $scope.formula.URLReference;
+
+        ga("set", "page", url);
+        ga("send", "pageview");
+
+        console.log("Sending page view for '" + url + "'");
     });
 
     $scope.getNumberOfGoodReferences = function () {
@@ -137,7 +144,7 @@ application.controller("FormulaController", ["$scope", "$routeParams", "dataServ
         return getBibTeXForOriginalReferences($scope.formula.References);
     }
 
-    $scope.getHTMLLink = () => { return "<a href=\"http://www.physicsformulae.com/#/formula/" + $scope.formula.URLReference + "\" title=\"" + $scope.formula.Title + " - Physics Formulae\">" + $scope.formula.Title + " - Physics Formulae</a>"; }
+    $scope.getHTMLLink = () => { if (!$scope.formula) { return ""; }  return "<a href=\"http://www.physicsformulae.com/#/formula/" + $scope.formula.URLReference + "\" title=\"" + $scope.formula.Title + " - Physics Formulae\">" + $scope.formula.Title + " - Physics Formulae</a>"; }
 
     $scope.getCitationKeyForReference = getCitationKeyForReference;
     $scope.getAuthorsString = getAuthorsString;
