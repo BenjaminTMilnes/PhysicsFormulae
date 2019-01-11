@@ -78,6 +78,76 @@
     <Content Include="formula.css" />
     <Content Include="formula.html" />
     <Content Include="formula.js" />
+    <Content Include="images\centripetal-force-for-circular-motion.png" />
+    <Content Include="images\compton-scattering-formula.png" />
+    <Content Include="images\coulombs-law.png" />
+    <Content Include="images\definition-of-acceleration.png" />
+    <Content Include="images\definition-of-angular-acceleration.png" />
+    <Content Include="images\definition-of-angular-frequency.png" />
+    <Content Include="images\definition-of-angular-impulse.png" />
+    <Content Include="images\definition-of-angular-momentum.png" />
+    <Content Include="images\definition-of-angular-velocity.png" />
+    <Content Include="images\definition-of-de-broglie-wavelength.png" />
+    <Content Include="images\definition-of-density.png" />
+    <Content Include="images\definition-of-efficiency.png" />
+    <Content Include="images\definition-of-electric-flux.png" />
+    <Content Include="images\definition-of-frequency.png" />
+    <Content Include="images\definition-of-heat-capacity.png" />
+    <Content Include="images\definition-of-impulse.png" />
+    <Content Include="images\definition-of-kinetic-energy.png" />
+    <Content Include="images\definition-of-momentum.png" />
+    <Content Include="images\definition-of-photon-energy.png" />
+    <Content Include="images\definition-of-power.png" />
+    <Content Include="images\definition-of-pressure.png" />
+    <Content Include="images\definition-of-relativistic-kinetic-energy.png" />
+    <Content Include="images\definition-of-relativistic-momentum.png" />
+    <Content Include="images\definition-of-rotational-kinetic-energy.png" />
+    <Content Include="images\definition-of-rotational-power.png" />
+    <Content Include="images\definition-of-rotational-work.png" />
+    <Content Include="images\definition-of-torque.png" />
+    <Content Include="images\definition-of-velocity.png" />
+    <Content Include="images\definition-of-work-done.png" />
+    <Content Include="images\elastic-potential-energy.png" />
+    <Content Include="images\electric-field-of-apoint-charge.png" />
+    <Content Include="images\electric-potential-energy-of-two-point-charges.png" />
+    <Content Include="images\electric-potential-of-apoint-charge.png" />
+    <Content Include="images\galilean-position-transformation.png" />
+    <Content Include="images\galilean-time-transformation.png" />
+    <Content Include="images\gauss-law-for-electricity.png" />
+    <Content Include="images\gauss-law-for-gravity.png" />
+    <Content Include="images\gauss-law-for-magnetism.png" />
+    <Content Include="images\gravitational-potential-energy-for-auniform-field.png" />
+    <Content Include="images\heisenberg-uncertainty-principle-for-position-and-momentum.png" />
+    <Content Include="images\heisenberg-uncertainty-principle-for-time-and-energy.png" />
+    <Content Include="images\hookes-law.png" />
+    <Content Include="images\ideal-gas-law.png" />
+    <Content Include="images\kelvin-stokes-theorem.png" />
+    <Content Include="images\law-of-the-photoelectric-effect.png" />
+    <Content Include="images\length-contraction-in-special-relativity.png" />
+    <Content Include="images\linear-thermal-expansion.png" />
+    <Content Include="images\lorentz-factor.png" />
+    <Content Include="images\lorentz-velocity-transformation.png" />
+    <Content Include="images\maxwell-faraday-equation.png" />
+    <Content Include="images\newtons-law-of-gravitation.png" />
+    <Content Include="images\newtons-second-law-of-motion.png" />
+    <Content Include="images\ohms-law.png" />
+    <Content Include="images\potential-difference-formula-for-components-in-series.png" />
+    <Content Include="images\potential-energy-of-an-electric-dipole.png" />
+    <Content Include="images\power-transferred-by-an-electrical-component.png" />
+    <Content Include="images\pressure-in-adepth-in-aliquid.png" />
+    <Content Include="images\radial-acceleration-in-circular-motion.png" />
+    <Content Include="images\radioactive-decay.png" />
+    <Content Include="images\relativistic-doppler-effect.png" />
+    <Content Include="images\resistance-formula-for-components-in-series.png" />
+    <Content Include="images\suvat1.png" />
+    <Content Include="images\suvat2.png" />
+    <Content Include="images\suvat3.png" />
+    <Content Include="images\suvat4.png" />
+    <Content Include="images\time-dependent-schroedinger-equation.png" />
+    <Content Include="images\time-dilation-in-special-relativity.png" />
+    <Content Include="images\torque-on-an-electric-dipole.png" />
+    <Content Include="images\total-relativistic-energy.png" />
+    <Content Include="images\wave-speed-formula.png" />
     <Content Include="packages.config" />
     <Content Include="formulae.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -105,6 +175,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

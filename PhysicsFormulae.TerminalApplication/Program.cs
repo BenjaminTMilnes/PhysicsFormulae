@@ -135,7 +135,7 @@ namespace PhysicsFormulae.TerminalApplication
 
                 typesetter.TypesetDocument(document);
 
-                var fileLocation = Path.Combine(@"..\..\..\PhysicsFormulae.WebApplication\images\", formula.URLReference, ".png");
+                var fileLocation = Path.Combine(@"..\..\..\PhysicsFormulae.WebApplication\images\", formula.URLReference + ".png");
 
                 exporter.ExportMathematics(document, fileLocation);
             }

@@ -34,6 +34,15 @@
       <HintPath>packages\CSharpMath.0.1.5\lib\netstandard1.1\CSharpMath.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="MathematicsTypesetting">
+      <HintPath>..\..\MathematicsTypesetting\MathematicsTypesetting\bin\Debug\MathematicsTypesetting.dll</HintPath>
+    </Reference>
+    <Reference Include="MathematicsTypesetting.Fonts">
+      <HintPath>..\..\MathematicsTypesetting\MathematicsTypesetting\bin\Debug\MathematicsTypesetting.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="MathematicsTypesetting.LaTeX">
+      <HintPath>..\..\MathematicsTypesetting\MathematicsTypesetting.LaTeX\bin\Debug\MathematicsTypesetting.LaTeX.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
