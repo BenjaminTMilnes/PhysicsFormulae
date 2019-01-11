@@ -9,6 +9,9 @@ using PhysicsFormulae.Compiler.Constants;
 using PhysicsFormulae.Compiler.References;
 using System.Xml;
 using System.Xml.Linq;
+using MathematicsTypesetting;
+using MathematicsTypesetting.Fonts;
+using MathematicsTypesetting.LaTeX;
 
 namespace PhysicsFormulae.TerminalApplication
 {
@@ -99,6 +102,8 @@ namespace PhysicsFormulae.TerminalApplication
                 }
             }
 
+            MakeFormulaImages(formulae);
+
             var sitemap = new Sitemap();
 
             foreach (var formula in formulae)
@@ -112,6 +117,28 @@ namespace PhysicsFormulae.TerminalApplication
             }
 
             sitemap.Save(@"..\..\..\PhysicsFormulae.WebApplication\sitemap.xml");
+        }
+
+        public static void MakeFormulaImages(IEnumerable<Formula> formulae)
+        {
+            var fontLoader = new FontLoader();
+            var textMeasurer = new HyperfontTextMeasurer(fontLoader);
+            var typesetter = new Typesetter(textMeasurer);
+            var exporter = new PNGExporter(fontLoader);
+            var parser = new LaTeXParser();
+
+            foreach (var formula in formulae)
+            {
+                var document = new Document();
+
+                document.MainElement = parser.ParseLaTeX(formula.Content);
+
+                typesetter.TypesetDocument(document);
+
+                var fileLocation = Path.Combine(@"..\..\..\PhysicsFormulae.WebApplication\images\", formula.URLReference, ".png");
+
+                exporter.ExportMathematics(document, fileLocation);
+            }
         }
     }
 }
