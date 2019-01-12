@@ -121,23 +121,13 @@ namespace PhysicsFormulae.TerminalApplication
 
         public static void MakeFormulaImages(IEnumerable<Formula> formulae)
         {
-            var fontLoader = new FontLoader();
-            var textMeasurer = new HyperfontTextMeasurer(fontLoader);
-            var typesetter = new Typesetter(textMeasurer);
-            var exporter = new PNGExporter(fontLoader);
-            var parser = new LaTeXParser();
+            var renderer = new MathematicsTypesetting.Rendering.Renderer();
 
             foreach (var formula in formulae)
             {
-                var document = new Document();
-
-                document.MainElement = parser.ParseLaTeX(formula.Content);
-
-                typesetter.TypesetDocument(document);
-
                 var fileLocation = Path.Combine(@"..\..\..\PhysicsFormulae.WebApplication\images\", formula.URLReference + ".png");
 
-                exporter.ExportMathematics(document, fileLocation);
+                renderer.RenderMathematics(formula.Content, fileLocation);
             }
         }
     }

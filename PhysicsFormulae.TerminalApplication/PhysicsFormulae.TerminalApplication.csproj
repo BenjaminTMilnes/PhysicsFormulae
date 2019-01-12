@@ -48,14 +48,20 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MathematicsTypesetting">
-      <HintPath>..\..\MathematicsTypesetting\MathematicsTypesetting\bin\Debug\MathematicsTypesetting.dll</HintPath>
+    <Reference Include="MathematicsTypesetting, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\MathematicsTypesetting\MathematicsTypesetting.Rendering\bin\Debug\MathematicsTypesetting.dll</HintPath>
     </Reference>
-    <Reference Include="MathematicsTypesetting.Fonts">
-      <HintPath>..\..\MathematicsTypesetting\MathematicsTypesetting\bin\Debug\MathematicsTypesetting.Fonts.dll</HintPath>
+    <Reference Include="MathematicsTypesetting.Fonts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\MathematicsTypesetting\MathematicsTypesetting.Rendering\bin\Debug\MathematicsTypesetting.Fonts.dll</HintPath>
     </Reference>
-    <Reference Include="MathematicsTypesetting.LaTeX">
-      <HintPath>..\..\MathematicsTypesetting\MathematicsTypesetting.LaTeX\bin\Debug\MathematicsTypesetting.LaTeX.dll</HintPath>
+    <Reference Include="MathematicsTypesetting.LaTeX, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\MathematicsTypesetting\MathematicsTypesetting.Rendering\bin\Debug\MathematicsTypesetting.LaTeX.dll</HintPath>
+    </Reference>
+    <Reference Include="MathematicsTypesetting.Rendering">
+      <HintPath>..\..\MathematicsTypesetting\MathematicsTypesetting.Rendering\bin\Debug\MathematicsTypesetting.Rendering.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\PhysicsFormulae.Compiler\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
