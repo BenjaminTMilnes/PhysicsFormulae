@@ -143,15 +143,21 @@ application.service("metaService", function () {
     var title = "Physics Formulae";
     var metaDescription = "";
     var metaKeywords = "";
+    var previewImageURL = "";
+    var canonicalURL = "";
 
     return {
-        set: function (newTitle, newMetaDescription, newMetaKeywords) {
+        set: function (newTitle, newMetaDescription, newMetaKeywords, newPreviewImageURL, newCanonicalURL) {
             title = newTitle;
             metaDescription = newMetaDescription;
             metaKeywords = newMetaKeywords;
+            previewImageURL = newPreviewImageURL;
+            canonicalURL = newCanonicalURL;
         },
         metaTitle: function () { return title; },
         metaDescription: function () { return metaDescription; },
-        metaKeywords: function () { return metaKeywords; }
+        metaKeywords: function () { return metaKeywords; },
+        previewImageURL: function () { return previewImageURL; },
+        canonicalURL: function () { return canonicalURL; }
     }
 });

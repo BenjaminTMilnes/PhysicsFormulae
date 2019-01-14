@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html ng-app="PhysicsFormulae">
+<html ng-app="PhysicsFormulae"    xmlns:fb="http://ogp.me/ns/fb#">
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9625439-23"></script>
@@ -15,6 +15,11 @@
     <meta charset="utf-8" />
     <meta name="description" content="{{metaService.metaDescription()}}" />
     <meta name="keywords" content="{{metaService.metaKeywords()}}" />
+    <meta property="og:image" content="{{metaService.previewImageURL()}}"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{metaService.canonicalURL()}}" />
+    <meta property="og:title" content="{{metaService.metaTitle()}}" />
+    <meta property="og:description" content="{{metaService.metaDescription()}}" />
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i&amp;subset=greek,greek-ext,latin-ext" rel="stylesheet">
 

@@ -19,8 +19,8 @@ application.controller("FormulaController", ["$scope", "$routeParams", "dataServ
                 identifier.Link = "";
             }
         }
-
-        $rootScope.metaService.set($scope.formula.Title + " - Physics Formulae", $scope.formula.Interpretation, $scope.formula.Tags.join(", "));
+        
+        $rootScope.metaService.set($scope.formula.Title + " - Physics Formulae", $scope.formula.Interpretation, $scope.formula.Tags.join(", "), "http://www.physicsformulae.com/images/" + $scope.formula.URLReference + ".png", "http://www.physicsformulae.com/#/formula/" + $scope.formula.URLReference);
 
         var url = "/formula/" + $scope.formula.URLReference;
 

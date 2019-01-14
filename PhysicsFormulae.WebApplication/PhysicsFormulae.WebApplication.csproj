@@ -48,6 +48,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\PhysicsFormulae.Compiler\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -148,10 +152,13 @@
     <Content Include="images\torque-on-an-electric-dipole.png" />
     <Content Include="images\total-relativistic-energy.png" />
     <Content Include="images\wave-speed-formula.png" />
+    <Content Include="metadata-template.html" />
     <Content Include="packages.config" />
     <Content Include="formulae.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="post-formula-of-the-day.ashx" />
+    <Content Include="formula.ashx" />
     <None Include="Properties\PublishProfiles\physicsformulae.com.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -173,6 +180,12 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="formula.ashx.cs">
+      <DependentUpon>formula.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="post-formula-of-the-day.ashx.cs">
+      <DependentUpon>post-formula-of-the-day.ashx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
