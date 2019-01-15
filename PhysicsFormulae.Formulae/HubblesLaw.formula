@@ -1,0 +1,34 @@
+﻿HubblesLaw
+
+Hubble's Law
+
+The recessional velocity of a distant galaxy is directly proportional to the radial distance to that galaxy from the observer.
+
+v = H_{0} d
+
+where:
+
+v [var. scal. RecessionalVelocity] is the recessional velocity of the galaxy
+H_{0} [const. scal. HubbleConstant] is the Hubble Constant
+d [var. scal. RadialDistance] is the radial distance to the galaxy
+
+variants:
+
+fields:
+
+Cosmology
+
+derived from:
+
+
+
+references:
+
+see more:
+
+http://hyperphysics.phy-astr.gsu.edu/hbase/Astro/hubble.html
+
+tags:
+
+rating: *****
+
