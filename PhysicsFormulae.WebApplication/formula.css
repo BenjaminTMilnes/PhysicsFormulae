@@ -381,6 +381,28 @@ h4.variant-title {
     }
 }
 
+.formula-images{
+    display: none;
+
+}
+
+.formula-images img{
+    width:300px; border:20px solid #FAFAFA;
+
+}
+
+.formula-images img:hover{
+   border:20px solid #DADADA;
+
+}
+
+@media (min-width:700px) {
+.formula-images{
+        display: block;
+
+}
+}
+
 .formula-latex, .bibtex {
     display: none;
 }
