@@ -1,0 +1,31 @@
+﻿SpeedOfElectromagneticWavesInMatter
+
+The Formula for the Speed of Electromagnetic Waves in Matter
+
+When an electromagnetic wave passes through a dielectric, the speed of the wave is less than the speed of light in a vacuum.
+
+v = \frac{1}{\sqrt{\epsilon \mu}}
+
+where:
+
+v [const. scal. SpeedOfLight, L T^{-1}, m s^{-1}] is the speed of light in the dielectric
+\epsilon [const. scal. Permittivity] is the electric permittivity of the dielectric
+\mu [const. scal. Permeability] is the magnetic permeability of the dielectric
+
+fields:
+
+Classical Electromagnetism
+
+derived from:
+
+
+
+references:
+
+book: SearsAndZemanskysUniversityPhysics
+
+see more:
+
+tags:
+
+rating: *****

@@ -1,0 +1,31 @@
+﻿DefinitionOfTheSpeedOfLight
+
+The Definition of the Speed of Light
+
+The speed of light can be defined in terms of the permittivity of free space and the permeability of free space.
+
+c = \frac{1}{\sqrt{\epsilon_{0} \mu_{0}}}
+
+where:
+
+c [const. scal. SpeedOfLight, L T^{-1}, m s^{-1}] is the speed of light in free space
+\epsilon_{0} [const. scal. PermittivityOfFreeSpace] is the permittivity of free space
+\mu_{0} [const. scal. PermeabilityOfFreeSpace] is the permeability of free space
+
+fields:
+
+Classical Electromagnetism
+
+derived from:
+
+
+
+references:
+
+book: SearsAndZemanskysUniversityPhysics
+
+see more:
+
+tags:
+
+rating: *****
