@@ -1,0 +1,32 @@
+﻿DefinitionOfThePoyntingVector
+
+The Definition of the Poynting Vector
+
+The Poynting Vector is proportional to the vector product of the electric and magnetic fields.
+
+\textbf{S} = \frac{1}{\mu_{0}} \textbf{E} \times \textbf{B}
+
+where:
+
+\textbf{S} [var. vec. PoyntingVector] is the Poynting Vector
+\mu_{0} [const. scal. PermeabilityOfFreeSpace] is the permeability of free space
+\textbf{E} [var. vec. ElectricField] is the electric field
+\textbf{B} [var. vec. MagneticField] is the magnetic field
+
+fields:
+
+Classical Electromagnetism
+
+derived from:
+
+
+
+references:
+
+book: SearsAndZemanskysUniversityPhysics
+
+see more:
+
+tags:
+
+rating: *****

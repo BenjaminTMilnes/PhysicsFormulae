@@ -1,0 +1,38 @@
+﻿IntensityOfAnElectromagneticWaveInTermsOfThePoyntingVector
+
+The Intensity of an Electromagnetic Wave in terms of the Poynting Vector
+
+The intensity of an electromagnetic wave is the time-averaged value of the Poynting Vector.
+
+I = \frac{E_{\text{max}} B_{\text{max}}}{2 \mu_{0}}
+
+where:
+
+I [var. scal. Intensity] is the intensity of the electromagnetic wave
+E_{\text{max}} [var. scal. ElectricFieldStrength] is the peak value of the electric field
+B_{\text{max}} [var. scal. MagneticFieldStrength] is the peak value of the magnetic field
+\mu_{0} [const. scal. PermeabilityOfFreeSpace] is the permeability of free space
+
+variants:
+
+In terms of the electric field only
+
+I = \frac{E_{\text{max}}^{2}}{2 \mu_{0} c}
+
+fields:
+
+Classical Electromagnetism
+
+derived from:
+
+
+
+references:
+
+book: SearsAndZemanskysUniversityPhysics
+
+see more:
+
+tags:
+
+rating: *****
