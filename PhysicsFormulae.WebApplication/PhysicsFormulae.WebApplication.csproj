@@ -77,6 +77,9 @@
     <Content Include="constant.html" />
     <Content Include="constant.js" />
     <Content Include="core.js" />
+    <Content Include="formula-editor.css" />
+    <Content Include="formula-editor.html" />
+    <Content Include="formula-editor.js" />
     <Content Include="formula-of-the-day.html" />
     <Content Include="formula-of-the-day.js" />
     <Content Include="formula.css" />
