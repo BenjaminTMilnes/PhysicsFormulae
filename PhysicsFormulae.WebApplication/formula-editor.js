@@ -81,16 +81,16 @@ application.controller("FormulaEditorController", ["$scope", "dataService", "$ro
 
     $scope.getAbbreviation = function (type) {
         if (type == "Variable") {
-            return "var";
+            return "var.";
         }
         if (type == "Constant") {
-            return "const";
+            return "const.";
         }
         if (type == "Scalar") {
-            return "scal";
+            return "scal.";
         }
         if (type == "Vector") {
-            return "vec";
+            return "vec.";
         }
     }
 

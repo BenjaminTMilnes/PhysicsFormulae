@@ -16,20 +16,53 @@
         <tr ng-repeat="identifier in formulaIdentifiers">
             <th></th>
             <td>
-                <input type="text" ng-model="identifier.content" style="width:200px;" />
 
-                <input type="text" ng-model="identifier.reference" style="width:200px;" />
-                <input type="text" ng-model="identifier.interpretation" style="width:200px;" />
-                 <div>
-                     <span ng-repeat="type in possibleIdentifierTypes" ng-click="identifier.type = getAbbreviation(type) + '.';" ng-class="(identifier.type == getAbbreviation(type) + '.')?'option-set':''" class="option">{{ getAbbreviation(type)}}.</span>
+                  <div style="display:flex; flex-direction:row;   width:700px;">
+                      <div style="display:flex; flex-direction:column; flex-basis:50%; margin-right:2px; ">
+                          <span style="text-align:center; font-weight:normal; padding:10px;">LaTeX</span>
+
+
+                          <input type="text" ng-model="identifier.content" style=" width:100%; margin:1px;" />
+
+                      </div>
+                      <div style="display:flex; flex-direction:column; flex-basis:50%; ">
+                          <span style="text-align:center; font-weight:normal; padding:10px;">Reference</span>
+
+
+                          <input type="text" ng-model="identifier.reference" style=" width:100%; margin:1px;" />
+
+                      </div>
+
+
+                  </div>
+                <div style="display:flex; flex-direction:row;   width:700px;">
+                    <textarea  ng-model="identifier.interpretation" style=" flex-basis:100%; margin:1px;" rows="3" >
+
+                    </textarea>
+
+                </div>
+                 <div style=" margin:27px 20px;">
+                     <span ng-repeat="type in possibleIdentifierTypes" ng-click="identifier.type = getAbbreviation(type);" ng-class="(identifier.type == getAbbreviation(type))?'option-set':''" class="option">{{ getAbbreviation(type)}}</span>
                  </div>
-                 <div>
+                 <div style=" margin:27px 20px;">
 
-                     <span ng-repeat="type in possibleIdentifierObjectTypes" ng-click="identifier.objectType = getAbbreviation(type) + '.';" ng-class="(identifier.objectType == getAbbreviation(type) + '.')?'option-set':''" class="option">{{ getAbbreviation(type)}}.</span>
+                     <span ng-repeat="type in possibleIdentifierObjectTypes" ng-click="identifier.objectType = getAbbreviation(type);" ng-class="(identifier.objectType == getAbbreviation(type))?'option-set':''" class="option">{{ getAbbreviation(type)}}</span>
                  </div>
+                <div style="display:flex; flex-direction:row;   width:700px;">
+                    <div style="display:flex; flex-direction:column; ">
+                        <span style="text-align:center; font-weight:normal; padding:10px;">Dimensions</span>
+                   <input type="text" ng-model="identifier.dimensions" style="width:200px; margin:1px;" />
 
-                <input type="text" ng-model="identifier.dimensions" style="width:200px;" />
-                <input type="text" ng-model="identifier.units" style="width:200px;" />
+                    </div>
+                    <div style="display:flex; flex-direction:column; ">
+                         <span style="text-align:center; font-weight:normal; padding:10px;">Units</span>
+
+                        <input type="text" ng-model="identifier.units" style="width:200px; margin:1px;" />
+
+                    </div>
+
+                </div>
+
              
             </td>
         </tr>
