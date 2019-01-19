@@ -1,0 +1,44 @@
+﻿
+.formula-editor th, .formula-editor td{
+   padding:7px;
+}
+
+.formula-editor th{
+     width:200px;
+           
+      text-align:right;
+}
+
+.formula-editor  input[type=text]{
+        font-family:inherit;
+
+    font-weight:normal;
+     padding:10px 17px;
+
+      width:700px;
+        box-sizing:border-box;
+ }
+
+.formula-editor textarea{
+        font-family:inherit;
+    font-weight:normal;
+     padding:17px;
+      width:700px;
+        box-sizing:border-box;
+}
+
+.formula-editor .option{
+     display:inline-block;
+      background-color:#F4F4F4;
+       border-radius:2px;
+      padding:7px 10px; 
+       margin:2px;
+        cursor:pointer;
+    font-weight: bold;
+}
+
+.formula-editor .option-set{
+    color: #ffffff;
+    background-color: #643491;
+
+}

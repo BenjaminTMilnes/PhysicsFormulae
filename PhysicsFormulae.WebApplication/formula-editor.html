@@ -13,9 +13,31 @@
             <th>Interpretation</th>
             <td><textarea ng-model="formulaInterpretation"></textarea></td>
         </tr>
+        <tr ng-repeat="identifier in formulaIdentifiers">
+            <th></th>
+            <td>
+                <input type="text" ng-model="identifier.content" style="width:200px;" />
+
+                <span ng-repeat="type in possibleIdentifierTypes" ng-click="identifier.type = getAbbreviation(type) + '.';">{{ getAbbreviation(type)}}.</span>
+                <span ng-repeat="type in possibleIdentifierObjectTypes" ng-click="identifier.objectType = getAbbreviation(type) + '.';">{{ getAbbreviation(type)}}.</span>
+            </td>
+        </tr>
+         <tr>
+             <th></th>
+             <td>
+                 <button ng-click="addNewIdentifier();">Add Identifier</button>
+             </td>
+         </tr>
+         <tr>
+             <th></th>
+              <td>
+                  <span ng-repeat="field in possibleFields" ng-class="(formulaFields.indexOf(field) > -1)? 'option-set':'';" class="option" ng-click="addOrRemoveField(field);">{{field}}</span>
+              </td>
+         </tr>
          <tr>
              <th>File Text</th>
-             <td><textarea ng-model="formulaFileText" style="height: 400px;"></textarea></td>
+             <td><textarea ng-model="formulaFileText" style="height: 400px; font-family:Consolas;"></textarea></td>
          </tr>
+     
     </table>
 </div>
