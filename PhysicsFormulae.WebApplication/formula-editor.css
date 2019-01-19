@@ -7,6 +7,8 @@
      width:200px;
            
       text-align:right;
+       font-weight:normal;
+ 
 }
 
 .formula-editor  input[type=text]{
@@ -31,7 +33,7 @@
      display:inline-block;
       background-color:#F4F4F4;
        border-radius:2px;
-      padding:7px 10px; 
+        padding: 7px 17px;
        margin:2px;
         cursor:pointer;
     font-weight: bold;

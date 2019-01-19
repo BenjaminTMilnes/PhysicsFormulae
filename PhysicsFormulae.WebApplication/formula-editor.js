@@ -74,7 +74,7 @@ application.controller("FormulaEditorController", ["$scope", "dataService", "$ro
     }
 
     $scope.addNewIdentifier = function () {
-        $scope.formulaIdentifiers.push({ "content": "", "type": "", "objectType": "" });
+        $scope.formulaIdentifiers.push({ "content": "", "type": "", "objectType": "", "reference": "", "dimensions": "", "units": "", "interpretation": "" });
     }
 
     $scope.addNewIdentifier();
@@ -122,6 +122,8 @@ application.controller("FormulaEditorController", ["$scope", "dataService", "$ro
     }
 
     $scope.updateFileText = function () {
+        $scope.formulaFileName = $scope.makeFormulaReference($scope.formulaTitle) + ".formula";
+
         $scope.formulaFileText = $scope.makeFormulaReference($scope.formulaTitle);
         $scope.formulaFileText += "\n\n";
         $scope.formulaFileText += $scope.formulaTitle;
@@ -134,7 +136,20 @@ application.controller("FormulaEditorController", ["$scope", "dataService", "$ro
         $scope.formulaFileText += "\n\n";
 
         $scope.formulaIdentifiers.forEach(i => {
-            $scope.formulaFileText += i.content + " [" + i.type + " " + i.objectType + "]";
+            if (i.content != "" && i.type != "" && i.objectType != "" && i.reference != "" && i.interpretation != "") {
+
+                $scope.formulaFileText += i.content + " [" + i.type + " " + i.objectType + " " + i.reference;
+
+                if (i.dimensions != "") {
+                    $scope.formulaFileText += ", " + i.dimensions;
+                }
+
+                if (i.units != "") {
+                    $scope.formulaFileText += ", " + i.units;
+                }
+
+                $scope.formulaFileText += "] " + i.interpretation + "\n";
+            }
         });
 
         $scope.formulaFileText += "\n\n";
@@ -145,7 +160,7 @@ application.controller("FormulaEditorController", ["$scope", "dataService", "$ro
         $scope.formulaFileText += "\n\n";
 
         $scope.formulaFields.forEach(f => {
-            $scope.formulaFileText += f + "\n";             
+            $scope.formulaFileText += f + "\n";
         })
 
         $scope.formulaFileText += "\n\n";
@@ -181,7 +196,7 @@ application.controller("FormulaEditorController", ["$scope", "dataService", "$ro
         $scope.updateFileText();
     }, true);
 
-    $scope.$watch( "formulaFields", function (oldValue, newValue) {
+    $scope.$watch("formulaFields", function (oldValue, newValue) {
         $scope.updateFileText();
     }, true);
 }]);
