@@ -1,0 +1,36 @@
+﻿FlowRateOfElectromagneticMomentum
+
+The Formula for the Flow Rate of Electromagnetic Momentum
+
+The radiation pressure exerted by an electromagnetic wave is directly proportional to the magnitude of the Poynting Vector of the wave.
+
+\frac{1}{A} \frac{\mathrm{d}p}{\mathrm{d}t} = \frac{S}{c} = \frac{EB}{\mu_{0} c}
+
+where:
+
+A [var. scal. Area] is the area of the surface that absorbs the wave
+p [var. scal. Momentum] is the momentum of the wave
+t [var. scal. Time] is time
+S [var. scal. PoyntingVector] is the magnitude of the Poynting Vector
+c [const. scal. SpeedOfLight] is the speed of light in free space
+E [var. scal. ElectricField] is the magnitude of the amplitude of the electric field
+B [var. scal. MagneticField] is the magnitude of the amplitude of the magnetic field
+\mu_{0} [const. scal. PermeabilityOfFreeSpace] is the permeability of free space
+
+fields:
+
+Classical Electromagnetism
+
+derived from:
+
+
+
+references:
+
+book: SearsAndZemanskysUniversityPhysics
+
+see more:
+
+tags:
+
+rating: *****

@@ -1,0 +1,46 @@
+﻿EnergyLevelsForAParticleInAnInfiniteSquarePotentialWell
+
+The Formula for the Energy Levels for a Wave-Particle in an Infinitely-Deep, Square Potential Well
+
+The energy levels for a particle of mass $m$ in a square potential well of width $L$, where the potential outside of the well is infinite, are dependent on $m$ and $L$.
+
+E_{n} = \frac{n^{2} \pi^{2} \hbar^{2}}{2 m L^{2}}
+
+
+where:
+
+E_{n} [var. scal. Energy] is the energy of the particle if it occupies the nth energy level
+n [var. scal. EnergyLevel] is the energy level
+\hbar [const. scal. ReducedPlanckConstant] is the Reduced Planck Constant
+m [var. scal. Mass] is the mass of the particle
+L [var. scal. Width] is the width of the potential well
+
+variants:
+
+In terms of momentum
+
+E_{n} = \frac{p^{2}}{2m}
+
+---
+
+In terms of the Planck Constant
+
+E_{n} = \frac{n^{2} h^{2}}{8 m L^{2}}
+
+fields:
+
+Quantum Mechanics
+
+derived from:
+
+
+
+references:
+
+book: SearsAndZemanskysUniversityPhysics
+
+see more:
+
+tags:
+
+rating: *****
