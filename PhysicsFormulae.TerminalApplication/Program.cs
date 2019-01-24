@@ -19,6 +19,7 @@ namespace PhysicsFormulae.TerminalApplication
     {
         public IEnumerable<Formula> Formulae { get; set; }
         public IEnumerable<Constant> Constants { get; set; }
+        public IEnumerable<Reference> References { get; set; }
     }
 
     public class Program
@@ -88,6 +89,7 @@ namespace PhysicsFormulae.TerminalApplication
 
             model.Formulae = formulae;
             model.Constants = constants;
+            model.References = references;
 
             var outputLocations = new List<string>() { @"..\..\..\PhysicsFormulae.Formulae\Compiled.json", @"..\..\..\PhysicsFormulae.WebApplication\formulae.json" };
 

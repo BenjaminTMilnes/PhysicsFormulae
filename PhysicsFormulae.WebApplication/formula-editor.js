@@ -4,14 +4,16 @@ application.controller("FormulaEditorController", ["$scope", "dataService", "$ro
     $scope.possibleIdentifierTypes = [];
     $scope.possibleIdentifierObjectTypes = [];
     $scope.possibleFields = [];
+    $scope.possibleReferences = [];
 
     $scope.formulaTitle = "";
     $scope.formulaInterpretation = "";
     $scope.formulaContent = "";
     $scope.formulaIdentifiers = [];
     $scope.formulaFields = [];
+    $scope.formulaReferences = [];
 
-    $rootScope.metaService = metaService;
+        $rootScope.metaService = metaService;
 
     dataService.getData().then(function (data) {
         var database = new Database(data);
@@ -58,7 +60,10 @@ application.controller("FormulaEditorController", ["$scope", "dataService", "$ro
                     $scope.possibleFields.push(g);
                 }
             });
+        });
 
+        database.references.forEach(r => {
+            $scope.possibleReferences.push({ "reference": r.Reference, "title": r.Title });
         });
     });
 
@@ -70,6 +75,17 @@ application.controller("FormulaEditorController", ["$scope", "dataService", "$ro
         }
         else {
             $scope.formulaFields.push(field);
+        }
+    }
+
+    $scope.addOrRemoveReference = function (reference) {
+        var i = $scope.formulaReferences.indexOf(reference);
+
+        if (i > -1) {
+            $scope.formulaReferences.splice(i, 1);
+        }
+        else {
+            $scope.formulaReferences.push(reference);
         }
     }
 
@@ -169,6 +185,11 @@ application.controller("FormulaEditorController", ["$scope", "dataService", "$ro
         $scope.formulaFileText += "\n\n";
         $scope.formulaFileText += "references:";
         $scope.formulaFileText += "\n\n";
+
+        $scope.formulaReferences.forEach(r => {
+            $scope.formulaFileText += "book: " + r;
+        });
+
         $scope.formulaFileText += "\n\n";
         $scope.formulaFileText += "see more:";
         $scope.formulaFileText += "\n\n";

@@ -78,6 +78,12 @@
                   <span ng-repeat="field in possibleFields" ng-class="(formulaFields.indexOf(field) > -1)? 'option-set':'';" class="option" ng-click="addOrRemoveField(field);">{{field}}</span>
               </td>
          </tr>
+        <tr>
+     <th>References</th> 
+            <td>
+       <span ng-repeat="reference in possibleReferences" class="option" ng-click="addOrRemoveReference(reference.reference);">{{reference.title}}</span>
+                </td>
+         </tr>
            <tr>
                <th>File Name</th>
                 <td>

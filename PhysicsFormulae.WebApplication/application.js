@@ -85,6 +85,10 @@ class Database {
     get constants() {
         return this._data.Constants;
     }
+          
+    get references() {
+        return this._data.References;
+    }
 
     getFormulaWithReference(reference) {
         var fs = this.formulae.filter(f => f.Reference == reference);
