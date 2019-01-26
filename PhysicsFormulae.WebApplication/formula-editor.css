@@ -3,9 +3,10 @@
     padding: 10px 17px;
 }
 
-.formula-editor th { text-align: right;
+.formula-editor th {
+    text-align: right;
     font-weight: normal;
-       width:120px;
+    width: 120px;
 }
 
 .formula-editor input[type=text], .formula-editor textarea {
@@ -27,38 +28,38 @@
 }
 
 
-.formula-editor  input, .formula-editor textarea {
-        border: 1px solid #D0D0D0;
-        border-radius: 2px;
+.formula-editor input, .formula-editor textarea {
+    border: 1px solid #D0D0D0;
+    border-radius: 2px;
+    outline: none;
+}
+
+    .formula-editor input:focus, .formula-editor textarea:focus {
+        border: 1px solid #105ecc;
         outline: none;
     }
- .formula-editor  input:focus ,  .formula-editor textarea:focus{
-            border: 1px solid #105ecc;
-            outline: none;
-        }
 
-.formula-editor-identifier {
+.formula-editor-identifier, .formula-editor-variant {
     background-color: #F9F9F9;
     border-radius: 2px;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    margin: 0px 20px 20px 0px;
+    margin: 20px 20px 0px 0px;
     box-sizing: border-box;
-     width:100%;
 }
 
 .horizontalfieldgroup {
     display: flex;
     flex-direction: row;
-     margin-bottom:2px;
+    margin-bottom: 2px;
 }
 
 .verticalfieldgroup {
     display: flex;
     flex-direction: column;
     margin-right: 2px;
-     width:270px;
+    width: 270px;
 }
 
 .verticalfieldgroup-label {
@@ -92,8 +93,7 @@
 }
 
 
-.formula-editor .variable,.formula-editor  .constant,.formula-editor  .scalar,.formula-editor  .vector,.formula-editor  .matrix,.formula-editor  .tensor {
-  
+.formula-editor .variable, .formula-editor .constant, .formula-editor .scalar, .formula-editor .vector, .formula-editor .matrix, .formula-editor .tensor {
     color: #ffffff;
 }
 

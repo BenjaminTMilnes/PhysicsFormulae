@@ -28,9 +28,7 @@
                         <vfg label="'Reference'" value="identifier.reference"></vfg>
                     </div>
 
-                    <div>
-                        <textarea ng-model="identifier.interpretation" style="width:100%;" rows="3"></textarea>
-                    </div>
+                    <textarea ng-model="identifier.interpretation" rows="3"></textarea>
 
                     <div class="horizontalfieldgroup">
                         <div style="margin:20px;">
@@ -61,15 +59,13 @@
             <th>{{($index == 0)?'Variants':'';}}</th>
             <td>
                 <div class="formula-editor-variant">
-                    <div>
-                        <input type="text" ng-model="variant.title" />
-                    </div>
-                    <div>
-                        <input type="text" ng-model="variant.content" />
-                    </div>
-                    <div>
-                        <textarea ng-model="variant.interpretation" rows="2"></textarea>
-                    </div>
+
+                    <input type="text" ng-model="variant.title" />
+
+                    <input type="text" ng-model="variant.content" />
+
+                    <textarea ng-model="variant.interpretation" rows="2"></textarea>
+
                 </div>
             </td>
         </tr>
