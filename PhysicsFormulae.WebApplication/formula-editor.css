@@ -3,10 +3,9 @@
     padding: 10px 17px;
 }
 
-.formula-editor th {
-    width: 200px;
-    text-align: right;
+.formula-editor th { text-align: right;
     font-weight: normal;
+       width:120px;
 }
 
 .formula-editor input[type=text], .formula-editor textarea {

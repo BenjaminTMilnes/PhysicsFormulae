@@ -10,6 +10,7 @@ application.controller("FormulaEditorController", ["$scope", "dataService", "$ro
     $scope.formulaInterpretation = "";
     $scope.formulaContent = "";
     $scope.formulaIdentifiers = [];
+    $scope.formulaVariants = [];
     $scope.formulaFields = [];
     $scope.formulaReferences = [];
 
@@ -91,6 +92,10 @@ application.controller("FormulaEditorController", ["$scope", "dataService", "$ro
 
     $scope.addNewIdentifier = function () {
         $scope.formulaIdentifiers.push({ "content": "", "type": "", "objectType": "", "reference": "", "dimensions": "", "units": "", "interpretation": "" });
+    }
+
+    $scope.addNewVariant = function () {
+        $scope.formulaVariants.push({ "title": "", "content": "", "interpretation": "" });
     }
 
     $scope.addNewIdentifier();

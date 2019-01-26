@@ -3,15 +3,21 @@
     <table>
         <tr>
             <th>Title</th>
-            <td><input type="text" ng-model="formulaTitle" class="formula-editor-title" /></td>
+            <td>
+                <input type="text" ng-model="formulaTitle" class="formula-editor-title" />
+            </td>
         </tr>
         <tr>
             <th>Content</th>
-            <td><input type="text" ng-model="formulaContent" class="formula-editor-content" /></td>
+            <td>
+                <input type="text" ng-model="formulaContent" class="formula-editor-content" />
+            </td>
         </tr>
         <tr>
             <th>Interpretation</th>
-            <td><textarea ng-model="formulaInterpretation" class="formula-editor-interpretation"></textarea></td>
+            <td>
+                <textarea ng-model="formulaInterpretation" class="formula-editor-interpretation" rows="3"></textarea>
+            </td>
         </tr>
         <tr ng-repeat="identifier in formulaIdentifiers">
             <th>{{($index == 0)?'Identifiers':'';}}</th>
@@ -31,7 +37,7 @@
                             <span ng-repeat="type in possibleIdentifierTypes" ng-click="identifier.type = type;" ng-class="(identifier.type == type)? type.toLowerCase():''" class="option" title="{{type}}">{{ getAbbreviation(type)}}</span>
                         </div>
                         <div style="margin:20px;">
-                            <span ng-repeat="type in possibleIdentifierObjectTypes" ng-click="identifier.objectType = type;" ng-class="(identifier.objectType == type)? type.toLowerCase():''" class="option"  title="{{type}}">
+                            <span ng-repeat="type in possibleIdentifierObjectTypes" ng-click="identifier.objectType = type;" ng-class="(identifier.objectType == type)? type.toLowerCase():''" class="option" title="{{type}}">
                                 {{ getAbbreviation(type)}}
                             </span>
                         </div>
@@ -49,6 +55,28 @@
             <th></th>
             <td>
                 <button ng-click="addNewIdentifier();" class="copybutton">Add Identifier</button>
+            </td>
+        </tr>
+        <tr ng-repeat="variant in formulaVariants">
+            <th>{{($index == 0)?'Variants':'';}}</th>
+            <td>
+                <div class="formula-editor-variant">
+                    <div>
+                        <input type="text" ng-model="variant.title" />
+                    </div>
+                    <div>
+                        <input type="text" ng-model="variant.content" />
+                    </div>
+                    <div>
+                        <textarea ng-model="variant.interpretation" rows="2"></textarea>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th></th>
+            <td>
+                <button ng-click="addNewVariant();" class="copybutton">Add Variant</button>
             </td>
         </tr>
         <tr>

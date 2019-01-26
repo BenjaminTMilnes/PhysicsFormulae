@@ -180,6 +180,7 @@
     <Content Include="see-more.html" />
     <Content Include="sitemap.xml" />
     <Content Include="style.css" />
+    <Content Include="vertical-field-group.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
