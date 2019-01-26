@@ -1,45 +1,91 @@
 ﻿
-.formula-editor th, .formula-editor td{
-   padding:7px;
+.formula-editor th, .formula-editor td {
+    padding: 7px 10px;
 }
 
-.formula-editor th{
-     width:200px;
-           
-      text-align:right;
-       font-weight:normal;
- 
+.formula-editor th {
+    width: 200px;
+    text-align: right;
+    font-weight: normal;
 }
 
-.formula-editor  input[type=text]{
-        font-family:inherit;
-
-    font-weight:normal;
-     padding:10px 17px;
-
-        box-sizing:border-box;
- }
-
-.formula-editor textarea{
-        font-family:inherit;
-    font-weight:normal;
-     padding:17px;
-      width:700px;
-        box-sizing:border-box;
+.formula-editor input[type=text], .formula-editor textarea {
+    font-family: inherit;
+    font-weight: normal;
+    box-sizing: border-box;
 }
 
-.formula-editor .option{
-     display:inline-block;
-      background-color:#F4F4F4;
-       border-radius:2px;
-        padding: 7px 17px;
-       margin:2px;
-        cursor:pointer;
+.formula-editor input[type=text] {
+    padding: 10px 17px;
+}
+
+.formula-editor-title, .formula-editor-content, .formula-editor-interpretation {
+    width: 700px;
+}
+
+.formula-editor textarea {
+    padding: 17px;
+}
+
+
+.formula-editor  input, .formula-editor textarea {
+        border: 1px solid #D0D0D0;
+        border-radius: 2px;
+        outline: none;
+    }
+ .formula-editor  input:focus ,  .formula-editor textarea:focus{
+            border: 1px solid #105ecc;
+            outline: none;
+        }
+
+.formula-editor-identifier {
+    background-color: #F9F9F9;
+    border-radius: 2px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px 20px 0px;
+    box-sizing: border-box;
+     width:100%;
+}
+
+.horizontalfieldgroup {
+    display: flex;
+    flex-direction: row;
+     margin-bottom:2px;
+}
+
+.verticalfieldgroup {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2px;
+     width:270px;
+}
+
+.verticalfieldgroup-label {
+    text-align: center;
+    font-weight: normal;
+    padding: 10px;
+}
+
+.verticalfieldgroup-value {
+    width: 100%;
+}
+
+
+.formula-editor .option {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    display: inline-block;
+    background-color: #F4F4F4;
+    border-radius: 2px;
+    padding: 7px 17px;
+    margin: 2px;
+    cursor: pointer;
     font-weight: bold;
 }
 
-.formula-editor .option-set{
+.formula-editor .option-set {
     color: #ffffff;
     background-color: #643491;
-
 }

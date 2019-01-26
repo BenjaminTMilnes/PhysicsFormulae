@@ -73,6 +73,17 @@ application.directive("seeMore", function () {
     };
 });
 
+application.directive( "vfg", function () {
+    return {
+        restrict: "E",
+        templateUrl: "vertical-field-group.html",
+        scope: {
+            label: "=label",
+             value:"=value"
+ }
+    };
+});
+
 class Database {
     constructor(data) {
         this._data = data;

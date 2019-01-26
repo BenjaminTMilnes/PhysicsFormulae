@@ -3,109 +3,87 @@
     <table>
         <tr>
             <th>Title</th>
-      <td><input type="text" ng-model="formulaTitle" /></td>
+            <td><input type="text" ng-model="formulaTitle" class="formula-editor-title" /></td>
         </tr>
-         <tr>
-                 <th>Content</th>
-             <td><input    type="text" ng-model="formulaContent"  /></td>
-         </tr>
+        <tr>
+            <th>Content</th>
+            <td><input type="text" ng-model="formulaContent" class="formula-editor-content" /></td>
+        </tr>
         <tr>
             <th>Interpretation</th>
-            <td><textarea ng-model="formulaInterpretation"></textarea></td>
+            <td><textarea ng-model="formulaInterpretation" class="formula-editor-interpretation"></textarea></td>
         </tr>
         <tr ng-repeat="identifier in formulaIdentifiers">
-            <th></th>
+            <th>{{($index == 0)?'Identifiers':'';}}</th>
             <td>
+                <div class="formula-editor-identifier">
 
-                  <div style="display:flex; flex-direction:row;   width:700px;">
-                      <div style="display:flex; flex-direction:column; flex-basis:50%; margin-right:2px; ">
-                          <span style="text-align:center; font-weight:normal; padding:10px;">LaTeX</span>
-
-
-                          <input type="text" ng-model="identifier.content" style=" width:100%; margin:1px;" />
-
-                      </div>
-                      <div style="display:flex; flex-direction:column; flex-basis:50%; ">
-                          <span style="text-align:center; font-weight:normal; padding:10px;">Reference</span>
-
-
-                          <input type="text" ng-model="identifier.reference" style=" width:100%; margin:1px;" />
-
-                      </div>
-
-
-                  </div>
-                <div style="display:flex; flex-direction:row;   width:700px;">
-                    <textarea  ng-model="identifier.interpretation" style=" flex-basis:100%; margin:1px;" rows="3" >
-
-                    </textarea>
-
-                </div>
-                 <div style=" margin:27px 20px;">
-                     <span ng-repeat="type in possibleIdentifierTypes" ng-click="identifier.type = getAbbreviation(type);" ng-class="(identifier.type == getAbbreviation(type))?'option-set':''" class="option">{{ getAbbreviation(type)}}</span>
-                 </div>
-                 <div style=" margin:27px 20px;">
-
-                     <span ng-repeat="type in possibleIdentifierObjectTypes" ng-click="identifier.objectType = getAbbreviation(type);" ng-class="(identifier.objectType == getAbbreviation(type))?'option-set':''" class="option">{{ getAbbreviation(type)}}</span>
-                 </div>
-                <div style="display:flex; flex-direction:row;   width:700px;">
-                    <div style="display:flex; flex-direction:column; ">
-                        <span style="text-align:center; font-weight:normal; padding:10px;">Dimensions</span>
-                   <input type="text" ng-model="identifier.dimensions" style="width:200px; margin:1px;" />
-
+                    <div class="horizontalfieldgroup">
+                        <vfg label="'LaTeX'" value="identifier.content" ></vfg>
+                        <vfg label="'Reference'" value="identifier.reference"></vfg>
                     </div>
-                    <div style="display:flex; flex-direction:column; ">
-                         <span style="text-align:center; font-weight:normal; padding:10px;">Units</span>
 
-                        <input type="text" ng-model="identifier.units" style="width:200px; margin:1px;" />
+                    <div >
+                        <textarea ng-model="identifier.interpretation"  style="width:100%;" rows="3"></textarea>
+                    </div>
 
+                    <div style=" margin:27px 20px;">
+                        <span ng-repeat="type in possibleIdentifierTypes" ng-click="identifier.type = getAbbreviation(type);" ng-class="(identifier.type == getAbbreviation(type))?'option-set':''" class="option">{{ getAbbreviation(type)}}</span>
+                    </div>
+
+                    <div style=" margin:27px 20px;">
+                        <span ng-repeat="type in possibleIdentifierObjectTypes" ng-click="identifier.objectType = getAbbreviation(type);" ng-class="(identifier.objectType == getAbbreviation(type))?'option-set':''" class="option">{{ getAbbreviation(type)}}</span>
+                    </div>
+
+                    <div class="horizontalfieldgroup">
+                        <vfg label="'Dimensions'" value="identifier.dimensions"></vfg>
+                        <vfg label="'Units'" value="identifier.units"></vfg>
                     </div>
 
                 </div>
 
-             
             </td>
         </tr>
-         <tr>
-             <th></th>
-             <td>
-                 <button ng-click="addNewIdentifier();" class="copybutton">Add Identifier</button>
-             </td>
-         </tr>
-         <tr>
-             <th></th>
-              <td>
-                  <span ng-repeat="field in possibleFields" ng-class="(formulaFields.indexOf(field) > -1)? 'option-set':'';" class="option" ng-click="addOrRemoveField(field);">{{field}}</span>
-              </td>
-         </tr>
         <tr>
-     <th>References</th> 
+            <th></th>
             <td>
-       <span ng-repeat="reference in possibleReferences" class="option" ng-click="addOrRemoveReference(reference.reference);">{{reference.title}}</span>
-                </td>
-         </tr>
-           <tr>
-               <th>File Name</th>
-                <td>
-                    <input  type="text" ng-model="formulaFileName"/>
-                </td>
-           </tr>
-            <tr>
-                <th></th>
-                 <td>
-                     <button class="copybutton">Copy file name</button>
-                 </td>
-            </tr>
-         <tr>
-             <th>File Text</th>
-             <td><textarea ng-model="formulaFileText" style="height: 400px; font-family:Consolas;"></textarea></td>
-         </tr>
-         <tr>
-             <th></th>
-              <td>
-                   <button class="copybutton">Copy file text</button>
-              </td>
-         </tr>
-     
+                <button ng-click="addNewIdentifier();" class="copybutton">Add Identifier</button>
+            </td>
+        </tr>
+        <tr>
+            <th></th>
+            <td>
+                <span ng-repeat="field in possibleFields" ng-class="(formulaFields.indexOf(field) > -1)? 'option-set':'';" class="option" ng-click="addOrRemoveField(field);">{{field}}</span>
+            </td>
+        </tr>
+        <tr>
+            <th>References</th>
+            <td>
+                <span ng-repeat="reference in possibleReferences" class="option" ng-click="addOrRemoveReference(reference.reference);">{{reference.title}}</span>
+            </td>
+        </tr>
+        <tr>
+            <th>File Name</th>
+            <td>
+                <input type="text" ng-model="formulaFileName" />
+            </td>
+        </tr>
+        <tr>
+            <th></th>
+            <td>
+                <button class="copybutton">Copy file name</button>
+            </td>
+        </tr>
+        <tr>
+            <th>File Text</th>
+            <td><textarea ng-model="formulaFileText" style="height: 400px; font-family:Consolas;"></textarea></td>
+        </tr>
+        <tr>
+            <th></th>
+            <td>
+                <button class="copybutton">Copy file text</button>
+            </td>
+        </tr>
+
     </table>
 </div>
