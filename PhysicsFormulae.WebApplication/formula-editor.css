@@ -1,6 +1,6 @@
 ﻿
 .formula-editor th, .formula-editor td {
-    padding: 7px 10px;
+    padding: 10px 17px;
 }
 
 .formula-editor th {
@@ -19,7 +19,7 @@
     padding: 10px 17px;
 }
 
-.formula-editor-title, .formula-editor-content, .formula-editor-interpretation {
+.formula-editor-title, .formula-editor-content, .formula-editor-interpretation, .formula-editor-filename, .formula-editor-filetext {
     width: 700px;
 }
 
@@ -77,15 +77,47 @@
     font-family: Arial, sans-serif;
     font-size: 17px;
     display: inline-block;
-    background-color: #F4F4F4;
+    background-color: #F0F0F0;
     border-radius: 2px;
     padding: 7px 17px;
     margin: 2px;
     cursor: pointer;
     font-weight: bold;
+    min-width: 40px;
+    text-align: center;
 }
 
 .formula-editor .option-set {
     color: #ffffff;
     background-color: #643491;
+}
+
+
+.formula-editor .variable,.formula-editor  .constant,.formula-editor  .scalar,.formula-editor  .vector,.formula-editor  .matrix,.formula-editor  .tensor {
+  
+    color: #ffffff;
+}
+
+.formula-editor .variable {
+    background-color: #dd1c83;
+}
+
+.formula-editor .constant {
+    background-color: #4fbc14;
+}
+
+.formula-editor .scalar {
+    background-color: #f79216;
+}
+
+.formula-editor .vector {
+    background-color: #2cb5f4;
+}
+
+.formula-editor .matrix {
+    background-color: #1da011;
+}
+
+.formula-editor .tensor {
+    background-color: #c4119a;
 }

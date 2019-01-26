@@ -13,7 +13,7 @@ application.controller("FormulaEditorController", ["$scope", "dataService", "$ro
     $scope.formulaFields = [];
     $scope.formulaReferences = [];
 
-        $rootScope.metaService = metaService;
+    $rootScope.metaService = metaService;
 
     dataService.getData().then(function (data) {
         var database = new Database(data);
@@ -37,11 +37,11 @@ application.controller("FormulaEditorController", ["$scope", "dataService", "$ro
                     }
                 });
 
-                if (!a) {
+                if (!a && i.Type != "") {
                     $scope.possibleIdentifierTypes.push(i.Type);
                 }
 
-                if (!b) {
+                if (!b && i.ObjectType != "") {
                     $scope.possibleIdentifierObjectTypes.push(i.ObjectType);
                 }
             });
@@ -108,6 +108,9 @@ application.controller("FormulaEditorController", ["$scope", "dataService", "$ro
         if (type == "Vector") {
             return "vec.";
         }
+        if (type ==  "WaveFunctionObject") {
+            return "w.f.o.";
+        }
     }
 
     $scope.makeFormulaReference = function (title) {
@@ -154,7 +157,7 @@ application.controller("FormulaEditorController", ["$scope", "dataService", "$ro
         $scope.formulaIdentifiers.forEach(i => {
             if (i.content != "" && i.type != "" && i.objectType != "" && i.reference != "" && i.interpretation != "") {
 
-                $scope.formulaFileText += i.content + " [" + i.type + " " + i.objectType + " " + i.reference;
+                $scope.formulaFileText += i.content + " [" + $scope.getAbbreviation(i.type) + " " + $scope.getAbbreviation(i.objectType) + " " + i.reference;
 
                 if (i.dimensions != "") {
                     $scope.formulaFileText += ", " + i.dimensions;
