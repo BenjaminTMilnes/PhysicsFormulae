@@ -13,6 +13,7 @@ application.controller("FormulaEditorController", ["$scope", "dataService", "$ro
     $scope.formulaVariants = [];
     $scope.formulaFields = [];
     $scope.formulaReferences = [];
+    $scope.formulaSeeMoreLinks = [];
 
     $rootScope.metaService = metaService;
 
@@ -98,6 +99,10 @@ application.controller("FormulaEditorController", ["$scope", "dataService", "$ro
         $scope.formulaVariants.push({ "title": "", "content": "", "interpretation": "" });
     }
 
+    $scope.addNewSeeMoreLink = function () {
+        $scope.formulaSeeMoreLinks.push("");
+    }
+
     $scope.addNewIdentifier();
 
     $scope.getAbbreviation = function (type) {
@@ -179,6 +184,23 @@ application.controller("FormulaEditorController", ["$scope", "dataService", "$ro
         $scope.formulaFileText += "\n\n";
         $scope.formulaFileText += "variants:";
         $scope.formulaFileText += "\n\n";
+
+        var n = 0;
+
+        $scope.formulaVariants.forEach(v => {
+            if (n > 0) {
+                $scope.formulaFileText += "\n\n---\n\n";
+            }
+
+            $scope.formulaFileText += v.title;
+            $scope.formulaFileText += "\n\n";
+            $scope.formulaFileText += v.content;
+            $scope.formulaFileText += "\n\n";
+            $scope.formulaFileText += v.interpretation;
+
+            n += 1;
+        });
+
         $scope.formulaFileText += "\n\n";
         $scope.formulaFileText += "fields:";
         $scope.formulaFileText += "\n\n";
@@ -228,4 +250,10 @@ application.controller("FormulaEditorController", ["$scope", "dataService", "$ro
     $scope.$watch("formulaFields", function (oldValue, newValue) {
         $scope.updateFileText();
     }, true);
+
+    $scope.$watch("formulaVariants", function (oldValue, newValue) {
+        $scope.updateFileText();
+    }, true);
+
+    new ClipboardJS(".copybutton");
 }]);

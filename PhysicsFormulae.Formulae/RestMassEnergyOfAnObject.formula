@@ -1,0 +1,42 @@
+﻿RestMassEnergyOfAnObject
+
+The Rest Mass Energy of an Object
+
+The rest mass energy of an object is directly proportional to the rest mass of the object.
+
+E = m_{0} c^{2}
+
+where:
+
+E [var. scal. RestMassEnergy] is the rest mass energy of the object
+m_{0} [var. scal. RestMass, M, kg] is the rest mass of the object
+c [const. scal. SpeedOfLight, L T^{-1}, ms^{-1}] is the speed of light in free space
+
+
+variants:
+
+
+
+fields:
+
+Special Relativity
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+

@@ -1,0 +1,47 @@
+﻿NewtonsSecondLawOfMotionForRotation
+
+Newton's Second Law of Motion for Rotation
+
+The torque experienced by an object is equal to the rate of change of its angular momentum.
+
+\tau = \frac{\mathrm{d} \textbf{L}}{\mathrm{d} t}
+
+where:
+
+\tau [var. vec. Torque] is the torque experienced by an object
+\textbf{L} [var. vec. AngularMomentum] is the angular momentum of the object
+t [var. scal. Time, T, s] is time
+
+
+variants:
+
+In terms of angular acceleration
+
+\tau = I \alpha
+
+
+
+fields:
+
+Rotational Dynamics
+Classical Mechanics
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+

@@ -59,13 +59,9 @@
             <th>{{($index == 0)?'Variants':'';}}</th>
             <td>
                 <div class="formula-editor-variant">
-
-                    <input type="text" ng-model="variant.title" />
-
-                    <input type="text" ng-model="variant.content" />
-
+                                         <input type="text" ng-model="variant.title" />
+                                        <input type="text" ng-model="variant.content" />
                     <textarea ng-model="variant.interpretation" rows="2"></textarea>
-
                 </div>
             </td>
         </tr>
@@ -90,23 +86,23 @@
         <tr>
             <th>File Name</th>
             <td>
-                <input type="text" ng-model="formulaFileName" class="formula-editor-filename" />
+                <input type="text" ng-model="formulaFileName" class="formula-editor-filename" id="formula-editor-filename" />
             </td>
         </tr>
         <tr>
             <th></th>
             <td>
-                <button class="copybutton">Copy file name</button>
+                <button class="copybutton" data-clipboard-target="#formula-editor-filename">Copy file name</button>
             </td>
         </tr>
         <tr>
             <th>File Text</th>
-            <td><textarea ng-model="formulaFileText" class="formula-editor-filetext" style="height: 400px; font-family:Consolas;"></textarea></td>
+            <td><textarea ng-model="formulaFileText" class="formula-editor-filetext" id="formula-editor-filetext" style="height: 400px; font-family:Consolas;"></textarea></td>
         </tr>
         <tr>
             <th></th>
             <td>
-                <button class="copybutton">Copy file text</button>
+                <button class="copybutton" data-clipboard-target="#formula-editor-filetext">Copy file text</button>
             </td>
         </tr>
 
