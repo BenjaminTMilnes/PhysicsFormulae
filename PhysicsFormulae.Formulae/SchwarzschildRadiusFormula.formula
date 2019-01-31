@@ -1,0 +1,44 @@
+﻿SchwarzschildRadiusFormula
+
+The Schwarzschild Radius Formula
+
+The radius of the event horizon of a black hole is directly proportional to the mass of the black hole.
+
+r_{s} = \frac{2 G M}{c^{2}}
+
+where:
+
+r_{s} [var. scal. SchwarzschildRadius, L, m] is the Schwarzschild Radius
+G [const. scal. UniversalGravitationalConstant] is the Universal Gravitational Constant
+M [var. scal. Mass, M, kg] is the mass of the black hole
+c [const. scal. SpeedOfLight, L T^{-1}, m s^{-1}] is the speed of light in free space
+
+
+variants:
+
+
+
+fields:
+
+Space Physics
+General Relativity
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+

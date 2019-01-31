@@ -1,0 +1,43 @@
+﻿DefinitionOfFluxDensity
+
+The Definition of Flux Density
+
+The flux density due to a luminous object at a distance $d$ away from that object is proportional to the total luminosity of that object and inversely proportional to the square of the distance to that object.
+
+f = \frac{L}{4 \pi d^{2}}
+
+where:
+
+f [var. scal. FluxDensity, M T^{-3}, W m^{-2}] is the flux density at a distance $d$ away from the object
+L [var. scal. Luminosity, M L^{2} T^{-3}, W] is the luminosity of the object
+d [var. scal. RadialDistance, L, m] is the distance away from the object
+
+
+variants:
+
+
+
+fields:
+
+Electromagnetism
+Space Physics
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+
