@@ -1,0 +1,42 @@
+﻿AbsoluteBrightnessMagnitudeFormula
+
+The Absolute Brightness Magnitude Formula
+
+The absolute brightness magnitude of a star is defined as the brightness magnitude of a star when observed from a distance of 10 parsecs.
+
+m - M = 5 \log_{10} \left( \frac{d}{10} \right)
+
+where:
+
+m [var. scal. ApparentMagnitude] is the apparent magnitude of the star
+M [var. scal. AbsoluteMagnitude] is the absolute magnitude of the star, defined to be the magnitude of the star when observed from a distance of 10 parsecs
+d [var. scal. Distance, L, pc] is the distance to the star in parsecs
+
+
+variants:
+
+
+
+fields:
+
+Space Physics
+Astronomy
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+
