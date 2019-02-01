@@ -9,7 +9,7 @@ E = \frac{1}{2} k x^{2}
 where:
 
 E [var. scal. ElasticPotentialEnergy, M L^{2} T^{-2}, J] is the elastic potential energy stored in the spring
-k [const. scal. SpringConstant, M T^{-2}] is the spring constant of the spring
+k [const. scal. SpringConstant, M T^{-2}, N m^{-1}] is the spring constant of the spring
 x [var. scal. Displacement, L, m] is the displacement of the spring from its equilibrium position
 
 variants:
@@ -20,7 +20,23 @@ Classical Mechanics
 
 derived from:
 
+derivation:
 
+Consider an ideal spring with a spring constant $k$. The magnitude of the restoring force exerted by the spring when it has an extension of $x$ is
+
+$$F = kx$$
+
+The work done to extend the spring from its equilibrium position to $x_{1}$ is the integral of the restoring force of the spring over the distance that the force is exerted.
+
+$$W = \int_{0}^{x_{1}} F(x) \mathrm{d} x$$
+
+$$W = \int_{0}^{x_{1}} kx \mathrm{d} x$$
+
+Solving this integral, we get
+
+$$W = \frac{1}{2} k x^{2}$$
+
+The elastic potential energy of a spring is the minimum amount of work that it takes to extend the spring by a given length.
 
 references:
 
