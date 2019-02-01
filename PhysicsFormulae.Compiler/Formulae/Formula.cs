@@ -13,6 +13,7 @@ namespace PhysicsFormulae.Compiler.Formulae
         public IList<Identifier> Identifiers { get; set; }
         public IList<Variant> Variants { get; set; }
         public IList<string> DerivedFrom { get; set; }
+        public string Derivation { get; set; }
         public IList<string> Fields { get; set; }
         public IList<Reference> References { get; set; }
         public IList<SeeMoreLink> SeeMore { get; set; }

@@ -2,23 +2,21 @@
 
 The Definition of Kinetic Energy
 
-The kinetic energy of an object moving at non-relativistic speeds is proportional to the mass of the object and its speed squared.
+The kinetic energy of an object is proportional to the mass of that object and its speed squared.
 
 K = \frac{1}{2} m v^{2}
 
 where:
 
-K [var. scal. KineticEnergy] is the kinetic energy of the object
-m [var. scal. Mass] is the mass of the object
-v [var. scal. Speed] is the speed / the magnitude of the velocity of the object
-
+K [var. scal. KineticEnergy, M L^{2} T^{-2}, kg m^{2} s^{-2}] is the kinetic energy of the object
+m [var. scal. Mass, M, kg] is the mass of the object
+v [var. scal. Speed, L T^{-1}, m s^{-1}] is the speed of the object
 
 variants:
 
 In terms of momentum
 
 K = \frac{p^{2}}{2m}
-
 
 fields:
 
@@ -27,6 +25,45 @@ Classical Mechanics
 derived from:
 
 
+derivation:
+
+Consider an object of mass $m$ that is accelerated from rest by a constant force of magnitude $F$. The work done by the force to accelerate the object over a distance $x$ is given by
+
+$$W = \int_{0}^{x} F \mathrm{d} x$$
+
+Force is defined as the rate of change of momentum.
+
+$$F = \frac{\mathrm{d} p}{\mathrm{d} t}$$
+
+Since the momentum of an object is just the product of its mass and velocity, this can be written as
+
+$$F = \frac{\mathrm{d}}{\mathrm{d} t} (mv)$$
+
+The mass of the object is constant, so this can be written as
+
+$$F = m \frac{\mathrm{d}}{\mathrm{d} t} (v) = m \frac{\mathrm{d} v}{\mathrm{d} t}$$
+
+Therefore
+
+$$W = \int_{0}^{x} m \frac{\mathrm{d} v}{\mathrm{d} t} \mathrm{d} x = m \int_{0}^{x} \frac{\mathrm{d} v}{\mathrm{d} t} \mathrm{d} x$$
+
+Using integration by substitution, this becomes
+
+$$W = m \int_{0}^{t} \frac{\mathrm{d} v}{\mathrm{d} t} \frac{\mathrm{d} x}{\mathrm{d} t} \mathrm{d} t$$
+
+$$W = m \int_{0}^{t} \frac{\mathrm{d} v}{\mathrm{d} t} v \mathrm{d} t$$
+
+Using integration by substitution again, this becomes
+
+$$W = m \int_{0}^{v} v \mathrm{d} v$$
+
+Solving the integral, we get
+
+$$W = m \times \frac{1}{2} v^{2}$$
+
+$$W = \frac{1}{2} m v^{2}$$
+
+Thus the kinetic energy of an object is the minimum amount of work that must be done in order to accelerate that object to that speed.
 
 references:
 

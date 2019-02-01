@@ -52,6 +52,26 @@ application.controller("FormulaController", ["$scope", "$routeParams", "dataServ
     $scope.replaceMathematicsMarkers = replaceMathematicsMarkers;
     $scope.getAuthorsString = getAuthorsString;
 
+    $scope.getDerivation = function (text) {
+        if (text == "" || text == undefined) {
+            return "";
+        }
+
+        var lines = text.split("\n");
+        var t = "";
+
+        lines.forEach(l => {
+            if (l.substr(0, 2) == "$$") {
+                t += "<p style=\"text-align: center; padding: 7px;\">" + $scope.replaceMathematicsMarkers(l) + "</p>";
+            }
+            else {
+                t += "<p>" + $scope.replaceMathematicsMarkers(l) + "</p>";
+            }
+        });
+
+        return t;
+    }
+
     $scope.getLaTeXForEntireFormula = function () {
         if (!$scope.formula) {
             return "";

@@ -10,11 +10,12 @@ namespace PhysicsFormulae.Compiler.Formulae
         Where = 2,
         Variants = 3,
         DerivedFrom = 4,
-        Fields = 5,
-        References = 6,
-        SeeMore = 7,
-        Tags = 8,
-        Rating = 9
+             Derivation = 5,
+        Fields = 6,
+        References = 7,
+        SeeMore = 8,
+        Tags = 9,
+        Rating = 10
     }
 
     public class FormulaCompiler : Compiler
@@ -121,6 +122,12 @@ namespace PhysicsFormulae.Compiler.Formulae
                     continue;
                 }
 
+                if (line ==  "derivation:")
+                {
+                    formulaSection = FormulaSection.Derivation;
+                    continue;
+                }
+
                 if (line == "fields:")
                 {
                     if (variant.Title != "" && variant.Content != "")
@@ -203,6 +210,12 @@ namespace PhysicsFormulae.Compiler.Formulae
                 if (formulaSection == FormulaSection.DerivedFrom)
                 {
                     formula.DerivedFrom.Add(line);
+                    continue;
+                }
+
+                if (formulaSection == FormulaSection.Derivation)
+                {
+                    formula.Derivation += line + "\n";
                     continue;
                 }
 

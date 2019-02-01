@@ -12,8 +12,11 @@ function replaceMathematicsMarkers(text) {
         return "";
     }
 
-    var re = /\$(.+?)\$/gi;
-    var textWithKaTeX = text.replace(re, "<mathematics content-type=\"latex\" content=\"$1\"></mathematics>")
+    var re1 = /\$\$(.+?)\$\$/gi;
+    var textWithKaTeX = text.replace(re1, "<mathematics content-type=\"latex\" content=\"\\displaystyle $1\"></mathematics>");
+
+    var re2 = /\$(.+?)\$/gi;
+     textWithKaTeX = textWithKaTeX.replace(re2, "<mathematics content-type=\"latex\" content=\"$1\"></mathematics>");
 
     return textWithKaTeX;
 }

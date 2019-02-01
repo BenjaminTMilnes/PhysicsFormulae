@@ -381,26 +381,61 @@ h4.variant-title {
     }
 }
 
-.formula-images{
-    display: none;
-
+.formula-derivation-derivationbox p {
+    font-size: 17px;
 }
 
-.formula-images img{
-    width:300px; border:20px solid #FAFAFA;
-
-}
-
-.formula-images img:hover{
-   border:20px solid #DADADA;
-
+@media (min-width:400px) {
+    .formula-derivation-derivationbox p {
+        font-size: 22px;
+    }
 }
 
 @media (min-width:700px) {
-.formula-images{
-        display: block;
+    .formula-derivation-derivationbox {
+        margin: 30px;
+        padding: 30px;
+        border: 1px dashed #D0D0D0;
+        border-radius: 1px;
+    }
 
+        .formula-derivation-derivationbox p {
+            font-size: 22px;
+        }
+
+            .formula-derivation-derivationbox p:first-child {
+                margin-top: 0px;
+            }
+
+            .formula-derivation-derivationbox p:last-child {
+                margin-bottom: 0px;
+            }
 }
+
+@media (min-width:1000px) {
+    .formula-derivation-derivationbox {
+        margin: 50px;
+        padding: 50px;
+    }
+}
+
+.formula-images {
+    display: none;
+}
+
+    .formula-images img {
+        width: 300px;
+        border: 20px solid #FAFAFA;
+    }
+
+        .formula-images img:hover {
+            border: 20px solid #DADADA;
+        }
+
+@media (min-width:700px) {
+    .formula-images {
+        display: block;
+    }
 }
 
 .formula-latex, .bibtex {
