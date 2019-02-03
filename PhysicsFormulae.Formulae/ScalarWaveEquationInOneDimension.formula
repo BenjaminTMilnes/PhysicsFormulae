@@ -1,0 +1,42 @@
+﻿ScalarWaveEquationInOneDimension
+
+The Scalar Wave Equation in One Dimension
+
+The second derivative of a wave function with respect to time is equal to the second derivative of the wave function with respect to position multiplied by the speed of the wave squared.
+
+\frac{\partial^{2} u}{\partial t^{2}} = c^{2} \frac{\partial^{2} u}{\partial x^{2}}
+
+where:
+
+u(x, t) [var. scal. WaveFunction] is any function that defines a wave
+t [var. scal. Time, T, s] is time
+x [var. scal. Position, L, m] is position
+c [const. scal. WaveSpeed, L T^{-1}, m s^{-1}] is the speed of the wave
+
+
+variants:
+
+
+
+fields:
+
+Waves
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+
