@@ -8,25 +8,39 @@ v(t) = u + at
 
 where:
 
-v(t) [var. scal. Velocity] is the velocity of the object at time $t$
-u [const. scal. InitialVelocity] is the initial velocity of the object
-a [const. scal. Acceleration] is the acceleration of the object, which does not vary with time
-t [var. scal. Time] is time
+v(t) [var. scal. Velocity, L T^{-1}, m s^{-1}] is the velocity of the object at time $t$
+u [const. scal. InitialVelocity, L T^{-1}, m s^{-1}] is the initial velocity of the object
+a [const. scal. Acceleration, L T^{-2}, m s^{-2}] is the acceleration of the object
+t [var. scal. Time, T, s] is time
 
 fields:
 
 Classical Mechanics
+Classical Kinematics
 SUVAT Equations
 
 derived from:
 
 
+derivation:
+
+Consider an object that is moving with a constant acceleration, $a$. The velocity of that object at time $t$ is equal to the integral of the acceleration over time.
+
+$$v(t) = \int a \mathrm{d} t$$
+
+This is equal to the constant acceleration multiplied by the time, plus a constant velocity - the initial velocity.
+
+$$v(t) = at + u$$
 
 references:
 
 
 see more:
 
-Wikipedia https://en.wikipedia.org/wiki/Equations_of_motion
+https://en.wikipedia.org/wiki/Equations_of_motion
 
 tags:
+
+
+rating: *****
+
