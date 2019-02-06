@@ -1,0 +1,34 @@
+﻿RelativisticMassFormula
+
+The Relativistic Mass Formula
+
+The mass of an object that is moving at a constant speed $u$ relative to an observer is that object's rest mass multiplied by the Lorentz Factor, $\gamma$.
+
+m = \gamma m_{0}
+
+where:
+
+m [var. scal. RelativisticMass, M, kg] is the relativistic mass of the object
+m_{0} [var. scal. RestMass, M, kg] is the rest mass of the object
+\gamma [var. scal. LorentzFactor] is the Lorentz Factor
+
+variants:
+
+fields:
+
+Special Relativity
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+
+tags:
+
+rating: *****
+
