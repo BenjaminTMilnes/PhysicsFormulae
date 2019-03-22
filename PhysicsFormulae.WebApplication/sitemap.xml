@@ -66,6 +66,11 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>http://www.physicsformulae.com/#/formula/definition-of-electrical-resistivity</loc>
+    <lastmod>2019-03-22</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>http://www.physicsformulae.com/#/formula/definition-of-electric-flux</loc>
     <lastmod>2019-03-22</lastmod>
     <priority>1.0</priority>
@@ -357,6 +362,11 @@
   </url>
   <url>
     <loc>http://www.physicsformulae.com/#/formula/rest-mass-energy-of-an-object</loc>
+    <lastmod>2019-03-22</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.physicsformulae.com/#/formula/rydberg-formula</loc>
     <lastmod>2019-03-22</lastmod>
     <priority>1.0</priority>
   </url>

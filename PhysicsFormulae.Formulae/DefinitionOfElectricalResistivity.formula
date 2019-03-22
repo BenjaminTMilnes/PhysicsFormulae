@@ -1,0 +1,44 @@
+﻿DefinitionOfElectricalResistivity
+
+The Definition of Electrical Resistivity
+
+Electrical resistivity is a property of a material that quantifies how strongly it opposes the flow of electric current.
+
+\rho = R \frac{A}{l}
+
+where:
+
+\rho [const. scal. Resistivity] is the resistivity of the material
+R [var. scal. Resistance] is the resistance of a piece of the material with a constant cross-sectional area
+A [var. scal. CrossSectionalArea, L^{2}, m^{2}] is the cross-sectional area of the piece of material
+l [var. scal. Length, L, m] is the length of the piece of the material
+
+
+variants:
+
+
+
+fields:
+
+Electrical Circuits
+Electromagnetism
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+
