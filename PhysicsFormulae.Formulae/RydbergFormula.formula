@@ -1,0 +1,47 @@
+﻿RydbergFormula
+
+The Rydberg Formula
+
+The Rydberg Formula approximates the wavelengths of the emission lines in the spectrum of light emitted from pure hydrogen. Photons are emitted from the hydrogen when the electrons transition from one discrete energy level to a lower energy level.
+
+\frac{1}{\lambda} = R_{\infty} \left( \frac{1}{n^{2}} - \frac{1}{m^{2}} \right)
+
+where:
+
+\lambda [var. scal. Wavelength, L, m] is the wavelength of light emitted when an electron transitions from energy level m to energy level n
+R_{\infty} [const. scal. RydbergConstant, L^{-1}, m^{-1}] is the Rydberg Constant
+n [var. scal. EnergyLevel] is the final energy level
+m [var. scal. EnergyLevel] is the initial energy level
+
+
+variants:
+
+In terms of other constants
+
+\frac{1}{\lambda} = \frac{m_{e} e^{4}}{8 \epsilon_{0}^{2} h^{3} c} \left( \frac{1}{n^{2}} - \frac{1}{m^{2}} \right)
+
+
+
+fields:
+
+Quantum Mechanics
+
+
+derived from:
+
+
+
+references:
+
+book: undefined
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+
