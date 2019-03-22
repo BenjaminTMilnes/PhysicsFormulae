@@ -1,0 +1,42 @@
+﻿CriticalAngleFormula
+
+The Critical Angle Formula
+
+The critical angle of incidence for which a light ray will be reflected when striking a boundary between two materials of different refractive indices is a function of the ratio of the refractive indices of the two materials.
+
+\theta_{c} = \sin^{-1} \left( \frac{n_{2}}{n_{1}} \right)
+
+where:
+
+\theta_{c} [var. scal. CriticalAngle] is the critical angle
+n_{1} [const. scal. RefractiveIndex] is the refractive index of the first material
+n_{2} [const. scal. RefractiveIndex] is the refractive index of the second material
+
+
+variants:
+
+
+
+fields:
+
+Optics
+
+
+derived from:
+
+SnellsLaw
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+
