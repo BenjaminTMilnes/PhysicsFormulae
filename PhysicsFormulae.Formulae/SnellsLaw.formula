@@ -1,0 +1,46 @@
+﻿SnellsLaw
+
+Snell's Law
+
+The angle of refraction of a light ray passing from one material to another is a function of the angle of incidence and the refractive indices of the two materials.
+
+n_{1} \sin \theta_{1} = n_{2} \sin \theta_{2}
+
+where:
+
+n_{1} [const. scal. RefractiveIndex] is the refractive index of the first material
+\theta_{1} [var. scal. AngleOfIncidence] is the angle of incidence
+n_{2} [const. scal. RefractiveIndex] is the refractive index of the second material
+\theta_{2} [var. scal. AngleOfRefraction] is the angle of refraction
+
+variants:
+
+As ratios
+
+\frac{\sin \theta_{1}}{\sin \theta_{2}} = \frac{n_{2}}{n_{1}}
+
+
+
+fields:
+
+Optics
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+

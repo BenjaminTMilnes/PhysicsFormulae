@@ -31,3 +31,14 @@
  inertia
  angular velocity
  velocity
+ speed of light
+ speed
+ light
+ free space
+ space
+ refractive index
+ index of refraction
+ Rydberg
+ emission lines
+ emission line
+ energy level

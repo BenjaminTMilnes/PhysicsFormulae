@@ -1,0 +1,43 @@
+﻿DefinitionOfRefractiveIndex
+
+The Definition of Refractive Index
+
+The refractive index of a material is the ratio of the speed of light in free space to the speed of light in the material.
+
+n = \frac{c}{v}
+
+where:
+
+n [var. scal. RefractiveIndex] is the refractive index of the material
+c [const. scal. SpeedOfLightInFreeSpace, L T^{-1}, m s^{-1}] is the speed of light in free space
+v [var. scal. SpeedOfLightInMatter, L T^{-1}, m s^{-1}] is the speed of light in the material
+
+
+variants:
+
+
+
+fields:
+
+Optics
+
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+
