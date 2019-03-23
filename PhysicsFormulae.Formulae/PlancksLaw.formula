@@ -1,0 +1,45 @@
+﻿PlancksLaw
+
+Planck's Law
+
+Planck's Law describes the spectral density of electromagnetic radiation emitted by an ideal blackbody at temperature $T$.
+
+B_{\nu} (\nu, T) = \frac{2 h \nu^{3}}{c^{2}} \frac{1}{e^{\frac{h \nu}{k_{B} T}} - 1}
+
+where:
+
+B_{\nu} [var. scal. SpectralRadiance] is the spectral radiance of the blackbody for frequency $\nu$
+h [const. scal. PlanckConstant] is the Planck Constant
+\nu [var. scal. AngularFrequency] is the angular frequency
+c [const. scal. SpeedOfLight, L T^{-1}, m s^{-1}] is the speed of light in free space
+k_{B} [const. scal. BoltzmannConstant] is the Boltzmann Constant
+T [var. scal. Temperature] is the temperature of the blackbody
+
+
+variants:
+
+
+
+fields:
+
+Thermodynamics
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+https://en.wikipedia.org/wiki/Planck%27s_law
+
+tags:
+
+
+
+rating: *****
+
