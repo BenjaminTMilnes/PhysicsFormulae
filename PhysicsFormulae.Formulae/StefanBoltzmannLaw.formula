@@ -1,0 +1,45 @@
+﻿StefanBoltzmannLaw
+
+The Stefan-Boltzmann Law
+
+The total power emitted by an ideal blackbody is proportional to the fourth power of the temperature of the blackbody.
+
+P = A \varepsilon \sigma T^{4}
+
+where:
+
+P [var. scal. Power, M L^{2} T^{-3}, W] is the total power radiated by the blackbody
+A [var. scal. SurfaceArea, L^{2}, m^{2}] is the surface area of the blackbody
+\varepsilon [const. scal. Emissivity] is the emissivity of the blackbody
+\sigma [const. scal. StefanBoltzmannConstant, W m^{-2} K^{-4}] is the Stefan-Boltzmann Constant
+T [var. scal. Temperature] is the temperature of the blackbody
+
+
+variants:
+
+
+
+fields:
+
+Thermodynamics
+Electromagnetism
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+

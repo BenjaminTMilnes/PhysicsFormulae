@@ -1,0 +1,42 @@
+﻿WiensDisplacementLaw
+
+Wien's Displacement Law
+
+The intensity peak in the spectrum of electromagnetic radiation emitted by an ideal blackbody is at a wavelength that is inversely proportional to the temperature of the blackbody.
+
+\lambda_{\text{max}} = \frac{b}{T}
+
+where:
+
+\lambda_{\text{max}} [var. scal. PeakWavelength, L, m] is the wavelength of the intensity peak in the spectrum of electromagnetic radiation emitted by the blackbody
+b [const. scal. WienDisplacementConstant, , m K] is the Wien Displacement Constant
+T [var. scal. Temperature, , K] is the temperature of the blackbody
+
+
+variants:
+
+
+
+fields:
+
+Thermodynamics
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+https://en.wikipedia.org/wiki/Wien%27s_displacement_law
+
+tags:
+
+
+
+rating: *****
+

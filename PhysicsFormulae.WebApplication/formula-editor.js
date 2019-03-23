@@ -130,6 +130,8 @@ application.controller("FormulaEditorController", ["$scope", "dataService", "$ro
 
         var reference = title;
 
+        reference = reference.replace("'", "");
+
         for (var i = 0; i < reference.length; i++) {
             if (i == 0) {
                 var c = reference.substr(i, 1);
