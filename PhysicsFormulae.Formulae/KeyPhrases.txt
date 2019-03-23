@@ -42,3 +42,8 @@
  emission lines
  emission line
  energy level
+ Planck
+ electromagnetic radiation
+ radiation
+ ideal blackbody
+ blackbody

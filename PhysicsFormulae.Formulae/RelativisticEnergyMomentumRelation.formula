@@ -1,0 +1,99 @@
+﻿RelativisticEnergyMomentumRelation
+
+The Relativistic Energy-Momentum Relation
+
+The total relativistic energy of an object can be expressed in terms of its relativistic momentum and its rest mass.
+
+E^{2} = p^{2} c^{2} + m_{0}^{2} c^{4}
+
+where:
+
+E [var. scal. TotalRelativisticEnergy, M L^{2} T^{-2}, J] is the total relativistic energy of the object
+p [var. scal. RelativisticMomentum, M L T^{-1}, kg m s^{-1}] is the relativistic momentum of the object
+c [const. scal. SpeedOfLight, L T^{-1}, m s^{-1}] is the speed of light in free space
+m_{0} [var. scal. RestMass, M, kg] is the rest mass of the object
+
+
+variants:
+
+
+
+fields:
+
+Special Relativity
+
+
+derived from:
+
+derivation:
+
+The relativistic momentum of an object that has a rest mass $m_{0}$ and which is moving at a speed $v$ relative to an observer is given by
+
+$$p = \gamma m_{0} v$$
+
+We can rearrange this using the following identity involving the Lorentz Factor
+
+$$\gamma^{2} \beta^{2} = \gamma^{2} - 1$$
+
+where the Lorentz Factor, $\gamma$, is
+
+$$\gamma = \frac{1}{\sqrt{1 - \beta^{2}}}$$
+
+and $\beta = \frac{v}{c}$. This identity can be proven as follows
+
+$$\gamma^{2} \beta^{2} = \gamma^{2} (\beta^{2} - 1 + 1)$$
+
+$$\gamma^{2} \beta^{2} = \gamma^{2} (\beta^{2} - 1) + \gamma^{2}$$
+
+$$\gamma^{2} \beta^{2} = - \gamma^{2} (1 - \beta^{2}) + \gamma^{2}$$
+
+$$\gamma^{2} \beta^{2} = - \frac{1 - \beta^{2}}{1 - \beta^{2}} + \gamma^{2}$$
+
+$$\gamma^{2} \beta^{2} = -1 + \gamma^{2}$$
+
+$$\gamma^{2} \beta^{2} = \gamma^{2} - 1$$
+
+We take the above relativistic momentum equation, and divide both sides by $c$.
+
+$$\frac{p}{c} = \gamma m_{0} \frac{v}{c}$$
+
+Then we can change $\frac{v}{c}$ to just $\beta$.
+
+$$\frac{p}{c} = \gamma m_{0} \beta$$
+
+If we square both sides we can then use the above identity.
+
+$$\frac{p^{2}}{c^{2}} = \gamma^{2} m_{0}^{2} \beta^{2}$$
+
+$$\frac{p^{2}}{c^{2}} = \gamma^{2} m_{0}^{2} - m_{0}^{2}$$
+
+Then we multiply both sides by $c^{4}$.
+
+$$p^{2}c^{2} = \gamma^{2} m_{0}^{2} c^{4} - m_{0}^{2} c^{4}$$
+
+The total relativistic energy of an object is given by
+
+$$E = \gamma m_{0} c^{2}$$
+
+This can be substituted into the previous equation.
+
+$$p^{2}c^{2} = E^{2} - m_{0}^{2} c^{4}$$
+
+This can be rearranged to give the momentum-energy equation.
+
+$$E^{2} = p^{2}c^{2} + m_{0}^{2} c^{4}$$
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+
