@@ -62,6 +62,24 @@ namespace PhysicsFormulae.Compiler.References
                         book.ISBN = line.Substring(5).Trim();
                     }
 
+                    if (line.StartsWith("year:"))
+                    {
+                        referenceSection = ReferenceSection.Other;
+                        book.Year = int.Parse(line.Substring(5).Trim());
+                    }
+
+                    if (line.StartsWith("url:"))
+                    {
+                        referenceSection = ReferenceSection.Other;
+                        book.URL = line.Substring(4).Trim();
+                    }
+
+                    if (line.StartsWith("volume:"))
+                    {
+                        referenceSection = ReferenceSection.Other;
+                        book.Volume = int.Parse(line.Substring(7).Trim());
+                    }
+
                     if (referenceSection == ReferenceSection.Title)
                     {
                         book.Title = line.Trim();

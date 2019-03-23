@@ -11,6 +11,8 @@ namespace PhysicsFormulae.Compiler.References
         public string PublisherName { get; set; }
         public string PublisherAddress { get; set; }
         public string ISBN { get; set; }
+        public string URL { get; set; }
+        public int Volume { get; set; }
 
         public Book()
         {
