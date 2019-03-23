@@ -1,0 +1,69 @@
+﻿PhotonMomentumFormula
+
+The Photon Momentum Formula
+
+The momentum of a photon is directly proportional to its energy.
+
+p = \frac{E}{c}
+
+where:
+
+p [var. scal. Momentum, M L T^{-1}, kg m s^{-1}] is the momentum of the photon
+E [var. scal. Energy, M L^{2} T^{-2}, J] is the energy of the photon
+c [const. scal. SpeedOfLight, L T^{-1}, m s^{-1}] is the speed of light in free space
+
+
+variants:
+
+In terms of frequency
+
+p = \frac{hf}{c}
+
+
+
+---
+
+In terms of wavelength
+
+p = \frac{h}{\lambda}
+
+
+
+fields:
+
+Special Relativity
+Quantum Mechanics
+Electromagnetism
+
+
+derived from:
+
+derivation:
+
+We start with the relativistic energy-momentum relation
+
+$$E^{2} = p^{2}c^{2} + m_{0}^{2}c^{4}$$
+
+Photons are massless, thus $m_{0} = 0$, and this relation becomes
+
+$$E^{2} = p^{2}c^{2}$$
+
+We can square-root both sides and then rearrange the equation to get
+
+$$p = \frac{E}{c}$$
+
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+
