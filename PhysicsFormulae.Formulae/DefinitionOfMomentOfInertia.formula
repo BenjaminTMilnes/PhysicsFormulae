@@ -1,0 +1,44 @@
+﻿DefinitionOfMomentOfInertia
+
+The Definition of Moment of Inertia
+
+The moment of inertia of a system is a measure of the difficulty of changing the state of rotation of the system about a given axis.
+
+I = \sum_{i} m_{i} r_{i}^{2}
+
+where:
+
+I [var. scal. MomentOfInertia] is the moment of inertia
+m_{i} [var. scal. Mass] is the mass of object i
+r_{i} [var. scal. RadialDistance] is the radial distance of the ith object from the axis of rotation
+
+
+variants:
+
+
+
+fields:
+
+Classical Mechanics
+Rotational Dynamics
+
+
+derived from:
+
+
+
+references:
+
+book: SearsAndZemanskysUniversityPhysics, p. 306
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+

@@ -1,0 +1,41 @@
+﻿NewtonsThirdLawOfMotion
+
+Newton's Third Law of Motion
+
+When two bodies interact, the force exerted by the first body upon the second is equal in magnitude but opposite in direction to the force exerted by the second body upon the first.
+
+\textbf{F}_{12} = - \textbf{F}_{21}
+
+where:
+
+\textbf{F}_{12} [var. vec. Force, M L T^{-2}, N] is the force exerted by the first object on the second
+\textbf{F}_{21} [var. vec. Force, M L T^{-2}, N] is the force exerted by the second object on the first
+
+
+variants:
+
+
+
+fields:
+
+Classical Mechanics
+
+
+derived from:
+
+
+
+references:
+
+book: SearsAndZemanskysUniversityPhysics, p. 129
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+
