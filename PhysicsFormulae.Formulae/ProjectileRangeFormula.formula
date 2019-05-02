@@ -1,0 +1,113 @@
+﻿ProjectileRangeFormula
+
+The Projectile Range Formula
+
+The distance, $R$, that a projectile that is launched from the ground will travel before it hits the ground again depends on the launch speed, $v_{0}$, the angle between the initial velocity of the projectile and the ground, $\theta$, and the acceleration due to gravity, $g$.
+
+R = \frac{v_{0}^{2} \sin (2 \theta)}{g}
+
+where:
+
+R [var. scal. Range, L, m] is the horizontal distance that the projectile will travel
+v_{0} [var. scal. InitialSpeed, L T^{-1}, m s^{-1}] is the launch speed of the projectile
+\theta [var. scal. LaunchAngle] is the angle between the initial velocity of the projectile and the ground
+g [const. scal. AccelerationDueToGravity, L T^{-2}, m s^{-2}] is the acceleration due to gravity
+
+
+variants:
+
+
+
+fields:
+
+Classical Mechanics
+Classical Gravity
+Classical Kinematics
+SUVAT Equations
+
+
+derived from:
+
+derivation:
+
+Consider an object that is initially at a position $x = 0$ and $y = 0$ (the object is on the ground).
+
+At a time $t = 0$, the object is launched in the positive x direction with a speed $v_{0}$ and at an angle $\theta$ to the x-axis (the ground).
+
+Using trigonometry, we can determine that the x and y components of the object's initial velocity are given by
+
+$$v_{0_{x}} = v_{0} \sin(\theta)$$
+$$v_{0_{y}} = v_{0} \cos(\theta)$$
+
+The object is in a uniform gravitational field of field strength $g$ in the negative y direction. The object therefore has an acceleration of $-g$ along the y-axis, and an acceleration of $0$ along the x-axis.
+
+The x-position of the object at a given time $t$ after it is launched is given by
+
+$$s_{x}(t) = s_{0_{x}} + v_{0_{x}} t + \frac{1}{2} a_{x} t^{2}$$
+
+Since
+
+$$s_{0_{x}} = 0$$
+$$a_{x} = 0$$
+
+the above equation can be simplified to
+
+$$s_{x}(t) = 0 + v_{0_{x}} t + \frac{1}{2} \times 0 \times t^{2}$$
+
+$$s_{x}(t) = v_{0_{x}} t$$
+
+The y-position of the object at a given time $t$ after it is launched is given by
+
+$$s_{y}(t) = s_{0_{y}} + v_{0_{y}} t + \frac{1}{2} a_{y} t^{2}$$
+
+Since
+
+$$s_{0_{y}} = 0$$
+$$a_{y} = -g$$
+
+the above equation can be simplified to
+
+$$s_{y}(t) = 0 + v_{0_{y}} t - \frac{1}{2} g t^{2}$$
+
+$$s_{y}(t) = v_{0_{y}} t - \frac{1}{2} g t^{2}$$
+
+The projectile hits the ground again when $s_{y}(t) = 0$ (on the condition that $t \neq 0$). By substituting this value into the above equation, we can find the time after which the projectile hits the ground.
+
+$$0 = v_{0_{y}} t - \frac{1}{2} g t^{2}$$
+
+$$v_{0_{y}} t = \frac{1}{2} g t^{2}$$
+
+$$v_{0_{y}} = \frac{1}{2} g t$$
+
+$$t = \frac{2 v_{0_{y}}}{g}$$
+
+This expression for the time at which the projectile hits the ground can be substituted into the expression for the x-position of the particle given above to give us the range of the projectile.
+
+$$R = \frac{2 v_{0_{x}} v_{0_{y}}}{g}$$
+
+By substituting in the expressions for the x and y components of the velocity given above, this becomes
+
+$$R = \frac{2 v_{0}^{2} \sin(\theta) \cos(\theta)}{g}$$
+
+Using the trigonometric identity
+
+$$\sin(2 \theta) = 2 \sin(\theta) \cos(\theta)$$
+
+this can be simplified to
+
+$$R = \frac{v_{0}^{2} \sin(2 \theta)}{g}$$
+
+references:
+
+
+
+see more:
+
+https://en.wikipedia.org/wiki/Range_of_a_projectile
+
+tags:
+
+
+
+rating: *****
+
