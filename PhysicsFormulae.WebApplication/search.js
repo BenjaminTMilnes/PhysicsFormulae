@@ -130,6 +130,8 @@ var defaultKeywords = "physics, science, maths, equations, equation, formula, fo
 
 application.controller("SearchController", ["$scope", "$rootScope", "$routeParams", "dataService", "metaService", "$filter", function SearchController($scope, $rootScope, $routeParams, dataService, metaService, $filter) {
 
+    $scope.getColourOfWord = getColourOfWord;
+
     $scope.pageNumber = 1;
     $scope.numberOfFormulaePerPage = 10;
     $scope.pages = [];

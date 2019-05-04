@@ -1,6 +1,8 @@
 ﻿
 application.controller("FormulaEditorController", ["$scope", "dataService", "$rootScope", "metaService", function FormulaEditorController($scope, dataService, $rootScope, metaService) {
 
+    $scope.getColourOfWord = getColourOfWord;
+
     $scope.possibleIdentifierTypes = [];
     $scope.possibleIdentifierObjectTypes = [];
     $scope.possibleFields = [];

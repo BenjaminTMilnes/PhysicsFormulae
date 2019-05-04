@@ -19,7 +19,7 @@
                 </div>
                 <p class="search-formula-interpretation" compile="replaceMathematicsMarkers(formula.Interpretation)"></p>
                 <div class="search-formula-fields">
-                    <span class="search-formula-field" ng-repeat="field in formula.Fields">{{field}}</span>
+                    <span class="search-formula-field" ng-repeat="field in formula.Fields" style="background-color: {{getColourOfWord(field)}};">{{field}}</span>
                 </div>
             </div>
         </div>

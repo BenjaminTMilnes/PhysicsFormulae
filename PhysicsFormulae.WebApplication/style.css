@@ -10,6 +10,10 @@
     padding: 20px;
 }
 
+.maintitle{
+     position:relative;
+}
+
 .relatedwebsites {
     padding: 20px 20px 40px 20px;
     background-color: #F4F4F4;
@@ -123,15 +127,50 @@ a {
         text-decoration: underline;
     }
 
+    
+.donatebutton {
+    background-color: #f98816;
+    color: #FFFFFF;
+    border-radius: 2px;
+    font-size: 17px;
+    font-weight: normal;
+    padding: 7px 17px;
+    text-transform: none;
+    user-select: none;
+}
+
+    .donatebutton:hover {
+        background-color: #fca44b;
+    }
+
+    .donatebutton a {
+        color: inherit;
+        padding: 0px;
+        display: inline;
+    }
+
+.titledonatebutton{
+      display: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+      margin-top:-3px;
+}
+
+@media (min-width:700px) {
+    .titledonatebutton {
+        display: inline-block;
+    }
+}
+
 
 .copybutton {
-    font-family: Arial, sans-serif;
     font-size: 17px;
     padding: 7px 17px;
     margin: 2px 2px 2px 0px;
     border-radius: 2px;
     color: #ffffff;
-    font-weight: bold;
+        font-weight:normal;
     background-color: #105ecc;
     border: none;
     cursor: pointer;

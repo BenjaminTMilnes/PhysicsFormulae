@@ -1,4 +1,27 @@
 ﻿
+function getColourOfWord(word) {
+    const letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+    word = (word.length > 12) ? word.substr(0, 12) : word;
+
+    var m = letters.length;
+    var p = [0, 0, 0];
+
+    for (var i = 0; i < word.length; i++) {
+        var c = word[i];
+        var j = letters.indexOf(c);
+
+        j = (j < 0) ? 0 : j;
+        j = Math.round(255 * j / m);
+        p[i % 3] = p[i % 3] + j;
+    }
+
+    p = p.map(q => ((q % 200) + 25).toString(16));
+    p = p.map(q => (q.length < 2) ? "0" + q : q);
+
+    return "#" + p.join("");
+}
+
 function createMathematicsTag(content, displayStyle) {
     if (!displayStyle) {
         return "<mathematics content-type=\"latex\" content=\"" + content + "\"></mathematics>";

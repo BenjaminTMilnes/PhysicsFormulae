@@ -51,6 +51,7 @@ application.controller("FormulaController", ["$scope", "$routeParams", "dataServ
     $scope.getVariant = (content) => { return createMathematicsTag(content, true); }
     $scope.replaceMathematicsMarkers = replaceMathematicsMarkers;
     $scope.getAuthorsString = getAuthorsString;
+    $scope.getColourOfWord = getColourOfWord;
 
     $scope.getDerivation = function (text) {
         if (text == "" || text == undefined) {

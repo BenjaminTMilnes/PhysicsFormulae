@@ -74,7 +74,7 @@
         <tr>
             <th>Fields</th>
             <td>
-                <span ng-repeat="field in possibleFields" ng-class="(formulaFields.indexOf(field) > -1)? 'option-set':'';" class="option" ng-click="addOrRemoveField(field);">{{field}}</span>
+                <span ng-repeat="field in possibleFields" ng-class="(formulaFields.indexOf(field) > -1)? 'option-set':'';" class="option" ng-click="addOrRemoveField(field);" style="background-color: {{getColourOfWord(field)}}; color: #FFFFFF;">{{field}}</span>
             </td>
         </tr>
         <tr>

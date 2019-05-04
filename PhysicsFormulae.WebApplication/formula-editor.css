@@ -74,7 +74,6 @@
 
 
 .formula-editor .option {
-    font-family: Arial, sans-serif;
     font-size: 17px;
     display: inline-block;
     background-color: #F0F0F0;
@@ -82,7 +81,7 @@
     padding: 7px 17px;
     margin: 2px;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: normal;
     min-width: 40px;
     text-align: center;
 }

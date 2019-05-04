@@ -209,7 +209,7 @@
     margin: 2px;
     border-radius: 2px;
     color: #ffffff;
-    font-weight: bold;
+    font-weight: normal;
     cursor: default;
     min-width: 40px;
     text-align: center;
@@ -224,7 +224,7 @@
 }
 
 .scalar {
-    background-color: #f79216;
+    background-color: #f98816;
 }
 
 .vector {
@@ -261,8 +261,9 @@
     margin: 2px;
     border-radius: 2px;
     color: #ffffff;
-    font-weight: bold;
-    background-color: #643491;
+    font-weight: normal;
+    background-color: #7137a8;
+    cursor: pointer;
 }
 
     .field a {
