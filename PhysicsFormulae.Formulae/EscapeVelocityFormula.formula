@@ -1,0 +1,62 @@
+﻿EscapeVelocityFormula
+
+The Escape Velocity Formula
+
+The speed that an object must have in order to escape the gravitational pull of a spherical, non-rotating body is dependent on the mass of the body and the radius of the body.
+
+v = \sqrt{\frac{2 G M}{R}}
+
+where:
+
+v [var. scal. EscapeSpeed, L T^{-1}, m s^{-1}] is the escape speed if the object moves radially away from the body
+G [const. scal. UniversalGravitationalConstant] is the Universal Gravitational Constant
+M [var. scal. Mass, M, kg] is the mass of the body
+R [var. scal. Radius, L, m] is the radius of the body
+
+
+variants:
+
+
+
+fields:
+
+Space Physics
+Classical Mechanics
+
+
+derived from:
+
+derivation:
+
+Consider a large, spherical, non-rotating object A with mass $M$ and radius $R$, and a second, smaller object B with mass $m$. Object B is initially on the surface of object A.
+
+The gravitational potential energy of object B on the surface of A is
+
+$$E_{G} = - \frac{G M m}{R}$$
+
+In order for object B to be moved from its initial position to an infinite distance away from object A, it needs to be given an amount of kinetic energy equal to $\frac{G M m}{R}$.
+
+$$\frac{1}{2} m v^{2} = \frac{G M m}{R}$$
+
+This equation can be rearranged to give us the escape speed of object B.
+
+$$\frac{1}{2} v^{2} = \frac{G M}{R}$$
+
+$$v^{2} = \frac{2 G M}{R}$$
+
+$$v = \sqrt{\frac{2 G M}{R}}$$
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+
