@@ -1,0 +1,42 @@
+﻿PeriodOfASimplePendulum
+
+The Period of a Simple Pendulum
+
+For a simple pendulum where the maximum angle of displacement is much less than 1 radian, the period of oscillation of the pendulum is dependent only on the length of the pendulum and the acceleration due to gravity.
+
+T \approx 2 \pi \sqrt{\frac{L}{g}}
+
+where:
+
+T [var. scal. Period, T, s] is the period of oscillation of the pendulum
+L [var. scal. Length, L, m] is the length of the pendulum
+g [const. scal. AccelerationDueToGravity, L T^{-2}, m s^{-2}] is the acceleration due to gravity
+
+
+variants:
+
+
+
+fields:
+
+Classical Mechanics
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+https://en.wikipedia.org/wiki/Pendulum
+
+tags:
+
+
+
+rating: *****
+

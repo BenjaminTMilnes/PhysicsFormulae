@@ -161,6 +161,11 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>http://www.physicsformulae.com/#/formula/definition-of-the-action</loc>
+    <lastmod>2019-05-04</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>http://www.physicsformulae.com/#/formula/definition-of-the-poynting-vector</loc>
     <lastmod>2019-05-04</lastmod>
     <priority>1.0</priority>
@@ -357,6 +362,11 @@
   </url>
   <url>
     <loc>http://www.physicsformulae.com/#/formula/ohms-law</loc>
+    <lastmod>2019-05-04</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.physicsformulae.com/#/formula/period-of-asimple-pendulum</loc>
     <lastmod>2019-05-04</lastmod>
     <priority>1.0</priority>
   </url>

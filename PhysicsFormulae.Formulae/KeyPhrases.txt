@@ -47,3 +47,6 @@
  radiation
  ideal blackbody
  blackbody
+ escape speed
+ escape velocity
+ simple pendulum

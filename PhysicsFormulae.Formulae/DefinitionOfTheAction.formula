@@ -1,0 +1,45 @@
+﻿DefinitionOfTheAction
+
+The Definition of the Action
+
+The action is the integral of the Lagrangian.
+
+S = \int_{t_{1}}^{t_{2}} L (\textbf{q}, \dot{\textbf{q}}, t) \, \mathrm{d} t
+
+where:
+
+S [var. scal. Action] is the action
+L [var. scal. Lagrangian] is the Lagrangian
+\textbf{q} [var. vec. GeneralisedCoordinates] are the generalised coordinates
+\dot{\textbf{q}} [var. vec. GeneralisedVelocities] are the generalised velocities
+t [var. scal. Time] is time
+
+
+variants:
+
+
+
+fields:
+
+Lagrangian Mechanics
+
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+
