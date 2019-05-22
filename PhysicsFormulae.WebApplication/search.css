@@ -142,6 +142,11 @@
     background-color: #643491;
 }
 
+    .search-formula-field a {
+        color: inherit;
+        text-decoration: none;
+    }
+
 @media (min-width:400px) {
     .search-formula-fields {
         font-size: 14px;
