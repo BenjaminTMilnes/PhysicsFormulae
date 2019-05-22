@@ -1,0 +1,47 @@
+﻿DefinitionOfElectricDipoleMoment
+
+The Definition of Electric Dipole Moment
+
+For two charges of $+q$ and $-q$, where the positive charge has a displacement $\textbf{a}$ from the negative charge, the electric dipole moment of the two charges is the product of the magnitude of the charges and their displacement.
+
+\textbf{p} = q \textbf{a}
+
+where:
+
+\textbf{p} [var. vec. ElectricDipoleMoment, L Q, Cm] is the electric dipole moment
+q [var. scal. Charge, Q, C] is the magnitude of each charge
+\textbf{a} [var. vec. Displacement, L, m] is the displacement of the positive charge from the negative charge
+
+
+variants:
+
+Scalar Form
+
+p = qa
+
+
+
+fields:
+
+Electromagnetism
+
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+

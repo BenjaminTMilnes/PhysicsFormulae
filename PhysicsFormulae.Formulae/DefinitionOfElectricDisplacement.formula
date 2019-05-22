@@ -1,0 +1,42 @@
+﻿DefinitionOfElectricDisplacement
+
+The Definition of Electric Displacement
+
+The electric displacement field within a dielectric is equal to the sum of the applied electric field multiplied by the permittivity of free space and the polarisation.
+
+\textbf{D} = \epsilon_{0} \textbf{E} + \textbf{P}
+
+where:
+
+\textbf{D} [var. vec. ElectricDisplacementField] is the electric displacement field
+\epsilon_{0} [var. scal. PermittivityOfFreeSpace] is the permittivity of free space
+\textbf{E} [var. vec. ElectricField] is the electric field
+\textbf{P} [var. vec. Polarisation] is the polarisation
+
+
+variants:
+
+
+
+fields:
+
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+
