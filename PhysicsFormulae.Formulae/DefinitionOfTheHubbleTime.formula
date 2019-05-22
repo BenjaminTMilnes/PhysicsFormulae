@@ -1,0 +1,42 @@
+﻿DefinitionOfTheHubbleTime
+
+The Definition of the Hubble Time
+
+The Hubble Time is the estimated age of the universe if the expansion of the universe has been linear. The Hubble Time is the inverse of the Hubble Constant.
+
+T_{H} = \frac{1}{H_{0}}
+
+where:
+
+T_{H} [var. scal. HubbleTime, T, s] is the Hubble Time
+H_{0} [var. scal. HubbleConstant, T^{-1}, km s^{-1} Mpc^{-1}] is the Hubble Constant
+
+
+variants:
+
+
+
+fields:
+
+Cosmology
+
+derived from:
+
+HubblesLaw
+
+
+
+references:
+
+
+
+see more:
+
+https://en.wikipedia.org/wiki/Hubble%27s_law#Hubble_time
+
+tags:
+
+
+
+rating: *****
+

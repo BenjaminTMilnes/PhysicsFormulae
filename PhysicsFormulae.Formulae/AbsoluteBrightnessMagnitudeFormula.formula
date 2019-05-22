@@ -15,7 +15,9 @@ d [var. scal. Distance, L, pc] is the distance to the star in parsecs
 
 variants:
 
+With Distance as the Subject
 
+d = 10 \times 10^{\frac{m - M}{5}}
 
 fields:
 

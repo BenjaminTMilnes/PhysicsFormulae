@@ -135,14 +135,12 @@ application.controller("FormulaEditorController", ["$scope", "dataService", "$ro
         reference = reference.replace("'", "");
 
         for (var i = 0; i < reference.length; i++) {
-            if (i == 0) {
-                var c = reference.substr(i, 1);
+            var c = reference.substr(i, 1);
 
+            if (i == 0) {
                 reference = c.toUpperCase() + reference.substr(i + 1);
             }
-            if (i > 0 && reference.substr(i - 1, 1) == " ") {
-                var c = reference.substr(i, 1);
-
+            if (i > 0 && ( reference.substr(i - 1, 1) == " " ||  reference.substr(i - 1, 1) == "-")) {
                 reference = reference.substr(0, i - 1) + c.toUpperCase() + reference.substr(i + 1);
             }
         }
