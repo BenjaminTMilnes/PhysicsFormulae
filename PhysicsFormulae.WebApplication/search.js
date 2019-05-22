@@ -161,6 +161,7 @@ application.controller("SearchController", ["$scope", "$rootScope", "$routeParam
         }
 
         var numberOfPages = Math.ceil($scope.formulae.length / $scope.numberOfFormulaePerPage);
+        $scope.pages = [];
 
         for (var i = 0; i < numberOfPages; i++) {
             $scope.pages.push({ "pageNumber": i + 1 });
@@ -182,9 +183,9 @@ application.controller("SearchController", ["$scope", "$rootScope", "$routeParam
         $scope.pageNumber = n;
     }
 
-    $scope.$watch("searchTerms", function (newValue, oldValue) {
-        if (newValue != "") {
-            var searchResults = $filter("searchFormulae")($scope.formulae, newValue, $scope.pageNumber, $scope.numberOfFormulaePerPage);
+    $scope.updateSearchResults = function (searchTerms) {
+        if (searchTerms != "") {
+            var searchResults = $filter("searchFormulae")($scope.formulae, searchTerms, $scope.pageNumber, $scope.numberOfFormulaePerPage);
         }
         else {
             var searchResults = $scope.formulae;
@@ -196,5 +197,11 @@ application.controller("SearchController", ["$scope", "$rootScope", "$routeParam
         for (var i = 0; i < numberOfPages; i++) {
             $scope.pages.push({ "pageNumber": i + 1 });
         }
+    }
+
+    $scope.$watch("searchTerms", function (newValue, oldValue) {
+        $scope.updateSearchResults(newValue);
     });
+
+    $scope.updateSearchResults($scope.searchTerms);
 }]);
