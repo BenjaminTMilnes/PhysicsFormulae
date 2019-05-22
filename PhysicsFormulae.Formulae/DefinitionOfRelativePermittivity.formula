@@ -1,0 +1,41 @@
+﻿DefinitionOfRelativePermittivity
+
+The Definition of Relative Permittivity
+
+The relative permittivity of a material is a measure of how easily the material polarises in response to an electric field.
+
+\epsilon_{r} = 1 + \chi_{E}
+
+where:
+
+\epsilon_{r} [var. scal. RelativePermittivity] is the relative permittivity
+\chi_{E} [var. scal. ElectricSusceptibility] is the electric susceptibility
+
+
+variants:
+
+
+
+fields:
+
+Electromagnetism
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+

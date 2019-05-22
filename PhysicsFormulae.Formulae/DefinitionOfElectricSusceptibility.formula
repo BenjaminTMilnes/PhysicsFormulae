@@ -1,0 +1,43 @@
+﻿DefinitionOfElectricSusceptibility
+
+The Definition of Electric Susceptibility
+
+The electric susceptibility of a dielectric is a constant of proportionality between the polarisation of the dielectric and an applied electric field.
+
+\textbf{P} = \epsilon_{0} \chi_{E} \textbf{E}
+
+where:
+
+\textbf{P} [var. vec. Polarisation] is the polarisation
+\epsilon_{0} [const. scal. PermittivityOfFreeSpace] is the permittivity of free space
+\chi_{E} [var. scal. ElectricSusceptibility] is the electric susceptibility of the material
+\textbf{E} [var. vec. ElectricField] is the electric field
+
+
+variants:
+
+
+
+fields:
+
+Electromagnetism
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+
