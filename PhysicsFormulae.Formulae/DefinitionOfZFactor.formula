@@ -1,0 +1,54 @@
+﻿DefinitionOfZFactor
+
+The Definition of Z-Factor
+
+The z-factor of a remote object is the ratio of the change in the wavelength of a ray of light to its emitted wavelength.
+
+z = \frac{\Delta \lambda}{\lambda}
+
+where:
+
+z [var. scal. ZFactor] is the z-factor
+\Delta \lambda [var. scal. ChangeInWavelength, L, m] is the change in wavelength
+\lambda [var. scal. EmittedWavelength, L, m] is the emitted wavelength
+
+
+variants:
+
+In terms of emitted and observed wavelength
+
+z = \frac{\lambda_{o} - \lambda_{e}}{\lambda_{e}}
+
+
+
+---
+
+In terms of recession velocity
+
+z \approx \frac{v}{c}
+
+
+
+fields:
+
+Cosmology
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+

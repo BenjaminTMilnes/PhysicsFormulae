@@ -1,0 +1,47 @@
+﻿DefinitionOfEffectiveHalfLife
+
+The Definition of Effective Half-life
+
+The effective half-life of a substance is the amount of time it takes for the amount of that substance within the body to decrease by half as a result of both physical and biological processes.
+
+\frac{1}{t_{e}} = \frac{1}{t_{p}} + \frac{1}{t_{b}}
+
+where:
+
+t_{e} [var. scal. EffectiveHalfLife, T, days] is the effective half-life of the substance
+t_{p} [var. scal. PhysicalHalfLife, T, days] is the physical half-life of the substance
+t_{b} [var. scal. BiologicalHalfLife, T, days] is the biological half-life of the substance
+
+
+variants:
+
+In terms of decay constants
+
+\lambda_{e} = \lambda_{p} + \lambda_{b}
+
+
+
+fields:
+
+Nuclear Physics
+Radioactivity
+Medical Physics
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+https://en.wikipedia.org/wiki/Effective_half-life
+
+tags:
+
+
+
+rating: *****
+

@@ -113,3 +113,6 @@ much
 less
 1
 only
+takes
+within
+amount
