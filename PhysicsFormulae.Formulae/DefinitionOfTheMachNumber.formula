@@ -1,0 +1,42 @@
+﻿DefinitionOfTheMachNumber
+
+The Definition of the Mach Number
+
+The Mach number of a moving object is the ratio of the speed of that object to the speed of sound of the medium through which it is moving.
+
+M = \frac{v}{c}
+
+where:
+
+M [var. scal. MachNumber] is the Mach number
+v [var. scal. Speed, L T^{-1}, m s^{-1}] is the speed of the object relative to the rest frame of the medium
+c [const. scal. SpeedOfSound, L T^{-1}, m s^{-1}] is the speed of sound in the medium
+
+
+variants:
+
+
+
+fields:
+
+Waves
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+https://en.wikipedia.org/wiki/Mach_number
+
+tags:
+
+
+
+rating: *****
+
