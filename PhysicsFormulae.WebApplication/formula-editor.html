@@ -59,9 +59,18 @@
             <th>{{($index == 0)?'Variants':'';}}</th>
             <td>
                 <div class="formula-editor-variant">
-                                         <input type="text" ng-model="variant.title" />
-                                        <input type="text" ng-model="variant.content" />
-                    <textarea ng-model="variant.interpretation" rows="2"></textarea>
+                    <div class="horizontalfieldgroup">
+                           <span class="horizontalfieldgroup-label">Title</span>
+                        <input type="text" ng-model="variant.title" class="horizontalfieldgroup-input" />
+                    </div>
+                    <div class="horizontalfieldgroup">
+                        <span class="horizontalfieldgroup-label">Content</span>
+                        <input type="text" ng-model="variant.content" class="horizontalfieldgroup-input" />
+                    </div>
+                    <div class="horizontalfieldgroup">
+                           <span class="horizontalfieldgroup-label">Description</span>
+                        <textarea ng-model="variant.interpretation" rows="2" class="horizontalfieldgroup-input"></textarea>
+                    </div>
                 </div>
             </td>
         </tr>

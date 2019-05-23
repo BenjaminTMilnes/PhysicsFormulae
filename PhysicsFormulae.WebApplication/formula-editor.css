@@ -55,6 +55,16 @@
     margin-bottom: 2px;
 }
 
+.horizontalfieldgroup-label{
+    padding: 10px 17px;
+      font-weight:normal;
+         min-width:100px;
+}
+
+.horizontalfieldgroup-input{
+        min-width:400px;
+}
+
 .verticalfieldgroup {
     display: flex;
     flex-direction: column;
