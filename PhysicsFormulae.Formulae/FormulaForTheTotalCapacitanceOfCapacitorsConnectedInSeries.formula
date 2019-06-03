@@ -1,0 +1,41 @@
+﻿FormulaForTheTotalCapacitanceOfCapacitorsConnectedInSeries
+
+The Formula for the Total Capacitance of Capacitors Connected in Series
+
+The total capacitance of a set of capacitors connected in series is equal to the inverse of the sum of the inverse of each capacitance.
+
+\frac{1}{C_{\text{total}}} = \sum_{i} \frac{1}{C_{i}}
+
+where:
+
+C_{\text{total}} [var. scal. TotalCapacitance] is the total capacitance
+C_{i} [var. scal. Capacitance] is the capacitance of the ith capacitor
+
+
+variants:
+
+
+
+fields:
+
+Electromagnetism
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+

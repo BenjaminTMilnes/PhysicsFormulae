@@ -1,0 +1,42 @@
+﻿DefinitionOfCapacitance
+
+The Definition of Capacitance
+
+The capacitance across an insulating material is the ratio of the magnitude of the charge separated by the material to the potential difference across it.
+
+C = \frac{Q}{V}
+
+where:
+
+C [var. scal. Capacitance] is the capacitance
+Q [var. scal. Charge] is the magnitude of the charge
+V [var. scal. PotentialDifference] is the potential difference
+
+
+variants:
+
+
+
+fields:
+
+Electromagnetism
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+
