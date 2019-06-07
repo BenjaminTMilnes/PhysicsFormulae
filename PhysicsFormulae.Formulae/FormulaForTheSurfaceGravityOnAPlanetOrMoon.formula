@@ -1,0 +1,44 @@
+﻿FormulaForTheSurfaceGravityOnAPlanetOrMoon
+
+The Formula for the Surface Gravity on a Planet or Moon
+
+The acceleration due to gravity on the surface of a spherical astronomical body is proportional to the mass of the body and inversely proportional to the radius of the body.
+
+a = \frac{GM}{R^{2}}
+
+where:
+
+a [var. scal. SurfaceGravity, L T^{-2}, m s^{-2}] is the surface gravity
+G [const. scal. UniversalGravitationalConstant] is the Universal Gravitational Constant
+M [var. scal. Mass, M, kg] is the mass of the body
+R [var. scal. Radius, L, km] is the radius of the body
+
+variants:
+
+
+
+fields:
+
+Classical Mechanics
+Space Physics
+Classical Gravity
+
+
+derived from:
+
+NewtonsLawOfGravitation
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+
