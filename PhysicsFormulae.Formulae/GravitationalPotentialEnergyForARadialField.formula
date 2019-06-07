@@ -1,0 +1,46 @@
+﻿GravitationalPotentialEnergyForARadialField
+
+The Gravitational Potential Energy for a Radial Field
+
+The gravitational potential energy between two massive objects is proportional to the product of the masses of the two objects and inversely proportional to the distance between them.
+
+E_{G} = G \frac{m_{1} m_{2}}{r}
+
+where:
+
+E_{G} [var. scal. GravitationalPotentialEnergy, M L^{2} T^{-2}, kg m^{2} s^{-2}] is the gravitational potential energy between the two objects
+G [const. scal. UniversalGravitationalConstant] is the Universal Gravitational Constant
+m_{1} [var. scal. Mass, M, kg] is the mass of the first object
+m_{2} [var. scal. Mass, M, kg] is the mass of the second object
+r [var. scal. RadialDistance, L, m] is the distance between the objects' centres of mass
+
+
+variants:
+
+
+
+fields:
+
+Space Physics
+Classical Mechanics
+Classical Gravity
+
+
+derived from:
+
+NewtonsLawOfGravitation
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+
