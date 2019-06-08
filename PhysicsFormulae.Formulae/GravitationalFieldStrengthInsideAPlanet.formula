@@ -29,6 +29,47 @@ derived from:
 
 
 
+derivation:
+
+Consider a spherical object $O$ that has a radius $R$ and a constant density $\rho$.
+
+Also consider a sphere $S$, the centre of which is at the centre of $O$, and which has a radius $r < R$. The mass of $O$ that is enclosed by $S$ is given by
+
+$$M = \int \rho \mathrm{d}V$$
+
+Since the density of $O$ is constant, $\rho$ can be taken outside the integral.
+
+$$M = \rho \int \mathrm{d}V$$
+
+The integral is then just equal to the volume of sphere $S$, which is equal to $\frac{4}{3} \pi r^{3}$.
+
+$$M = \rho \frac{4}{3} \pi r^{3}$$
+
+This can be substituted into Gauss' Law for Gravity.
+
+$$\oint \textbf{g} \cdot \mathrm{d} \textbf{A} = -4 \pi GM$$
+
+$$\oint \textbf{g} \cdot \mathrm{d} \textbf{A} = -4 \pi G \rho \frac{4}{3} \pi r^{3}$$
+
+The above integral can be simplified. Since $O$ and $S$ are spherically symmetric, the direction of the acceleration due to gravity is always antiparallel to the normal to the surface element $\mathrm{d} \textbf{A}$. Therefore, the integral can be written in terms of scalar values of $g$ and $\mathrm{d} A$.
+
+$$-\oint g \mathrm{d} A = -4 \pi G \rho \frac{4}{3} \pi r^{3}$$
+
+The magnitude of the acceleration is also constant for constant $r$, so $g$ can be taken outside the integral.
+
+$$-g \oint \mathrm{d} A = -4 \pi G \rho \frac{4}{3} \pi r^{3}$$
+
+The surface area of $S$ is $4 \pi r^{2}$, so
+
+$$-g 4 \pi r^{2} = -4 \pi G \rho \frac{4}{3} \pi r^{3}$$
+
+This can be simplified to
+
+$$g = \frac{4}{3} G \pi \rho r$$
+
+which is the acceleration due to gravity at all points on the surface of $S$, and thus the acceleration due to gravity at a radial distance $r$ away from the centre of mass of $O$.
+
+
 references:
 
 
