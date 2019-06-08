@@ -5,7 +5,7 @@
             <em>{{reference.Title}}</em>, {{reference.WebsiteTitle}} - <a href="{{reference.URL}}" target="_blank" title="{{reference.Title}}">{{reference.URL}}</a>
         </span>
         <span ng-if="reference.Type == 'Book'">
-            <em>{{reference.Title}}</em>, {{getAuthorsString(reference.Authors)}} ({{reference.PublisherName}}) <strong>ISBN {{reference.ISBN}}</strong><span ng-if="reference.URL != ''">, <a href="{{reference.URL}}" title="{{reference.Title}}" target="_blank">{{reference.URL}}</a></span>
+            <em>{{reference.Title}}</em>, <span ng-show="reference.PageNumber > 0">p. {{reference.PageNumber}}, </span> {{$parent.$parent.$parent.getAuthorsString(reference.Authors)}} ({{reference.PublisherName}}) <strong>ISBN {{reference.ISBN}}</strong><span ng-if="reference.URL != '' && reference.URL != null">, <a href="{{reference.URL}}" title="{{reference.Title}}" target="_blank">{{reference.URL}}</a></span>
         </span>
     </li>
 </ol>

@@ -149,16 +149,20 @@ function getCitationKeyForReference(reference) {
 
 function getAuthorsString(authors) {
 
+    if (authors.length == 1) {
+        return authors[0];
+    }
+
     var authorsString = "";
 
     for (var i = 0; i < authors.length; i++) {
         if (i > 0 && authors.length > 2) {
             authorsString += ", ";
         }
-        else if (i > 0 && authors.length == 2) {
+        else if (i > 0 && authors.length == 2 ) {
             authorsString += " ";
         }
-        if (i == authors.length - 1) {
+        if (i == authors.length - 1 ) {
             authorsString += "and ";
         }
 

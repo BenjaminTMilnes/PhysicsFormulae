@@ -26,7 +26,7 @@ namespace PhysicsFormulae.Compiler
 
         protected string _webpageReferencePattern = @"^webpage:\s*""([^""]+)""\s*,\s*([^,]+)\s*,\s*((http|https):\/\/[^\s]+)\s+\((\d{4}-\d{2}-\d{2})\)\s*$";
 
-        protected string _bookCitationPattern = @"^book:\s*([A-Za-z0-9_]+)\s*(\,\s*p\.[\d]+)?$";
+        protected string _bookCitationPattern = @"^book:\s*([A-Za-z0-9_]+)\s*(,\s*p\.\s*(\d+))?$";
         protected string _bookReferencePattern = @"^book:\s*""([^""]+)""\s*,\s*([^,]+)\s*\((\d{1,3})\. Edition\)\s*\(([^\)]+)\)\s*ISBN\s+([0-9\-]+)\s*$";
 
         public bool IsSeeMoreLinkLine(string line)
@@ -89,11 +89,19 @@ namespace PhysicsFormulae.Compiler
             return Regex.IsMatch(line, _bookCitationPattern);
         }
 
-        public string GetBookCitation(string line)
+        public Tuple<string, string> GetBookCitation(string line)
         {
             var match = Regex.Match(line, _bookCitationPattern);
 
-            return match.Groups[1].Value.Trim();
+            var reference = match.Groups[1].Value.Trim();
+            var pageNumber = "";
+
+            if (match.Groups.Count > 2)
+            {
+                pageNumber = match.Groups[3].Value.Trim();
+            }
+
+            return new Tuple<string, string>(reference, pageNumber);            
         }
 
         public bool IsLineBookReferenceLine(string line)

@@ -14,5 +14,10 @@ namespace PhysicsFormulae.Compiler.References
             CitationKey = "";
             Type = ReferenceType.Webpage;
         }
+
+        public override Reference Copy()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System.Text.RegularExpressions;
 using System.Collections.Generic;
 using System.Linq;
+using PhysicsFormulae.Compiler.References;
 
 namespace PhysicsFormulae.Compiler.Formulae
 {
@@ -10,7 +11,7 @@ namespace PhysicsFormulae.Compiler.Formulae
         Where = 2,
         Variants = 3,
         DerivedFrom = 4,
-             Derivation = 5,
+        Derivation = 5,
         Fields = 6,
         References = 7,
         SeeMore = 8,
@@ -122,7 +123,7 @@ namespace PhysicsFormulae.Compiler.Formulae
                     continue;
                 }
 
-                if (line ==  "derivation:")
+                if (line == "derivation:")
                 {
                     formulaSection = FormulaSection.Derivation;
                     continue;
@@ -245,7 +246,12 @@ namespace PhysicsFormulae.Compiler.Formulae
                     {
                         var citation = GetBookCitation(line);
 
-                        var book = references.First(r => r.CitationKey == citation);
+                        var book = (references.First(r => r.CitationKey == citation.Item1).Copy()) as Book;
+
+                        if (citation.Item2 != "")
+                        {
+                            book.PageNumber = int.Parse(citation.Item2);
+                        }
 
                         formula.References.Add(book);
                         continue;

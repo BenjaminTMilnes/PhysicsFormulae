@@ -50,3 +50,8 @@
  escape speed
  escape velocity
  simple pendulum
+ centre of mass
+ gravitational field strength
+ field strength
+ uniform density
+ density

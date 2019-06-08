@@ -1,0 +1,45 @@
+﻿GravitationalFieldStrengthInsideAPlanet
+
+The Gravitational Field Strength inside a Planet
+
+For a spherical astronomical object of uniform density, the gravitational field strength at a point inside the object is directly proportional to the density of the object multiplied by the distance between the point and the object's centre of mass.
+
+a = \frac{4}{3} G \pi \rho r
+
+where:
+
+a [var. scal. AccelerationDueToGravity, L T^{-2}, m s^{-2}] is the acceleration due to gravity
+G [const. scal. UniversalGravitationalConstant] is the Universal Gravitational Constant
+\rho [var. scal. Density, M L^{-3}, kg m^{-3}] is the density of the planet
+r [var. scal. RadialDistance, L, m] is the radial distance from the object's centre of mass
+
+
+variants:
+
+
+
+fields:
+
+Space Physics
+Classical Mechanics
+Classical Gravity
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+

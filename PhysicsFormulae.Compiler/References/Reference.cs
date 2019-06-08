@@ -9,5 +9,7 @@ namespace PhysicsFormulae.Compiler.References
 
         [JsonConverter(typeof(StringEnumConverter))]
         public ReferenceType Type { get; protected set; }
+
+        public abstract Reference Copy();
     }
 }
