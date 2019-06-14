@@ -1,0 +1,41 @@
+﻿NewtonsFirstLawOfMotionForRotation
+
+Newton's First Law of Motion for Rotation
+
+For a body in rotational equilibrium, the sum of all torques acting on a body is zero.
+
+\sum_{i} \tau_{i} = 0
+
+where:
+
+\tau_{i} [var. vec. Torque, M L^{2} T^{-2}, N m] is the ith torque acting on the body
+
+
+variants:
+
+
+
+fields:
+
+Classical Mechanics
+Rotational Dynamics
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+
