@@ -1,0 +1,44 @@
+﻿LorentzForceEquation
+
+The Lorentz Force Equation
+
+The Lorentz Force is the combination of the electric and magnetic force exerted on a point charge due to electric and magnetic fields.
+
+\textbf{F} = q \textbf{E} + q \textbf{v} \times \textbf{B}
+
+where:
+
+\textbf{F} [var. vec. LorentzForce, M L T^{-2}, N] is the Lorentz Force
+q [var. scal. Charge, Q, C] is the charge of the particle
+\textbf{E} [var. vec. ElectricField, M L T^{-2} Q^{-1}, N C^{-1}] is the electric field
+\textbf{v} [var. vec. Velocity, L T^{-1}, m s^{-1}] is the velocity of the particle
+\textbf{B} [var. vec. MagneticField, M T^{-1} Q^{-1}, T] is the magnetic field
+
+
+variants:
+
+
+
+fields:
+
+Classical Electromagnetism
+
+
+derived from:
+
+
+
+references:
+
+book: StudentsGuideToMaxwellsEquations, p. 45
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+

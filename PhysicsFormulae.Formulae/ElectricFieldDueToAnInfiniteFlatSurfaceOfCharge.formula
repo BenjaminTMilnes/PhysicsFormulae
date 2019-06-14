@@ -1,0 +1,47 @@
+﻿ElectricFieldDueToAnInfiniteFlatSurfaceOfCharge
+
+The Electric Field due to an Infinite Flat Surface of Charge
+
+The magnitude of the electric field at a point due to an infinitely wide and long, flat surface of charge is constant everywhere, and depends only on the charge density per unit area of the surface. The direction of the electric field at that point is parallel to the normal to the surface.
+
+\textbf{E} = \frac{\sigma}{2 \varepsilon_{0}} \hat{\textbf{n}}
+
+where:
+
+\textbf{E} [var. vec. ElectricField, M L T^{-2} Q^{-1}, N C^{-1}] is the electric field
+\sigma [var. scal. ChargeDensity, Q L^{-2}, C m^{-2}] is the charge density per unit area
+\varepsilon_{0} [const. scal. PermittivityOfFreeSpace] is the permittivity of free space
+\textbf{n} [var. vec. Normal] is the normal to the surface
+
+
+variants:
+
+Scalar Form
+
+E = \frac{\sigma}{2 \varepsilon_{0}}
+
+
+
+fields:
+
+Classical Electromagnetism
+
+
+derived from:
+
+
+
+references:
+
+book: StudentsGuideToMaxwellsEquations, p. 5
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+

@@ -251,6 +251,11 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>http://www.physicsformulae.com/#/formula/electric-field-due-to-an-infinite-flat-surface-of-charge</loc>
+    <lastmod>2019-06-14</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>http://www.physicsformulae.com/#/formula/electric-field-due-to-an-infinite-line-of-charge</loc>
     <lastmod>2019-06-14</lastmod>
     <priority>1.0</priority>
@@ -402,6 +407,11 @@
   </url>
   <url>
     <loc>http://www.physicsformulae.com/#/formula/lorentz-factor</loc>
+    <lastmod>2019-06-14</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.physicsformulae.com/#/formula/lorentz-force-equation</loc>
     <lastmod>2019-06-14</lastmod>
     <priority>1.0</priority>
   </url>

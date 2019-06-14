@@ -192,13 +192,13 @@
 
 @media (min-width:1000px) {
     .identifier-interpretation {
-        min-width: 470px;
-        max-width: 470px;
+        min-width: 400px;
+        max-width: 400px;
     }
 
     .identifier-dimensions, .identifier-units {
         display: block;
-        min-width: 120px;
+        min-width: 170px;
     }
 }
 

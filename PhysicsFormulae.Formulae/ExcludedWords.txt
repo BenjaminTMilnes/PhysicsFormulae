@@ -117,3 +117,6 @@ takes
 within
 amount
 inside
+long
+always
+away
