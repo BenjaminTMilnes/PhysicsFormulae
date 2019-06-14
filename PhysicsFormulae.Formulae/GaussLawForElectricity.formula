@@ -8,8 +8,8 @@ The divergence of the electric field is directly proportional to the charge dens
 
 where:
 
-\textbf{E} [var. vec. ElectricField] is the electric field
-\rho [var. scal. ChargeDensity, Q L^{-3}] is the charge density
+\textbf{E} [var. vec. ElectricField, M L T^{-2} Q^{-1}, N C^{-1}] is the electric field
+\rho [var. scal. ChargeDensity, Q L^{-3}, C m^{-3}] is the charge density
 \epsilon_0 [const. scal. PermittivityOfFreeSpace] is the permittivity of free space
 
 variants:
@@ -17,6 +17,14 @@ variants:
 Integral Form
 
 \oint_{\partial \Omega} \textbf{E} \cdot \mathrm{d} \textbf{S} = \frac{1}{\epsilon_{0}} \iiint_{\Omega} \rho \mathrm{d} V
+
+The electric flux through a closed surface is proportional to the charge contained by that surface.
+
+---
+
+Simplified Integral Form
+
+\oint_{S} \textbf{E} \cdot \mathrm{d} \textbf{A} = \frac{q_{\text{enc}}}{\epsilon_{0}}
 
 The electric flux through a closed surface is proportional to the charge contained by that surface.
 
@@ -32,6 +40,13 @@ Integral Form in Gaussian Units
 
 \oint_{\partial \Omega} \textbf{E} \cdot \mathrm{d} \textbf{S} = 4 \pi \iiint_{\Omega} \rho \mathrm{d} V
 
+---
+
+Simplified Integral Form in Gaussian Units
+
+\oint_{S} \textbf{E} \cdot \mathrm{d} \textbf{A} = 4 \pi q_{\text{enc}}
+
+
 fields:
 
 Classical Electromagnetism
@@ -40,6 +55,7 @@ Maxwell's Equations
 references:
 
 webpage: "Maxwell's equations", Wikipedia, https://en.wikipedia.org/wiki/Maxwell%27s_equations (2017-11-23)
+book: StudentsGuideToMaxwellsEquations, p. 1
 
 see also:
 

@@ -1,0 +1,46 @@
+﻿DefinitionOfTheElectricField
+
+The Definition of the Electric Field
+
+The electric field is the electric force per unit charge exerted on a charged object.
+
+\textbf{E} = \frac{\textbf{F}_{e}}{q}
+
+where:
+
+\textbf{E} [var. vec. ElectricField, M L T^{-2} Q^{-1}, N C^{-1}] is the electric field
+\textbf{F}_{e} [var. vec. ElectricForce, M L T^{-2}, N] is the electric force exerted on a charged object
+q [var. scal. Charge, Q, C] is the electric charge of the object
+
+
+variants:
+
+Scalar Form
+
+E = \frac{F_{e}}{q}
+
+
+
+fields:
+
+Classical Electromagnetism
+
+
+derived from:
+
+
+
+references:
+
+book: StudentsGuideToMaxwellsEquations, p. 3
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+

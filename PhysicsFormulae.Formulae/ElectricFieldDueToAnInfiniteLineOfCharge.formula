@@ -1,0 +1,47 @@
+﻿ElectricFieldDueToAnInfiniteLineOfCharge
+
+The Electric Field due to an Infinite Line of Charge
+
+The magnitude of the electric field at a point due to an infinitely long line of charge is inversely proportional to the radial distance between the point and the line of charge, and the direction of the field at that point is always radial towards or away from the line of charge.
+
+\textbf{E} = \frac{1}{2 \pi \varepsilon_{0}} \frac{\lambda}{|\textbf{r}|} \hat{\textbf{r}}
+
+where:
+
+\textbf{E} [var. vec. ElectricField, M L T^{-2} Q^{-1}, N C^{-1}] is the electric field
+\varepsilon_{0} [const. scal. PermittivityOfFreeSpace] is the permittivity of free space
+\lambda [var. scal. ChargeDensity, Q L^{-1}, C m^{-1}] is the charge density per unit length
+\textbf{r} [var. vec. RadialDisplacement, L, m] is the radial displacement of the point from the line of charge
+
+
+variants:
+
+Scalar Form
+
+E = \frac{1}{2 \pi \varepsilon_{0}} \frac{\lambda}{r}
+
+
+
+fields:
+
+Classical Electromagnetism
+
+
+derived from:
+
+
+
+references:
+
+book: StudentsGuideToMaxwellsEquations, p. 5
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+
