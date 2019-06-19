@@ -1,0 +1,42 @@
+﻿EulerLagrangeEquation
+
+The Euler-Lagrange Equation
+
+...
+
+\frac{\partial L}{\partial q_{i}} - \frac{\mathrm{d}}{\mathrm{d} t} \frac{\partial L}{\partial \dot{q}_{i}} = 0
+
+where:
+
+L [var. scal. Lagrangian] is the Lagrangian
+q_{i} [var. scal. GeneralisedCoordinates] are the generalised coordinates
+\dot{q}_{i} [var. scal. GeneralisedVelocities] are the generalised velocities
+
+
+variants:
+
+
+
+fields:
+
+Lagrangian Mechanics
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+https://en.wikipedia.org/wiki/Euler%E2%80%93Lagrange_equation
+
+tags:
+
+
+
+rating: *****
+
