@@ -88,6 +88,9 @@
     <Compile Include="Autotagger.cs" />
     <Compile Include="Constants\ConstantCompiler.cs" />
     <Compile Include="Formulae\FormulaCompiler.cs" />
+    <Compile Include="FormulaSets\FormulaSet.cs" />
+    <Compile Include="FormulaSets\FormulaSetCompiler.cs" />
+    <Compile Include="FormulaSets\FormulaSetFormula.cs" />
     <Compile Include="References\Book.cs" />
     <Compile Include="Compiler.cs" />
     <Compile Include="Constants\Constant.cs" />
