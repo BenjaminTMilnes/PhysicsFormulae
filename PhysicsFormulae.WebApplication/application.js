@@ -6,6 +6,7 @@ application.config(function ($routeProvider) {
         .when("/tag/:tagName", { templateUrl: "search.html", controller: "SearchController" })
         .when("/field/:fieldName", { templateUrl: "search.html", controller: "SearchController" })
         .when("/formula/:reference", { templateUrl: "formula.html", controller: "FormulaController" })
+        .when("/formula-set/:reference", { templateUrl: "formula-set.html", controller: "FormulaSetController" })
         .when("/constant/:reference", { templateUrl: "constant.html", controller: "ConstantController" })
         .when("/formula-of-the-day", { templateUrl: "formula-of-the-day.html", controller: "FormulaOfTheDayController" })
            .when("/formula-editor", { templateUrl: "formula-editor.html", controller: "FormulaEditorController"})
@@ -93,6 +94,10 @@ class Database {
         return this._data.Formulae;
     }
 
+    get formulaSets() {
+        return this._data.FormulaSets;
+    }
+
     get constants() {
         return this._data.Constants;
     }
@@ -111,6 +116,22 @@ class Database {
 
     getFormulaWithURLReference(urlReference) {
         var fs = this.formulae.filter(f => f.URLReference == urlReference);
+
+        if (fs.length > 0) { return fs[0]; }
+
+        return null;
+    }
+
+    getFormulaSetWithReference(reference) {
+        var fs = this.formulaSets.filter(f => f.Reference == reference);
+
+        if (fs.length > 0) { return fs[0]; }
+
+        return null;
+    }
+
+    getFormulaSetWithURLReference(urlReference) {
+        var fs = this.formulaSets.filter(f => f.URLReference == urlReference);
 
         if (fs.length > 0) { return fs[0]; }
 

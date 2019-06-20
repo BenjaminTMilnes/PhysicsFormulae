@@ -82,6 +82,9 @@
     <Content Include="formula-editor.js" />
     <Content Include="formula-of-the-day.html" />
     <Content Include="formula-of-the-day.js" />
+    <Content Include="formula-set.css" />
+    <Content Include="formula-set.html" />
+    <Content Include="formula-set.js" />
     <Content Include="formula.css" />
     <Content Include="formula.html" />
     <Content Include="formula.js" />
