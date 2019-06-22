@@ -1,0 +1,49 @@
+﻿AmperesCircuitalLaw
+
+Ampère's Circuital Law
+
+The curl of the magnetic field depends on the electric current density and the rate of change of the electric field with time.
+
+\nabla \times \textbf{B} = \mu_{0} \left( \textbf{J} + \epsilon_{0} \frac{\partial \textbf{E}}{\partial t} \right)
+
+where:
+
+\textbf{B} [var. vec. MagneticField] is the magnetic field
+\mu_{0} [const. scal. PermeabilityOfFreeSpace] is the permeability of free space
+\textbf{J} [var. vec. ElectricCurrentDensity] is the electric current density
+\epsilon_{0} [const. scal. PermittivityOfFreeSpace] is the permittivity of free space
+\textbf{E} [var. vec. ElectricField] is the electric field
+
+
+variants:
+
+Integral Form
+
+\oint_{\partial \Sigma} \textbf{B} \cdot \mathrm{d} \textbf{l} = \mu_{0} \left( \iint_{\Sigma} \textbf{J} \cdot \mathrm{d} \textbf{S} + \epsilon_{0} \frac{\mathrm{d}}{\mathrm{d} t} \iint_{\Sigma} \textbf{E} \cdot \mathrm{d} \textbf{S} \right)
+
+
+
+fields:
+
+Classical Electromagnetism
+Maxwell's Equations
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+https://en.wikipedia.org/wiki/Amp%C3%A8re%27s_circuital_law
+
+tags:
+
+
+
+rating: *****
+

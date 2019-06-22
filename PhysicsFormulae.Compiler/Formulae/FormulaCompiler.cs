@@ -92,7 +92,7 @@ namespace PhysicsFormulae.Compiler.Formulae
             var formula = new Formula();
 
             formula.Reference = lines[0].Trim();
-            formula.Title = lines[1].Trim();
+            formula.Title = CorrectApostrophes(lines[1].Trim());
             formula.Interpretation = lines[2].Trim();
             formula.Content = lines[3].Trim();
 

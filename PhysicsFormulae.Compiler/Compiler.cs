@@ -21,6 +21,14 @@ namespace PhysicsFormulae.Compiler
             return lines.Select(l => l.Trim()).Where(l => l != "").ToArray();
         }
 
+        protected string CorrectApostrophes(string s)
+        {
+            s = s.Replace("'s", "’s");
+            s = s.Replace("s' ", "s’ ");
+
+            return s;
+        }
+
         protected string _seeMoreLinkPattern = @"^(.+)\s+((http|https)://(.+))$";
         protected string _urlPattern = @"^(https?://[^\s]+)$";
 
@@ -101,7 +109,7 @@ namespace PhysicsFormulae.Compiler
                 pageNumber = match.Groups[3].Value.Trim();
             }
 
-            return new Tuple<string, string>(reference, pageNumber);            
+            return new Tuple<string, string>(reference, pageNumber);
         }
 
         public bool IsLineBookReferenceLine(string line)

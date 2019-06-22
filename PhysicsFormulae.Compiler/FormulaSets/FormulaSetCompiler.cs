@@ -21,27 +21,30 @@ namespace PhysicsFormulae.Compiler.FormulaSets
 
             formulaSet.Reference = lines[0].Trim();
             formulaSet.URLReference = _referenceConverter.GetURLReference(formulaSet.Reference);
-            formulaSet.Title = lines[1].Trim();
+            formulaSet.Title = CorrectApostrophes(lines[1].Trim());
 
             for (var i = 2; i < lines.Length; i++)
             {
                 var r = lines[i].Trim();
 
-                var f1 = formulae.First(g => g.Reference == r);
+                if (formulae.Any(g => g.Reference == r))
+                {
+                    var f1 = formulae.First(g => g.Reference == r);
 
-                var f2 = new FormulaSetFormula();
+                    var f2 = new FormulaSetFormula();
 
-                f2.Reference = f1.Reference;
-                f2.URLReference = f1.URLReference;
-                f2.Title = f1.Title;
-                f2.Interpretation = f1.Interpretation;
-                f2.Content = f1.Content;
+                    f2.Reference = f1.Reference;
+                    f2.URLReference = f1.URLReference;
+                    f2.Title = f1.Title;
+                    f2.Interpretation = f1.Interpretation;
+                    f2.Content = f1.Content;
 
-                formulaSet.Formulae.Add(f2);
+                    formulaSet.Formulae.Add(f2);
 
-                formulaSet.Identifiers = formulaSet.Identifiers.Concat(f1.Identifiers).ToList();
-                formulaSet.Fields = formulaSet.Fields.Concat(f1.Fields).ToList();
-                formulaSet.Tags = formulaSet.Tags.Concat(f1.Tags).ToList();
+                    formulaSet.Identifiers = formulaSet.Identifiers.Concat(f1.Identifiers).ToList();
+                    formulaSet.Fields = formulaSet.Fields.Concat(f1.Fields).ToList();
+                    formulaSet.Tags = formulaSet.Tags.Concat(f1.Tags).ToList();
+                }
             }
 
             formulaSet.Identifiers = formulaSet.Identifiers.Distinct().ToList();

@@ -6,6 +6,11 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>http://www.physicsformulae.com/#/formula/amperes-circuital-law</loc>
+    <lastmod>2019-06-22</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>http://www.physicsformulae.com/#/formula/centripetal-force-for-circular-motion</loc>
     <lastmod>2019-06-22</lastmod>
     <priority>1.0</priority>
@@ -622,6 +627,11 @@
   </url>
   <url>
     <loc>http://www.physicsformulae.com/#/formula/wiens-displacement-law</loc>
+    <lastmod>2019-06-22</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.physicsformulae.com/#/formula-set/maxwells-equations</loc>
     <lastmod>2019-06-22</lastmod>
     <priority>1.0</priority>
   </url>
