@@ -50,7 +50,7 @@
   <ItemGroup>
     <Reference Include="MathematicsTypesetting, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\MathematicsTypesetting\MathematicsTypesetting.Rendering\bin\Debug\MathematicsTypesetting.dll</HintPath>
+      <HintPath>..\..\MathematicsTypesetting\MathematicsTypesetting\bin\Debug\MathematicsTypesetting.dll</HintPath>
     </Reference>
     <Reference Include="MathematicsTypesetting.Fonts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
