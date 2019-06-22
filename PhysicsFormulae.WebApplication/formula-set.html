@@ -12,6 +12,29 @@
             <p class="formulaset-formula-interpretation" compile="replaceMathematicsMarkers(formula.Interpretation)"></p>
         </div>
     </div>
+    <div class="formula-identifiers" style="display:none;">
+        <div class="identifier" ng-repeat="identifier in formulaSet.Identifiers">
+            <div class="identifier-content">
+                <mathematics content-type="latex" content="{{identifier.Content}}"></mathematics>
+            </div>
+            <div class="identifier-classes">
+                <span ng-show="identifier.Type == 'Variable'" class="variable" title="a variable">var.</span>
+                <span ng-show="identifier.Type == 'Constant'" class="constant" title="a constant">const.</span>
+                <span ng-show="identifier.ObjectType == 'Scalar'" class="scalar" title="a scalar quantity">scal.</span>
+                <span ng-show="identifier.ObjectType == 'Vector'" class="vector" title="a vector quantity">vec.</span>
+                <span ng-show="identifier.ObjectType == 'Matrix'" class="matrix" title="a matrix">matr.</span>
+                <span ng-show="identifier.ObjectType == 'Tensor'" class="tensor" title="a tensor (one which is more complicated than a vector or a matrix)">tens.</span>
+                <span ng-show="identifier.ObjectType == 'WaveFunctionObject'" class="tensor" title="a quantum mechanical wave-function">w.f.</span>
+            </div>
+            <div class="identifier-interpretation" compile="replaceMathematicsMarkers(identifier.Definition)"></div>
+            <div class="identifier-dimensions">
+                <mathematics content-type="latex" content="{{identifier.Dimensions}}"></mathematics>
+            </div>
+            <div class="identifier-units">
+                <mathematics content-type="latex" content="{{identifier.Units}}"></mathematics>
+            </div>
+        </div>
+    </div>
     <div class="formula-fields">
         <span class="field" ng-repeat="field in formulaSet.Fields" style="background-color: {{getColourOfWord(field)}};"><a href="#/field/{{field}}" title="Search for other formulae in {{field}}.">{{field}}</a></span>
     </div>

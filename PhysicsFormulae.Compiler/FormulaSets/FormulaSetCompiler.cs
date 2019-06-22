@@ -39,10 +39,12 @@ namespace PhysicsFormulae.Compiler.FormulaSets
 
                 formulaSet.Formulae.Add(f2);
 
+                formulaSet.Identifiers = formulaSet.Identifiers.Concat(f1.Identifiers).ToList();
                 formulaSet.Fields = formulaSet.Fields.Concat(f1.Fields).ToList();
                 formulaSet.Tags = formulaSet.Tags.Concat(f1.Tags).ToList();
             }
 
+            formulaSet.Identifiers = formulaSet.Identifiers.Distinct().ToList();
             formulaSet.Fields = formulaSet.Fields.Distinct().ToList();
             formulaSet.Tags = formulaSet.Tags.Distinct().ToList();
 
