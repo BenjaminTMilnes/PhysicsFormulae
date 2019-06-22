@@ -1,17 +1,21 @@
 ﻿<div class="formulaset">
-        <h2  class="formulaset-title">{{formulaSet.Title}}</h2>
-       <div class="formulaset-formulae">
-           <div class="formulaset-formula" ng-repeat="formula in formulaSet.Formulae">
-               <h3 class="formulaset-formula-title">{{formula.Title}}</h3>
-               <div class="formulaset-formula-content" compile="getFormulaContent(formula.Content)">
-               </div>
-               <p class="formulaset-formula-interpretation" compile="replaceMathematicsMarkers(formula.Interpretation)"></p>
-           </div>
-       </div>
+    <h2 class="formulaset-title">{{formulaSet.Title}}</h2>
+    <div class="formulaset-formulae">
+        <div class="formulaset-formula" ng-repeat="formula in formulaSet.Formulae">
+            <h3 class="formulaset-formula-title"><a href="/#/formula/{{formula.URLReference}}">{{formula.Title}}</a></h3>
+            <div class="formulaset-formula-content">
+                <a href="/#/formula/{{formula.URLReference}}">
+                    <div compile="getFormulaContent(formula.Content)">
+                    </div>
+                </a>
+            </div>
+            <p class="formulaset-formula-interpretation" compile="replaceMathematicsMarkers(formula.Interpretation)"></p>
+        </div>
+    </div>
     <div class="formula-fields">
         <span class="field" ng-repeat="field in formulaSet.Fields" style="background-color: {{getColourOfWord(field)}};"><a href="#/field/{{field}}" title="Search for other formulae in {{field}}.">{{field}}</a></span>
     </div>
-    <div  class="formula-tags">
+    <div class="formula-tags">
         <span class="tag" ng-repeat="tag in formulaSet.Tags"><a href="#/tag/{{tag}}" title="Search for other formulae with the tag '{{tag}}'.">{{tag}}</a>{{$last ? '' : ',&nbsp;'}}</span>
     </div>
     <div class="formula-linktothispage">
@@ -21,10 +25,10 @@
         <button class="copybutton" data-clipboard-target="#linktothispage">Copy</button>
     </div>
     <div class="formula-seemore">
-           <h3>See more</h3>
-  <p style="text-align:left;">The original .formula files that this page was generated from can be viewed at:</p>
-        
-          <ul><li ng-repeat="formula in formulaSet.Formulae"><a target="_blank" title="Physics Formulae Source Code" href="https://github.com/BenjaminTMilnes/PhysicsFormulae/blob/master/PhysicsFormulae.Formulae/{{formula.Reference}}.formula">https://github.com/BenjaminTMilnes/PhysicsFormulae/blob/master/PhysicsFormulae.Formulae/{{formula.Reference}}.formula</a></li></ul>
-     
+        <h3>See more</h3>
+        <p style="text-align:left;">The original .formula files that this page was generated from can be viewed at:</p>
+        <ul>
+            <li ng-repeat="formula in formulaSet.Formulae"><a target="_blank" title="Physics Formulae Source Code" href="https://github.com/BenjaminTMilnes/PhysicsFormulae/blob/master/PhysicsFormulae.Formulae/{{formula.Reference}}.formula">github.com/BenjaminTMilnes/PhysicsFormulae/.../{{formula.Reference}}.formula</a></li>
+        </ul>
     </div>
 </div>

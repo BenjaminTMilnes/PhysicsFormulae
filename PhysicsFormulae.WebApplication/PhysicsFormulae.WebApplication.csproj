@@ -163,8 +163,6 @@
     <Content Include="formulae.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="post-formula-of-the-day.ashx" />
-    <Content Include="formula.ashx" />
     <None Include="Properties\PublishProfiles\physicsformulae.com.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -187,12 +185,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="formula.ashx.cs">
-      <DependentUpon>formula.ashx</DependentUpon>
-    </Compile>
-    <Compile Include="post-formula-of-the-day.ashx.cs">
-      <DependentUpon>post-formula-of-the-day.ashx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

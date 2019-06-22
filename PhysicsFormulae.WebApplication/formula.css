@@ -1,6 +1,6 @@
 ﻿
 .formula, .listedconstant {
-    margin: 0px 0px 200px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
     .formula h3, .listedconstant h3 {
@@ -21,20 +21,24 @@
 
 @media (min-width:400px) {
 
-    .formula h3, .listedconstant h3 {
-        font-size: 27px;
-        margin: 42px 0px 17px 0px;
+    .formula, .listedconstant {
+        margin: 0px 0px 200px 0px;
     }
 
-    .formula h4, .listedconstant h4 {
-        font-size: 22px;
-        margin: 22px 0px;
-    }
+        .formula h3, .listedconstant h3 {
+            font-size: 27px;
+            margin: 42px 0px 17px 0px;
+        }
 
-    .formula ul, .formula ol, .listedconstant ul, .listedconstant ol {
-        font-size: 17px;
-        margin: 17px 0px;
-    }
+        .formula h4, .listedconstant h4 {
+            font-size: 22px;
+            margin: 22px 0px;
+        }
+
+        .formula ul, .formula ol, .listedconstant ul, .listedconstant ol {
+            font-size: 17px;
+            margin: 17px 0px;
+        }
 }
 
 .formulaoftheday-heading {

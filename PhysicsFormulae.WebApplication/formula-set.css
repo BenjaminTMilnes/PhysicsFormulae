@@ -1,6 +1,6 @@
 ﻿
 .formulaset {
-    margin: 0px 0px 200px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
     .formulaset h3 {
@@ -8,42 +8,46 @@
         margin: 27px 0px 14px 0px;
     }
 
-  .formulaset h4 {
+    .formulaset h4 {
         font-size: 17px;
         margin: 17px 0px;
         text-decoration: underline;
     }
 
-  .formulaset ul, .formulaset ol {
+    .formulaset ul, .formulaset ol {
         font-size: 14px;
         margin: 14px 0px;
     }
 
 @media (min-width:400px) {
 
-     .formulaset h3 {
-        font-size: 27px;
-        margin: 42px 0px 17px 0px;
+    .formulaset {
+        margin: 0px 0px 200px 0px;
     }
 
-  .formulaset h4 {
-        font-size: 22px;
-        margin: 22px 0px;
-    }
+        .formulaset h3 {
+            font-size: 27px;
+            margin: 42px 0px 17px 0px;
+        }
 
-  .formulaset ul, .formulaset ol {
-        font-size: 17px;
-        margin: 17px 0px;
-    }
+        .formulaset h4 {
+            font-size: 22px;
+            margin: 22px 0px;
+        }
+
+        .formulaset ul, .formulaset ol {
+            font-size: 17px;
+            margin: 17px 0px;
+        }
 }
 
 
-.formulaset-title{
+.formulaset-title {
     font-size: 35px;
     text-transform: none;
     font-family: "Bodoni MT", "Didot";
     letter-spacing: -0.02em;
-    margin: 50px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
     text-align: center;
 }
 
@@ -51,8 +55,16 @@
     font-size: 17px;
     margin: 0px;
     text-align: center;
-       font-style:italic;
+    font-style: italic;
 }
+
+    .formulaset-formula-title a {
+        color: inherit;
+    }
+
+        .formulaset-formula-title a:hover {
+            color: #105ecc;
+        }
 
 .formulaset-formula-content {
     font-size: 22px;
@@ -60,16 +72,25 @@
     text-align: center;
 }
 
+    .formulaset-formula-content a {
+        color: inherit;
+    }
 
-.formulaset-formula-interpretation{
-    font-size:   14px;
+        .formulaset-formula-content a:hover {
+            color: #105ecc;
+        }
+
+
+.formulaset-formula-interpretation {
+    font-size: 14px;
     margin: 20px 0px 40px 0px;
+    text-align: justify;
 }
 
 @media (min-width:400px) {
-    .formulaset-title{
+    .formulaset-title {
         font-size: 50px;
-        margin: 70px 0px 20px 0px;
+        margin: 50px 0px 20px 0px;
     }
 
     .formulaset-formula-title {
@@ -77,19 +98,20 @@
     }
 
     .formulaset-formula-content {
-        font-size: 27px;
+        font-size: 35px;
+    margin: 49px 0px;
     }
 
-.formulaset-formula-interpretation{
-    font-size: 17px;    
-     margin: 27px 0px 55px 0px;
-        text-align: justify;
+    .formulaset-formula-interpretation {
+        font-size: 17px;
+        margin: 27px 0px 55px 0px;
     }
 }
 
 @media (min-width:700px) {
-    .formulaset-title{
+    .formulaset-title {
         font-size: 70px;
+        margin: 70px 0px 20px 0px;
     }
 
     .formulaset-formula-title {
@@ -103,5 +125,4 @@
 }
 
 @media (min-width:1000px) {
-  
 }
