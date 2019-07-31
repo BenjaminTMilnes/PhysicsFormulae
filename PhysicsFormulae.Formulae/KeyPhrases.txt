@@ -57,3 +57,30 @@
  density
  line of charge
  infinitely long
+ Ampère
+ de Broglie
+ Coulomb
+ Einstein
+ Euler
+ Lagrange
+ Gauss
+ Heisenberg
+ Hooke
+ Hubble
+ Kelvin
+ Stokes
+ Kepler
+ Lagrangian
+ Lorentz
+ Mach
+ Maxwell
+ Faraday
+ Newton
+ Ohm
+ Planck
+ Schrödinger
+ Schwarzschild
+ Snell
+ Stefan
+ Boltzmann
+ Wien

@@ -4,6 +4,7 @@ application.config(function ($routeProvider) {
     $routeProvider
         .when("/", { templateUrl: "search.html", controller: "SearchController" })
         .when("/tag/:tagName", { templateUrl: "search.html", controller: "SearchController" })
+        .when("/tags", { templateUrl: "tags.html", controller: "TagsController" })
         .when("/field/:fieldName", { templateUrl: "search.html", controller: "SearchController" })
         .when("/formula/:reference", { templateUrl: "formula.html", controller: "FormulaController" })
         .when("/formula-set/:reference", { templateUrl: "formula-set.html", controller: "FormulaSetController" })
@@ -136,6 +137,20 @@ class Database {
         if (fs.length > 0) { return fs[0]; }
 
         return null;
+    }
+
+    getAllTags() {
+        var tags = [];
+
+        this.formulae.forEach(f => {
+            tags = tags.concat(f.Tags);
+        });
+
+        tags = [...new Set(tags)];
+
+        tags.sort();
+
+        return tags;
     }
 
     getConstantWithReference(reference) {
