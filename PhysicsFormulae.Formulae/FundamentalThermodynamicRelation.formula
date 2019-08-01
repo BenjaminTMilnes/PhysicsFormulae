@@ -1,0 +1,64 @@
+﻿FundamentalThermodynamicRelation
+
+The Fundamental Thermodynamic Relation
+
+An infinitesimal change in the internal energy of a system can be expressed in terms of an infinitesimal change in the entropy and an infinitesimal change in the volume.
+
+\mathrm{d} U = T \mathrm{d} S - P \mathrm{d} V
+
+where:
+
+\mathrm{d} U [var. scal. ChangeInInternalEnergy] is an infinitesimal change in the internal energy of the system
+T [var. scal. Temperature] is the temperature of the system
+\mathrm{d} S [var. scal. ChangeInEntropy] is an infinitesimal change in the entropy of the system
+P [var. scal. Pressure] is the pressure of the system
+\mathrm{d} V [var. scal. ChangeInVolume] is an infinitesimal change in volume
+
+
+variants:
+
+In terms of enthalpy
+
+\mathrm{d} H = T \mathrm{d} S + V \mathrm{d} P
+
+
+
+---
+
+In terms of Helmholtz free energy
+
+\mathrm{d} F = - S \mathrm{d} T - P \mathrm{d} V
+
+
+
+---
+
+In terms of Gibbs free energy
+
+\mathrm{d} G = - S \mathrm{d} T + V \mathrm{d} P
+
+
+
+fields:
+
+Thermodynamics
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+https://en.wikipedia.org/wiki/Fundamental_thermodynamic_relation
+
+tags:
+
+
+
+rating: *****
+

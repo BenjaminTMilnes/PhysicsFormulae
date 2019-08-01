@@ -1,0 +1,43 @@
+﻿FirstLawOfThermodynamics
+
+The First Law of Thermodynamics
+
+The change in the internal energy of a system is equal to the difference between the amount of energy added to the system through heating and the work done by the system.
+
+\Delta U = Q - W
+
+where:
+
+\Delta U [var. scal. ChangeInInternalEnergy, M L^{2} T^{-2}, J] is the change in the internal energy of the system
+Q [var. scal. Heat, M L^{2} T^{-2}, J] is the amount of energy added to the system by heating
+W [var. scal. WorkDone, M L^{2} T^{-2}, J] is the work done by the system
+
+
+variants:
+
+
+
+fields:
+
+Thermodynamics
+Classical Thermodynamics
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+

@@ -1,0 +1,42 @@
+﻿ThirdLawOfThermodynamics
+
+The Third Law of Thermodynamics
+
+The entropy of a perfect crystal of any pure substance approaches zero as the temperature approaches zero.
+
+S = k_{B} \ln \Omega
+
+where:
+
+S [var. scal. Entropy] is the entropy
+k_{B} [const. scal. BoltzmannConstant] is the Boltzmann Constant
+\Omega [var. scal. NumberOfMicrostates] is the number of microstates
+
+
+variants:
+
+
+
+fields:
+
+Thermodynamics
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+

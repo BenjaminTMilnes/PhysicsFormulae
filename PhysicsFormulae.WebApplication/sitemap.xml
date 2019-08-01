@@ -296,6 +296,11 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>http://www.physicsformulae.com/#/formula/first-law-of-thermodynamics</loc>
+    <lastmod>2019-08-01</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>http://www.physicsformulae.com/#/formula/flow-rate-of-electromagnetic-momentum</loc>
     <lastmod>2019-08-01</lastmod>
     <priority>1.0</priority>
@@ -312,6 +317,11 @@
   </url>
   <url>
     <loc>http://www.physicsformulae.com/#/formula/formula-for-the-total-capacitance-of-capacitors-connected-in-series</loc>
+    <lastmod>2019-08-01</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.physicsformulae.com/#/formula/fundamental-thermodynamic-relation</loc>
     <lastmod>2019-08-01</lastmod>
     <priority>1.0</priority>
   </url>
@@ -566,6 +576,11 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>http://www.physicsformulae.com/#/formula/second-law-of-thermodynamics</loc>
+    <lastmod>2019-08-01</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>http://www.physicsformulae.com/#/formula/snells-law</loc>
     <lastmod>2019-08-01</lastmod>
     <priority>1.0</priority>
@@ -601,6 +616,11 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>http://www.physicsformulae.com/#/formula/third-law-of-thermodynamics</loc>
+    <lastmod>2019-08-01</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>http://www.physicsformulae.com/#/formula/time-dependent-schroedinger-equation</loc>
     <lastmod>2019-08-01</lastmod>
     <priority>1.0</priority>
@@ -627,6 +647,16 @@
   </url>
   <url>
     <loc>http://www.physicsformulae.com/#/formula/wiens-displacement-law</loc>
+    <lastmod>2019-08-01</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.physicsformulae.com/#/formula-set/kinematic-equations-for-linear-motion</loc>
+    <lastmod>2019-08-01</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.physicsformulae.com/#/formula-set/laws-of-thermodynamics</loc>
     <lastmod>2019-08-01</lastmod>
     <priority>1.0</priority>
   </url>

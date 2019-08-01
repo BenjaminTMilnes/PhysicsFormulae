@@ -1,0 +1,42 @@
+﻿SecondLawOfThermodynamics
+
+The Second Law of Thermodynamics
+
+Natural processes lead towards the homogeneity of matter and energy. No real process is truly reversible.
+
+\delta Q = T \mathrm{d} S
+
+where:
+
+\delta Q [var. scal. Heat, M L^{2} T^{-2}, J] is an infinitesimal amount of energy added to a system by heating
+T [var. scal. Temperature, K, K] is the temperature of the system
+\mathrm{d} S [var. scal. Entropy] is an infinitesimal change in the entropy of the system
+
+
+variants:
+
+
+
+fields:
+
+Thermodynamics
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+
