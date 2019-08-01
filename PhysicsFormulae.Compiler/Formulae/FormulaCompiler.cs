@@ -164,6 +164,12 @@ namespace PhysicsFormulae.Compiler.Formulae
                     continue;
                 }
 
+                if (line.Trim() == "exclude")
+                {
+                    formula.ExcludeFromFormulaOfTheDay = true;
+                    continue;
+                }
+
                 if (formulaSection == FormulaSection.Where)
                 {
                     if (IsLineIdentifierLine(line))

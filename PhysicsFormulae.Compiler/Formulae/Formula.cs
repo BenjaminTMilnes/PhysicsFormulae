@@ -18,6 +18,7 @@ namespace PhysicsFormulae.Compiler.Formulae
         public IList<Reference> References { get; set; }
         public IList<SeeMoreLink> SeeMore { get; set; }
         public IList<string> Tags { get; set; }
+        public bool ExcludeFromFormulaOfTheDay { get; set; }
 
         public Formula()
         {
