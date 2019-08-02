@@ -6,11 +6,11 @@
         <input type="text" ng-model="searchTerms" placeholder="Search for a formula or constant" />
     </div>
     <div class="search-results-pagenumbers">
-        <div class="pagenumber" ng-repeat="page in pages" ng-click="setPageNumber(page.pageNumber)" ng-style="pageNumber == page.pageNumber ? {'background-color':'#f0f0f0'} : {}">{{page.pageNumber}}</div>
+        <div class="pagenumber {{page.class}}" ng-repeat="page in pages" ng-click="setPageNumber(page.pageNumber)">{{(page.pageNumber == -1) ? "..." : page.pageNumber}}</div>
     </div>
     <div class="search-results">
         <div class="search-results-leftcolumn">
-            <div class="search-formula" ng-repeat="formula in formulae | searchFormulae : searchTerms : pageNumber : numberOfFormulaePerPage | orderBy : formula.Reference">
+            <div class="search-formula" ng-repeat="formula in currentPageFormulaSearchResults">
                 <h3 class="search-formula-title"><a href="#/formula/{{formula.URLReference}}" title="{{formula.Title}}">{{formula.Title}}</a></h3>
                 <div class="search-formula-content">
                     <a href="#/formula/{{formula.URLReference}}" title="{{formula.Title}}">
@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="search-results-rightcolumn">
-            <div class="search-constant" ng-repeat="constant in constants | searchConstants : searchTerms : pageNumber : numberOfFormulaePerPage | orderBy : constant.Reference">
+            <div class="search-constant" ng-repeat="constant in currentPageConstantSearchResults">
                 <h3 class="search-constant-title"><a href="#/constant/{{constant.URLReference}}" title="{{constant.Title}}">{{constant.Title}}</a></h3>
                 <div class="search-constant-symbol">
                     <a href="#/constant/{{constant.URLReference}}" title="{{constant.Title}}">
@@ -36,6 +36,6 @@
         </div>
     </div>
     <div class="search-results-pagenumbers">
-        <div class="pagenumber" ng-repeat="page in pages" ng-click="setPageNumber(page.pageNumber)" ng-style="pageNumber == page.pageNumber ? {'background-color':'#f0f0f0'} : {}">{{page.pageNumber}}</div>
+        <div class="pagenumber {{page.class}}" ng-repeat="page in pages" ng-click="setPageNumber(page.pageNumber)">{{(page.pageNumber == -1) ? "..." : page.pageNumber}}</div>
     </div>
 </div>

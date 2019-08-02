@@ -10,9 +10,9 @@
     return [remainingText, ""];
 }
 
-application.filter("searchFormulae", function () {
-    return function (formulae, text, pageNumber, numberOfFormulaePerPage) {
-        if (formulae == undefined) {
+application.filter("paginate", function () {
+    return function (a, pageNumber, numberOfItemsPerPage) {
+        if ( a == null || a == undefined) {
             return [];
         }
 
@@ -20,23 +20,31 @@ application.filter("searchFormulae", function () {
             pageNumber = 1;
         }
 
-        if (numberOfFormulaePerPage == null) {
-            numberOfFormulaePerPage = 10;
+        if (numberOfItemsPerPage == null) {
+            numberOfItemsPerPage = 10;
         }
 
-        var p = (pageNumber - 1) * numberOfFormulaePerPage;
-        var q = (pageNumber) * numberOfFormulaePerPage;
+        var p = (pageNumber - 1) * numberOfItemsPerPage;
+        var q = (pageNumber) * numberOfItemsPerPage;
+
+            return    a.slice(p, q);    
+    }
+});
+
+application.filter("searchFormulae", function () {
+    return function (formulae, text) {
+        if ( formulae == null ||  formulae == undefined) {
+            return [];
+        }
 
         if (stringIsNullOrEmpty(text)) {
-            return formulae.slice(p, q);
+            return formulae;
         }
         else {
             var a = extractTags(text);
             text = a[0];
             var tags = a[1];
-
-            console.log(tags);
-
+            
             var b = extractField(text);
             text = b[0];
             var field = b[1];
@@ -46,7 +54,7 @@ application.filter("searchFormulae", function () {
             for (var i = 0; i < formulae.length; i++) {
                 var formula = formulae[i];
                 var formulaText = formula.Title + ", " + formula.Interpretation + ", " + formula.Content;
-                var tagsText = makeSearchableString(formula.Tags);
+                var tagsText = makeSearchableString(formula.Tags).toLowerCase();
 
                 if (text != "") {
                     if (stringContains(formulaText.toLowerCase(), text.toLowerCase())) {
@@ -56,42 +64,31 @@ application.filter("searchFormulae", function () {
                 }
 
                 for (var j = 0; j < tags.length; j++) {
-                    if (stringContains(tagsText, tags[j])) {
+                    if (stringContains(tagsText, tags[j].toLowerCase())) {
                         matchingFormulae.push(formula);
                     }
                 }
 
                 for (var k = 0; k < formula.Fields.length; k++) {
-                    if (formula.Fields[k] == field) {
+                    if (formula.Fields[k].toLowerCase() == field.toLowerCase()) {
                         matchingFormulae.push(formula);
                     }
                 }
             }
 
-            return matchingFormulae.slice(p, q);
+            return matchingFormulae;
         }
     }
 });
 
 application.filter("searchConstants", function () {
-    return function (constants, text, pageNumber, numberOfConstantsPerPage) {
-        if (constants == undefined) {
+    return function (constants, text) {
+        if (  constants == null ||  constants == undefined) {
             return [];
         }
 
-        if (pageNumber == null) {
-            pageNumber = 1;
-        }
-
-        if (numberOfConstantsPerPage == null) {
-            numberOfConstantsPerPage = 10;
-        }
-
-        var p = (pageNumber - 1) * numberOfConstantsPerPage;
-        var q = (pageNumber) * numberOfConstantsPerPage;
-
         if (stringIsNullOrEmpty(text)) {
-            return constants.slice(p, q);
+            return constants;
         }
         else {
             var a = extractTags(text);
@@ -103,7 +100,7 @@ application.filter("searchConstants", function () {
             for (var i = 0; i < constants.length; i++) {
                 var constant = constants[i];
                 var constantText = constant.Title + ", " + constant.Interpretation + ", " + constant.Symbol;
-                var tagsText = makeSearchableString(constant.Tags);
+                var tagsText = makeSearchableString(constant.Tags).toLowerCase();
 
                 if (text != "") {
                     if (stringContains(constantText.toLowerCase(), text.toLowerCase())) {
@@ -113,13 +110,13 @@ application.filter("searchConstants", function () {
                 }
 
                 for (var j = 0; j < tags.length; j++) {
-                    if (stringContains(tagsText.toLowerCase(), tags[j].toLowerCase())) {
+                    if (stringContains(tagsText, tags[j].toLowerCase())) {
                         matchingConstants.push(constant);
                     }
                 }
             }
 
-            return matchingConstants.slice(p, q);
+            return matchingConstants;
         }
     }
 });
@@ -135,6 +132,14 @@ application.controller("SearchController", ["$scope", "$rootScope", "$routeParam
     $scope.pageNumber = 1;
     $scope.numberOfFormulaePerPage = 10;
     $scope.pages = [];
+
+    $scope.formulaSearchResults = [];
+    $scope.currentPageFormulaSearchResults = [];
+
+    $scope.constantSearchResults = [];
+    $scope.currentPageConstantSearchResults = [];
+
+    $scope.searchTerms = "";
 
     if (!stringIsNullOrEmpty($routeParams.fieldName)) {
         $scope.searchTerms = "field = '" + $routeParams.fieldName + "'";
@@ -160,13 +165,9 @@ application.controller("SearchController", ["$scope", "$rootScope", "$routeParam
             $rootScope.metaService.set(defaultTitle, defaultDescription, defaultKeywords);
         }
 
-        var numberOfPages = Math.ceil($scope.formulae.length / $scope.numberOfFormulaePerPage);
-        $scope.pages = [];
+        $scope.updateSearchResults($scope.searchTerms);
 
-        for (var i = 0; i < numberOfPages; i++) {
-            $scope.pages.push({ "pageNumber": i + 1 });
-        }
-    });
+     });
 
     $scope.replaceMathematicsMarkers = function (text) {
         if (!text) {
@@ -180,28 +181,55 @@ application.controller("SearchController", ["$scope", "$rootScope", "$routeParam
     }
 
     $scope.setPageNumber = function (n) {
+        if (n <= 0) {
+            return;
+        }
+
         $scope.pageNumber = n;
+
+        $scope.updateSearchResults($scope.searchTerms);
+    }
+
+    $scope.setPageNumberRange = function () {
+
+        if ($scope.formulaSearchResults == null || $scope.formulaSearchResults == undefined) {
+            return;
+        }
+
+        var numberOfPages = Math.ceil($scope.formulaSearchResults.length / $scope.numberOfFormulaePerPage);
+        $scope.pages = [];
+
+        var addEllipses = 0;
+
+        for (var i = 0; i < numberOfPages; i++) {
+            if (i > 0 && i < numberOfPages - 1 && (i < $scope.pageNumber - 4 || i > $scope.pageNumber + 2)) {
+                if (addEllipses == 0) {
+                    $scope.pages.push({ "pageNumber": -1, "class":"pagenumber-ellipses" });
+                }
+                addEllipses = 1;
+            }
+            else {
+                $scope.pages.push({ "pageNumber": i + 1, "class": ( i == $scope.pageNumber - 1)? "pagenumber-selected":"pagenumber-unselected" });
+                addEllipses = 0;
+            }
+        }
+
     }
 
     $scope.updateSearchResults = function (searchTerms) {
-        if (searchTerms != "") {
-            var searchResults = $filter("searchFormulae")($scope.formulae, searchTerms, $scope.pageNumber, $scope.numberOfFormulaePerPage);
-        }
-        else {
-            var searchResults = $scope.formulae;
-        }
+        $scope.formulaSearchResults = $filter("orderBy")( $filter("searchFormulae")($scope.formulae, searchTerms), "formula.Reference");
 
-        var numberOfPages = Math.ceil(searchResults.length / $scope.numberOfFormulaePerPage);
-        $scope.pages = [];
+        $scope.currentPageFormulaSearchResults = $filter("paginate")($scope.formulaSearchResults, $scope.pageNumber, $scope.numberOfFormulaePerPage);
 
-        for (var i = 0; i < numberOfPages; i++) {
-            $scope.pages.push({ "pageNumber": i + 1 });
-        }
+        $scope.constantSearchResults = $filter("orderBy")($filter("searchConstants")($scope.constants, searchTerms), "constant.Reference");
+
+        $scope.currentPageConstantSearchResults = $filter("paginate")($scope.constantSearchResults, $scope.pageNumber, $scope.numberOfFormulaePerPage);
+
+        $scope.setPageNumberRange();
     }
 
     $scope.$watch("searchTerms", function (newValue, oldValue) {
         $scope.updateSearchResults(newValue);
     });
 
-    $scope.updateSearchResults($scope.searchTerms);
 }]);
