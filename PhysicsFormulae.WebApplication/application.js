@@ -10,7 +10,7 @@ application.config(function ($routeProvider) {
         .when("/formula-set/:reference", { templateUrl: "formula-set.html", controller: "FormulaSetController" })
         .when("/constant/:reference", { templateUrl: "constant.html", controller: "ConstantController" })
         .when("/formula-of-the-day", { templateUrl: "formula-of-the-day.html", controller: "FormulaOfTheDayController" })
-           .when("/formula-editor", { templateUrl: "formula-editor.html", controller: "FormulaEditorController"})
+           .when("/formula-editor", { templateUrl: "formula-editor.html", controller: "FormulaEditorController" })
         .when("/about", { templateUrl: "about.html" });
 });
 
@@ -75,14 +75,14 @@ application.directive("seeMore", function () {
     };
 });
 
-application.directive( "vfg", function () {
+application.directive("vfg", function () {
     return {
         restrict: "E",
         templateUrl: "vertical-field-group.html",
         scope: {
             label: "=label",
-             value:"=value"
- }
+            value: "=value"
+        }
     };
 });
 
@@ -99,10 +99,14 @@ class Database {
         return this._data.FormulaSets;
     }
 
+    get formulaIndexEntries() {
+        return this._data.FormulaIndexEntries;
+    }
+
     get constants() {
         return this._data.Constants;
     }
-          
+
     get references() {
         return this._data.References;
     }
@@ -182,6 +186,28 @@ application.factory("dataService", ["$http", function ($http) {
 
             return $http.get("formulae.json").then(function (response) {
                 that.data = response.data;
+
+                that.data.Formulae.forEach(f => {
+                    f.FormulaText = (f.Title + ", " + f.Interpretation + ", " + f.Content).replace("’", "'").toLowerCase();
+                    f.FieldsText = makeSearchableString(f.Fields).toLowerCase();
+                    f.TagsText = makeSearchableString(f.Tags).toLowerCase();
+                });
+
+                that.data.FormulaSets.forEach(fs => {
+                    fs.Content = "\\begin{aligned}\n" + fs.Formulae.map(f => f.Content.replace("=", "&=")).join("\\\\[2ex]\n") + "\\end{aligned}";
+                    fs.FormulaText = (fs.Title + ", " + fs.Formulae.map(f =>   f.Interpretation).join(" ") + ", " + fs.Content).replace("’", "'").toLowerCase();
+                    fs.FieldsText = makeSearchableString(fs.Fields).toLowerCase();
+                    fs.TagsText = makeSearchableString(fs.Tags).toLowerCase();
+                });
+
+                that.data.Constants.forEach(c => {
+                    c.ConstantText = (c.Title + ", " + c.Interpretation + ", " + c.Symbol).toLowerCase();
+                    c.TagsText = makeSearchableString(c.Tags).toLowerCase();
+                });
+
+                that.data.FormulaIndexEntries = that.data.Formulae.map(f => { return { "Type": "formula", "URLReference": f.URLReference, "Title": f.Title, "Interpretation": f.Interpretation, "Content": f.Content, "Fields": f.Fields, "FormulaText": f.FormulaText, "FieldsText": f.FieldsText, "TagsText": f.TagsText }; });
+
+                that.data.FormulaIndexEntries = that.data.FormulaIndexEntries.concat(that.data.FormulaSets.map(fs => { return { "Type": "formulaset", "URLReference": fs.URLReference, "Title": fs.Title, "Content": fs.Content, "Fields": fs.Fields, "FormulaText": fs.FormulaText, "FieldsText": fs.FieldsText, "TagsText": fs.TagsText, "Formulae": fs.Formulae }; }));
 
                 return response.data;
             });

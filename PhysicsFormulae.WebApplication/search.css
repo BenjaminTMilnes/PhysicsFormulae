@@ -95,6 +95,12 @@
     text-align: center;
 }
 
+.search-formulaset-content {
+    font-size: 22px;
+    margin: 22px 0px;
+    text-align: center;
+}
+
 @media (min-width:400px) {
     .search-formula-title {
         font-size: 22px;
@@ -103,6 +109,11 @@
     .search-formula-content {
         font-size: 42px;
         margin: 42px 0px;
+    }
+
+    .search-formulaset-content {
+        font-size: 27px;
+        margin: 35px 0px;
     }
 }
 
@@ -113,12 +124,12 @@
     }
 }
 
-.search-formula-content a, .search-constant-symbol a {
+.search-formula-content a, .search-formulaset-content a, .search-constant-symbol a {
     color: #202020;
     text-decoration: none;
 }
 
-    .search-formula-content a:hover, .search-constant-symbol a:hover {
+    .search-formula-content a:hover, .search-formulaset-content a:hover, .search-constant-symbol a:hover {
         color: #105ecc;
         text-decoration: none;
     }
@@ -168,6 +179,7 @@
 .pagenumber {
     margin: 0px 7px 7px 0px;
     border-radius: 2px;
+    user-select: none;
 }
 
 .pagenumber-unselected, .pagenumber-selected {

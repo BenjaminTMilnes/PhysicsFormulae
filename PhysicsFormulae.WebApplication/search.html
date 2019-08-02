@@ -12,16 +12,28 @@
     </div>
     <div class="search-results">
         <div class="search-results-leftcolumn">
-            <div class="search-formula" ng-repeat="formula in currentPageFormulaSearchResults">
-                <h3 class="search-formula-title"><a href="#/formula/{{formula.URLReference}}" title="{{formula.Title}}">{{formula.Title}}</a></h3>
-                <div class="search-formula-content">
-                    <a href="#/formula/{{formula.URLReference}}" title="{{formula.Title}}">
-                        <mathematics content-type="latex" content="{{ '\\displaystyle ' + formula.Content}}"></mathematics>
-                    </a>
+            <div class="search-formula" ng-repeat="entry in currentPageFormulaSearchResults">
+            
+                <div ng-if="entry.Type == 'formula'">
+                    <h3 class="search-formula-title"><a href="#/formula/{{entry.URLReference}}" title="{{entry.Title}}">{{entry.Title}}</a></h3>
+                    <div class="search-formula-content">
+                        <a href="#/formula/{{entry.URLReference}}" title="{{entry.Title}}">
+                            <mathematics content-type="latex" content="{{ '\\displaystyle ' + entry.Content}}"></mathematics>
+                        </a>
+                    </div>
+                    <p class="search-formula-interpretation" compile="replaceMathematicsMarkers(entry.Interpretation)"></p>        </div>
+
+                <div ng-if="entry.Type == 'formulaset'">
+                    <h3 class="search-formula-title"><a href="#/formula-set/{{entry.URLReference}}" title="{{entry.Title}}">{{entry.Title}}</a></h3>
+                    <div class="search-formulaset-content">
+                        <a href="#/formula-set/{{entry.URLReference}}" title="{{entry.Title}}">
+                            <mathematics content-type="latex" content="{{ '\\displaystyle ' + entry.Content}}"></mathematics>
+                        </a>
+                    </div>
                 </div>
-                <p class="search-formula-interpretation" compile="replaceMathematicsMarkers(formula.Interpretation)"></p>
+
                 <div class="search-formula-fields">
-                    <span class="search-formula-field" ng-repeat="field in formula.Fields" style="background-color: {{getColourOfWord(field)}};"><a href="#/field/{{field}}" title="Search for other formulae in {{field}}.">{{field}}</a></span>
+                    <span class="search-formula-field" ng-repeat="field in entry.Fields" style="background-color: {{getColourOfWord(field)}};"><a href="#/field/{{field}}" title="Search for other formulae in {{field}}.">{{field}}</a></span>
                 </div>
             </div>
         </div>

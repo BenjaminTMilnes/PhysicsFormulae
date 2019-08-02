@@ -12,7 +12,7 @@
 
 application.filter("paginate", function () {
     return function (a, pageNumber, numberOfItemsPerPage) {
-        if ( a == null || a == undefined) {
+        if (a == null || a == undefined) {
             return [];
         }
 
@@ -27,13 +27,13 @@ application.filter("paginate", function () {
         var p = (pageNumber - 1) * numberOfItemsPerPage;
         var q = (pageNumber) * numberOfItemsPerPage;
 
-            return    a.slice(p, q);    
+        return a.slice(p, q);
     }
 });
 
 application.filter("searchFormulae", function () {
     return function (formulae, text) {
-        if ( formulae == null ||  formulae == undefined) {
+        if (formulae == null || formulae == undefined) {
             return [];
         }
 
@@ -44,37 +44,35 @@ application.filter("searchFormulae", function () {
             var a = extractTags(text);
             text = a[0];
             var tags = a[1];
-            
+
+            console.log(tags);
+
             var b = extractField(text);
             text = b[0];
             var field = b[1];
 
             var matchingFormulae = [];
 
-            for (var i = 0; i < formulae.length; i++) {
-                var formula = formulae[i];
-                var formulaText = formula.Title + ", " + formula.Interpretation + ", " + formula.Content;
-                var tagsText = makeSearchableString(formula.Tags).toLowerCase();
+            formulae.forEach(formula => {
 
                 if (text != "") {
-                    if (stringContains(formulaText.toLowerCase(), text.toLowerCase())) {
+                    if (stringContains(formula.FormulaText, text.toLowerCase())) {
                         matchingFormulae.push(formula);
-                        continue;
+                    }
+                }
+                else {
+                    tags.forEach(t => {
+                        if (stringContains(formula.TagsText, t.toLowerCase())) {
+                            matchingFormulae.push(formula);
+                        }
+                    });
+
+                    if (stringContains(formula.FieldsText, field.toLowerCase())) {
+                        matchingFormulae.push(formula);
                     }
                 }
 
-                for (var j = 0; j < tags.length; j++) {
-                    if (stringContains(tagsText, tags[j].toLowerCase())) {
-                        matchingFormulae.push(formula);
-                    }
-                }
-
-                for (var k = 0; k < formula.Fields.length; k++) {
-                    if (formula.Fields[k].toLowerCase() == field.toLowerCase()) {
-                        matchingFormulae.push(formula);
-                    }
-                }
-            }
+            });
 
             return matchingFormulae;
         }
@@ -83,7 +81,7 @@ application.filter("searchFormulae", function () {
 
 application.filter("searchConstants", function () {
     return function (constants, text) {
-        if (  constants == null ||  constants == undefined) {
+        if (constants == null || constants == undefined) {
             return [];
         }
 
@@ -97,24 +95,22 @@ application.filter("searchConstants", function () {
 
             var matchingConstants = [];
 
-            for (var i = 0; i < constants.length; i++) {
-                var constant = constants[i];
-                var constantText = constant.Title + ", " + constant.Interpretation + ", " + constant.Symbol;
-                var tagsText = makeSearchableString(constant.Tags).toLowerCase();
+            constants.forEach(constant => {
 
                 if (text != "") {
-                    if (stringContains(constantText.toLowerCase(), text.toLowerCase())) {
+                    if (stringContains(constant.ConstantText, text.toLowerCase())) {
                         matchingConstants.push(constant);
-                        continue;
                     }
+                }
+                else {
+                    tags.forEach(t => {
+                        if (stringContains(constant.TagsText, t.toLowerCase())) {
+                            matchingConstants.push(constant);
+                        }
+                    });
                 }
 
-                for (var j = 0; j < tags.length; j++) {
-                    if (stringContains(tagsText, tags[j].toLowerCase())) {
-                        matchingConstants.push(constant);
-                    }
-                }
-            }
+            });
 
             return matchingConstants;
         }
@@ -153,7 +149,7 @@ application.controller("SearchController", ["$scope", "$rootScope", "$routeParam
     $rootScope.metaService = metaService;
 
     dataService.getData().then(function (data) {
-        $scope.formulae = data.Formulae;
+        $scope.formulae = data.FormulaIndexEntries;
         $scope.constants = data.Constants;
 
         if (!stringIsNullOrEmpty($routeParams.fieldName)) {
@@ -168,7 +164,7 @@ application.controller("SearchController", ["$scope", "$rootScope", "$routeParam
 
         $scope.updateSearchResults($scope.searchTerms);
 
-     });
+    });
 
     $scope.replaceMathematicsMarkers = function (text) {
         if (!text) {
@@ -187,8 +183,7 @@ application.controller("SearchController", ["$scope", "$rootScope", "$routeParam
         }
 
         $scope.pageNumber = n;
-
-        $scope.updateSearchResults($scope.searchTerms);
+        $scope.setPageNumberRange();
     }
 
     $scope.setPageNumberRange = function () {
@@ -196,6 +191,10 @@ application.controller("SearchController", ["$scope", "$rootScope", "$routeParam
         if ($scope.formulaSearchResults == null || $scope.formulaSearchResults == undefined) {
             return;
         }
+
+        $scope.currentPageFormulaSearchResults = $filter("paginate")($scope.formulaSearchResults, $scope.pageNumber, $scope.numberOfFormulaePerPage);
+
+        $scope.currentPageConstantSearchResults = $filter("paginate")($scope.constantSearchResults, $scope.pageNumber, $scope.numberOfFormulaePerPage);
 
         $scope.numberOfPages = Math.ceil($scope.formulaSearchResults.length / $scope.numberOfFormulaePerPage);
         $scope.pages = [];
@@ -205,12 +204,12 @@ application.controller("SearchController", ["$scope", "$rootScope", "$routeParam
         for (var i = 0; i < $scope.numberOfPages ; i++) {
             if (i > 0 && i < $scope.numberOfPages - 1 && (i < $scope.pageNumber - 3 || i > $scope.pageNumber + 1)) {
                 if (addEllipses == 0) {
-                    $scope.pages.push({ "pageNumber": -1, "class":"pagenumber-ellipses" });
+                    $scope.pages.push({ "pageNumber": -1, "class": "pagenumber-ellipses" });
                 }
                 addEllipses = 1;
             }
             else {
-                $scope.pages.push({ "pageNumber": i + 1, "class": ( i == $scope.pageNumber - 1)? "pagenumber-selected":"pagenumber-unselected" });
+                $scope.pages.push({ "pageNumber": i + 1, "class": (i == $scope.pageNumber - 1) ? "pagenumber-selected" : "pagenumber-unselected" });
                 addEllipses = 0;
             }
         }
@@ -218,13 +217,9 @@ application.controller("SearchController", ["$scope", "$rootScope", "$routeParam
     }
 
     $scope.updateSearchResults = function (searchTerms) {
-        $scope.formulaSearchResults = $filter("orderBy")( $filter("searchFormulae")($scope.formulae, searchTerms), "formula.Reference");
+        $scope.formulaSearchResults = $filter("orderBy")($filter("searchFormulae")($scope.formulae, searchTerms), "formula.Title");
 
-        $scope.currentPageFormulaSearchResults = $filter("paginate")($scope.formulaSearchResults, $scope.pageNumber, $scope.numberOfFormulaePerPage);
-
-        $scope.constantSearchResults = $filter("orderBy")($filter("searchConstants")($scope.constants, searchTerms), "constant.Reference");
-
-        $scope.currentPageConstantSearchResults = $filter("paginate")($scope.constantSearchResults, $scope.pageNumber, $scope.numberOfFormulaePerPage);
+        $scope.constantSearchResults = $filter("orderBy")($filter("searchConstants")($scope.constants, searchTerms), "constant.Title");
 
         $scope.setPageNumberRange();
     }
