@@ -131,6 +131,7 @@ application.controller("SearchController", ["$scope", "$rootScope", "$routeParam
 
     $scope.pageNumber = 1;
     $scope.numberOfFormulaePerPage = 10;
+    $scope.numberOfPages = 1;
     $scope.pages = [];
 
     $scope.formulaSearchResults = [];
@@ -181,7 +182,7 @@ application.controller("SearchController", ["$scope", "$rootScope", "$routeParam
     }
 
     $scope.setPageNumber = function (n) {
-        if (n <= 0) {
+        if (n <= 0 || n > $scope.numberOfPages) {
             return;
         }
 
@@ -196,13 +197,13 @@ application.controller("SearchController", ["$scope", "$rootScope", "$routeParam
             return;
         }
 
-        var numberOfPages = Math.ceil($scope.formulaSearchResults.length / $scope.numberOfFormulaePerPage);
+        $scope.numberOfPages = Math.ceil($scope.formulaSearchResults.length / $scope.numberOfFormulaePerPage);
         $scope.pages = [];
 
         var addEllipses = 0;
 
-        for (var i = 0; i < numberOfPages; i++) {
-            if (i > 0 && i < numberOfPages - 1 && (i < $scope.pageNumber - 4 || i > $scope.pageNumber + 2)) {
+        for (var i = 0; i < $scope.numberOfPages ; i++) {
+            if (i > 0 && i < $scope.numberOfPages - 1 && (i < $scope.pageNumber - 3 || i > $scope.pageNumber + 1)) {
                 if (addEllipses == 0) {
                     $scope.pages.push({ "pageNumber": -1, "class":"pagenumber-ellipses" });
                 }
