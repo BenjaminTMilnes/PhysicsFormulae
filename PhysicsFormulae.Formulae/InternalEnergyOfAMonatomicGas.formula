@@ -1,0 +1,46 @@
+﻿InternalEnergyOfAMonatomicGas
+
+The Internal Energy of a Monatomic Gas
+
+The internal energy of a monatomic gas is proportional to the mean square velocity of the particles in the gas.
+
+U = \frac{3}{2} NkT = \frac{1}{2} Nm \langle c^{2} \rangle
+
+where:
+
+U [var. scal. InternalEnergy, M L^{2} T^{-2}, J] is the internal energy of the gas
+N [var. scal. NumberOfParticles] is the number of particles in the gas
+k [const. scal. BoltzmannConstant] is the Boltzmann Constant
+T [var. scal. Temperature, K, K] is the temperature of the gas
+m [var. scal. Mass, M, kg] is the mass of each particle
+\langle c^{2} \rangle [var. scal. MeanSquareParticleVelocity, L^{2} T^{-2}, m^{2} s^{-2}] is the mean square particle velocity
+
+
+variants:
+
+
+
+fields:
+
+Kinetic Theory of Gases
+Thermodynamics
+
+
+derived from:
+
+
+
+references:
+
+
+
+see more:
+
+
+
+tags:
+
+
+
+rating: *****
+
