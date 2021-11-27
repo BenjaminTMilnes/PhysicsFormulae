@@ -3539,48 +3539,80 @@
       "Reference": "DefinitionOfTorque",
       "URLReference": "definition-of-torque",
       "Title": "The Definition of Torque",
-      "Interpretation": "Torque, or moment, or moment of force, is rotational force. For point particles, the torque is the vector cross product of the position vector and the force vector.",
-      "Content": "\\tau = \\textbf{r} \\times \\textbf{F}",
+      "Interpretation": "The torque experienced by an object is defined as the rate of change of the angular momentum of the object. This is expressed mathematically as the derivative of the angular momentum with respect to time.",
+      "Content": "\\tau = \\frac{\\mathrm{d} \\textbf{L}}{\\mathrm{d} t}",
       "Identifiers": [
         {
           "Content": "\\tau",
           "Type": "Variable",
           "ObjectType": "Vector",
           "Reference": "Torque",
-          "Dimensions": null,
-          "Units": null,
-          "Definition": "is the torque"
+          "Dimensions": "\\mathrm{M L^{2} T^{-2}}",
+          "Units": "\\mathrm{N\\,m}",
+          "Definition": "is the torque experienced by the object"
         },
         {
-          "Content": "\\textbf{r}",
+          "Content": "\\textbf{L}",
           "Type": "Variable",
           "ObjectType": "Vector",
-          "Reference": "Position",
-          "Dimensions": null,
-          "Units": null,
-          "Definition": "is the position"
+          "Reference": "AngularMomentum",
+          "Dimensions": "\\mathrm{M L^{2} T^{-1}}",
+          "Units": "\\mathrm{kg\\,m^{2}\\,s^{-1}}",
+          "Definition": "is the angular momentum of the object"
         },
         {
-          "Content": "\\textbf{F}",
+          "Content": "t",
           "Type": "Variable",
-          "ObjectType": "Vector",
-          "Reference": "Force",
-          "Dimensions": null,
-          "Units": null,
-          "Definition": "is the force"
+          "ObjectType": "Scalar",
+          "Reference": "Time",
+          "Dimensions": "\\mathrm{T}",
+          "Units": "\\mathrm{s}",
+          "Definition": "is time"
         }
       ],
-      "Variants": [],
+      "Variants": [
+        {
+          "Title": "In terms of moment of inertia and angular acceleration",
+          "Interpretation": "",
+          "Content": "\\tau = I \\alpha"
+        },
+        {
+          "Title": "In terms of position and force",
+          "Interpretation": "",
+          "Content": "\\tau = \\textbf{r} \\times \\textbf{F}"
+        }
+      ],
       "DerivedFrom": [],
       "Derivation": null,
       "Fields": [
         "Classical Mechanics"
       ],
-      "References": [],
+      "References": [
+        {
+          "Title": "The Cambridge Handbook of Physics Formulas",
+          "Authors": [
+            "Graham Woan"
+          ],
+          "Edition": 0,
+          "Year": 2003,
+          "PublisherName": "Cambridge University Press",
+          "PublisherAddress": null,
+          "ISBN": "9780521575072",
+          "URL": null,
+          "Volume": 0,
+          "PageNumber": 68,
+          "CitationKey": "CambridgeHandbookOfPhysicsFormulas",
+          "Type": "Book"
+        }
+      ],
       "SeeMore": [
         {
           "Name": "Wikipedia",
           "URL": "https://en.wikipedia.org/wiki/Torque"
+        },
+        {
+          "Name": "Hyperphysics",
+          "URL": "http://hyperphysics.phy-astr.gsu.edu/hbase/torq.html"
         },
         {
           "Name": "The Physics Hypertextbook",
@@ -3588,16 +3620,15 @@
         }
       ],
       "Tags": [
-        "force",
+        "rate of change",
         "moment",
+        "angular momentum",
+        "momentum",
         "definition",
         "torque",
-        "rotational",
-        "point",
-        "particles",
-        "vector",
-        "product",
-        "position"
+        "object",
+        "derivative",
+        "time"
       ],
       "Curricula": [
         "Singapore H1 Physics (8867)",

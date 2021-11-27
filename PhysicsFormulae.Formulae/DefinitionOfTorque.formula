@@ -1,16 +1,28 @@
 ﻿DefinitionOfTorque
 
-The Definition of Torque
+The Definition of Torque 
 
-Torque, or moment, or moment of force, is rotational force. For point particles, the torque is the vector cross product of the position vector and the force vector.
+The torque experienced by an object is defined as the rate of change of the angular momentum of the object. This is expressed mathematically as the derivative of the angular momentum with respect to time.
 
-\tau = \textbf{r} \times \textbf{F}
+\tau = \frac{\mathrm{d} \textbf{L}}{\mathrm{d} t}
 
 where:
 
-\tau [var. vec. Torque] is the torque
-\textbf{r} [var. vec. Position] is the position
-\textbf{F} [var. vec. Force] is the force
+\tau [var. vec. Torque, M L^{2} T^{-2}, N m] is the torque experienced by the object 
+\textbf{L} [var. vec. AngularMomentum, M L^{2} T^{-1}, kg m^{2} s^{-1}] is the angular momentum of the object 
+t [var. scal. Time, T, s] is time
+
+variants:
+
+In terms of moment of inertia and angular acceleration
+
+\tau = I \alpha 
+
+---
+
+In terms of position and force 
+
+\tau = \textbf{r} \times \textbf{F}
 
 fields:
 
@@ -22,10 +34,12 @@ derived from:
 
 references:
 
+book: CambridgeHandbookOfPhysicsFormulas, p. 68
 
 see more:
 
 https://en.wikipedia.org/wiki/Torque
+http://hyperphysics.phy-astr.gsu.edu/hbase/torq.html
 https://physics.info/rotational-dynamics/
 
 
@@ -40,3 +54,4 @@ Singapore H1 Physics (2024 Onwards)
 Singapore H2 Physics (2024 Onwards)
 Singapore H3 Physics (2024 Onwards)
 
+rating: *****
