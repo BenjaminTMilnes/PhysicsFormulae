@@ -249,7 +249,7 @@
     }
 }
 
-.formula-fields {
+.formula-fields, .formula-curricula {
     font-size: 14px;
     margin: 20px 0px;
 }
@@ -259,7 +259,7 @@
     font-size: 12px;
 }
 
-.field {
+.field, .curriculum {
     display: inline-block;
     padding: 4px 14px;
     margin: 2px;
@@ -270,7 +270,7 @@
     cursor: pointer;
 }
 
-    .field a {
+    .field a, .curriculum a {
         color: inherit;
         text-decoration: inherit;
     }
@@ -291,7 +291,7 @@
 
 @media (min-width:400px) {
 
-    .formula-fields {
+    .formula-fields, .formula-curricula {
         font-size: 17px;
         margin: 27px 0px;
     }
@@ -302,7 +302,7 @@
         margin: 27px 0px;
     }
 
-    .field {
+    .field, .curriculum {
         padding: 7px 17px;
     }
 }

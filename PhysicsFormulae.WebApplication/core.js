@@ -2,7 +2,7 @@
 function getColourOfWord(word) {
     const letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-    word = (word.length > 12) ? word.substr(0, 12) : word;
+    word = (word.length > 36) ? word.substr(0, 12) : word;
 
     var m = letters.length;
     var p = [0, 0, 0];

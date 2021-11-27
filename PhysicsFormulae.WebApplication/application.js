@@ -6,6 +6,7 @@ application.config(function ($routeProvider) {
         .when("/tag/:tagName", { templateUrl: "search.html", controller: "SearchController" })
         .when("/tags", { templateUrl: "tags.html", controller: "TagsController" })
         .when("/field/:fieldName", { templateUrl: "search.html", controller: "SearchController" })
+        .when("/curriculum/:curriculumName", { templateUrl: "search.html", controller: "SearchController" })
         .when("/formula/:reference", { templateUrl: "formula.html", controller: "FormulaController" })
         .when("/formula-set/:reference", { templateUrl: "formula-set.html", controller: "FormulaSetController" })
         .when("/constant/:reference", { templateUrl: "constant.html", controller: "ConstantController" })

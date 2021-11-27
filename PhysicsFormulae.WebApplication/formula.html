@@ -27,7 +27,10 @@
     </div>
     <p class="formula-interpretation" compile="replaceMathematicsMarkers(formula.Interpretation)"></p>
     <div class="formula-fields">
-        <span class="field" ng-repeat="field in formula.Fields"  style="background-color: {{getColourOfWord(field)}};"><a href="#/field/{{field}}" title="Search for other formulae in {{field}}.">{{field}}</a></span>
+        <span class="field" ng-repeat="field in formula.Fields" style="background-color: {{getColourOfWord(field)}};"><a href="#/field/{{field}}" title="Search for other formulae in {{field}}.">{{field}}</a></span>
+    </div>
+    <div class="formula-curricula">
+        <span class="curriculum" ng-repeat="curriculum in formula.Curricula" style="background-color: {{getColourOfWord(curriculum)}};"><a href="#/curriculum/{{curriculum}}" title="Search for other formulae that are part of {{curriculum}}.">{{curriculum}}</a></span>
     </div>
     <div class="formula-tags">
         <span class="tag" ng-repeat="tag in formula.Tags"><a href="#/tag/{{tag}}" title="Search for other formulae with the tag '{{tag}}'.">{{tag}}</a>{{$last ? '' : ',&nbsp;'}}</span>
