@@ -883,8 +883,8 @@
           "Type": "Variable",
           "ObjectType": "Vector",
           "Reference": "AngularMomentum",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{M L^{2} T^{-1}}",
+          "Units": "\\mathrm{kg\\,m^{2}\\,s^{-1}}",
           "Definition": "is the angular momentum of the object"
         },
         {
@@ -892,8 +892,8 @@
           "Type": "Variable",
           "ObjectType": "Vector",
           "Reference": "RadialPosition",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{L}",
+          "Units": "\\mathrm{m}",
           "Definition": "is the radial position of the object"
         },
         {
@@ -901,12 +901,17 @@
           "Type": "Variable",
           "ObjectType": "Vector",
           "Reference": "LinearMomentum",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{M L T^{-1}}",
+          "Units": "\\mathrm{kg\\,m\\,s^{-1}}",
           "Definition": "is the linear momentum of the object"
         }
       ],
       "Variants": [
+        {
+          "Title": "The Magnitude of the Angular Momentum",
+          "Interpretation": "The magnitude of the angular momentum of an object is equal to the product of the distance between the reference point and the object, the magnitude of the linear momentum of the object, and the sine of the angle between the radial position of the object and the linear momentum of the object.",
+          "Content": "L = rp \\sin(\\theta)"
+        },
         {
           "Title": "In terms of moment of inertia",
           "Interpretation": "The angular momentum of an object or a group of objects can also be expressed as the product of its moment of inertia and its angular velocity.",
@@ -918,8 +923,29 @@
       "Fields": [
         "Classical Mechanics"
       ],
-      "References": [],
+      "References": [
+        {
+          "Title": "The Cambridge Handbook of Physics Formulas",
+          "Authors": [
+            "Graham Woan"
+          ],
+          "Edition": 0,
+          "Year": 2003,
+          "PublisherName": "Cambridge University Press",
+          "PublisherAddress": null,
+          "ISBN": "9780521575072",
+          "URL": null,
+          "Volume": 0,
+          "PageNumber": 68,
+          "CitationKey": "CambridgeHandbookOfPhysicsFormulas",
+          "Type": "Book"
+        }
+      ],
       "SeeMore": [
+        {
+          "Name": "Hyperphysics",
+          "URL": "http://hyperphysics.phy-astr.gsu.edu/hbase/amom.html"
+        },
         {
           "Name": "The Physics Hypertextbook",
           "URL": "https://physics.info/rotational-momentum/"
@@ -2273,12 +2299,12 @@
       ],
       "SeeMore": [
         {
-          "Name": "The Physics Hypertextbook",
-          "URL": "https://physics.info/momentum/"
-        },
-        {
           "Name": "Hyperphysics",
           "URL": "http://hyperphysics.phy-astr.gsu.edu/hbase/mom.html"
+        },
+        {
+          "Name": "The Physics Hypertextbook",
+          "URL": "https://physics.info/momentum/"
         }
       ],
       "Tags": [

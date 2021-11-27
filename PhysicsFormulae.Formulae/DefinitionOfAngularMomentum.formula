@@ -8,11 +8,19 @@ The angular momentum of an object moving along a circular path is the vector pro
 
 where:
 
-\textbf{L} [var. vec. AngularMomentum] is the angular momentum of the object
-\textbf{r} [var. vec. RadialPosition] is the radial position of the object
-\textbf{p} [var. vec. LinearMomentum] is the linear momentum of the object
+\textbf{L} [var. vec. AngularMomentum, M L^{2} T^{-1}, kg m^{2} s^{-1}] is the angular momentum of the object
+\textbf{r} [var. vec. RadialPosition, L, m] is the radial position of the object
+\textbf{p} [var. vec. LinearMomentum, M L T^{-1}, kg m s^{-1}] is the linear momentum of the object
 
 variants:
+
+The Magnitude of the Angular Momentum 
+
+L = rp \sin(\theta)
+
+The magnitude of the angular momentum of an object is equal to the product of the distance between the reference point and the object, the magnitude of the linear momentum of the object, and the sine of the angle between the radial position of the object and the linear momentum of the object.
+
+---
 
 In terms of moment of inertia
 
@@ -30,9 +38,11 @@ derived from:
 
 references:
 
+book: CambridgeHandbookOfPhysicsFormulas, p. 68
 
 see more:
 
+http://hyperphysics.phy-astr.gsu.edu/hbase/amom.html
 https://physics.info/rotational-momentum/
 
 tags:
@@ -42,3 +52,4 @@ curricula:
 Singapore H3 Physics (9814)
 Singapore H3 Physics (2024 Onwards)
 
+rating: *****
