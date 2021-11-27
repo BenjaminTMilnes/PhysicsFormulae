@@ -78,7 +78,7 @@ namespace PhysicsFormulae.Compiler.Formulae
 
             if (match.Groups[6].Value.Trim() != "")
             {
-                identifier.Units = "\\mathrm{" + match.Groups[6].Value.Trim().Substring(1).Trim() + "}";
+                identifier.Units = "\\mathrm{" + match.Groups[6].Value.Trim().Substring(1).Trim().Replace(" ", "\\,") + "}";
             }
 
             identifier.Definition = match.Groups[7].Value.Trim();

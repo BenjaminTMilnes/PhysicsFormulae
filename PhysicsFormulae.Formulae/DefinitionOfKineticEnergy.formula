@@ -4,11 +4,11 @@ The Definition of Kinetic Energy
 
 The kinetic energy of an object is proportional to the mass of that object and its speed squared.
 
-K = \frac{1}{2} m v^{2}
+E_{K} = \frac{1}{2} m v^{2}
 
 where:
 
-K [var. scal. KineticEnergy, M L^{2} T^{-2}, kg m^{2} s^{-2}] is the kinetic energy of the object
+E_{K} [var. scal. KineticEnergy, M L^{2} T^{-2}, kg m^{2} s^{-2}] is the kinetic energy of the object
 m [var. scal. Mass, M, kg] is the mass of the object
 v [var. scal. Speed, L T^{-1}, m s^{-1}] is the speed of the object
 
@@ -16,7 +16,7 @@ variants:
 
 In terms of momentum
 
-K = \frac{p^{2}}{2m}
+E_{K} = \frac{p^{2}}{2m}
 
 fields:
 
@@ -68,8 +68,11 @@ Thus the kinetic energy of an object is the minimum amount of work that must be 
 references:
 
 book: SearsAndZemanskysUniversityPhysics, p. 202
+book: CambridgeHandbookOfPhysicsFormulas, p. 68
 
 see more:
+
+http://hyperphysics.phy-astr.gsu.edu/hbase/ke.html
 
 tags:
 

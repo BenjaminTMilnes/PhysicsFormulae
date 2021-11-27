@@ -1758,7 +1758,7 @@
           "ObjectType": "Scalar",
           "Reference": "FluxDensity",
           "Dimensions": "\\mathrm{M T^{-3}}",
-          "Units": "\\mathrm{W m^{-2}}",
+          "Units": "\\mathrm{W\\,m^{-2}}",
           "Definition": "is the flux density at a distance $d$ away from the object"
         },
         {
@@ -2022,15 +2022,15 @@
       "URLReference": "definition-of-kinetic-energy",
       "Title": "The Definition of Kinetic Energy",
       "Interpretation": "The kinetic energy of an object is proportional to the mass of that object and its speed squared.",
-      "Content": "K = \\frac{1}{2} m v^{2}",
+      "Content": "E_{K} = \\frac{1}{2} m v^{2}",
       "Identifiers": [
         {
-          "Content": "K",
+          "Content": "E_{K}",
           "Type": "Variable",
           "ObjectType": "Scalar",
           "Reference": "KineticEnergy",
           "Dimensions": "\\mathrm{M L^{2} T^{-2}}",
-          "Units": "\\mathrm{kg m^{2} s^{-2}}",
+          "Units": "\\mathrm{kg\\,m^{2}\\,s^{-2}}",
           "Definition": "is the kinetic energy of the object"
         },
         {
@@ -2048,7 +2048,7 @@
           "ObjectType": "Scalar",
           "Reference": "Speed",
           "Dimensions": "\\mathrm{L T^{-1}}",
-          "Units": "\\mathrm{m s^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the speed of the object"
         }
       ],
@@ -2056,7 +2056,7 @@
         {
           "Title": "In terms of momentum",
           "Interpretation": "",
-          "Content": "K = \\frac{p^{2}}{2m}"
+          "Content": "E_{K} = \\frac{p^{2}}{2m}"
         }
       ],
       "DerivedFrom": [],
@@ -2081,9 +2081,30 @@
           "PageNumber": 202,
           "CitationKey": "SearsAndZemanskysUniversityPhysics",
           "Type": "Book"
+        },
+        {
+          "Title": "The Cambridge Handbook of Physics Formulas",
+          "Authors": [
+            "Graham Woan"
+          ],
+          "Edition": 0,
+          "Year": 2003,
+          "PublisherName": "Cambridge University Press",
+          "PublisherAddress": null,
+          "ISBN": "9780521575072",
+          "URL": null,
+          "Volume": 0,
+          "PageNumber": 68,
+          "CitationKey": "CambridgeHandbookOfPhysicsFormulas",
+          "Type": "Book"
         }
       ],
-      "SeeMore": [],
+      "SeeMore": [
+        {
+          "Name": "Hyperphysics",
+          "URL": "http://hyperphysics.phy-astr.gsu.edu/hbase/ke.html"
+        }
+      ],
       "Tags": [
         "kinetic energy",
         "energy",
@@ -2548,7 +2569,7 @@
           "ObjectType": "Scalar",
           "Reference": "SpeedOfLightInFreeSpace",
           "Dimensions": "\\mathrm{L T^{-1}}",
-          "Units": "\\mathrm{m s^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the speed of light in free space"
         },
         {
@@ -2557,7 +2578,7 @@
           "ObjectType": "Scalar",
           "Reference": "SpeedOfLightInMatter",
           "Dimensions": "\\mathrm{L T^{-1}}",
-          "Units": "\\mathrm{m s^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the speed of light in the material"
         }
       ],
@@ -3123,7 +3144,7 @@
           "ObjectType": "Vector",
           "Reference": "ElectricField",
           "Dimensions": "\\mathrm{M L T^{-2} Q^{-1}}",
-          "Units": "\\mathrm{N C^{-1}}",
+          "Units": "\\mathrm{N\\,C^{-1}}",
           "Definition": "is the electric field"
         },
         {
@@ -3218,7 +3239,7 @@
           "ObjectType": "Scalar",
           "Reference": "HubbleConstant",
           "Dimensions": "\\mathrm{T^{-1}}",
-          "Units": "\\mathrm{km s^{-1} Mpc^{-1}}",
+          "Units": "\\mathrm{km\\,s^{-1}\\,Mpc^{-1}}",
           "Definition": "is the Hubble Constant"
         }
       ],
@@ -3274,7 +3295,7 @@
           "ObjectType": "Scalar",
           "Reference": "Speed",
           "Dimensions": "\\mathrm{L T^{-1}}",
-          "Units": "\\mathrm{m s^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the speed of the object relative to the rest frame of the medium"
         },
         {
@@ -3283,7 +3304,7 @@
           "ObjectType": "Scalar",
           "Reference": "SpeedOfSound",
           "Dimensions": "\\mathrm{L T^{-1}}",
-          "Units": "\\mathrm{m s^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the speed of sound in the medium"
         }
       ],
@@ -3408,7 +3429,7 @@
           "ObjectType": "Scalar",
           "Reference": "SpeedOfLight",
           "Dimensions": "\\mathrm{L T^{-1}}",
-          "Units": "\\mathrm{m s^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the speed of light in free space"
         },
         {
@@ -3649,7 +3670,7 @@
           "ObjectType": "Scalar",
           "Reference": "GravitationalAcceleration",
           "Dimensions": "\\mathrm{L T^{-2}}",
-          "Units": "\\mathrm{m s^{-2}}",
+          "Units": "\\mathrm{m\\,s^{-2}}",
           "Definition": "is the acceleration due to gravity"
         }
       ],
@@ -3859,7 +3880,7 @@
           "ObjectType": "Scalar",
           "Reference": "SpringConstant",
           "Dimensions": "\\mathrm{M T^{-2}}",
-          "Units": "\\mathrm{N m^{-1}}",
+          "Units": "\\mathrm{N\\,m^{-1}}",
           "Definition": "is the spring constant of the spring"
         },
         {
@@ -3916,7 +3937,7 @@
           "ObjectType": "Vector",
           "Reference": "ElectricField",
           "Dimensions": "\\mathrm{M L T^{-2} Q^{-1}}",
-          "Units": "\\mathrm{N C^{-1}}",
+          "Units": "\\mathrm{N\\,C^{-1}}",
           "Definition": "is the electric field"
         },
         {
@@ -3925,7 +3946,7 @@
           "ObjectType": "Scalar",
           "Reference": "ChargeDensity",
           "Dimensions": "\\mathrm{Q L^{-2}}",
-          "Units": "\\mathrm{C m^{-2}}",
+          "Units": "\\mathrm{C\\,m^{-2}}",
           "Definition": "is the charge density per unit area"
         },
         {
@@ -4016,7 +4037,7 @@
           "ObjectType": "Vector",
           "Reference": "ElectricField",
           "Dimensions": "\\mathrm{M L T^{-2} Q^{-1}}",
-          "Units": "\\mathrm{N C^{-1}}",
+          "Units": "\\mathrm{N\\,C^{-1}}",
           "Definition": "is the electric field"
         },
         {
@@ -4034,7 +4055,7 @@
           "ObjectType": "Scalar",
           "Reference": "ChargeDensity",
           "Dimensions": "\\mathrm{Q L^{-1}}",
-          "Units": "\\mathrm{C m^{-1}}",
+          "Units": "\\mathrm{C\\,m^{-1}}",
           "Definition": "is the charge density per unit length"
         },
         {
@@ -4531,7 +4552,7 @@
           "ObjectType": "Scalar",
           "Reference": "EscapeSpeed",
           "Dimensions": "\\mathrm{L T^{-1}}",
-          "Units": "\\mathrm{m s^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the escape speed if the object moves radially away from the body"
         },
         {
@@ -4854,7 +4875,7 @@
           "ObjectType": "Scalar",
           "Reference": "SurfaceGravity",
           "Dimensions": "\\mathrm{L T^{-2}}",
-          "Units": "\\mathrm{m s^{-2}}",
+          "Units": "\\mathrm{m\\,s^{-2}}",
           "Definition": "is the surface gravity"
         },
         {
@@ -5254,7 +5275,7 @@
           "ObjectType": "Vector",
           "Reference": "ElectricField",
           "Dimensions": "\\mathrm{M L T^{-2} Q^{-1}}",
-          "Units": "\\mathrm{N C^{-1}}",
+          "Units": "\\mathrm{N\\,C^{-1}}",
           "Definition": "is the electric field"
         },
         {
@@ -5263,7 +5284,7 @@
           "ObjectType": "Scalar",
           "Reference": "ChargeDensity",
           "Dimensions": "\\mathrm{Q L^{-3}}",
-          "Units": "\\mathrm{C m^{-3}}",
+          "Units": "\\mathrm{C\\,m^{-3}}",
           "Definition": "is the charge density"
         },
         {
@@ -5518,7 +5539,7 @@
           "ObjectType": "Scalar",
           "Reference": "AccelerationDueToGravity",
           "Dimensions": "\\mathrm{L T^{-2}}",
-          "Units": "\\mathrm{m s^{-2}}",
+          "Units": "\\mathrm{m\\,s^{-2}}",
           "Definition": "is the acceleration due to gravity"
         },
         {
@@ -5536,7 +5557,7 @@
           "ObjectType": "Scalar",
           "Reference": "Density",
           "Dimensions": "\\mathrm{M L^{-3}}",
-          "Units": "\\mathrm{kg m^{-3}}",
+          "Units": "\\mathrm{kg\\,m^{-3}}",
           "Definition": "is the density of the planet"
         },
         {
@@ -5593,7 +5614,7 @@
           "ObjectType": "Scalar",
           "Reference": "GravitationalPotentialEnergy",
           "Dimensions": "\\mathrm{M L^{2} T^{-2}}",
-          "Units": "\\mathrm{kg m^{2} s^{-2}}",
+          "Units": "\\mathrm{kg\\,m^{2}\\,s^{-2}}",
           "Definition": "is the gravitational potential energy between the two objects"
         },
         {
@@ -5699,7 +5720,7 @@
           "ObjectType": "Scalar",
           "Reference": "AccelerationDueToGravity",
           "Dimensions": "\\mathrm{L T^{-2}}",
-          "Units": "\\mathrm{m s^{-2}}",
+          "Units": "\\mathrm{m\\,s^{-2}}",
           "Definition": "is the acceleration due to gravity"
         },
         {
@@ -6246,7 +6267,7 @@
           "ObjectType": "Scalar",
           "Reference": "MeanSquareParticleVelocity",
           "Dimensions": "\\mathrm{L^{2} T^{-2}}",
-          "Units": "\\mathrm{m^{2} s^{-2}}",
+          "Units": "\\mathrm{m^{2}\\,s^{-2}}",
           "Definition": "is the mean square particle velocity"
         }
       ],
@@ -6913,7 +6934,7 @@
           "ObjectType": "Vector",
           "Reference": "ElectricField",
           "Dimensions": "\\mathrm{M L T^{-2} Q^{-1}}",
-          "Units": "\\mathrm{N C^{-1}}",
+          "Units": "\\mathrm{N\\,C^{-1}}",
           "Definition": "is the electric field"
         },
         {
@@ -6922,7 +6943,7 @@
           "ObjectType": "Vector",
           "Reference": "Velocity",
           "Dimensions": "\\mathrm{L T^{-1}}",
-          "Units": "\\mathrm{m s^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the velocity of the particle"
         },
         {
@@ -7091,7 +7112,7 @@
           "ObjectType": "Scalar",
           "Reference": "SpeedOfSound",
           "Dimensions": "\\mathrm{L T^{-1}}",
-          "Units": "\\mathrm{m s^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the speed of sound in the medium"
         },
         {
@@ -7100,7 +7121,7 @@
           "ObjectType": "Scalar",
           "Reference": "Speed",
           "Dimensions": "\\mathrm{L T^{-1}}",
-          "Units": "\\mathrm{m s^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the speed of the object relative to the rest frame of the medium"
         }
       ],
@@ -7304,7 +7325,7 @@
           "ObjectType": "Vector",
           "Reference": "Torque",
           "Dimensions": "\\mathrm{M L^{2} T^{-2}}",
-          "Units": "\\mathrm{N m}",
+          "Units": "\\mathrm{N\\,m}",
           "Definition": "is the ith torque acting on the body"
         }
       ],
@@ -7842,7 +7863,7 @@
           "ObjectType": "Scalar",
           "Reference": "AccelerationDueToGravity",
           "Dimensions": "\\mathrm{L T^{-2}}",
-          "Units": "\\mathrm{m s^{-2}}",
+          "Units": "\\mathrm{m\\,s^{-2}}",
           "Definition": "is the acceleration due to gravity"
         }
       ],
@@ -7893,7 +7914,7 @@
           "ObjectType": "Scalar",
           "Reference": "Momentum",
           "Dimensions": "\\mathrm{M L T^{-1}}",
-          "Units": "\\mathrm{kg m s^{-1}}",
+          "Units": "\\mathrm{kg\\,m\\,s^{-1}}",
           "Definition": "is the momentum of the photon"
         },
         {
@@ -7911,7 +7932,7 @@
           "ObjectType": "Scalar",
           "Reference": "SpeedOfLight",
           "Dimensions": "\\mathrm{L T^{-1}}",
-          "Units": "\\mathrm{m s^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the speed of light in free space"
         }
       ],
@@ -7990,7 +8011,7 @@
           "ObjectType": "Scalar",
           "Reference": "SpeedOfLight",
           "Dimensions": "\\mathrm{L T^{-1}}",
-          "Units": "\\mathrm{m s^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the speed of light in free space"
         },
         {
@@ -8364,7 +8385,7 @@
           "ObjectType": "Scalar",
           "Reference": "MeanSquareParticleVelocity",
           "Dimensions": "\\mathrm{L^{2} T^{-2}}",
-          "Units": "\\mathrm{m^{2} s^{-2}}",
+          "Units": "\\mathrm{m^{2}\\,s^{-2}}",
           "Definition": "is the mean square particle velocity"
         }
       ],
@@ -8417,7 +8438,7 @@
           "ObjectType": "Scalar",
           "Reference": "InitialSpeed",
           "Dimensions": "\\mathrm{L T^{-1}}",
-          "Units": "\\mathrm{m s^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the launch speed of the projectile"
         },
         {
@@ -8435,7 +8456,7 @@
           "ObjectType": "Scalar",
           "Reference": "AccelerationDueToGravity",
           "Dimensions": "\\mathrm{L T^{-2}}",
-          "Units": "\\mathrm{m s^{-2}}",
+          "Units": "\\mathrm{m\\,s^{-2}}",
           "Definition": "is the acceleration due to gravity"
         }
       ],
@@ -8778,7 +8799,7 @@
           "ObjectType": "Scalar",
           "Reference": "RelativisticMomentum",
           "Dimensions": "\\mathrm{M L T^{-1}}",
-          "Units": "\\mathrm{kg m s^{-1}}",
+          "Units": "\\mathrm{kg\\,m\\,s^{-1}}",
           "Definition": "is the relativistic momentum of the object"
         },
         {
@@ -8787,7 +8808,7 @@
           "ObjectType": "Scalar",
           "Reference": "SpeedOfLight",
           "Dimensions": "\\mathrm{L T^{-1}}",
-          "Units": "\\mathrm{m s^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the speed of light in free space"
         },
         {
@@ -9134,7 +9155,7 @@
           "ObjectType": "Scalar",
           "Reference": "WaveSpeed",
           "Dimensions": "\\mathrm{L T^{-1}}",
-          "Units": "\\mathrm{m s^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the speed of the wave"
         }
       ],
@@ -9201,7 +9222,7 @@
           "ObjectType": "Scalar",
           "Reference": "SpeedOfLight",
           "Dimensions": "\\mathrm{L T^{-1}}",
-          "Units": "\\mathrm{m s^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the speed of light in free space"
         }
       ],
@@ -9397,7 +9418,7 @@
           "ObjectType": "Scalar",
           "Reference": "SpeedOfLight",
           "Dimensions": "\\mathrm{L T^{-1}}",
-          "Units": "\\mathrm{m s^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the speed of light in the dielectric"
         },
         {
@@ -9576,7 +9597,7 @@
           "ObjectType": "Scalar",
           "Reference": "InitialVelocity",
           "Dimensions": "\\mathrm{L T^{-1}}",
-          "Units": "\\mathrm{m s^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the initial velocity of the object"
         },
         {
@@ -9585,7 +9606,7 @@
           "ObjectType": "Scalar",
           "Reference": "Acceleration",
           "Dimensions": "\\mathrm{L T^{-2}}",
-          "Units": "\\mathrm{m s^{-2}}",
+          "Units": "\\mathrm{m\\,s^{-2}}",
           "Definition": "is the acceleration of the object"
         },
         {
@@ -9756,7 +9777,7 @@
           "ObjectType": "Scalar",
           "Reference": "Velocity",
           "Dimensions": "\\mathrm{L T^{-1}}",
-          "Units": "\\mathrm{m s^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the velocity of the object at time $t$"
         },
         {
@@ -9765,7 +9786,7 @@
           "ObjectType": "Scalar",
           "Reference": "InitialVelocity",
           "Dimensions": "\\mathrm{L T^{-1}}",
-          "Units": "\\mathrm{m s^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the initial velocity of the object"
         },
         {
@@ -9774,7 +9795,7 @@
           "ObjectType": "Scalar",
           "Reference": "Acceleration",
           "Dimensions": "\\mathrm{L T^{-2}}",
-          "Units": "\\mathrm{m s^{-2}}",
+          "Units": "\\mathrm{m\\,s^{-2}}",
           "Definition": "is the acceleration of the object"
         },
         {
@@ -9840,7 +9861,7 @@
           "ObjectType": "Scalar",
           "Reference": "FinalVelocity",
           "Dimensions": "\\mathrm{L T^{-1}}",
-          "Units": "\\mathrm{m s^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the final velocity of the object"
         },
         {
@@ -9849,7 +9870,7 @@
           "ObjectType": "Scalar",
           "Reference": "InitialVelocity",
           "Dimensions": "\\mathrm{L T^{-1}}",
-          "Units": "\\mathrm{m s^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the initial velocity of the object"
         },
         {
@@ -9858,7 +9879,7 @@
           "ObjectType": "Scalar",
           "Reference": "Acceleration",
           "Dimensions": "\\mathrm{L T^{-2}}",
-          "Units": "\\mathrm{m s^{-2}}",
+          "Units": "\\mathrm{m\\,s^{-2}}",
           "Definition": "is the acceleration of the object"
         },
         {
@@ -10395,7 +10416,7 @@
           "ObjectType": "Scalar",
           "Reference": "WienDisplacementConstant",
           "Dimensions": "\\mathrm{}",
-          "Units": "\\mathrm{m K}",
+          "Units": "\\mathrm{m\\,K}",
           "Definition": "is the Wien Displacement Constant"
         },
         {
@@ -11746,7 +11767,7 @@
           "ObjectType": "Scalar",
           "Reference": "InitialVelocity",
           "Dimensions": "\\mathrm{L T^{-1}}",
-          "Units": "\\mathrm{m s^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the initial velocity of the object"
         },
         {
@@ -11755,7 +11776,7 @@
           "ObjectType": "Scalar",
           "Reference": "Acceleration",
           "Dimensions": "\\mathrm{L T^{-2}}",
-          "Units": "\\mathrm{m s^{-2}}",
+          "Units": "\\mathrm{m\\,s^{-2}}",
           "Definition": "is the acceleration of the object"
         },
         {
@@ -11818,7 +11839,7 @@
           "ObjectType": "Scalar",
           "Reference": "Velocity",
           "Dimensions": "\\mathrm{L T^{-1}}",
-          "Units": "\\mathrm{m s^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the velocity of the object at time $t$"
         },
         {
@@ -11827,7 +11848,7 @@
           "ObjectType": "Scalar",
           "Reference": "InitialVelocity",
           "Dimensions": "\\mathrm{L T^{-1}}",
-          "Units": "\\mathrm{m s^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the initial velocity of the object"
         },
         {
@@ -11836,7 +11857,7 @@
           "ObjectType": "Scalar",
           "Reference": "Acceleration",
           "Dimensions": "\\mathrm{L T^{-2}}",
-          "Units": "\\mathrm{m s^{-2}}",
+          "Units": "\\mathrm{m\\,s^{-2}}",
           "Definition": "is the acceleration of the object"
         },
         {
@@ -11854,7 +11875,7 @@
           "ObjectType": "Scalar",
           "Reference": "FinalVelocity",
           "Dimensions": "\\mathrm{L T^{-1}}",
-          "Units": "\\mathrm{m s^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the final velocity of the object"
         },
         {
@@ -11863,7 +11884,7 @@
           "ObjectType": "Scalar",
           "Reference": "InitialVelocity",
           "Dimensions": "\\mathrm{L T^{-1}}",
-          "Units": "\\mathrm{m s^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the initial velocity of the object"
         },
         {
@@ -11872,7 +11893,7 @@
           "ObjectType": "Scalar",
           "Reference": "Acceleration",
           "Dimensions": "\\mathrm{L T^{-2}}",
-          "Units": "\\mathrm{m s^{-2}}",
+          "Units": "\\mathrm{m\\,s^{-2}}",
           "Definition": "is the acceleration of the object"
         },
         {
@@ -12108,7 +12129,7 @@
           "ObjectType": "Vector",
           "Reference": "ElectricField",
           "Dimensions": "\\mathrm{M L T^{-2} Q^{-1}}",
-          "Units": "\\mathrm{N C^{-1}}",
+          "Units": "\\mathrm{N\\,C^{-1}}",
           "Definition": "is the electric field"
         },
         {
@@ -12117,7 +12138,7 @@
           "ObjectType": "Scalar",
           "Reference": "ChargeDensity",
           "Dimensions": "\\mathrm{Q L^{-3}}",
-          "Units": "\\mathrm{C m^{-3}}",
+          "Units": "\\mathrm{C\\,m^{-3}}",
           "Definition": "is the charge density"
         },
         {
