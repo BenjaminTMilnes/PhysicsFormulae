@@ -18,11 +18,21 @@ In terms of moment of inertia and angular acceleration
 
 \tau = I \alpha 
 
+The torque experienced by an object is equal to product of the moment of inertia of the object and its angular acceleration.
+
 ---
 
 In terms of position and force 
 
 \tau = \textbf{r} \times \textbf{F}
+
+The torque experienced by an object is equal to the vector product of the position of the object and the linear force experienced by it.
+
+---
+
+The magnitude of the torque in terms of position and force 
+
+\tau = r F \sin(\theta)
 
 fields:
 

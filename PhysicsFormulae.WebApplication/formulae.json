@@ -3573,13 +3573,18 @@
       "Variants": [
         {
           "Title": "In terms of moment of inertia and angular acceleration",
-          "Interpretation": "",
+          "Interpretation": "The torque experienced by an object is equal to product of the moment of inertia of the object and its angular acceleration.",
           "Content": "\\tau = I \\alpha"
         },
         {
           "Title": "In terms of position and force",
-          "Interpretation": "",
+          "Interpretation": "The torque experienced by an object is equal to the vector product of the position of the object and the linear force experienced by it.",
           "Content": "\\tau = \\textbf{r} \\times \\textbf{F}"
+        },
+        {
+          "Title": "The magnitude of the torque in terms of position and force",
+          "Interpretation": "",
+          "Content": "\\tau = r F \\sin(\\theta)"
         }
       ],
       "DerivedFrom": [],
