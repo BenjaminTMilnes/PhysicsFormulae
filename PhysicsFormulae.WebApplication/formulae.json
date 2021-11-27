@@ -487,7 +487,12 @@
         "square",
         "distance"
       ],
-      "Curricula": [],
+      "Curricula": [
+        "Singapore H2 Physics (9749)",
+        "Singapore H3 Physics (9814)",
+        "Singapore H2 Physics (2024 Onwards)",
+        "Singapore H3 Physics (2024 Onwards)"
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -721,7 +726,10 @@
         "definition",
         "acceleration"
       ],
-      "Curricula": [],
+      "Curricula": [
+        "Singapore H3 Physics (9814)",
+        "Singapore H3 Physics (2024 Onwards)"
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -784,7 +792,14 @@
         "represented",
         "radians"
       ],
-      "Curricula": [],
+      "Curricula": [
+        "Singapore H1 Physics (8867)",
+        "Singapore H2 Physics (9749)",
+        "Singapore H3 Physics (9814)",
+        "Singapore H1 Physics (2024 Onwards)",
+        "Singapore H2 Physics (2024 Onwards)",
+        "Singapore H3 Physics (2024 Onwards)"
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -990,7 +1005,14 @@
         "definition",
         "position"
       ],
-      "Curricula": [],
+      "Curricula": [
+        "Singapore H1 Physics (8867)",
+        "Singapore H2 Physics (9749)",
+        "Singapore H3 Physics (9814)",
+        "Singapore H1 Physics (2024 Onwards)",
+        "Singapore H2 Physics (2024 Onwards)",
+        "Singapore H3 Physics (2024 Onwards)"
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
