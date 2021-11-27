@@ -1,0 +1,100 @@
+﻿ProjectileMaximumHeightFormula
+
+The Formula for the Maximum Height that a Projectile will Reach 
+
+For a projectile moving in a uniform gravitational field, the maximum height that the projectile will reach depends on the initial velocity, the launch angle, and the acceleration due to gravity.
+
+h = \frac{v_{0}^{2} \sin^{2} (\theta)}{2g}
+
+where:
+
+h [var. scal. MaximumHeight, L, m] is the maximum height that the projectile will reach 
+v_{0} [var. scal. InitialVelocity, L T^{-1}, m s^{-1}] is the magnitude of the initial velocity 
+g [const. scal. AccelerationDueToGravity, L T^{-2}, m s^{-2}] is the acceleration due to gravity 
+\theta [var. scal. LaunchAngle] is the angle between the initial velocity and the ground 
+
+variants:
+
+fields:
+
+Classical Mechanics
+Classical Gravity
+Classical Kinematics
+Projectile Motion 
+SUVAT Equations
+
+derived from:
+
+
+derivation:
+
+Consider an object that is initially at a position $x = 0$ and $y = 0$ (the object is on the ground).
+
+At a time $t = 0$, the object is launched in the positive x direction with a speed $v_{0}$ and at an angle $\theta$ to the x-axis (the ground).
+
+Using trigonometry, we can determine that the x and y components of the object's initial velocity are given by
+
+$$v_{0_{x}} = v_{0} \cos(\theta)$$
+$$v_{0_{y}} = v_{0} \sin(\theta)$$
+
+The object is in a uniform gravitational field of field strength $g$ in the negative y direction. The object therefore has an acceleration of $-g$ along the y-axis, and an acceleration of $0$ along the x-axis.
+
+The y-position of the object at a given time $t$ after it is launched is given by
+
+$$s_{y}(t) = s_{0_{y}} + v_{0_{y}} t + \frac{1}{2} a_{y} t^{2}$$
+
+Since
+
+$$s_{0_{y}} = 0$$
+$$a_{y} = -g$$
+
+the above equation can be simplified to
+
+$$s_{y}(t) = 0 + v_{0_{y}} t - \frac{1}{2} g t^{2}$$
+
+$$s_{y}(t) = v_{0_{y}} t - \frac{1}{2} g t^{2}$$
+
+We can use differentiation to get a function for the vertical velocity of the object in terms of $t$.
+
+$$v_{y}(t) = \frac{\mathrm{d}}{\mathrm{d}t} \left( s_{y}(t) \right)$$
+
+$$v_{y}(t) = \frac{\mathrm{d}}{\mathrm{d}t} \left( v_{0_{y}} t - \frac{1}{2} g t^{2} \right)$$
+
+$$v_{y}(t) = v_{0_{y}} - g t$$
+
+When the object is at its maximum height, its vertical velocity is instantaneously zero. Substituting $v_{y} = 0$ into the above equation, we can find the time at which the vertical velocity is equal to zero.
+
+$$0 = v_{0_{y}} - g t$$
+
+$$v_{0_{y}} = g t$$
+
+$$t = \frac{v_{0_{y}}}{g}$$
+
+We can use this value for the time with the equation we had for the y-position of the object over time to get an expression for the maximum height that the object will reach.
+
+$$h = v_{0_{y}} \left( \frac{v_{0_{y}}}{g} \right) - \frac{1}{2} g \left( \frac{v_{0_{y}}}{g} \right)^{2}$$
+
+This can be simplified to 
+
+$$h = \frac{v_{0_{y}}^{2}}{g} - \frac{v_{0_{y}}^{2}}{2g}$$
+
+$$h = \frac{v_{0_{y}}^{2}}{2g}$$
+
+Using $v_{0_{y}} = v_{0} \sin (\theta)$
+
+$$h = \frac{v_{0}^{2} \sin^{2} (\theta)}{2g}$$
+
+
+references:
+
+book: CambridgeHandbookOfPhysicsFormulas, p. 69
+
+see more:
+
+
+
+tags:
+
+curricula:
+
+rating: *****

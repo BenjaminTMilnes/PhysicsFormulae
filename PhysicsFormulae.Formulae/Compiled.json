@@ -8644,6 +8644,98 @@
       "ExcludeFromFormulaOfTheDay": false
     },
     {
+      "Reference": "ProjectileMaximumHeightFormula",
+      "URLReference": "projectile-maximum-height-formula",
+      "Title": "The Formula for the Maximum Height that a Projectile will Reach",
+      "Interpretation": "For a projectile moving in a uniform gravitational field, the maximum height that the projectile will reach depends on the initial velocity, the launch angle, and the acceleration due to gravity.",
+      "Content": "h = \\frac{v_{0}^{2} \\sin^{2} (\\theta)}{2g}",
+      "Identifiers": [
+        {
+          "Content": "h",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "MaximumHeight",
+          "Dimensions": "\\mathrm{L}",
+          "Units": "\\mathrm{m}",
+          "Definition": "is the maximum height that the projectile will reach"
+        },
+        {
+          "Content": "v_{0}",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "InitialVelocity",
+          "Dimensions": "\\mathrm{L T^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
+          "Definition": "is the magnitude of the initial velocity"
+        },
+        {
+          "Content": "g",
+          "Type": "Constant",
+          "ObjectType": "Scalar",
+          "Reference": "AccelerationDueToGravity",
+          "Dimensions": "\\mathrm{L T^{-2}}",
+          "Units": "\\mathrm{m\\,s^{-2}}",
+          "Definition": "is the acceleration due to gravity"
+        },
+        {
+          "Content": "\\theta",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "LaunchAngle",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the angle between the initial velocity and the ground"
+        }
+      ],
+      "Variants": [],
+      "DerivedFrom": [],
+      "Derivation": "Consider an object that is initially at a position $x = 0$ and $y = 0$ (the object is on the ground).\nAt a time $t = 0$, the object is launched in the positive x direction with a speed $v_{0}$ and at an angle $\\theta$ to the x-axis (the ground).\nUsing trigonometry, we can determine that the x and y components of the object's initial velocity are given by\n$$v_{0_{x}} = v_{0} \\cos(\\theta)$$\n$$v_{0_{y}} = v_{0} \\sin(\\theta)$$\nThe object is in a uniform gravitational field of field strength $g$ in the negative y direction. The object therefore has an acceleration of $-g$ along the y-axis, and an acceleration of $0$ along the x-axis.\nThe y-position of the object at a given time $t$ after it is launched is given by\n$$s_{y}(t) = s_{0_{y}} + v_{0_{y}} t + \\frac{1}{2} a_{y} t^{2}$$\nSince\n$$s_{0_{y}} = 0$$\n$$a_{y} = -g$$\nthe above equation can be simplified to\n$$s_{y}(t) = 0 + v_{0_{y}} t - \\frac{1}{2} g t^{2}$$\n$$s_{y}(t) = v_{0_{y}} t - \\frac{1}{2} g t^{2}$$\nWe can use differentiation to get a function for the vertical velocity of the object in terms of $t$.\n$$v_{y}(t) = \\frac{\\mathrm{d}}{\\mathrm{d}t} \\left( s_{y}(t) \\right)$$\n$$v_{y}(t) = \\frac{\\mathrm{d}}{\\mathrm{d}t} \\left( v_{0_{y}} t - \\frac{1}{2} g t^{2} \\right)$$\n$$v_{y}(t) = v_{0_{y}} - g t$$\nWhen the object is at its maximum height, its vertical velocity is instantaneously zero. Substituting $v_{y} = 0$ into the above equation, we can find the time at which the vertical velocity is equal to zero.\n$$0 = v_{0_{y}} - g t$$\n$$v_{0_{y}} = g t$$\n$$t = \\frac{v_{0_{y}}}{g}$$\nWe can use this value for the time with the equation we had for the y-position of the object over time to get an expression for the maximum height that the object will reach.\n$$h = v_{0_{y}} \\left( \\frac{v_{0_{y}}}{g} \\right) - \\frac{1}{2} g \\left( \\frac{v_{0_{y}}}{g} \\right)^{2}$$\nThis can be simplified to\n$$h = \\frac{v_{0_{y}}^{2}}{g} - \\frac{v_{0_{y}}^{2}}{2g}$$\n$$h = \\frac{v_{0_{y}}^{2}}{2g}$$\nUsing $v_{0_{y}} = v_{0} \\sin (\\theta)$\n$$h = \\frac{v_{0}^{2} \\sin^{2} (\\theta)}{2g}$$\n",
+      "Fields": [
+        "Classical Mechanics",
+        "Classical Gravity",
+        "Classical Kinematics",
+        "Projectile Motion",
+        "SUVAT Equations"
+      ],
+      "References": [
+        {
+          "Title": "The Cambridge Handbook of Physics Formulas",
+          "Authors": [
+            "Graham Woan"
+          ],
+          "Edition": 0,
+          "Year": 2003,
+          "PublisherName": "Cambridge University Press",
+          "PublisherAddress": null,
+          "ISBN": "9780521575072",
+          "URL": null,
+          "Volume": 0,
+          "PageNumber": 69,
+          "CitationKey": "CambridgeHandbookOfPhysicsFormulas",
+          "Type": "Book"
+        }
+      ],
+      "SeeMore": [],
+      "Tags": [
+        "velocity",
+        "formula",
+        "maximum",
+        "height",
+        "projectile",
+        "reach",
+        "uniform",
+        "gravitational",
+        "field",
+        "initial",
+        "launch",
+        "angle",
+        "acceleration",
+        "gravity"
+      ],
+      "Curricula": [],
+      "ExcludeFromFormulaOfTheDay": false
+    },
+    {
       "Reference": "ProjectileRangeFormula",
       "URLReference": "projectile-range-formula",
       "Title": "The Projectile Range Formula",
@@ -8694,6 +8786,7 @@
         "Classical Mechanics",
         "Classical Gravity",
         "Classical Kinematics",
+        "Projectile Motion",
         "SUVAT Equations"
       ],
       "References": [],
