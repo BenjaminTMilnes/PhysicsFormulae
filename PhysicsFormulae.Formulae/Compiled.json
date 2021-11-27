@@ -6924,13 +6924,13 @@
       "Reference": "LorentzFactor",
       "URLReference": "lorentz-factor",
       "Title": "The Lorentz Factor",
-      "Interpretation": "The Lorentz Factor is a factor commonly used in equations in Special Relativity. As the relative speed of a reference frame, $u$, approaches the speed of light, $c$, the Lorentz Factor $\\gamma$ approaches infinity.",
+      "Interpretation": "The Lorentz Factor is a factor commonly used in equations in Special Relativity. Consider two inertial reference frames, $S$ and $S^{\\prime}$, where $S^{\\prime}$ moves at a speed $u$ relative to $S$. As $u$ approaches the speed of light, $c$, the Lorentz Factor, $\\gamma$, approaches infinity.",
       "Content": "\\gamma = \\frac{1}{\\sqrt{1 - \\frac{u^2}{c^2}}}",
       "Identifiers": [
         {
           "Content": "\\gamma",
           "Type": "Variable",
-          "ObjectType": 0,
+          "ObjectType": "Scalar",
           "Reference": "LorentzFactor",
           "Dimensions": null,
           "Units": null,
@@ -6939,23 +6939,29 @@
         {
           "Content": "u",
           "Type": "Variable",
-          "ObjectType": 0,
+          "ObjectType": "Scalar",
           "Reference": "RelativeSpeed",
-          "Dimensions": null,
-          "Units": null,
-          "Definition": "is the relative speed of the inertial reference frame"
+          "Dimensions": "\\mathrm{L T^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
+          "Definition": "is the speed of frame $S^{\\prime}$ relative to $S$"
         },
         {
           "Content": "c",
           "Type": "Constant",
-          "ObjectType": 0,
+          "ObjectType": "Scalar",
           "Reference": "SpeedOfLight",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{L T^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the speed of light in free space"
         }
       ],
-      "Variants": [],
+      "Variants": [
+        {
+          "Title": "In terms of beta",
+          "Interpretation": "",
+          "Content": "\\gamma = \\frac{1}{\\sqrt{1 - \\beta^{2}}}"
+        }
+      ],
       "DerivedFrom": [],
       "Derivation": null,
       "Fields": [
@@ -6976,22 +6982,47 @@
           "URL": null,
           "Volume": 0,
           "PageNumber": 0,
-          "CitationKey": "",
+          "CitationKey": "SearsAndZemanskysUniversityPhysics",
+          "Type": "Book"
+        },
+        {
+          "Title": "The Cambridge Handbook of Physics Formulas",
+          "Authors": [
+            "Graham Woan"
+          ],
+          "Edition": 0,
+          "Year": 2003,
+          "PublisherName": "Cambridge University Press",
+          "PublisherAddress": null,
+          "ISBN": "9780521575072",
+          "URL": null,
+          "Volume": 0,
+          "PageNumber": 68,
+          "CitationKey": "CambridgeHandbookOfPhysicsFormulas",
           "Type": "Book"
         }
       ],
-      "SeeMore": [],
+      "SeeMore": [
+        {
+          "Name": "Hyperphysics",
+          "URL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Relativ/ltrans.html"
+        }
+      ],
       "Tags": [
         "special relativity",
         "Lorentz Factor",
+        "inertia",
         "speed of light",
         "speed",
         "light",
         "Lorentz",
         "equations",
-        "relative",
+        "consider",
+        "inertial",
         "reference",
-        "frame",
+        "frames",
+        "moves",
+        "relative",
         "approaches",
         "infinity"
       ],
