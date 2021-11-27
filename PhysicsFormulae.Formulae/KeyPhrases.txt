@@ -94,3 +94,10 @@
  semi-minor axis
  major axis
  minor axis 
+ moment of force 
+ axis of rotation 
+ axis 
+ rotation 
+ linear force 
+ rotational force 
+ force 
