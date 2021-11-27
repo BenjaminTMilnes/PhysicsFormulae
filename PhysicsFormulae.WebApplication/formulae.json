@@ -954,15 +954,14 @@
       "Tags": [
         "circular path",
         "moment",
-        "definition",
-        "angular",
+        "linear momentum",
+        "angular momentum",
         "momentum",
+        "vector product",
+        "definition",
         "object",
-        "vector",
-        "product",
         "radial",
-        "position",
-        "linear"
+        "position"
       ],
       "Curricula": [
         "Singapore H3 Physics (9814)",
@@ -1154,14 +1153,14 @@
       "Tags": [
         "moment",
         "de Broglie",
+        "momentum",
         "definition",
         "wavelength",
         "associated",
         "massive",
         "particle",
         "dependent",
-        "particle's",
-        "momentum"
+        "particle's"
       ],
       "Curricula": [
         "Singapore H2 Physics (9749)",
@@ -1685,12 +1684,11 @@
       "Tags": [
         "electric field",
         "field strength",
+        "scalar product",
         "definition",
         "flux",
         "surface",
         "integral",
-        "scalar",
-        "product",
         "normal",
         "uniform",
         "flat",
@@ -2022,6 +2020,7 @@
       "Tags": [
         "force",
         "moment",
+        "momentum",
         "definition",
         "impulse",
         "object",
@@ -2030,7 +2029,6 @@
         "applied",
         "since",
         "derivative",
-        "momentum",
         "change"
       ],
       "Curricula": [
@@ -2310,8 +2308,8 @@
       "Tags": [
         "moment",
         "velocity",
-        "definition",
         "momentum",
+        "definition",
         "object",
         "product",
         "mass"
@@ -2887,9 +2885,9 @@
         "velocity",
         "speed",
         "Lorentz",
+        "momentum",
         "definition",
         "relativistic",
-        "momentum",
         "object",
         "mass",
         "observed",
@@ -3451,11 +3449,10 @@
       ],
       "SeeMore": [],
       "Tags": [
+        "vector product",
         "definition",
         "poynting",
-        "vector",
         "proportional",
-        "product",
         "electric",
         "magnetic",
         "fields"
@@ -4894,11 +4891,11 @@
         "directly proportional",
         "moment",
         "radiation",
+        "momentum",
         "formula",
         "flow",
         "rate",
         "electromagnetic",
-        "momentum",
         "pressure",
         "exerted",
         "wave",
@@ -5861,10 +5858,10 @@
         "inversely proportional",
         "moment",
         "Heisenberg",
+        "momentum",
         "uncertainty",
         "principle",
         "position",
-        "momentum",
         "wave-particle"
       ],
       "Curricula": [
@@ -7639,11 +7636,11 @@
         "force",
         "moment",
         "Newton",
+        "momentum",
         "newton’s",
         "law",
         "motion",
         "object",
-        "momentum",
         "derivative",
         "time"
       ],
@@ -7712,14 +7709,14 @@
         "rate of change",
         "moment",
         "Newton",
+        "angular momentum",
+        "momentum",
         "newton’s",
         "law",
         "motion",
         "rotation",
         "torque",
-        "object",
-        "angular",
-        "momentum"
+        "object"
       ],
       "Curricula": [
         "Singapore H3 Physics (9814)",
@@ -8008,8 +8005,8 @@
         "directly proportional",
         "energy",
         "moment",
-        "photon",
         "momentum",
+        "photon",
         "formula"
       ],
       "Curricula": [
@@ -8240,10 +8237,9 @@
         "electric field",
         "energy",
         "moment",
+        "scalar product",
         "potential",
-        "dipole",
-        "scalar",
-        "product"
+        "dipole"
       ],
       "Curricula": [
         "Singapore H3 Physics (9814)",
@@ -8879,13 +8875,13 @@
       "Tags": [
         "energy",
         "moment",
+        "momentum",
         "relativistic",
         "energy-momentum",
         "relation",
         "total",
         "object",
         "terms",
-        "momentum",
         "rest",
         "mass"
       ],
@@ -10281,12 +10277,11 @@
       "Tags": [
         "electric field",
         "moment",
+        "vector product",
         "torque",
         "dipole",
         "exerted",
-        "presence",
-        "vector",
-        "product"
+        "presence"
       ],
       "Curricula": [
         "Singapore H3 Physics (9814)",
@@ -10610,6 +10605,8 @@
       "Tags": [
         "physical constant",
         "moment",
+        "angular momentum",
+        "momentum",
         "bohr",
         "magneton",
         "expressing",
@@ -10617,9 +10614,7 @@
         "electron",
         "caused",
         "orbital",
-        "spin",
-        "angular",
-        "momentum"
+        "spin"
       ],
       "UsedInFormulae": []
     },
@@ -12415,8 +12410,8 @@
         "zero",
         "rate of change",
         "moment",
-        "object",
         "momentum",
+        "object",
         "derivative",
         "time",
         "interact",

@@ -84,3 +84,8 @@
  Stefan
  Boltzmann
  Wien
+ linear momentum
+ angular momentum
+ momentum 
+ scalar product 
+ vector product 
