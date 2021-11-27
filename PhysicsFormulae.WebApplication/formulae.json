@@ -3539,8 +3539,8 @@
       "Reference": "DefinitionOfTorque",
       "URLReference": "definition-of-torque",
       "Title": "The Definition of Torque",
-      "Interpretation": "The torque experienced by an object is defined as the rate of change of the angular momentum of the object. This is expressed mathematically as the derivative of the angular momentum with respect to time.",
-      "Content": "\\tau = \\frac{\\mathrm{d} \\textbf{L}}{\\mathrm{d} t}",
+      "Interpretation": "Torque, or moment, or moment of force, is rotational force. If a linear force is applied to an object at a distance from the axis of rotation of the object, the torque experienced by the object is equal to the vector product of the position at which the force is applied relative to the axis of rotation and the linear force.",
+      "Content": "\\tau = \\textbf{r} \\times \\textbf{F}",
       "Identifiers": [
         {
           "Content": "\\tau",
@@ -3552,39 +3552,39 @@
           "Definition": "is the torque experienced by the object"
         },
         {
-          "Content": "\\textbf{L}",
+          "Content": "\\textbf{r}",
           "Type": "Variable",
           "ObjectType": "Vector",
-          "Reference": "AngularMomentum",
-          "Dimensions": "\\mathrm{M L^{2} T^{-1}}",
-          "Units": "\\mathrm{kg\\,m^{2}\\,s^{-1}}",
-          "Definition": "is the angular momentum of the object"
+          "Reference": "PositionOfAppliedForce",
+          "Dimensions": "\\mathrm{L}",
+          "Units": "\\mathrm{m}",
+          "Definition": "is the position at which the linear force is applied relative to the axis of rotation"
         },
         {
-          "Content": "t",
+          "Content": "\\textbf{F}",
           "Type": "Variable",
-          "ObjectType": "Scalar",
-          "Reference": "Time",
-          "Dimensions": "\\mathrm{T}",
-          "Units": "\\mathrm{s}",
-          "Definition": "is time"
+          "ObjectType": "Vector",
+          "Reference": "LinearForce",
+          "Dimensions": "\\mathrm{M L T^{-2}}",
+          "Units": "\\mathrm{N}",
+          "Definition": "is the linear force applied to the object"
         }
       ],
       "Variants": [
         {
+          "Title": "The magnitude of the torque",
+          "Interpretation": "",
+          "Content": "\\tau = r F \\sin(\\theta)"
+        },
+        {
+          "Title": "As the rate of change of angular momentum",
+          "Interpretation": "The torque experienced by an object is equal to the rate of change of its angular momentum. This is Newton's Second Law of Motion for Rotation.",
+          "Content": "\\tau = \\frac{\\mathrm{d} \\textbf{L}}{\\mathrm{d} t}"
+        },
+        {
           "Title": "In terms of moment of inertia and angular acceleration",
           "Interpretation": "The torque experienced by an object is equal to product of the moment of inertia of the object and its angular acceleration.",
           "Content": "\\tau = I \\alpha"
-        },
-        {
-          "Title": "In terms of position and force",
-          "Interpretation": "The torque experienced by an object is equal to the vector product of the position of the object and the linear force experienced by it.",
-          "Content": "\\tau = \\textbf{r} \\times \\textbf{F}"
-        },
-        {
-          "Title": "The magnitude of the torque in terms of position and force",
-          "Interpretation": "",
-          "Content": "\\tau = r F \\sin(\\theta)"
         }
       ],
       "DerivedFrom": [],
@@ -3625,15 +3625,20 @@
         }
       ],
       "Tags": [
-        "rate of change",
+        "force",
         "moment",
-        "angular momentum",
-        "momentum",
+        "vector product",
         "definition",
         "torque",
+        "rotational",
+        "linear",
+        "applied",
         "object",
-        "derivative",
-        "time"
+        "distance",
+        "axis",
+        "rotation",
+        "position",
+        "relative"
       ],
       "Curricula": [
         "Singapore H1 Physics (8867)",

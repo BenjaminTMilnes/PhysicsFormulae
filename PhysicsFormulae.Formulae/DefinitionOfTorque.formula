@@ -2,37 +2,37 @@
 
 The Definition of Torque 
 
-The torque experienced by an object is defined as the rate of change of the angular momentum of the object. This is expressed mathematically as the derivative of the angular momentum with respect to time.
+Torque, or moment, or moment of force, is rotational force. If a linear force is applied to an object at a distance from the axis of rotation of the object, the torque experienced by the object is equal to the vector product of the position at which the force is applied relative to the axis of rotation and the linear force.
 
-\tau = \frac{\mathrm{d} \textbf{L}}{\mathrm{d} t}
+\tau = \textbf{r} \times \textbf{F}
 
 where:
 
 \tau [var. vec. Torque, M L^{2} T^{-2}, N m] is the torque experienced by the object 
-\textbf{L} [var. vec. AngularMomentum, M L^{2} T^{-1}, kg m^{2} s^{-1}] is the angular momentum of the object 
-t [var. scal. Time, T, s] is time
+\textbf{r} [var. vec. PositionOfAppliedForce, L, m] is the position at which the linear force is applied relative to the axis of rotation 
+\textbf{F} [var. vec. LinearForce, M L T^{-2}, N] is the linear force applied to the object
 
 variants:
+
+The magnitude of the torque
+
+\tau = r F \sin(\theta)
+
+---
+
+As the rate of change of angular momentum 
+
+\tau = \frac{\mathrm{d} \textbf{L}}{\mathrm{d} t}
+
+The torque experienced by an object is equal to the rate of change of its angular momentum. This is Newton's Second Law of Motion for Rotation. 
+
+---
 
 In terms of moment of inertia and angular acceleration
 
 \tau = I \alpha 
 
 The torque experienced by an object is equal to product of the moment of inertia of the object and its angular acceleration.
-
----
-
-In terms of position and force 
-
-\tau = \textbf{r} \times \textbf{F}
-
-The torque experienced by an object is equal to the vector product of the position of the object and the linear force experienced by it.
-
----
-
-The magnitude of the torque in terms of position and force 
-
-\tau = r F \sin(\theta)
 
 fields:
 
