@@ -10,9 +10,9 @@ using PhysicsFormulae.Compiler.References;
 using PhysicsFormulae.Compiler.FormulaSets;
 using System.Xml;
 using System.Xml.Linq;
-using MathematicsTypesetting;
-using MathematicsTypesetting.Fonts;
-using MathematicsTypesetting.LaTeX;
+//using MathematicsTypesetting;
+//using MathematicsTypesetting.Fonts;
+//using MathematicsTypesetting.LaTeX;
 
 namespace PhysicsFormulae.TerminalApplication
 {
@@ -143,14 +143,14 @@ namespace PhysicsFormulae.TerminalApplication
 
         public static void MakeFormulaImages(IEnumerable<Formula> formulae)
         {
-            var renderer = new MathematicsTypesetting.Rendering.Renderer();
+         //   var renderer = new MathematicsTypesetting.Rendering.Renderer();
+//
+        //    foreach (var formula in formulae)
+         //   {
+         //       var fileLocation = Path.Combine(@"..\..\..\PhysicsFormulae.WebApplication\images\", formula.URLReference + ".png");
 
-            foreach (var formula in formulae)
-            {
-                var fileLocation = Path.Combine(@"..\..\..\PhysicsFormulae.WebApplication\images\", formula.URLReference + ".png");
-
-                renderer.RenderMathematics(formula.Content, fileLocation);
-            }
+         //       renderer.RenderMathematics(formula.Content, fileLocation);
+         //   }
         }
     }
 }
