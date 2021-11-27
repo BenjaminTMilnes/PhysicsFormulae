@@ -1,0 +1,40 @@
+﻿CentreOfMassForASystemOfParticles
+
+The Formula for the Centre of Mass for a System of Particles 
+
+The centre of mass for a system of $n$ particles is equal to the sum of the positions of the particles weighted by mass, divided by the total mass of all the particles.
+
+\textbf{R} = \frac{1}{M} \sum_{i = 1}^{n} m_{i} \textbf{r}_{i}
+
+where:
+
+\textbf{R} [var. vec. CentreOfMass, L, m] is the centre of mass of the system 
+M [var. scal. TotalMass, M, kg] is the total mass of all the particles in the system 
+m_{i} [var. scal. Mass, M, kg] is the mass of particle $i$ 
+\textbf{r}_{i} [var. vec. Position, L, m] is the position of particle $i$
+
+variants:
+
+fields:
+
+Classical Mechanics
+
+derived from:
+
+
+
+references:
+
+book: CambridgeHandbookOfPhysicsFormulas, p. 68
+
+see more:
+
+https://en.wikipedia.org/wiki/Center_of_mass
+http://hyperphysics.phy-astr.gsu.edu/hbase/cm.html
+
+
+tags:
+
+curricula:
+
+rating: *****

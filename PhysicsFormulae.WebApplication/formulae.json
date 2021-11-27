@@ -156,6 +156,97 @@
       "ExcludeFromFormulaOfTheDay": false
     },
     {
+      "Reference": "CentreOfMassForASystemOfParticles",
+      "URLReference": "centre-of-mass-for-asystem-of-particles",
+      "Title": "The Formula for the Centre of Mass for a System of Particles",
+      "Interpretation": "The centre of mass for a system of $n$ particles is equal to the sum of the positions of the particles weighted by mass, divided by the total mass of all the particles.",
+      "Content": "\\textbf{R} = \\frac{1}{M} \\sum_{i = 1}^{n} m_{i} \\textbf{r}_{i}",
+      "Identifiers": [
+        {
+          "Content": "\\textbf{R}",
+          "Type": "Variable",
+          "ObjectType": "Vector",
+          "Reference": "CentreOfMass",
+          "Dimensions": "\\mathrm{L}",
+          "Units": "\\mathrm{m}",
+          "Definition": "is the centre of mass of the system"
+        },
+        {
+          "Content": "M",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "TotalMass",
+          "Dimensions": "\\mathrm{M}",
+          "Units": "\\mathrm{kg}",
+          "Definition": "is the total mass of all the particles in the system"
+        },
+        {
+          "Content": "m_{i}",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Mass",
+          "Dimensions": "\\mathrm{M}",
+          "Units": "\\mathrm{kg}",
+          "Definition": "is the mass of particle $i$"
+        },
+        {
+          "Content": "\\textbf{r}_{i}",
+          "Type": "Variable",
+          "ObjectType": "Vector",
+          "Reference": "Position",
+          "Dimensions": "\\mathrm{L}",
+          "Units": "\\mathrm{m}",
+          "Definition": "is the position of particle $i$"
+        }
+      ],
+      "Variants": [],
+      "DerivedFrom": [],
+      "Derivation": null,
+      "Fields": [
+        "Classical Mechanics"
+      ],
+      "References": [
+        {
+          "Title": "The Cambridge Handbook of Physics Formulas",
+          "Authors": [
+            "Graham Woan"
+          ],
+          "Edition": 0,
+          "Year": 2003,
+          "PublisherName": "Cambridge University Press",
+          "PublisherAddress": null,
+          "ISBN": "9780521575072",
+          "URL": null,
+          "Volume": 0,
+          "PageNumber": 68,
+          "CitationKey": "CambridgeHandbookOfPhysicsFormulas",
+          "Type": "Book"
+        }
+      ],
+      "SeeMore": [
+        {
+          "Name": "Wikipedia",
+          "URL": "https://en.wikipedia.org/wiki/Center_of_mass"
+        },
+        {
+          "Name": "Hyperphysics",
+          "URL": "http://hyperphysics.phy-astr.gsu.edu/hbase/cm.html"
+        }
+      ],
+      "Tags": [
+        "centre of mass",
+        "formula",
+        "system",
+        "particles",
+        "sum",
+        "positions",
+        "weighted",
+        "total"
+      ],
+      "Curricula": [],
+      "ExcludeFromFormulaOfTheDay": false
+    },
+    {
       "Reference": "CentripetalForceForCircularMotion",
       "URLReference": "centripetal-force-for-circular-motion",
       "Title": "The Centripetal Force for Circular Motion",
@@ -7003,6 +7094,10 @@
         }
       ],
       "SeeMore": [
+        {
+          "Name": "Wikipedia",
+          "URL": "https://en.wikipedia.org/wiki/Lorentz_factor"
+        },
         {
           "Name": "Hyperphysics",
           "URL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Relativ/ltrans.html"
