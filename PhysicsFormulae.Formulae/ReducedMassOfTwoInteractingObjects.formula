@@ -1,0 +1,44 @@
+﻿ReducedMassOfTwoInteractingObjects
+
+The Formula for the Reduced Mass of Two Interacting Objects 
+
+For two interacting objects, the reciprocal of their reduced mass is equal to the sum of the reciprocals of their masses.
+
+\frac{1}{\mu} = \frac{1}{m_{1}} + \frac{1}{m_{2}}
+
+where:
+
+\mu [var. scal. ReducedMass, M, kg] is the reduced mass of the two objects 
+m_{1} [var. scal. Mass, M, kg] is the mass of the first object 
+m_{2} [var. scal. Mass, M, kg] is the mass of the second object 
+
+variants:
+
+With reduced mass as the subject
+
+\mu = \frac{m_{1}m_{2}}{m_{1} + m_{2}}
+
+The reduced mass of two interacting objects is equal to the product of their masses divided by the sum of their masses.
+
+fields:
+
+Classical Mechanics
+
+derived from:
+
+
+
+references:
+
+book: CambridgeHandbookOfPhysicsFormulas, p. 69
+
+see more:
+
+https://en.wikipedia.org/wiki/Reduced_mass
+
+
+tags:
+
+curricula:
+
+rating: *****

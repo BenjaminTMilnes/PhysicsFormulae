@@ -8789,6 +8789,92 @@
       "ExcludeFromFormulaOfTheDay": false
     },
     {
+      "Reference": "ReducedMassOfTwoInteractingObjects",
+      "URLReference": "reduced-mass-of-two-interacting-objects",
+      "Title": "The Formula for the Reduced Mass of Two Interacting Objects",
+      "Interpretation": "For two interacting objects, the reciprocal of their reduced mass is equal to the sum of the reciprocals of their masses.",
+      "Content": "\\frac{1}{\\mu} = \\frac{1}{m_{1}} + \\frac{1}{m_{2}}",
+      "Identifiers": [
+        {
+          "Content": "\\mu",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "ReducedMass",
+          "Dimensions": "\\mathrm{M}",
+          "Units": "\\mathrm{kg}",
+          "Definition": "is the reduced mass of the two objects"
+        },
+        {
+          "Content": "m_{1}",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Mass",
+          "Dimensions": "\\mathrm{M}",
+          "Units": "\\mathrm{kg}",
+          "Definition": "is the mass of the first object"
+        },
+        {
+          "Content": "m_{2}",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Mass",
+          "Dimensions": "\\mathrm{M}",
+          "Units": "\\mathrm{kg}",
+          "Definition": "is the mass of the second object"
+        }
+      ],
+      "Variants": [
+        {
+          "Title": "With reduced mass as the subject",
+          "Interpretation": "The reduced mass of two interacting objects is equal to the product of their masses divided by the sum of their masses.",
+          "Content": "\\mu = \\frac{m_{1}m_{2}}{m_{1} + m_{2}}"
+        }
+      ],
+      "DerivedFrom": [],
+      "Derivation": null,
+      "Fields": [
+        "Classical Mechanics"
+      ],
+      "References": [
+        {
+          "Title": "The Cambridge Handbook of Physics Formulas",
+          "Authors": [
+            "Graham Woan"
+          ],
+          "Edition": 0,
+          "Year": 2003,
+          "PublisherName": "Cambridge University Press",
+          "PublisherAddress": null,
+          "ISBN": "9780521575072",
+          "URL": null,
+          "Volume": 0,
+          "PageNumber": 69,
+          "CitationKey": "CambridgeHandbookOfPhysicsFormulas",
+          "Type": "Book"
+        }
+      ],
+      "SeeMore": [
+        {
+          "Name": "Wikipedia",
+          "URL": "https://en.wikipedia.org/wiki/Reduced_mass"
+        }
+      ],
+      "Tags": [
+        "formula",
+        "reduced",
+        "mass",
+        "interacting",
+        "objects",
+        "reciprocal",
+        "their",
+        "sum",
+        "reciprocals",
+        "masses"
+      ],
+      "Curricula": [],
+      "ExcludeFromFormulaOfTheDay": false
+    },
+    {
       "Reference": "RelativisticDopplerEffect",
       "URLReference": "relativistic-doppler-effect",
       "Title": "The Relativistic Doppler Effect",
