@@ -2218,8 +2218,8 @@
           "Type": "Variable",
           "ObjectType": "Vector",
           "Reference": "Momentum",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{M L T^{-1}}",
+          "Units": "\\mathrm{kg\\,m\\,s^{-1}}",
           "Definition": "is the momentum of the object"
         },
         {
@@ -2227,8 +2227,8 @@
           "Type": "Variable",
           "ObjectType": "Scalar",
           "Reference": "Mass",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{M}",
+          "Units": "\\mathrm{kg}",
           "Definition": "is the mass of the object"
         },
         {
@@ -2236,8 +2236,8 @@
           "Type": "Variable",
           "ObjectType": "Vector",
           "Reference": "Velocity",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{L T^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the velocity of the object"
         }
       ],
@@ -2253,11 +2253,32 @@
       "Fields": [
         "Classical Mechanics"
       ],
-      "References": [],
+      "References": [
+        {
+          "Title": "The Cambridge Handbook of Physics Formulas",
+          "Authors": [
+            "Graham Woan"
+          ],
+          "Edition": 0,
+          "Year": 2003,
+          "PublisherName": "Cambridge University Press",
+          "PublisherAddress": null,
+          "ISBN": "9780521575072",
+          "URL": null,
+          "Volume": 0,
+          "PageNumber": 68,
+          "CitationKey": "CambridgeHandbookOfPhysicsFormulas",
+          "Type": "Book"
+        }
+      ],
       "SeeMore": [
         {
           "Name": "The Physics Hypertextbook",
           "URL": "https://physics.info/momentum/"
+        },
+        {
+          "Name": "Hyperphysics",
+          "URL": "http://hyperphysics.phy-astr.gsu.edu/hbase/mom.html"
         }
       ],
       "Tags": [
