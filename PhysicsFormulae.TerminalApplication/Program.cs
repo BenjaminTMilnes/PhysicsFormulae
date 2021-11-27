@@ -22,6 +22,7 @@ namespace PhysicsFormulae.TerminalApplication
         public IEnumerable<Constant> Constants { get; set; }
         public IEnumerable<Reference> References { get; set; }
         public IEnumerable<FormulaSet> FormulaSets { get; set; }
+        public IEnumerable<Curriculum> Curricula { get; set; }
     }
 
     public class Program
@@ -99,12 +100,29 @@ namespace PhysicsFormulae.TerminalApplication
                 }
             }
 
+            var curricula = new Dictionary<string, Curriculum>();
+
+            foreach (var formula in formulae)
+            {
+                foreach (var curriculum in formula.Curricula)
+                {
+                    if (!curricula.ContainsKey(curriculum))
+                    {
+                        curricula[curriculum] = new Curriculum();
+                        curricula[curriculum].Name = curriculum;
+                    }
+
+                    curricula[curriculum].Formulae.Add(formula.Reference);
+                }
+            }
+
             var model = new Model();
 
             model.Formulae = formulae;
             model.Constants = constants;
             model.References = references;
             model.FormulaSets = formulaSets;
+            model.Curricula = curricula.Select(c => c.Value).ToList();
 
             var outputLocations = new List<string>() { @"..\..\..\PhysicsFormulae.Formulae\Compiled.json", @"..\..\..\PhysicsFormulae.WebApplication\formulae.json" };
 
@@ -145,14 +163,14 @@ namespace PhysicsFormulae.TerminalApplication
 
         public static void MakeFormulaImages(IEnumerable<Formula> formulae)
         {
-         //   var renderer = new MathematicsTypesetting.Rendering.Renderer();
-//
-        //    foreach (var formula in formulae)
-         //   {
-         //       var fileLocation = Path.Combine(@"..\..\..\PhysicsFormulae.WebApplication\images\", formula.URLReference + ".png");
+            //   var renderer = new MathematicsTypesetting.Rendering.Renderer();
+            //
+            //    foreach (var formula in formulae)
+            //   {
+            //       var fileLocation = Path.Combine(@"..\..\..\PhysicsFormulae.WebApplication\images\", formula.URLReference + ".png");
 
-         //       renderer.RenderMathematics(formula.Content, fileLocation);
-         //   }
+            //       renderer.RenderMathematics(formula.Content, fileLocation);
+            //   }
         }
     }
 }
