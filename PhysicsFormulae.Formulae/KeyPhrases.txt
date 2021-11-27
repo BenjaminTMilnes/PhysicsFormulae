@@ -89,3 +89,8 @@
  momentum 
  scalar product 
  vector product 
+ orbital period 
+ semi-major axis
+ semi-minor axis
+ major axis
+ minor axis 
