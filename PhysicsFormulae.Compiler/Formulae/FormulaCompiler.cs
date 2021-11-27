@@ -16,7 +16,8 @@ namespace PhysicsFormulae.Compiler.Formulae
         References = 7,
         SeeMore = 8,
         Tags = 9,
-        Rating = 10
+        Curricula = 10,
+        Rating = 11
     }
 
     public class FormulaCompiler : Compiler
@@ -158,6 +159,12 @@ namespace PhysicsFormulae.Compiler.Formulae
                     continue;
                 }
 
+                if (line == "curricula:")
+                {
+                    formulaSection = FormulaSection.Curricula;
+                    continue;
+                }
+
                 if (line.StartsWith("rating:"))
                 {
                     formulaSection = FormulaSection.Rating;
@@ -278,6 +285,12 @@ namespace PhysicsFormulae.Compiler.Formulae
                 if (formulaSection == FormulaSection.Tags)
                 {
                     formula.Tags.Add(line);
+                    continue;
+                }
+
+                if (formulaSection == FormulaSection.Curricula)
+                {
+                    formula.Curricula.Add(line);
                     continue;
                 }
             }

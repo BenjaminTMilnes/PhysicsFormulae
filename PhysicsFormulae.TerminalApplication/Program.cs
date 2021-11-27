@@ -110,6 +110,8 @@ namespace PhysicsFormulae.TerminalApplication
 
             var serializer = new JsonSerializer();
 
+            serializer.Formatting = Newtonsoft.Json.Formatting.Indented;
+
             foreach (var outputLocation in outputLocations)
             {
                 using (var streamWriter = new StreamWriter(outputLocation))
