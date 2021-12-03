@@ -159,3 +159,6 @@ then
 thus
 u
 v
+formula
+terms 
+potentials 
