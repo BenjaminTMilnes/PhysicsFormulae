@@ -458,6 +458,79 @@
       "ExcludeFromFormulaOfTheDay": false
     },
     {
+      "Reference": "ConservationOfChargeRelation",
+      "URLReference": "conservation-of-charge-relation",
+      "Title": "The Relation for the Conservation of Charge",
+      "Interpretation": "The divergence of the current density is equal to the negative of the rate of change of charge density.",
+      "Content": "\\nabla \\cdot \\textbf{J} = - \\frac{\\partial \\rho}{\\partial t}",
+      "Identifiers": [
+        {
+          "Content": "\\textbf{J}",
+          "Type": "Variable",
+          "ObjectType": "Vector",
+          "Reference": "CurrentDensity",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the current density"
+        },
+        {
+          "Content": "\\rho",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "ChargeDensity",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the charge density"
+        },
+        {
+          "Content": "t",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Time",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is time"
+        }
+      ],
+      "Variants": [],
+      "DerivedFrom": [],
+      "Derivation": null,
+      "Fields": [
+        "Classical Electromagnetism"
+      ],
+      "References": [
+        {
+          "Title": "The Cambridge Handbook of Physics Formulas",
+          "Authors": [
+            "Graham Woan"
+          ],
+          "Edition": 0,
+          "Year": 2003,
+          "PublisherName": "Cambridge University Press",
+          "PublisherAddress": null,
+          "ISBN": "9780521575072",
+          "URL": null,
+          "Volume": 0,
+          "PageNumber": 139,
+          "CitationKey": "CambridgeHandbookOfPhysicsFormulas",
+          "Type": "Book"
+        }
+      ],
+      "SeeMore": [],
+      "Tags": [
+        "rate of change",
+        "density",
+        "relation",
+        "conservation",
+        "charge",
+        "divergence",
+        "current",
+        "negative"
+      ],
+      "Curricula": [],
+      "ExcludeFromFormulaOfTheDay": false
+    },
+    {
       "Reference": "CoulombsLaw",
       "URLReference": "coulombs-law",
       "Title": "Coulomb’s Law",
@@ -2301,10 +2374,8 @@
         }
       ],
       "Tags": [
+        "magnetic vector potential",
         "definition",
-        "magnetic",
-        "vector",
-        "potential",
         "such",
         "curl",
         "field"
@@ -4494,6 +4565,90 @@
       "ExcludeFromFormulaOfTheDay": false
     },
     {
+      "Reference": "ElectricFieldInTermsOfPotentials",
+      "URLReference": "electric-field-in-terms-of-potentials",
+      "Title": "The Formula for the Electric Field in terms of Potentials",
+      "Interpretation": "The electric field is proportional to the sum of the rate of change of the magnetic vector potential and the gradient of the electric potential.",
+      "Content": "\\textbf{E} = - \\frac{\\partial \\textbf{A}}{\\partial t} - \\nabla \\phi",
+      "Identifiers": [
+        {
+          "Content": "\\textbf{E}",
+          "Type": "Variable",
+          "ObjectType": "Vector",
+          "Reference": "ElectricField",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the electric field"
+        },
+        {
+          "Content": "\\textbf{A}",
+          "Type": "Variable",
+          "ObjectType": "Vector",
+          "Reference": "MagneticVectorPotential",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the magnetic vector potential"
+        },
+        {
+          "Content": "t",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Time",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is time"
+        },
+        {
+          "Content": "\\phi",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "ElectricPotential",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the electric potential"
+        }
+      ],
+      "Variants": [],
+      "DerivedFrom": [],
+      "Derivation": null,
+      "Fields": [
+        "Classical Electromagnetism"
+      ],
+      "References": [
+        {
+          "Title": "The Cambridge Handbook of Physics Formulas",
+          "Authors": [
+            "Graham Woan"
+          ],
+          "Edition": 0,
+          "Year": 2003,
+          "PublisherName": "Cambridge University Press",
+          "PublisherAddress": null,
+          "ISBN": "9780521575072",
+          "URL": null,
+          "Volume": 0,
+          "PageNumber": 139,
+          "CitationKey": "CambridgeHandbookOfPhysicsFormulas",
+          "Type": "Book"
+        }
+      ],
+      "SeeMore": [],
+      "Tags": [
+        "electric field",
+        "rate of change",
+        "magnetic vector potential",
+        "electric potential",
+        "formula",
+        "terms",
+        "potentials",
+        "proportional",
+        "sum",
+        "gradient"
+      ],
+      "Curricula": [],
+      "ExcludeFromFormulaOfTheDay": false
+    },
+    {
       "Reference": "ElectricFieldOfAPointCharge",
       "URLReference": "electric-field-of-apoint-charge",
       "Title": "The Electric Field of a Point Charge",
@@ -4706,8 +4861,7 @@
         "directly proportional",
         "inversely proportional",
         "energy",
-        "electric",
-        "potential",
+        "electric potential",
         "charges",
         "product",
         "distance"
@@ -4789,9 +4943,8 @@
         "point charge",
         "directly proportional",
         "inversely proportional",
+        "electric potential",
         "absolute",
-        "electric",
-        "potential",
         "distance",
         "size"
       ],
@@ -8902,14 +9055,13 @@
       "References": [],
       "SeeMore": [],
       "Tags": [
+        "electric potential",
         "power",
         "transferred",
         "electrical",
         "component",
         "product",
         "current",
-        "electric",
-        "potential",
         "difference"
       ],
       "Curricula": [

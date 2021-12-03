@@ -101,3 +101,5 @@
  linear force 
  rotational force 
  force 
+ magnetic vector potential 
+ electric potential 

@@ -1,0 +1,36 @@
+﻿ElectricFieldInTermsOfPotentials
+
+The Formula for the Electric Field in terms of Potentials 
+
+The electric field is proportional to the sum of the rate of change of the magnetic vector potential and the gradient of the electric potential.
+
+\textbf{E} = - \frac{\partial \textbf{A}}{\partial t} - \nabla \phi 
+
+where:
+
+\textbf{E} [var. vec. ElectricField] is the electric field 
+\textbf{A} [var. vec. MagneticVectorPotential] is the magnetic vector potential 
+t [var. scal. Time] is time 
+\phi [var. scal. ElectricPotential] is the electric potential 
+
+variants:
+
+fields:
+
+Classical Electromagnetism 
+
+derived from:
+
+derivation:
+
+references:
+
+book: CambridgeHandbookOfPhysicsFormulas, p. 139
+
+see more:
+
+tags:
+
+curricula:
+
+rating: *****

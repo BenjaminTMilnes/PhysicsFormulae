@@ -1,0 +1,35 @@
+﻿ConservationOfChargeRelation
+
+The Relation for the Conservation of Charge 
+
+The divergence of the current density is equal to the negative of the rate of change of charge density.
+
+\nabla \cdot \textbf{J} = - \frac{\partial \rho}{\partial t}
+
+where:
+
+\textbf{J} [var. vec. CurrentDensity] is the current density 
+\rho [var. scal. ChargeDensity] is the charge density 
+t [var. scal. Time] is time 
+
+variants:
+
+fields:
+
+Classical Electromagnetism 
+
+derived from:
+
+derivation:
+
+references:
+
+book: CambridgeHandbookOfPhysicsFormulas, p. 139
+
+see more:
+
+tags:
+
+curricula:
+
+rating: *****
