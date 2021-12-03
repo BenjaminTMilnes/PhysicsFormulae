@@ -1,0 +1,43 @@
+﻿MagneticFieldInAnInfiniteSolenoid
+
+The Formula for the Magnetic Field inside an Infinitely Long Solenoid 
+
+The strength of the magnetic field inside an infinitely long solenoid is proportional to the product of the current in the solenoid and the number of turns per unit length of the solenoid. 
+
+B = \mu_{0} n I 
+
+where:
+
+B [var. scal. MagneticFieldStrength] is the strength of the magnetic field 
+\mu_{0} [const. scal. PermeabilityOfFreeSpace] is the permeability of free space 
+n [var. scal. NumberOfTurnsPerUnitLength, L^{-1}, m^{-1}] is the number of turns per unit length of the solenoid 
+I [var. scal. Current, Q T^{-1}, A] is the current in the solenoid 
+
+variants:
+
+In terms of the number of turns and the length of the solenoid 
+
+B = \frac{\mu_{0} N I}{L}
+
+fields:
+
+Classical Electromagnetism 
+
+derived from:
+
+derivation:
+
+references:
+
+book: CambridgeHandbookOfPhysicsFormulas, p. 138
+
+see more:
+
+http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/solenoid.html
+
+
+tags:
+
+curricula:
+
+rating: *****

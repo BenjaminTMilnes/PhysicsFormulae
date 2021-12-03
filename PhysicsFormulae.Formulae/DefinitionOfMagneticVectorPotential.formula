@@ -1,0 +1,36 @@
+﻿DefinitionOfMagneticVectorPotential
+
+The Definition of the Magnetic Vector Potential 
+
+The magnetic vector potential is a vector potential such that its curl is the magnetic field. 
+
+\textbf{B} = \nabla \times \textbf{A}
+
+where:
+
+\textbf{B} [var. vec. MagneticField] is the magnetic field 
+\textbf{A} [var. vec. MagneticVectorPotential] is the magnetic vector potential 
+
+variants:
+
+fields:
+
+Classical Electromagnetism 
+
+derived from:
+
+derivation:
+
+references:
+
+book: CambridgeHandbookOfPhysicsFormulas, p. 139
+
+see more:
+
+https://en.wikipedia.org/wiki/Magnetic_vector_potential
+
+tags:
+
+curricula:
+
+rating: *****

@@ -2,13 +2,13 @@
 
 The Euler-Lagrange Equation
 
-...
+The Euler-Lagrange Equation is a second-order ordinary differential equation, the solutions of which are stationary points of the action function.
 
 \frac{\partial L}{\partial q_{i}} - \frac{\mathrm{d}}{\mathrm{d} t} \frac{\partial L}{\partial \dot{q}_{i}} = 0
 
 where:
 
-L [var. scal. Lagrangian] is the Lagrangian
+L [var. scal. Lagrangian, M L^{2} T^{-2}, J] is the Lagrangian
 q_{i} [var. scal. GeneralisedCoordinates] are the generalised coordinates
 \dot{q}_{i} [var. scal. GeneralisedVelocities] are the generalised velocities
 
@@ -28,6 +28,7 @@ derived from:
 
 references:
 
+book: CambridgeHandbookOfPhysicsFormulas, p. 79
 
 
 see more:

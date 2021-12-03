@@ -1,0 +1,49 @@
+﻿RelativisticLagrangianOfAChargedParticle
+
+The Relativistic Lagrangian of a Charged Particle
+
+...
+
+L = - \frac{m_{0}c^{2}}{\gamma} - e \left( \phi - \textbf{A} \cdot \textbf{v} \right)
+
+where:
+
+L [var. scal. Lagrangian, M L^{2} T^{-2}, J] is the Lagrangian  
+m_{0} [var. scal. RestMass, M, kg] is the rest mass of the particle 
+c [var. scal. SpeedOfLight, L T^{-1}, m s^{-1}] is the speed of light 
+\gamma [var. scal. LorentzFactor] is the Lorentz Factor 
+e [var. scal. ElementaryCharge, Q, C] is the elementary charge 
+\phi [var. scal. ElectricPotential, M L^{2} T^{-2} Q^{-1}, J/C] is the electric potential 
+\textbf{A} [var. vec. MagneticVectorPotential] is the magnetic vector potential 
+\textbf{v} [var. vec. Velocity, L T^{-1}, m s^{-1}] is the velocity of the particle 
+
+
+variants:
+
+
+
+fields:
+
+Lagrangian Mechanics
+
+
+derived from:
+
+
+
+references:
+
+book: CambridgeHandbookOfPhysicsFormulas, p. 79
+
+
+see more:
+
+https://en.wikipedia.org/wiki/Relativistic_Lagrangian_mechanics
+
+
+tags:
+
+
+
+rating: *****
+

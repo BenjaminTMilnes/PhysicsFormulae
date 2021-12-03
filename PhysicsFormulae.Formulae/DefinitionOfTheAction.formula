@@ -8,11 +8,11 @@ S = \int_{t_{1}}^{t_{2}} L (\textbf{q}, \dot{\textbf{q}}, t) \, \mathrm{d} t
 
 where:
 
-S [var. scal. Action] is the action
-L [var. scal. Lagrangian] is the Lagrangian
+S [var. scal. Action, M L^{2} T^{-1}] is the action
+L [var. scal. Lagrangian, M L^{2} T^{-2}, J] is the Lagrangian
 \textbf{q} [var. vec. GeneralisedCoordinates] are the generalised coordinates
 \dot{\textbf{q}} [var. vec. GeneralisedVelocities] are the generalised velocities
-t [var. scal. Time] is time
+t [var. scal. Time, T, s] is time
 
 
 variants:
@@ -31,10 +31,12 @@ derived from:
 
 references:
 
+book: CambridgeHandbookOfPhysicsFormulas, p. 79
 
 
 see more:
 
+https://en.wikipedia.org/wiki/Lagrangian_mechanics
 
 
 tags:

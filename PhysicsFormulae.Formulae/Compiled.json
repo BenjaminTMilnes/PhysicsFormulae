@@ -2245,6 +2245,74 @@
       "ExcludeFromFormulaOfTheDay": false
     },
     {
+      "Reference": "DefinitionOfMagneticVectorPotential",
+      "URLReference": "definition-of-magnetic-vector-potential",
+      "Title": "The Definition of the Magnetic Vector Potential",
+      "Interpretation": "The magnetic vector potential is a vector potential such that its curl is the magnetic field.",
+      "Content": "\\textbf{B} = \\nabla \\times \\textbf{A}",
+      "Identifiers": [
+        {
+          "Content": "\\textbf{B}",
+          "Type": "Variable",
+          "ObjectType": "Vector",
+          "Reference": "MagneticField",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the magnetic field"
+        },
+        {
+          "Content": "\\textbf{A}",
+          "Type": "Variable",
+          "ObjectType": "Vector",
+          "Reference": "MagneticVectorPotential",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the magnetic vector potential"
+        }
+      ],
+      "Variants": [],
+      "DerivedFrom": [],
+      "Derivation": null,
+      "Fields": [
+        "Classical Electromagnetism"
+      ],
+      "References": [
+        {
+          "Title": "The Cambridge Handbook of Physics Formulas",
+          "Authors": [
+            "Graham Woan"
+          ],
+          "Edition": 0,
+          "Year": 2003,
+          "PublisherName": "Cambridge University Press",
+          "PublisherAddress": null,
+          "ISBN": "9780521575072",
+          "URL": null,
+          "Volume": 0,
+          "PageNumber": 139,
+          "CitationKey": "CambridgeHandbookOfPhysicsFormulas",
+          "Type": "Book"
+        }
+      ],
+      "SeeMore": [
+        {
+          "Name": "Wikipedia",
+          "URL": "https://en.wikipedia.org/wiki/Magnetic_vector_potential"
+        }
+      ],
+      "Tags": [
+        "definition",
+        "magnetic",
+        "vector",
+        "potential",
+        "such",
+        "curl",
+        "field"
+      ],
+      "Curricula": [],
+      "ExcludeFromFormulaOfTheDay": false
+    },
+    {
       "Reference": "DefinitionOfMomentOfInertia",
       "URLReference": "definition-of-moment-of-inertia",
       "Title": "The Definition of Moment of Inertia",
@@ -3205,6 +3273,84 @@
       "ExcludeFromFormulaOfTheDay": false
     },
     {
+      "Reference": "DefinitionOfStress",
+      "URLReference": "definition-of-stress",
+      "Title": "The Definition of Stress",
+      "Interpretation": "The stress exerted on a cross-section within a material is equal to the force exerted on it divided by its area.",
+      "Content": "\\tau = \\frac{F}{A}",
+      "Identifiers": [
+        {
+          "Content": "\\tau",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Stress",
+          "Dimensions": "\\mathrm{M L^{-1} T^{-2}}",
+          "Units": "\\mathrm{N\\,m^{-2}}",
+          "Definition": "is the stress"
+        },
+        {
+          "Content": "F",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Force",
+          "Dimensions": "\\mathrm{M L T^{-2}}",
+          "Units": "\\mathrm{N}",
+          "Definition": "is the force"
+        },
+        {
+          "Content": "A",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Area",
+          "Dimensions": "\\mathrm{L^{2}}",
+          "Units": "\\mathrm{m^{2}}",
+          "Definition": "is the area"
+        }
+      ],
+      "Variants": [],
+      "DerivedFrom": [],
+      "Derivation": null,
+      "Fields": [
+        "Classical Mechanics"
+      ],
+      "References": [
+        {
+          "Title": "The Cambridge Handbook of Physics Formulas",
+          "Authors": [
+            "Graham Woan"
+          ],
+          "Edition": 0,
+          "Year": 2003,
+          "PublisherName": "Cambridge University Press",
+          "PublisherAddress": null,
+          "ISBN": "9780521575072",
+          "URL": null,
+          "Volume": 0,
+          "PageNumber": 80,
+          "CitationKey": "CambridgeHandbookOfPhysicsFormulas",
+          "Type": "Book"
+        }
+      ],
+      "SeeMore": [
+        {
+          "Name": "Wikipedia",
+          "URL": "https://en.wikipedia.org/wiki/Stress_(mechanics)"
+        }
+      ],
+      "Tags": [
+        "force",
+        "force",
+        "definition",
+        "stress",
+        "exerted",
+        "cross-section",
+        "material",
+        "area"
+      ],
+      "Curricula": [],
+      "ExcludeFromFormulaOfTheDay": false
+    },
+    {
       "Reference": "DefinitionOfTheAction",
       "URLReference": "definition-of-the-action",
       "Title": "The Definition of the Action",
@@ -3216,7 +3362,7 @@
           "Type": "Variable",
           "ObjectType": "Scalar",
           "Reference": "Action",
-          "Dimensions": null,
+          "Dimensions": "\\mathrm{M L^{2} T^{-1}}",
           "Units": null,
           "Definition": "is the action"
         },
@@ -3225,8 +3371,8 @@
           "Type": "Variable",
           "ObjectType": "Scalar",
           "Reference": "Lagrangian",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{M L^{2} T^{-2}}",
+          "Units": "\\mathrm{J}",
           "Definition": "is the Lagrangian"
         },
         {
@@ -3252,8 +3398,8 @@
           "Type": "Variable",
           "ObjectType": "Scalar",
           "Reference": "Time",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{T}",
+          "Units": "\\mathrm{s}",
           "Definition": "is time"
         }
       ],
@@ -3263,8 +3409,30 @@
       "Fields": [
         "Lagrangian Mechanics"
       ],
-      "References": [],
-      "SeeMore": [],
+      "References": [
+        {
+          "Title": "The Cambridge Handbook of Physics Formulas",
+          "Authors": [
+            "Graham Woan"
+          ],
+          "Edition": 0,
+          "Year": 2003,
+          "PublisherName": "Cambridge University Press",
+          "PublisherAddress": null,
+          "ISBN": "9780521575072",
+          "URL": null,
+          "Volume": 0,
+          "PageNumber": 79,
+          "CitationKey": "CambridgeHandbookOfPhysicsFormulas",
+          "Type": "Book"
+        }
+      ],
+      "SeeMore": [
+        {
+          "Name": "Wikipedia",
+          "URL": "https://en.wikipedia.org/wiki/Lagrangian_mechanics"
+        }
+      ],
       "Tags": [
         "Lagrangian",
         "definition",
@@ -4184,9 +4352,30 @@
           "PageNumber": 5,
           "CitationKey": "StudentsGuideToMaxwellsEquations",
           "Type": "Book"
+        },
+        {
+          "Title": "The Cambridge Handbook of Physics Formulas",
+          "Authors": [
+            "Graham Woan"
+          ],
+          "Edition": 0,
+          "Year": 2003,
+          "PublisherName": "Cambridge University Press",
+          "PublisherAddress": null,
+          "ISBN": "9780521575072",
+          "URL": null,
+          "Volume": 0,
+          "PageNumber": 138,
+          "CitationKey": "CambridgeHandbookOfPhysicsFormulas",
+          "Type": "Book"
         }
       ],
-      "SeeMore": [],
+      "SeeMore": [
+        {
+          "Name": "Hyperphysics",
+          "URL": "http://hyperphysics.phy-astr.gsu.edu/hbase/electric/elesht.html"
+        }
+      ],
       "Tags": [
         "electric field",
         "density",
@@ -4807,7 +4996,7 @@
       "Reference": "EulerLagrangeEquation",
       "URLReference": "euler-lagrange-equation",
       "Title": "The Euler-Lagrange Equation",
-      "Interpretation": "...",
+      "Interpretation": "The Euler-Lagrange Equation is a second-order ordinary differential equation, the solutions of which are stationary points of the action function.",
       "Content": "\\frac{\\partial L}{\\partial q_{i}} - \\frac{\\mathrm{d}}{\\mathrm{d} t} \\frac{\\partial L}{\\partial \\dot{q}_{i}} = 0",
       "Identifiers": [
         {
@@ -4815,8 +5004,8 @@
           "Type": "Variable",
           "ObjectType": "Scalar",
           "Reference": "Lagrangian",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{M L^{2} T^{-2}}",
+          "Units": "\\mathrm{J}",
           "Definition": "is the Lagrangian"
         },
         {
@@ -4844,7 +5033,24 @@
       "Fields": [
         "Lagrangian Mechanics"
       ],
-      "References": [],
+      "References": [
+        {
+          "Title": "The Cambridge Handbook of Physics Formulas",
+          "Authors": [
+            "Graham Woan"
+          ],
+          "Edition": 0,
+          "Year": 2003,
+          "PublisherName": "Cambridge University Press",
+          "PublisherAddress": null,
+          "ISBN": "9780521575072",
+          "URL": null,
+          "Volume": 0,
+          "PageNumber": 79,
+          "CitationKey": "CambridgeHandbookOfPhysicsFormulas",
+          "Type": "Book"
+        }
+      ],
       "SeeMore": [
         {
           "Name": "Wikipedia",
@@ -4855,7 +5061,15 @@
         "Euler",
         "Lagrange",
         "euler-lagrange",
-        "equation"
+        "equation",
+        "second-order",
+        "ordinary",
+        "differential",
+        "solutions",
+        "stationary",
+        "points",
+        "action",
+        "function"
       ],
       "Curricula": [],
       "ExcludeFromFormulaOfTheDay": false
@@ -6677,6 +6891,115 @@
       "ExcludeFromFormulaOfTheDay": false
     },
     {
+      "Reference": "LagrangianOfAParticleInAnExternalField",
+      "URLReference": "lagrangian-of-aparticle-in-an-external-field",
+      "Title": "The Lagrangian of a Particle in an External Field",
+      "Interpretation": "The Lagrangian of a particle in an external field is the difference between the kinetic energy of the particle and its potential energy.",
+      "Content": "L = T - U = \\frac{1}{2} m v^{2} - U (\\textbf{r}, t)",
+      "Identifiers": [
+        {
+          "Content": "L",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Lagrangian",
+          "Dimensions": "\\mathrm{M L^{2} T^{-2}}",
+          "Units": "\\mathrm{J}",
+          "Definition": "is the Lagrangian"
+        },
+        {
+          "Content": "m",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Mass",
+          "Dimensions": "\\mathrm{M}",
+          "Units": "\\mathrm{kg}",
+          "Definition": "is the mass of the particle"
+        },
+        {
+          "Content": "v",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Velocity",
+          "Dimensions": "\\mathrm{L T^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
+          "Definition": "is the velocity of the particle"
+        },
+        {
+          "Content": "T",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "KineticEnergy",
+          "Dimensions": "\\mathrm{M L^{2} T^{-2}}",
+          "Units": "\\mathrm{J}",
+          "Definition": "is the kinetic energy of the particle"
+        },
+        {
+          "Content": "U",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "PotentialEnergy",
+          "Dimensions": "\\mathrm{M L^{2} T^{-2}}",
+          "Units": "\\mathrm{J}",
+          "Definition": "is the potential energy of the particle"
+        },
+        {
+          "Content": "\\textbf{r}",
+          "Type": "Variable",
+          "ObjectType": "Vector",
+          "Reference": "Position",
+          "Dimensions": "\\mathrm{L}",
+          "Units": "\\mathrm{m}",
+          "Definition": "is the position of the particle"
+        },
+        {
+          "Content": "t",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Time",
+          "Dimensions": "\\mathrm{T}",
+          "Units": "\\mathrm{s}",
+          "Definition": "is time"
+        }
+      ],
+      "Variants": [],
+      "DerivedFrom": [],
+      "Derivation": null,
+      "Fields": [
+        "Lagrangian Mechanics"
+      ],
+      "References": [
+        {
+          "Title": "The Cambridge Handbook of Physics Formulas",
+          "Authors": [
+            "Graham Woan"
+          ],
+          "Edition": 0,
+          "Year": 2003,
+          "PublisherName": "Cambridge University Press",
+          "PublisherAddress": null,
+          "ISBN": "9780521575072",
+          "URL": null,
+          "Volume": 0,
+          "PageNumber": 79,
+          "CitationKey": "CambridgeHandbookOfPhysicsFormulas",
+          "Type": "Book"
+        }
+      ],
+      "SeeMore": [],
+      "Tags": [
+        "kinetic energy",
+        "energy",
+        "Lagrangian",
+        "particle",
+        "external",
+        "field",
+        "difference",
+        "potential"
+      ],
+      "Curricula": [],
+      "ExcludeFromFormulaOfTheDay": false
+    },
+    {
       "Reference": "LawOfReflection",
       "URLReference": "law-of-reflection",
       "Title": "The Law of Reflection",
@@ -7375,6 +7698,103 @@
         "opposite",
         "direction",
         "object"
+      ],
+      "Curricula": [],
+      "ExcludeFromFormulaOfTheDay": false
+    },
+    {
+      "Reference": "MagneticFieldInAnInfiniteSolenoid",
+      "URLReference": "magnetic-field-in-an-infinite-solenoid",
+      "Title": "The Formula for the Magnetic Field inside an Infinitely Long Solenoid",
+      "Interpretation": "The strength of the magnetic field inside an infinitely long solenoid is proportional to the product of the current in the solenoid and the number of turns per unit length of the solenoid.",
+      "Content": "B = \\mu_{0} n I",
+      "Identifiers": [
+        {
+          "Content": "B",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "MagneticFieldStrength",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the strength of the magnetic field"
+        },
+        {
+          "Content": "\\mu_{0}",
+          "Type": "Constant",
+          "ObjectType": "Scalar",
+          "Reference": "PermeabilityOfFreeSpace",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the permeability of free space"
+        },
+        {
+          "Content": "n",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "NumberOfTurnsPerUnitLength",
+          "Dimensions": "\\mathrm{L^{-1}}",
+          "Units": "\\mathrm{m^{-1}}",
+          "Definition": "is the number of turns per unit length of the solenoid"
+        },
+        {
+          "Content": "I",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Current",
+          "Dimensions": "\\mathrm{Q T^{-1}}",
+          "Units": "\\mathrm{A}",
+          "Definition": "is the current in the solenoid"
+        }
+      ],
+      "Variants": [
+        {
+          "Title": "In terms of the number of turns and the length of the solenoid",
+          "Interpretation": "",
+          "Content": "B = \\frac{\\mu_{0} N I}{L}"
+        }
+      ],
+      "DerivedFrom": [],
+      "Derivation": null,
+      "Fields": [
+        "Classical Electromagnetism"
+      ],
+      "References": [
+        {
+          "Title": "The Cambridge Handbook of Physics Formulas",
+          "Authors": [
+            "Graham Woan"
+          ],
+          "Edition": 0,
+          "Year": 2003,
+          "PublisherName": "Cambridge University Press",
+          "PublisherAddress": null,
+          "ISBN": "9780521575072",
+          "URL": null,
+          "Volume": 0,
+          "PageNumber": 138,
+          "CitationKey": "CambridgeHandbookOfPhysicsFormulas",
+          "Type": "Book"
+        }
+      ],
+      "SeeMore": [
+        {
+          "Name": "Hyperphysics",
+          "URL": "http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/solenoid.html"
+        }
+      ],
+      "Tags": [
+        "infinitely long",
+        "formula",
+        "magnetic",
+        "field",
+        "solenoid",
+        "strength",
+        "proportional",
+        "product",
+        "current",
+        "turns",
+        "unit",
+        "length"
       ],
       "Curricula": [],
       "ExcludeFromFormulaOfTheDay": false
@@ -9251,6 +9671,125 @@
       "Curricula": [
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "ExcludeFromFormulaOfTheDay": false
+    },
+    {
+      "Reference": "RelativisticLagrangianOfAChargedParticle",
+      "URLReference": "relativistic-lagrangian-of-acharged-particle",
+      "Title": "The Relativistic Lagrangian of a Charged Particle",
+      "Interpretation": "...",
+      "Content": "L = - \\frac{m_{0}c^{2}}{\\gamma} - e \\left( \\phi - \\textbf{A} \\cdot \\textbf{v} \\right)",
+      "Identifiers": [
+        {
+          "Content": "L",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Lagrangian",
+          "Dimensions": "\\mathrm{M L^{2} T^{-2}}",
+          "Units": "\\mathrm{J}",
+          "Definition": "is the Lagrangian"
+        },
+        {
+          "Content": "m_{0}",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "RestMass",
+          "Dimensions": "\\mathrm{M}",
+          "Units": "\\mathrm{kg}",
+          "Definition": "is the rest mass of the particle"
+        },
+        {
+          "Content": "c",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "SpeedOfLight",
+          "Dimensions": "\\mathrm{L T^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
+          "Definition": "is the speed of light"
+        },
+        {
+          "Content": "\\gamma",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "LorentzFactor",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the Lorentz Factor"
+        },
+        {
+          "Content": "e",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "ElementaryCharge",
+          "Dimensions": "\\mathrm{Q}",
+          "Units": "\\mathrm{C}",
+          "Definition": "is the elementary charge"
+        },
+        {
+          "Content": "\\phi",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "ElectricPotential",
+          "Dimensions": "\\mathrm{M L^{2} T^{-2} Q^{-1}}",
+          "Units": "\\mathrm{J/C}",
+          "Definition": "is the electric potential"
+        },
+        {
+          "Content": "\\textbf{A}",
+          "Type": "Variable",
+          "ObjectType": "Vector",
+          "Reference": "MagneticVectorPotential",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the magnetic vector potential"
+        },
+        {
+          "Content": "\\textbf{v}",
+          "Type": "Variable",
+          "ObjectType": "Vector",
+          "Reference": "Velocity",
+          "Dimensions": "\\mathrm{L T^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
+          "Definition": "is the velocity of the particle"
+        }
+      ],
+      "Variants": [],
+      "DerivedFrom": [],
+      "Derivation": null,
+      "Fields": [
+        "Lagrangian Mechanics"
+      ],
+      "References": [
+        {
+          "Title": "The Cambridge Handbook of Physics Formulas",
+          "Authors": [
+            "Graham Woan"
+          ],
+          "Edition": 0,
+          "Year": 2003,
+          "PublisherName": "Cambridge University Press",
+          "PublisherAddress": null,
+          "ISBN": "9780521575072",
+          "URL": null,
+          "Volume": 0,
+          "PageNumber": 79,
+          "CitationKey": "CambridgeHandbookOfPhysicsFormulas",
+          "Type": "Book"
+        }
+      ],
+      "SeeMore": [
+        {
+          "Name": "Wikipedia",
+          "URL": "https://en.wikipedia.org/wiki/Relativistic_Lagrangian_mechanics"
+        }
+      ],
+      "Tags": [
+        "Lagrangian",
+        "relativistic",
+        "charged",
+        "particle"
+      ],
+      "Curricula": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -11185,7 +11724,9 @@
         "magnitude",
         "electron"
       ],
-      "UsedInFormulae": []
+      "UsedInFormulae": [
+        "RelativisticLagrangianOfAChargedParticle"
+      ]
     },
     {
       "Reference": "ElectronRestMass",
@@ -11463,7 +12004,8 @@
         "DefinitionOfThePoyntingVector",
         "DefinitionOfTheSpeedOfLight",
         "FlowRateOfElectromagneticMomentum",
-        "IntensityOfAnElectromagneticWaveInTermsOfThePoyntingVector"
+        "IntensityOfAnElectromagneticWaveInTermsOfThePoyntingVector",
+        "MagneticFieldInAnInfiniteSolenoid"
       ]
     },
     {

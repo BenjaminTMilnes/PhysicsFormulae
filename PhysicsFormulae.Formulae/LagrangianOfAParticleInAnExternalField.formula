@@ -1,0 +1,46 @@
+﻿LagrangianOfAParticleInAnExternalField
+
+The Lagrangian of a Particle in an External Field 
+
+The Lagrangian of a particle in an external field is the difference between the kinetic energy of the particle and its potential energy.
+
+L = T - U = \frac{1}{2} m v^{2} - U (\textbf{r}, t)
+
+where:
+
+L [var. scal. Lagrangian, M L^{2} T^{-2}, J] is the Lagrangian
+m [var. scal. Mass, M, kg] is the mass of the particle 
+v [var. scal. Velocity, L T^{-1}, m s^{-1}] is the velocity of the particle 
+T [var. scal. KineticEnergy, M L^{2} T^{-2}, J] is the kinetic energy of the particle 
+U [var. scal. PotentialEnergy, M L^{2} T^{-2}, J] is the potential energy of the particle 
+\textbf{r} [var. vec. Position, L, m] is the position of the particle 
+t [var. scal. Time, T, s] is time 
+
+
+variants:
+
+
+
+fields:
+
+Lagrangian Mechanics
+
+
+derived from:
+
+
+
+references:
+
+book: CambridgeHandbookOfPhysicsFormulas, p. 79
+
+
+see more:
+
+
+tags:
+
+
+
+rating: *****
+
