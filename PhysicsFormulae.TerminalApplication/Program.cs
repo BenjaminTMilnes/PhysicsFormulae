@@ -8,6 +8,7 @@ using PhysicsFormulae.Compiler.Formulae;
 using PhysicsFormulae.Compiler.Constants;
 using PhysicsFormulae.Compiler.References;
 using PhysicsFormulae.Compiler.FormulaSets;
+using PhysicsFormulae.Compiler.FormulaSheets;
 using System.Xml;
 using System.Xml.Linq;
 //using MathematicsTypesetting;
@@ -23,6 +24,7 @@ namespace PhysicsFormulae.TerminalApplication
         public IEnumerable<Reference> References { get; set; }
         public IEnumerable<FormulaSet> FormulaSets { get; set; }
         public IEnumerable<Curriculum> Curricula { get; set; }
+        public IEnumerable<FormulaSheet> FormulaSheets { get; set; }
     }
 
     public class Program
@@ -34,6 +36,7 @@ namespace PhysicsFormulae.TerminalApplication
             var constantFiles = directoryInfo.GetFiles("*.constant");
             var referenceFiles = directoryInfo.GetFiles("*.reference");
             var formulaSetFiles = directoryInfo.GetFiles("*.formulaset");
+            var formulaSheetFiles = directoryInfo.GetFiles("*.formulasheet");
 
             var excludedWordsFile = directoryInfo.GetFiles("ExcludedWords.txt").First();
             var keyPhrasesFile = directoryInfo.GetFiles("KeyPhrases.txt").First();
@@ -47,11 +50,13 @@ namespace PhysicsFormulae.TerminalApplication
             var constantCompiler = new ConstantCompiler(autotagger);
             var referenceCompiler = new ReferenceCompiler(autotagger);
             var formulaSetCompiler = new FormulaSetCompiler(autotagger);
+            var formulaSheetCompiler = new FormulaSheetCompiler(autotagger);
 
             var formulae = new List<Formula>();
             var constants = new List<Constant>();
             var references = new List<Reference>();
             var formulaSets = new List<FormulaSet>();
+            var formulaSheets = new List<FormulaSheet>();
 
             foreach (var file in referenceFiles)
             {
@@ -78,6 +83,15 @@ namespace PhysicsFormulae.TerminalApplication
                 formulaSets.Add(formulaSet);
 
                 Console.WriteLine(formulaSet.Reference);
+            }
+
+            foreach (var file in formulaSheetFiles)
+            {
+                var lines = File.ReadAllLines(file.FullName);
+                var formulaSheet = formulaSheetCompiler.CompileFormulaSheet(lines, formulae);
+                formulaSheets.Add(formulaSheet);
+
+                Console.WriteLine(formulaSheet.Reference);
             }
 
             foreach (var file in constantFiles)
@@ -122,6 +136,7 @@ namespace PhysicsFormulae.TerminalApplication
             model.Constants = constants;
             model.References = references;
             model.FormulaSets = formulaSets;
+            model.FormulaSheets = formulaSheets;
             model.Curricula = curricula.Select(c => c.Value).ToList();
 
             var outputLocations = new List<string>() { @"..\..\..\PhysicsFormulae.Formulae\Compiled.json", @"..\..\..\PhysicsFormulae.WebApplication\formulae.json" };

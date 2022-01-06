@@ -92,6 +92,9 @@
     <Compile Include="FormulaSets\FormulaSet.cs" />
     <Compile Include="FormulaSets\FormulaSetCompiler.cs" />
     <Compile Include="FormulaSets\FormulaSetFormula.cs" />
+    <Compile Include="FormulaSheets\FormulaSheet.cs" />
+    <Compile Include="FormulaSheets\FormulaSheetCompiler.cs" />
+    <Compile Include="FormulaSheets\FormulaSheetFormula.cs" />
     <Compile Include="References\Book.cs" />
     <Compile Include="Compiler.cs" />
     <Compile Include="Constants\Constant.cs" />

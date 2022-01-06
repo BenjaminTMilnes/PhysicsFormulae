@@ -54,7 +54,6 @@
         "absolute",
         "brightness",
         "magnitude",
-        "formula",
         "star",
         "observed",
         "distance",
@@ -235,7 +234,6 @@
       ],
       "Tags": [
         "centre of mass",
-        "formula",
         "system",
         "particles",
         "sum",
@@ -444,7 +442,6 @@
         "energy",
         "compton",
         "scattering",
-        "formula",
         "change",
         "wavelength",
         "high-energy",
@@ -746,7 +743,6 @@
         "light",
         "critical",
         "angle",
-        "formula",
         "incidence",
         "ray",
         "reflected",
@@ -3198,7 +3194,6 @@
         "rotational",
         "similar",
         "form",
-        "formula",
         "linear",
         "mass"
       ],
@@ -3866,7 +3861,6 @@
         "free space",
         "space",
         "definition",
-        "terms",
         "permittivity",
         "permeability"
       ],
@@ -4638,9 +4632,6 @@
         "rate of change",
         "magnetic vector potential",
         "electric potential",
-        "formula",
-        "terms",
-        "potentials",
         "proportional",
         "sum",
         "gradient"
@@ -5049,7 +5040,6 @@
       "Tags": [
         "energy",
         "energy level",
-        "formula",
         "levels",
         "wave-particle",
         "infinitely-deep",
@@ -5127,7 +5117,6 @@
         "velocity",
         "speed",
         "escape velocity",
-        "formula",
         "object",
         "gravitational",
         "pull",
@@ -5403,7 +5392,6 @@
         "moment",
         "radiation",
         "momentum",
-        "formula",
         "flow",
         "rate",
         "electromagnetic",
@@ -5475,7 +5463,6 @@
       "SeeMore": [],
       "Tags": [
         "inversely proportional",
-        "formula",
         "surface",
         "gravity",
         "planet",
@@ -5532,7 +5519,6 @@
       "References": [],
       "SeeMore": [],
       "Tags": [
-        "formula",
         "total",
         "capacitance",
         "capacitors",
@@ -5584,7 +5570,6 @@
       "References": [],
       "SeeMore": [],
       "Tags": [
-        "formula",
         "total",
         "capacitance",
         "capacitors",
@@ -5692,7 +5677,6 @@
         "change",
         "internal",
         "system",
-        "terms",
         "entropy",
         "volume"
       ],
@@ -6757,7 +6741,6 @@
         "intensity",
         "electromagnetic",
         "wave",
-        "terms",
         "poynting",
         "vector",
         "time-averaged"
@@ -7388,7 +7371,6 @@
         "speed",
         "space",
         "Lorentz",
-        "formula",
         "points",
         "observer",
         "observed",
@@ -7843,7 +7825,6 @@
         "velocity",
         "Mach",
         "angle",
-        "formula",
         "wavefront",
         "wave",
         "vector",
@@ -7937,7 +7918,6 @@
       ],
       "Tags": [
         "infinitely long",
-        "formula",
         "magnetic",
         "field",
         "solenoid",
@@ -8763,8 +8743,7 @@
         "energy",
         "moment",
         "momentum",
-        "photon",
-        "formula"
+        "photon"
       ],
       "Curricula": [
         "Singapore H2 Physics (2024 Onwards)",
@@ -8907,7 +8886,6 @@
       "References": [],
       "SeeMore": [],
       "Tags": [
-        "formula",
         "total",
         "potential",
         "difference",
@@ -9290,7 +9268,6 @@
       "SeeMore": [],
       "Tags": [
         "velocity",
-        "formula",
         "maximum",
         "height",
         "projectile",
@@ -9373,7 +9350,6 @@
         "speed",
         "projectile",
         "range",
-        "formula",
         "distance",
         "ground",
         "launch",
@@ -9564,7 +9540,6 @@
       "Tags": [
         "radioactive",
         "decay",
-        "formula",
         "activity",
         "sample",
         "decreases",
@@ -9651,7 +9626,6 @@
         }
       ],
       "Tags": [
-        "formula",
         "reduced",
         "mass",
         "interacting",
@@ -9816,7 +9790,6 @@
         "relation",
         "total",
         "object",
-        "terms",
         "rest",
         "mass"
       ],
@@ -9994,7 +9967,6 @@
         "Lorentz",
         "relativistic",
         "mass",
-        "formula",
         "object",
         "relative",
         "observer",
@@ -10046,7 +10018,6 @@
       "References": [],
       "SeeMore": [],
       "Tags": [
-        "formula",
         "total",
         "resistance",
         "electrical",
@@ -10192,7 +10163,6 @@
         "emission lines",
         "emission line",
         "energy level",
-        "formula",
         "approximates",
         "wavelengths",
         "spectrum",
@@ -10336,7 +10306,6 @@
         "directly proportional",
         "Schwarzschild",
         "radius",
-        "formula",
         "event",
         "horizon",
         "black",
@@ -10567,7 +10536,6 @@
         "speed of light",
         "speed",
         "light",
-        "formula",
         "electromagnetic",
         "waves",
         "matter",
@@ -10748,8 +10716,7 @@
         "function",
         "constant",
         "object",
-        "quadratic",
-        "formula"
+        "quadratic"
       ],
       "Curricula": [
         "UK GCSE",
@@ -11250,7 +11217,6 @@
         "speed",
         "space",
         "Lorentz",
-        "formula",
         "events",
         "occur",
         "point",
@@ -11474,7 +11440,6 @@
       "Tags": [
         "speed",
         "wave",
-        "formula",
         "non-dispersive",
         "frequency",
         "wavelength"
@@ -13029,7 +12994,6 @@
         "constant",
         "object",
         "quadratic",
-        "formula",
         "using",
         "average",
         "final",
@@ -13923,6 +13887,27 @@
         "WaveSpeedFormula"
       ],
       "Constants": []
+    }
+  ],
+  "FormulaSheets": [
+    {
+      "Reference": "UKGCSEPhysics",
+      "URLReference": "ukgcsephysics",
+      "Title": "UK GCSE Physics",
+      "Formulae": [
+        {
+          "Reference": "DefinitionOfKineticEnergy",
+          "URLReference": "definition-of-kinetic-energy",
+          "Title": "The Definition of Kinetic Energy",
+          "Content": null
+        },
+        {
+          "Reference": "GravitationalPotentialEnergyForAUniformField",
+          "URLReference": "gravitational-potential-energy-for-auniform-field",
+          "Title": "The Gravitational Potential Energy for a Uniform Field",
+          "Content": null
+        }
+      ]
     }
   ]
 }
