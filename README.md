@@ -1,33 +1,40 @@
-# PhysicsFormulae
+# Physics Formulae
 
-This repository contains a concept project for a formulary of physics web app.
+Physics Formulae is a web-based formulary of physics.
 
 'Formulary' is a word that's not used often (you can look up the etymology of it here https://www.etymonline.com/word/formulary). As such, its meaning in modern English is somewhat vague and unknown to most people. For this project, however, it's used to mean 'a collection of formulae'. A 'formulary of physics' is essentially a dictionary of physics formulae - except rather than giving the pronunciations and meanings of words in a language, it gives the different forms of various well-known equations, and their interpretations, in physics.
 
-This repository contains both the data for a formulary of physics, and a web app to display and navigate that data. A live version of the web app can be found at http://www.physicsformulae.com
+This project is live, and can be viewed here: http://www.physicsformulae.com
 
-## How the data is stored
+## Table of Contents
 
-This repository contains both the code for the Physics Formulae web app, and the data for it. Why, you might ask, is the data stored in the code repository and not in a database?
+- [Principles of Design](#principles-of-design)
+    - [Storing the data](#storing-the-data)
+    - [The front-end app](#the-front-end-app)
+- [Status and Planned Changes](#status-and-planned-changes)
 
-The information about each formula and constant is stored in the PhysicsFormulae.Formulae folder. The information about formulae is stored in .formula files, and the information about constants is stored in .constant files. Each .formula file contains information about 1 formula.
+## Principles of Design
 
-The .formula and .constant files are just plain text files, with a specific structure. There's actually not that much in each file. By storing the data in plain text files in the repository, it's very easy to keep track of changes to them. By not having an SQL (or other) database, it makes the app far simpler to create, and there's no need to take back-ups of the database.
+### Storing the data
 
-The format of the .formula and .constant files has been designed to be incredibly easy to edit. The files have almost no markup (which is why they're not just XML or JSON files) - anyone could read them and understand them with no difficulty.
+For this project, I wanted to avoid using an SQL (or other) database to store the data. SQL databases can take a while to set up properly, and can be tricky to update. Adding and editing large quantities of data within them can also be time-consuming. So instead, I decided to store the data for this web app in the code repository itself. Each formula and constant is stored as a single file. These files are just plain text files with a specific format. This specific format means that very little markup is needed. When a formula or constant is updated, some code is run, and these plain text files are read and converted into a JSON format, which can then be used by the front-end web app.
 
-In order to make all of the data stored in the .formula and .constant files usable by the web app, there is a compiler. The compiler reads all of these files, and outputs the data as a single JSON file - all of the data used by the site can be found in PhysicsFormulae.Formulae/Compiled.json . The JSON file can then be very easily understood by the JavaScript-based web app.
+This approach has several advantages. It's very easy to review the data - having minimal markup makes it easy to read. It's very easy to edit the data, as it's just plain text files. As it's in the repository, a complete edit history is available. The JSON file that is produced by the compiler code, while large for a JSON file, is very small compared to a lot of other data objects that are transferred across the internet today, such as images and videos. Since this JSON file contains the entire data set, compiled and ready to use, once it has been downloaded, the web app will continue to function even if the internet connection is lost, providing a smoother experience. Furthermore, deploying the app simply involves transferring static files, with no further setup. Making back-ups is also very straightforward.
 
-## How does the web app work
+The .formula and .constant files can be found in the PhysicsFormulae.Formulae folder.
 
-The Physics Formulae web app is an AngularJS, single-page web app. The app gets all of its data from a single file - Compiled.json. After that, essentially all it does is display the information in a convenient way.
+### The front-end app
 
-The main page of the app is a search page. On this page, initially, all of the formulae and constants on the site are listed. You can then search through them using the text field. This is a very basic search function that essentially just looks for matching substrings in the data for each formula.
+The front-end app is an AngularJS, single-page web app. When the app is first opened, it downloads the compiled data (Compiled.json). Using the app is then essentially just 'navigating' this data.
 
-Clicking on the title or content of a formula will take you to the main formula page for that formula. Now while the original .formula file for that formula will contain relatively little data, the formula page shows a lot more. A lot of the content is generated automatically by the app, or shown in different forms so as to be convenient.
+The app allows you to search through the formulae and constants, view detailed information about them, copy the LaTeX for them, see any variants or related formulae or constants, and sometimes, in the case of formulae, see a derivation of them.
 
-The formula page shows you the title, content, interpretation, fields, and tags of the formula in a way that's not that different to how they are in the .formula file - they're just styled nicely. But the formula page also gives you the LaTeX of the equation as it would be in a dissertation or research paper. This data is generated by the web app, as it's just a different structure of the same data given above it. You can also click a button to copy the LaTeX to your clipboard.
+## Status and Planned Changes
 
-Similarly, the formula page gives you the BibTeX and BibLaTeX to reference the webpage, or the references that the webpage itself references. This data is also generated automatically, and you can click to copy this data too.
+The app is currently live and working well. Most of the work left to do is simply adding more formulae and constants - this will be done gradually over time.
 
-And that is the essence of the web app - it's just a convenient way of navigating and using the data. It makes only one call to the server to get the data, and since that data is just a JSON file, it's not downloading a massive amount of data.
+Among the technical features to be added and improved are:
+
+- Improving the mathematics rendering engine that's used to make the PNG images of the formulae
+- Adding a feature to allow the user to enter all but one of the terms in a formula, and have the final term be calculated
+- Clear delineation between the different levels of interpretation of a formula
