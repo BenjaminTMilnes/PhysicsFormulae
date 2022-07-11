@@ -1,0 +1,21 @@
+﻿<div class="formulasheet">
+    <h2 class="formulasheet-title">{{formulaSheet.Title}}</h2>
+    <div class="formulasheet-formulae">
+        <div class="formulasheet-formula" ng-repeat="formula in formulaSheet.Formulae">
+            <h3 class="formulasheet-formula-title"><a href="/#/formula/{{formula.URLReference}}">{{formula.Title}}</a></h3>
+            <div class="formulasheet-formula-content">
+                <a href="/#/formula/{{formula.URLReference}}">
+                    <div compile="getFormulaContent(formula.Content)">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="formula-seemore">
+        <h3>See more</h3>
+        <p style="text-align:left;">The original .formula files that this page was generated from can be viewed at:</p>
+        <ul>
+            <li ng-repeat="formula in formulaSheet.Formulae"><a target="_blank" title="Physics Formulae Source Code" href="https://github.com/BenjaminTMilnes/PhysicsFormulae/blob/master/PhysicsFormulae.Formulae/{{formula.Reference}}.formula">github.com/BenjaminTMilnes/PhysicsFormulae/.../{{formula.Reference}}.formula</a></li>
+        </ul>
+    </div>
+</div>

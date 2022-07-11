@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -85,6 +86,9 @@
     <Content Include="formula-set.css" />
     <Content Include="formula-set.html" />
     <Content Include="formula-set.js" />
+    <Content Include="formula-sheet.css" />
+    <Content Include="formula-sheet.html" />
+    <Content Include="formula-sheet.js" />
     <Content Include="formula.css" />
     <Content Include="formula.html" />
     <Content Include="formula.js" />

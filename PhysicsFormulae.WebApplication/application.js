@@ -9,6 +9,7 @@ application.config(function ($routeProvider) {
         .when("/curriculum/:curriculumName", { templateUrl: "search.html", controller: "SearchController" })
         .when("/formula/:reference", { templateUrl: "formula.html", controller: "FormulaController" })
         .when("/formula-set/:reference", { templateUrl: "formula-set.html", controller: "FormulaSetController" })
+        .when("/formula-sheet/:reference", { templateUrl: "formula-sheet.html", controller: "FormulaSheetController" })
         .when("/constant/:reference", { templateUrl: "constant.html", controller: "ConstantController" })
         .when("/formula-of-the-day", { templateUrl: "formula-of-the-day.html", controller: "FormulaOfTheDayController" })
            .when("/formula-editor", { templateUrl: "formula-editor.html", controller: "FormulaEditorController" })
@@ -100,6 +101,10 @@ class Database {
         return this._data.FormulaSets;
     }
 
+    get formulaSheets() {
+        return this._data.FormulaSheets;
+    }
+
     get formulaIndexEntries() {
         return this._data.FormulaIndexEntries;
     }
@@ -138,6 +143,22 @@ class Database {
 
     getFormulaSetWithURLReference(urlReference) {
         var fs = this.formulaSets.filter(f => f.URLReference == urlReference);
+
+        if (fs.length > 0) { return fs[0]; }
+
+        return null;
+    }
+
+    getFormulaSheetWithReference(reference) {
+        var fs = this.formulaSheets.filter(f => f.Reference == reference);
+
+        if (fs.length > 0) { return fs[0]; }
+
+        return null;
+    }
+
+    getFormulaSheetWithURLReference(urlReference) {
+        var fs = this.formulaSheets.filter(f => f.URLReference == urlReference);
 
         if (fs.length > 0) { return fs[0]; }
 

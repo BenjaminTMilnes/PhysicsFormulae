@@ -1,0 +1,131 @@
+﻿
+.formulasheet {
+    margin: 0px 0px 0px 0px;
+}
+
+    .formulasheet h3 {
+        font-size: 20px;
+        margin: 0px 0px 14px 0px;
+    }
+
+    .formulasheet h4 {
+        font-size: 17px;
+        margin: 17px 0px;
+        text-decoration: underline;
+    }
+
+    .formulasheet ul, .formulasheet ol {
+        font-size: 14px;
+        margin: 14px 0px;
+    }
+
+@media (min-width:400px) {
+
+    .formulasheet {
+        margin: 0px 0px 200px 0px;
+    }
+
+        .formulasheet h3 {
+            font-size: 22px;
+            margin: 0px 0px 17px 0px;
+        }
+
+        .formulasheet h4 {
+            font-size: 20px;
+            margin: 20px 0px;
+        }
+
+        .formulasheet ul, .formulasheet ol {
+            font-size: 17px;
+            margin: 17px 0px;
+        }
+}
+
+.formulasheet-formulae {
+    margin: 20px 0px;
+}
+
+.formulasheet-formula {
+    break-inside: avoid;
+}
+
+.formulasheet-title {
+    font-size: 35px;
+    text-transform: none;
+    font-family: "Bodoni MT", "Didot";
+    letter-spacing: -0.02em;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.formulasheet-formula-title {
+    font-size: 14px;
+    margin: 0px;
+    text-align: center;
+}
+
+    .formulasheet-formula-title a {
+        color: inherit;
+    }
+
+        .formulasheet-formula-title a:hover {
+            color: #105ecc;
+        }
+
+.formulasheet-formula-content {
+    font-size: 20px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+    .formulasheet-formula-content a {
+        color: inherit;
+    }
+
+        .formulasheet-formula-content a:hover {
+            color: #105ecc;
+        }
+
+@media (min-width:400px) {
+    .formulasheet-title {
+        font-size: 50px;
+        margin: 50px 0px 20px 0px;
+    }
+
+    .formulasheet-formulae {
+        margin: 50px 0px;
+    }
+
+    .formulasheet-formula-title {
+        font-size: 20px;
+    }
+
+    .formulasheet-formula-content {
+        font-size: 22px;
+        margin: 27px 0px;
+    }
+}
+
+@media (min-width:700px) {
+    .formulasheet-formulae {
+        margin: 70px 0px;
+        columns: 3;
+    }
+
+    .formulasheet-title {
+        font-size: 70px;
+        margin: 70px 0px 20px 0px;
+    }
+
+    .formulasheet-formula-title {
+        font-size: 22px;
+    }
+
+    .formulasheet-formula-content {
+        font-size: 27px;
+        margin: 35px 0px;
+    }
+}
+
+@media (min-width:1000px) {
+}

@@ -13896,16 +13896,58 @@
       "Title": "UK GCSE Physics",
       "Formulae": [
         {
+          "Reference": "DefinitionOfAcceleration",
+          "URLReference": "definition-of-acceleration",
+          "Title": "The Definition of Acceleration",
+          "Content": "\\textbf{a} = \\frac{\\mathrm{d} \\textbf{v}}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "DefinitionOfDensity",
+          "URLReference": "definition-of-density",
+          "Title": "The Definition of Density",
+          "Content": "\\rho = \\frac{M}{V}"
+        },
+        {
+          "Reference": "NewtonsSecondLawOfMotion",
+          "URLReference": "newtons-second-law-of-motion",
+          "Title": "Newton’s Second Law of Motion",
+          "Content": "\\textbf{F} = \\frac{\\mathrm{d} \\textbf{p}}{\\mathrm{d} t}"
+        },
+        {
           "Reference": "DefinitionOfKineticEnergy",
           "URLReference": "definition-of-kinetic-energy",
           "Title": "The Definition of Kinetic Energy",
-          "Content": null
+          "Content": "E_{K} = \\frac{1}{2} m v^{2}"
+        },
+        {
+          "Reference": "DefinitionOfEfficiency",
+          "URLReference": "definition-of-efficiency",
+          "Title": "The Definition of Efficiency",
+          "Content": "\\eta = \\frac{E_{\\text{useful}}}{E_{\\text{total}}}"
         },
         {
           "Reference": "GravitationalPotentialEnergyForAUniformField",
           "URLReference": "gravitational-potential-energy-for-auniform-field",
           "Title": "The Gravitational Potential Energy for a Uniform Field",
-          "Content": null
+          "Content": "E_{G} = mgh"
+        },
+        {
+          "Reference": "OhmsLaw",
+          "URLReference": "ohms-law",
+          "Title": "Ohm’s Law",
+          "Content": "I = \\frac{V}{R}"
+        },
+        {
+          "Reference": "PotentialDifferenceFormulaForComponentsInSeries",
+          "URLReference": "potential-difference-formula-for-components-in-series",
+          "Title": "The Formula for the Total Potential Difference across Electrical Components Connected in Series",
+          "Content": "V_{\\text{total}} = \\sum_{j} V_{j}"
+        },
+        {
+          "Reference": "WaveSpeedFormula",
+          "URLReference": "wave-speed-formula",
+          "Title": "The Wave Speed Formula",
+          "Content": "v = f \\lambda"
         }
       ]
     }

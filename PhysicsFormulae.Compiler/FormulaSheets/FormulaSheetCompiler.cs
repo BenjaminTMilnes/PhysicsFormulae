@@ -36,7 +36,7 @@ namespace PhysicsFormulae.Compiler.FormulaSheets
                     f2.Reference = f1.Reference;
                     f2.URLReference = f1.URLReference;
                     f2.Title = f1.Title;
-                    f2.Content = f2.Content;
+                    f2.Content = f1.Content;
 
                     formulaSheet.Formulae.Add(f2);
                 }
