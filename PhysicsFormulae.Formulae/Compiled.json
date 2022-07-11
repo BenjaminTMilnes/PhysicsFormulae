@@ -340,6 +340,23 @@
           "PageNumber": 66,
           "CitationKey": "CambridgeHandbookOfPhysicsFormulas",
           "Type": "Book"
+        },
+        {
+          "Title": "Sears and Zemansky's University Physics with Modern Physics",
+          "Authors": [
+            "H. D. Young",
+            "R. A. Freedman"
+          ],
+          "Edition": 12,
+          "Year": 0,
+          "PublisherName": "Pearson",
+          "PublisherAddress": null,
+          "ISBN": "9780321501301",
+          "URL": null,
+          "Volume": 0,
+          "PageNumber": 158,
+          "CitationKey": "SearsAndZemanskysUniversityPhysics",
+          "Type": "Book"
         }
       ],
       "SeeMore": [
