@@ -237,10 +237,12 @@ a {
     .website-cards {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .website-card {
-        flex-basis: 33%;
+        flex-basis: 25%;
+        min-width: 200px;
     }
 }
 
