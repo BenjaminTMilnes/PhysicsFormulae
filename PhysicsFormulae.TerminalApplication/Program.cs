@@ -91,6 +91,13 @@ namespace PhysicsFormulae.TerminalApplication
                 var formulaSheet = formulaSheetCompiler.CompileFormulaSheet(lines, formulae);
                 formulaSheets.Add(formulaSheet);
 
+                foreach (var formula in formulaSheet.Formulae)
+                {
+                    var f = formulae.First(a => a.Reference == formula.Reference);
+
+                    f.FormulaSheets.Add(new FormulaSheetUsage() { Reference = formulaSheet.Reference, URLReference = formulaSheet.URLReference, Title = formulaSheet.Title });
+                }
+
                 Console.WriteLine(formulaSheet.Reference);
             }
 

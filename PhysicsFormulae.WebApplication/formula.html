@@ -29,7 +29,7 @@
     <div class="formula-fields">
         <span class="field" ng-repeat="field in formula.Fields" style="background-color: {{getColourOfWord(field)}};"><a href="#/field/{{field}}" title="Search for other formulae in {{field}}.">{{field}}</a></span>
     </div>
-    <div class="formula-curricula">
+    <div class="formula-curricula" style="display: none;">
         <span class="curriculum" ng-repeat="curriculum in formula.Curricula" style="background-color: {{getColourOfWord(curriculum)}};"><a href="#/curriculum/{{curriculum}}" title="Search for other formulae that are part of {{curriculum}}.">{{curriculum}}</a></span>
     </div>
     <div class="formula-tags">

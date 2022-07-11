@@ -19,6 +19,7 @@ namespace PhysicsFormulae.Compiler.Formulae
         public IList<SeeMoreLink> SeeMore { get; set; }
         public IList<string> Tags { get; set; }
         public IList<string> Curricula { get; set; }
+        public IList<FormulaSheetUsage> FormulaSheets { get; set; }
         public bool ExcludeFromFormulaOfTheDay { get; set; }
 
         public Formula()
@@ -31,6 +32,7 @@ namespace PhysicsFormulae.Compiler.Formulae
             SeeMore = new List<SeeMoreLink>();
             Tags = new List<string>();
             Curricula = new List<string>();
+            FormulaSheets = new List<FormulaSheetUsage>();
         }
     }
 }

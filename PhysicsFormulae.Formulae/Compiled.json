@@ -60,6 +60,7 @@
         "parsecs"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -152,6 +153,7 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -242,6 +244,7 @@
         "total"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -343,6 +346,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -452,6 +456,7 @@
         "angle"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -525,6 +530,7 @@
         "negative"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -656,6 +662,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -756,6 +763,13 @@
         "ratio"
       ],
       "Curricula": [],
+      "FormulaSheets": [
+        {
+          "Reference": "UKGCSEPhysics",
+          "URLReference": "ukgcsephysics",
+          "Title": "UK GCSE Physics"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -830,6 +844,13 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [
+        {
+          "Reference": "UKGCSEPhysics",
+          "URLReference": "ukgcsephysics",
+          "Title": "UK GCSE Physics"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -892,6 +913,7 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -962,6 +984,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -1031,6 +1054,7 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -1129,6 +1153,7 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -1200,6 +1225,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -1262,6 +1288,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -1330,6 +1357,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -1409,6 +1437,13 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [
+        {
+          "Reference": "UKGCSEPhysics",
+          "URLReference": "ukgcsephysics",
+          "Title": "UK GCSE Physics"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -1487,6 +1522,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -1560,6 +1596,13 @@
         "Singapore H1 Physics (2024 Onwards)",
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
+      ],
+      "FormulaSheets": [
+        {
+          "Reference": "UKGCSEPhysics",
+          "URLReference": "ukgcsephysics",
+          "Title": "UK GCSE Physics"
+        }
       ],
       "ExcludeFromFormulaOfTheDay": false
     },
@@ -1637,6 +1680,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -1706,6 +1750,7 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -1771,6 +1816,7 @@
         "polarisation"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -1864,6 +1910,7 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -1929,6 +1976,7 @@
         "applied"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -1988,6 +2036,7 @@
         "square"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -2043,6 +2092,13 @@
         "Singapore H1 Physics (2024 Onwards)",
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
+      ],
+      "FormulaSheets": [
+        {
+          "Reference": "UKGCSEPhysics",
+          "URLReference": "ukgcsephysics",
+          "Title": "UK GCSE Physics"
+        }
       ],
       "ExcludeFromFormulaOfTheDay": false
     },
@@ -2119,6 +2175,13 @@
         "Singapore H3 Physics (9814)",
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
+      ],
+      "FormulaSheets": [
+        {
+          "Reference": "UKGCSEPhysics",
+          "URLReference": "ukgcsephysics",
+          "Title": "UK GCSE Physics"
+        }
       ],
       "ExcludeFromFormulaOfTheDay": false
     },
@@ -2201,6 +2264,13 @@
         "Singapore H1 Physics (2024 Onwards)",
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
+      ],
+      "FormulaSheets": [
+        {
+          "Reference": "UKGCSEPhysics",
+          "URLReference": "ukgcsephysics",
+          "Title": "UK GCSE Physics"
+        }
       ],
       "ExcludeFromFormulaOfTheDay": false
     },
@@ -2311,6 +2381,13 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [
+        {
+          "Reference": "UKGCSEPhysics",
+          "URLReference": "ukgcsephysics",
+          "Title": "UK GCSE Physics"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -2377,6 +2454,7 @@
         "field"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -2457,6 +2535,7 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -2552,6 +2631,13 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [
+        {
+          "Reference": "UKGCSEPhysics",
+          "URLReference": "ukgcsephysics",
+          "Title": "UK GCSE Physics"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -2646,6 +2732,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -2722,6 +2809,13 @@
         "Singapore H1 Physics (2024 Onwards)",
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
+      ],
+      "FormulaSheets": [
+        {
+          "Reference": "UKGCSEPhysics",
+          "URLReference": "ukgcsephysics",
+          "Title": "UK GCSE Physics"
+        }
       ],
       "ExcludeFromFormulaOfTheDay": false
     },
@@ -2820,6 +2914,13 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [
+        {
+          "Reference": "UKGCSEPhysics",
+          "URLReference": "ukgcsephysics",
+          "Title": "UK GCSE Physics"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -2901,6 +3002,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -2948,6 +3050,7 @@
         "response"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -3036,6 +3139,7 @@
         "squared"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -3126,6 +3230,7 @@
         "observer"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -3201,6 +3306,7 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -3265,6 +3371,7 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -3336,6 +3443,7 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -3414,6 +3522,7 @@
         "area"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -3506,6 +3615,7 @@
         "integral"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -3593,6 +3703,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -3649,6 +3760,7 @@
         "constant"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -3709,6 +3821,7 @@
         "medium"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -3791,6 +3904,7 @@
         "fields"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -3865,6 +3979,7 @@
         "permeability"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -3983,6 +4098,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -4056,6 +4172,13 @@
         "Singapore H1 Physics (2024 Onwards)",
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
+      ],
+      "FormulaSheets": [
+        {
+          "Reference": "UKGCSEPhysics",
+          "URLReference": "ukgcsephysics",
+          "Title": "UK GCSE Physics"
+        }
       ],
       "ExcludeFromFormulaOfTheDay": false
     },
@@ -4139,6 +4262,13 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [
+        {
+          "Reference": "UKGCSEPhysics",
+          "URLReference": "ukgcsephysics",
+          "Title": "UK GCSE Physics"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -4207,6 +4337,13 @@
         "Singapore H1 Physics (2024 Onwards)",
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
+      ],
+      "FormulaSheets": [
+        {
+          "Reference": "UKGCSEPhysics",
+          "URLReference": "ukgcsephysics",
+          "Title": "UK GCSE Physics"
+        }
       ],
       "ExcludeFromFormulaOfTheDay": false
     },
@@ -4277,6 +4414,7 @@
         "emitted"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -4342,6 +4480,13 @@
         "Singapore H1 Physics (2024 Onwards)",
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
+      ],
+      "FormulaSheets": [
+        {
+          "Reference": "UKGCSEPhysics",
+          "URLReference": "ukgcsephysics",
+          "Title": "UK GCSE Physics"
+        }
       ],
       "ExcludeFromFormulaOfTheDay": false
     },
@@ -4464,6 +4609,7 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -4556,6 +4702,7 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -4637,6 +4784,7 @@
         "gradient"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -4753,6 +4901,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -4863,6 +5012,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -4945,6 +5095,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -5057,6 +5208,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -5132,6 +5284,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -5214,6 +5367,7 @@
         "function"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -5279,6 +5433,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -5403,6 +5558,7 @@
         "vector"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -5482,6 +5638,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -5533,6 +5690,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -5584,6 +5742,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -5681,6 +5840,7 @@
         "volume"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -5750,6 +5910,7 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -5799,6 +5960,7 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -5911,6 +6073,7 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -5995,6 +6158,7 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -6063,6 +6227,7 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -6138,6 +6303,7 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -6226,6 +6392,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -6299,6 +6466,13 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [
+        {
+          "Reference": "UKGCSEPhysics",
+          "URLReference": "ukgcsephysics",
+          "Title": "UK GCSE Physics"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -6365,6 +6539,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -6426,6 +6601,7 @@
         "wave-particle"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -6502,6 +6678,13 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [
+        {
+          "Reference": "UKGCSEPhysics",
+          "URLReference": "ukgcsephysics",
+          "Title": "UK GCSE Physics"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -6566,6 +6749,7 @@
         "observer"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -6659,6 +6843,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -6746,6 +6931,7 @@
         "time-averaged"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -6836,6 +7022,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -6925,6 +7112,7 @@
         "bounding"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -7024,6 +7212,7 @@
       "Curricula": [
         "Singapore H3 Physics (9814)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -7133,6 +7322,7 @@
         "potential"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -7201,6 +7391,13 @@
         "incident"
       ],
       "Curricula": [],
+      "FormulaSheets": [
+        {
+          "Reference": "UKGCSEPhysics",
+          "URLReference": "ukgcsephysics",
+          "Title": "UK GCSE Physics"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -7296,6 +7493,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -7379,6 +7577,7 @@
         "lengths"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -7467,6 +7666,7 @@
         "thermodynamics"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -7582,6 +7782,7 @@
       "Curricula": [
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -7682,6 +7883,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -7770,6 +7972,7 @@
       "Curricula": [
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -7834,6 +8037,7 @@
         "object"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -7930,6 +8134,7 @@
         "length"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -8019,6 +8224,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -8088,6 +8294,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -8140,6 +8347,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -8273,6 +8481,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -8388,6 +8597,13 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [
+        {
+          "Reference": "UKGCSEPhysics",
+          "URLReference": "ukgcsephysics",
+          "Title": "UK GCSE Physics"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -8458,6 +8674,7 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -8536,6 +8753,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -8611,6 +8829,13 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [
+        {
+          "Reference": "UKGCSEPhysics",
+          "URLReference": "ukgcsephysics",
+          "Title": "UK GCSE Physics"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -8680,6 +8905,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -8749,6 +8975,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -8842,6 +9069,7 @@
         "temperature"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -8904,6 +9132,13 @@
         "Singapore H1 Physics (2024 Onwards)",
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
+      ],
+      "FormulaSheets": [
+        {
+          "Reference": "UKGCSEPhysics",
+          "URLReference": "ukgcsephysics",
+          "Title": "UK GCSE Physics"
+        }
       ],
       "ExcludeFromFormulaOfTheDay": false
     },
@@ -8980,6 +9215,7 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -9051,6 +9287,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -9119,6 +9356,13 @@
       "Curricula": [
         "Singapore H2 Physics (9749)",
         "Singapore H3 Physics (9814)"
+      ],
+      "FormulaSheets": [
+        {
+          "Reference": "UKGCSEPhysics",
+          "URLReference": "ukgcsephysics",
+          "Title": "UK GCSE Physics"
+        }
       ],
       "ExcludeFromFormulaOfTheDay": false
     },
@@ -9191,6 +9435,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -9282,6 +9527,7 @@
         "gravity"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -9366,6 +9612,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -9472,6 +9719,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -9552,6 +9800,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -9637,6 +9886,7 @@
         "masses"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -9727,6 +9977,7 @@
         "redder"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -9796,6 +10047,7 @@
       "Curricula": [
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -9915,6 +10167,7 @@
         "particle"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -9974,6 +10227,7 @@
         "rest"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -10036,6 +10290,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -10096,6 +10351,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -10180,6 +10436,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -10247,6 +10504,7 @@
         "squared"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -10313,6 +10571,7 @@
         "mass"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -10373,6 +10632,7 @@
         "reversible"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -10469,6 +10729,13 @@
         "materials"
       ],
       "Curricula": [],
+      "FormulaSheets": [
+        {
+          "Reference": "UKGCSEPhysics",
+          "URLReference": "ukgcsephysics",
+          "Title": "UK GCSE Physics"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -10545,6 +10812,7 @@
         "vacuum"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -10629,6 +10897,7 @@
         "temperature"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -10727,6 +10996,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -10826,6 +11096,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -10910,6 +11181,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -10996,6 +11268,7 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -11055,6 +11328,7 @@
         "temperature"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -11146,6 +11420,7 @@
         "potential"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": true
     },
     {
@@ -11231,6 +11506,7 @@
       "Curricula": [
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -11307,6 +11583,7 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -11394,6 +11671,7 @@
         "squared"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -11452,6 +11730,13 @@
         "Singapore H1 Physics (2024 Onwards)",
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
+      ],
+      "FormulaSheets": [
+        {
+          "Reference": "UKGCSEPhysics",
+          "URLReference": "ukgcsephysics",
+          "Title": "UK GCSE Physics"
+        }
       ],
       "ExcludeFromFormulaOfTheDay": false
     },
@@ -11521,6 +11806,7 @@
         "temperature"
       ],
       "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     }
   ],
@@ -13896,6 +14182,12 @@
       "Title": "UK GCSE Physics",
       "Formulae": [
         {
+          "Reference": "DefinitionOfVelocity",
+          "URLReference": "definition-of-velocity",
+          "Title": "The Definition of Velocity",
+          "Content": "\\textbf{v} = \\frac{\\mathrm{d} \\textbf{s}}{\\mathrm{d} t}"
+        },
+        {
           "Reference": "DefinitionOfAcceleration",
           "URLReference": "definition-of-acceleration",
           "Title": "The Definition of Acceleration",
@@ -13908,16 +14200,70 @@
           "Content": "\\rho = \\frac{M}{V}"
         },
         {
+          "Reference": "DefinitionOfWeight",
+          "URLReference": "definition-of-weight",
+          "Title": "The Definition of Weight",
+          "Content": "W = mg"
+        },
+        {
+          "Reference": "DefinitionOfMomentum",
+          "URLReference": "definition-of-momentum",
+          "Title": "The Definition of Momentum",
+          "Content": "\\textbf{p} = m \\textbf{v}"
+        },
+        {
           "Reference": "NewtonsSecondLawOfMotion",
           "URLReference": "newtons-second-law-of-motion",
           "Title": "Newton’s Second Law of Motion",
           "Content": "\\textbf{F} = \\frac{\\mathrm{d} \\textbf{p}}{\\mathrm{d} t}"
         },
         {
+          "Reference": "DefinitionOfImpulse",
+          "URLReference": "definition-of-impulse",
+          "Title": "The Definition of Impulse",
+          "Content": "\\textbf{J} = \\int \\textbf{F} \\mathrm{d} t"
+        },
+        {
+          "Reference": "DefinitionOfWorkDone",
+          "URLReference": "definition-of-work-done",
+          "Title": "The Definition of Work Done by a Force",
+          "Content": "W = \\int \\textbf{F} \\cdot \\mathrm{d} \\textbf{x}"
+        },
+        {
           "Reference": "DefinitionOfKineticEnergy",
           "URLReference": "definition-of-kinetic-energy",
           "Title": "The Definition of Kinetic Energy",
           "Content": "E_{K} = \\frac{1}{2} m v^{2}"
+        },
+        {
+          "Reference": "HookesLaw",
+          "URLReference": "hookes-law",
+          "Title": "Hooke’s Law",
+          "Content": "F = -kx"
+        },
+        {
+          "Reference": "ElasticPotentialEnergy",
+          "URLReference": "elastic-potential-energy",
+          "Title": "The Elastic Potential Energy of an Ideal Spring",
+          "Content": "E = \\frac{1}{2} k x^{2}"
+        },
+        {
+          "Reference": "DefinitionOfPressure",
+          "URLReference": "definition-of-pressure",
+          "Title": "The Definition of Pressure",
+          "Content": "P = \\frac{F}{A}"
+        },
+        {
+          "Reference": "PressureInADepthInALiquid",
+          "URLReference": "pressure-in-adepth-in-aliquid",
+          "Title": "The Pressure at a Given Depth in a Liquid",
+          "Content": "p = h \\rho g"
+        },
+        {
+          "Reference": "DefinitionOfPower",
+          "URLReference": "definition-of-power",
+          "Title": "The Definition of Power",
+          "Content": "P = \\frac{\\mathrm{d} E}{\\mathrm{d} t}"
         },
         {
           "Reference": "DefinitionOfEfficiency",
@@ -13944,10 +14290,40 @@
           "Content": "V_{\\text{total}} = \\sum_{j} V_{j}"
         },
         {
+          "Reference": "DefinitionOfHeatCapacity",
+          "URLReference": "definition-of-heat-capacity",
+          "Title": "The Definition of Heat Capacity",
+          "Content": "C = \\frac{\\mathrm{d} Q}{\\mathrm{d} T}"
+        },
+        {
+          "Reference": "DefinitionOfFrequency",
+          "URLReference": "definition-of-frequency",
+          "Title": "The Definition of Frequency",
+          "Content": "f = \\frac{1}{T}"
+        },
+        {
           "Reference": "WaveSpeedFormula",
           "URLReference": "wave-speed-formula",
           "Title": "The Wave Speed Formula",
           "Content": "v = f \\lambda"
+        },
+        {
+          "Reference": "LawOfReflection",
+          "URLReference": "law-of-reflection",
+          "Title": "The Law of Reflection",
+          "Content": "\\theta_{r} = \\theta_{i}"
+        },
+        {
+          "Reference": "SnellsLaw",
+          "URLReference": "snells-law",
+          "Title": "Snell’s Law",
+          "Content": "n_{1} \\sin \\theta_{1} = n_{2} \\sin \\theta_{2}"
+        },
+        {
+          "Reference": "CriticalAngleFormula",
+          "URLReference": "critical-angle-formula",
+          "Title": "The Critical Angle Formula",
+          "Content": "\\theta_{c} = \\sin^{-1} \\left( \\frac{n_{2}}{n_{1}} \\right)"
         }
       ]
     }

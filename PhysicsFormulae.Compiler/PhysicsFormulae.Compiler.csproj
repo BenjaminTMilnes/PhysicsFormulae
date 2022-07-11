@@ -89,6 +89,7 @@
     <Compile Include="Constants\ConstantCompiler.cs" />
     <Compile Include="Formulae\Curriculum.cs" />
     <Compile Include="Formulae\FormulaCompiler.cs" />
+    <Compile Include="Formulae\FormulaSheetUsage.cs" />
     <Compile Include="FormulaSets\FormulaSet.cs" />
     <Compile Include="FormulaSets\FormulaSetCompiler.cs" />
     <Compile Include="FormulaSets\FormulaSetFormula.cs" />
