@@ -4888,8 +4888,8 @@
           "Type": "Variable",
           "ObjectType": "Vector",
           "Reference": "Velocity",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{L T^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the velocity of the object"
         },
         {
@@ -4897,8 +4897,8 @@
           "Type": "Variable",
           "ObjectType": "Vector",
           "Reference": "Position",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{L}",
+          "Units": "\\mathrm{m}",
           "Definition": "is the position of the object"
         },
         {
@@ -4906,8 +4906,8 @@
           "Type": "Variable",
           "ObjectType": "Scalar",
           "Reference": "Time",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{T}",
+          "Units": "\\mathrm{s}",
           "Definition": "is time"
         }
       ],
@@ -4928,8 +4928,39 @@
       "Fields": [
         "Classical Mechanics"
       ],
-      "References": [],
-      "SeeMore": [],
+      "References": [
+        {
+          "Title": "Sears and Zemansky's University Physics with Modern Physics",
+          "Authors": [
+            "H. D. Young",
+            "R. A. Freedman"
+          ],
+          "Edition": 12,
+          "Year": 0,
+          "PublisherName": "Pearson",
+          "PublisherAddress": null,
+          "ISBN": "9780321501301",
+          "URL": null,
+          "Volume": 0,
+          "PageNumber": 72,
+          "CitationKey": "SearsAndZemanskysUniversityPhysics",
+          "Type": "Book"
+        }
+      ],
+      "SeeMore": [
+        {
+          "Name": "Hyperphysics",
+          "URL": "http://hyperphysics.phy-astr.gsu.edu/hbase/vel2.html"
+        },
+        {
+          "Name": "The Physics Hypertextbook",
+          "URL": "https://physics.info/velocity/"
+        },
+        {
+          "Name": "Wikipedia",
+          "URL": "https://en.wikipedia.org/wiki/Velocity"
+        }
+      ],
       "Tags": [
         "rate of change",
         "velocity",

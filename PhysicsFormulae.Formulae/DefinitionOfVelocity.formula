@@ -8,9 +8,9 @@ The velocity of an object is the rate of change in that object's position. It ca
 
 where:
 
-\textbf{v} [var. vec. Velocity] is the velocity of the object
-\textbf{s} [var. vec. Position] is the position of the object
-t [var. scal. Time] is time
+\textbf{v} [var. vec. Velocity, L T^{-1}, m s^{-1}] is the velocity of the object
+\textbf{s} [var. vec. Position, L, m] is the position of the object
+t [var. scal. Time, T, s] is time
 
 variants:
 
@@ -38,8 +38,13 @@ derived from:
 
 references:
 
+book: SearsAndZemanskysUniversityPhysics, p. 72
 
 see more:
+
+http://hyperphysics.phy-astr.gsu.edu/hbase/vel2.html
+https://physics.info/velocity/
+https://en.wikipedia.org/wiki/Velocity
 
 tags:
 
