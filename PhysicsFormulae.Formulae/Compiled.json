@@ -868,13 +868,7 @@
         "ratio"
       ],
       "Curricula": [],
-      "FormulaSheets": [
-        {
-          "Reference": "UKGCSEPhysics",
-          "URLReference": "ukgcsephysics",
-          "Title": "UK GCSE Physics"
-        }
-      ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -927,7 +921,8 @@
       "DerivedFrom": [],
       "Derivation": null,
       "Fields": [
-        "Classical Mechanics"
+        "Classical Mechanics",
+        "Linear Dynamics"
       ],
       "References": [
         {
@@ -7857,7 +7852,7 @@
       "Reference": "HookesLaw",
       "URLReference": "hookes-law",
       "Title": "Hooke’s Law",
-      "Interpretation": "For an ideal spring, the amount of force needed to compress or extend a spring by a given distance, $x$, is proportional to $x$.",
+      "Interpretation": "For an ideal spring, the force needed to compress or extend a spring by a given distance, $x$, is proportional to $x$.",
       "Content": "F = -kx",
       "Identifiers": [
         {
@@ -7865,8 +7860,8 @@
           "Type": "Variable",
           "ObjectType": "Scalar",
           "Reference": "Force",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{M L T^{-2}}",
+          "Units": "\\mathrm{N}",
           "Definition": "is the force exerted by the spring"
         },
         {
@@ -7874,8 +7869,8 @@
           "Type": "Constant",
           "ObjectType": "Scalar",
           "Reference": "SpringConstant",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{M T^{-2}}",
+          "Units": "\\mathrm{N\\,m^{-1}}",
           "Definition": "is the spring constant - a constant factor dependent on the properties of the spring, such as the stiffness of the material"
         },
         {
@@ -7883,19 +7878,47 @@
           "Type": "Variable",
           "ObjectType": "Scalar",
           "Reference": "Distance",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{L}",
+          "Units": "\\mathrm{m}",
           "Definition": "is the amount by which the spring has been extended or compressed from its equilibrium point"
         }
       ],
-      "Variants": [],
+      "Variants": [
+        {
+          "Title": "Vector Form",
+          "Interpretation": "",
+          "Content": "\\textbf{F} = -k \\textbf{x}"
+        }
+      ],
       "DerivedFrom": [],
       "Derivation": null,
       "Fields": [
         "Classical Mechanics"
       ],
-      "References": [],
+      "References": [
+        {
+          "Title": "Sears and Zemansky's University Physics with Modern Physics",
+          "Authors": [
+            "H. D. Young",
+            "R. A. Freedman"
+          ],
+          "Edition": 12,
+          "Year": 0,
+          "PublisherName": "Pearson",
+          "PublisherAddress": null,
+          "ISBN": "9780321501301",
+          "URL": null,
+          "Volume": 0,
+          "PageNumber": 193,
+          "CitationKey": "SearsAndZemanskysUniversityPhysics",
+          "Type": "Book"
+        }
+      ],
       "SeeMore": [
+        {
+          "Name": "Hyperphysics",
+          "URL": "http://hyperphysics.phy-astr.gsu.edu/hbase/permot2.html"
+        },
         {
           "Name": "Wikipedia",
           "URL": "https://en.wikipedia.org/wiki/Hooke%27s_law"
@@ -8718,13 +8741,7 @@
         "incident"
       ],
       "Curricula": [],
-      "FormulaSheets": [
-        {
-          "Reference": "UKGCSEPhysics",
-          "URLReference": "ukgcsephysics",
-          "Title": "UK GCSE Physics"
-        }
-      ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -12639,13 +12656,7 @@
         "materials"
       ],
       "Curricula": [],
-      "FormulaSheets": [
-        {
-          "Reference": "UKGCSEPhysics",
-          "URLReference": "ukgcsephysics",
-          "Title": "UK GCSE Physics"
-        }
-      ],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -18751,24 +18762,6 @@
           "URLReference": "wave-speed-formula",
           "Title": "The Wave Speed Formula",
           "Content": "v = f \\lambda"
-        },
-        {
-          "Reference": "LawOfReflection",
-          "URLReference": "law-of-reflection",
-          "Title": "The Law of Reflection",
-          "Content": "\\theta_{r} = \\theta_{i}"
-        },
-        {
-          "Reference": "SnellsLaw",
-          "URLReference": "snells-law",
-          "Title": "Snell’s Law",
-          "Content": "n_{1} \\sin \\theta_{1} = n_{2} \\sin \\theta_{2}"
-        },
-        {
-          "Reference": "CriticalAngleFormula",
-          "URLReference": "critical-angle-formula",
-          "Title": "The Critical Angle Formula",
-          "Content": "\\theta_{c} = \\sin^{-1} \\left( \\frac{n_{2}}{n_{1}} \\right)"
         }
       ]
     }

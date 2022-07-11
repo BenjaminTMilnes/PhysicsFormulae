@@ -2,17 +2,21 @@
 
 Hooke's Law
 
-For an ideal spring, the amount of force needed to compress or extend a spring by a given distance, $x$, is proportional to $x$.
+For an ideal spring, the force needed to compress or extend a spring by a given distance, $x$, is proportional to $x$.
 
 F = -kx
 
 where:
 
-F [var. scal. Force] is the force exerted by the spring
-k [const. scal. SpringConstant] is the spring constant - a constant factor dependent on the properties of the spring, such as the stiffness of the material
-x [var. scal. Distance] is the amount by which the spring has been extended or compressed from its equilibrium point
+F [var. scal. Force, M L T^{-2}, N] is the force exerted by the spring
+k [const. scal. SpringConstant, M T^{-2}, N m^{-1}] is the spring constant - a constant factor dependent on the properties of the spring, such as the stiffness of the material
+x [var. scal. Distance, L, m] is the amount by which the spring has been extended or compressed from its equilibrium point
 
 variants:
+
+Vector Form 
+
+\textbf{F} = -k \textbf{x}
 
 fields:
 
@@ -24,8 +28,11 @@ derived from:
 
 references:
 
+book: SearsAndZemanskysUniversityPhysics, p. 193
+
 see more:
 
+http://hyperphysics.phy-astr.gsu.edu/hbase/permot2.html
 https://en.wikipedia.org/wiki/Hooke%27s_law
 https://physics.info/springs/
 
