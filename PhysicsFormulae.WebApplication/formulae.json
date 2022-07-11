@@ -922,7 +922,7 @@
       "Derivation": null,
       "Fields": [
         "Classical Mechanics",
-        "Linear Dynamics"
+        "Kinematics"
       ],
       "References": [
         {
@@ -4926,7 +4926,8 @@
       "DerivedFrom": [],
       "Derivation": null,
       "Fields": [
-        "Classical Mechanics"
+        "Classical Mechanics",
+        "Kinematics"
       ],
       "References": [
         {
