@@ -1,17 +1,17 @@
 ﻿CentripetalForceForCircularMotion
 
-The Centripetal Force for Circular Motion
+The Formula for the Centripetal Force for Circular Motion
 
-For an object to move along a circular path, there must be a force pointing towards the centre of the circle with a magnitude that is proportional to the mass of the object and its linear velocity squared, and inversely proportional to the radius of the circle.
+For an object to move along a circular path, there must be a force acting on it pointing towards the centre of the circle with a magnitude that is proportional to the mass of the object and its linear velocity squared, and inversely proportional to the radius of the circle.
 
 F = \frac{mv^2}{r}
 
 where:
 
-F [var. scal. Force] is the magnitude of the centripetal force experienced by the object
-m [var. scal. Mass] is the mass of the object
-v [var. scal. LinearVelocity] is the tangential speed / linear velocity of the object
-r [var. scal. Radius] is the radius of the circular path
+F [var. scal. Force, M L T^{-2}, N] is the magnitude of the centripetal force experienced by the object
+m [var. scal. Mass, M, kg] is the mass of the object
+v [var. scal. LinearVelocity, L T^{-1}, m s^{-1}] is the tangential speed / linear velocity of the object
+r [var. scal. Radius, L, m] is the radius of the circular path
 
 variants:
 
@@ -45,10 +45,13 @@ derived from:
 
 references:
 
+book: CambridgeHandbookOfPhysicsFormulas, p. 66 
 
 see more:
 
 https://en.wikipedia.org/wiki/Centripetal_force
+http://hyperphysics.phy-astr.gsu.edu/hbase/cf.html
+https://physics.info/centripetal/
 
 tags:
 

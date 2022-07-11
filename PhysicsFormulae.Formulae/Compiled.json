@@ -261,8 +261,8 @@
     {
       "Reference": "CentripetalForceForCircularMotion",
       "URLReference": "centripetal-force-for-circular-motion",
-      "Title": "The Centripetal Force for Circular Motion",
-      "Interpretation": "For an object to move along a circular path, there must be a force pointing towards the centre of the circle with a magnitude that is proportional to the mass of the object and its linear velocity squared, and inversely proportional to the radius of the circle.",
+      "Title": "The Formula for the Centripetal Force for Circular Motion",
+      "Interpretation": "For an object to move along a circular path, there must be a force acting on it pointing towards the centre of the circle with a magnitude that is proportional to the mass of the object and its linear velocity squared, and inversely proportional to the radius of the circle.",
       "Content": "F = \\frac{mv^2}{r}",
       "Identifiers": [
         {
@@ -270,8 +270,8 @@
           "Type": "Variable",
           "ObjectType": "Scalar",
           "Reference": "Force",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{M L T^{-2}}",
+          "Units": "\\mathrm{N}",
           "Definition": "is the magnitude of the centripetal force experienced by the object"
         },
         {
@@ -279,8 +279,8 @@
           "Type": "Variable",
           "ObjectType": "Scalar",
           "Reference": "Mass",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{M}",
+          "Units": "\\mathrm{kg}",
           "Definition": "is the mass of the object"
         },
         {
@@ -288,8 +288,8 @@
           "Type": "Variable",
           "ObjectType": "Scalar",
           "Reference": "LinearVelocity",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{L T^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the tangential speed / linear velocity of the object"
         },
         {
@@ -297,8 +297,8 @@
           "Type": "Variable",
           "ObjectType": "Scalar",
           "Reference": "Radius",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{L}",
+          "Units": "\\mathrm{m}",
           "Definition": "is the radius of the circular path"
         }
       ],
@@ -324,11 +324,36 @@
       "Fields": [
         "Classical Mechanics"
       ],
-      "References": [],
+      "References": [
+        {
+          "Title": "The Cambridge Handbook of Physics Formulas",
+          "Authors": [
+            "Graham Woan"
+          ],
+          "Edition": 0,
+          "Year": 2003,
+          "PublisherName": "Cambridge University Press",
+          "PublisherAddress": null,
+          "ISBN": "9780521575072",
+          "URL": null,
+          "Volume": 0,
+          "PageNumber": 66,
+          "CitationKey": "CambridgeHandbookOfPhysicsFormulas",
+          "Type": "Book"
+        }
+      ],
       "SeeMore": [
         {
           "Name": "Wikipedia",
           "URL": "https://en.wikipedia.org/wiki/Centripetal_force"
+        },
+        {
+          "Name": "Hyperphysics",
+          "URL": "http://hyperphysics.phy-astr.gsu.edu/hbase/cf.html"
+        },
+        {
+          "Name": "The Physics Hypertextbook",
+          "URL": "https://physics.info/centripetal/"
         }
       ],
       "Tags": [
@@ -341,6 +366,7 @@
         "velocity",
         "force",
         "object",
+        "acting",
         "pointing",
         "centre",
         "circle",
@@ -16192,7 +16218,7 @@
         {
           "Reference": "CentripetalForceForCircularMotion",
           "URLReference": "centripetal-force-for-circular-motion",
-          "Title": "The Centripetal Force for Circular Motion",
+          "Title": "The Formula for the Centripetal Force for Circular Motion",
           "Content": "F = \\frac{mv^2}{r}"
         },
         {
@@ -16445,7 +16471,7 @@
         {
           "Reference": "CentripetalForceForCircularMotion",
           "URLReference": "centripetal-force-for-circular-motion",
-          "Title": "The Centripetal Force for Circular Motion",
+          "Title": "The Formula for the Centripetal Force for Circular Motion",
           "Content": "F = \\frac{mv^2}{r}"
         },
         {
@@ -16698,7 +16724,7 @@
         {
           "Reference": "CentripetalForceForCircularMotion",
           "URLReference": "centripetal-force-for-circular-motion",
-          "Title": "The Centripetal Force for Circular Motion",
+          "Title": "The Formula for the Centripetal Force for Circular Motion",
           "Content": "F = \\frac{mv^2}{r}"
         },
         {
@@ -17101,7 +17127,7 @@
         {
           "Reference": "CentripetalForceForCircularMotion",
           "URLReference": "centripetal-force-for-circular-motion",
-          "Title": "The Centripetal Force for Circular Motion",
+          "Title": "The Formula for the Centripetal Force for Circular Motion",
           "Content": "F = \\frac{mv^2}{r}"
         },
         {
@@ -17480,7 +17506,7 @@
         {
           "Reference": "CentripetalForceForCircularMotion",
           "URLReference": "centripetal-force-for-circular-motion",
-          "Title": "The Centripetal Force for Circular Motion",
+          "Title": "The Formula for the Centripetal Force for Circular Motion",
           "Content": "F = \\frac{mv^2}{r}"
         },
         {
@@ -18039,7 +18065,7 @@
         {
           "Reference": "CentripetalForceForCircularMotion",
           "URLReference": "centripetal-force-for-circular-motion",
-          "Title": "The Centripetal Force for Circular Motion",
+          "Title": "The Formula for the Centripetal Force for Circular Motion",
           "Content": "F = \\frac{mv^2}{r}"
         },
         {
