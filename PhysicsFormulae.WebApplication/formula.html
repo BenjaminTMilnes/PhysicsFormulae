@@ -32,6 +32,9 @@
     <div class="formula-curricula" style="display: none;">
         <span class="curriculum" ng-repeat="curriculum in formula.Curricula" style="background-color: {{getColourOfWord(curriculum)}};"><a href="#/curriculum/{{curriculum}}" title="Search for other formulae that are part of {{curriculum}}.">{{curriculum}}</a></span>
     </div>
+    <div class="formula-formulasheets">
+        <span class="formulasheet" ng-repeat="formulaSheet in formula.FormulaSheets" style="background-color: {{getColourOfWord(formulaSheet.Title)}};"><a href="#/formula-sheet/{{formulaSheet.URLReference}}">{{formulaSheet.Title}}</a></span>
+    </div>
     <div class="formula-tags">
         <span class="tag" ng-repeat="tag in formula.Tags"><a href="#/tag/{{tag}}" title="Search for other formulae with the tag '{{tag}}'.">{{tag}}</a>{{$last ? '' : ',&nbsp;'}}</span>
     </div>
