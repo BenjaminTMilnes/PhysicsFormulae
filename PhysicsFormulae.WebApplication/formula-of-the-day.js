@@ -20,5 +20,6 @@ application.controller("FormulaOfTheDayController", ["$scope", "dataService", "$
     $scope.getFormulaContent = () => { return (!$scope.formula) ? "" : createMathematicsTag($scope.formula.Content, true); }
     $scope.getVariant = (content) => { return createMathematicsTag(content, true); }
     $scope.replaceMathematicsMarkers = replaceMathematicsMarkers;
+    $scope.getColourOfWord = getColourOfWord;
 
 }]);

@@ -153,7 +153,18 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -346,7 +357,38 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -662,7 +704,28 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -846,6 +909,36 @@
       ],
       "FormulaSheets": [
         {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        },
+        {
           "Reference": "UKGCSEPhysics",
           "URLReference": "ukgcsephysics",
           "Title": "UK GCSE Physics"
@@ -913,7 +1006,18 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -984,7 +1088,38 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -1054,7 +1189,18 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -1153,7 +1299,18 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -1225,7 +1382,38 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -1288,7 +1476,23 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -1357,7 +1561,28 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -1438,6 +1663,36 @@
         "Singapore H3 Physics (2024 Onwards)"
       ],
       "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        },
         {
           "Reference": "UKGCSEPhysics",
           "URLReference": "ukgcsephysics",
@@ -1522,7 +1777,28 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -1598,6 +1874,36 @@
         "Singapore H3 Physics (2024 Onwards)"
       ],
       "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        },
         {
           "Reference": "UKGCSEPhysics",
           "URLReference": "ukgcsephysics",
@@ -1680,7 +1986,38 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -1750,7 +2087,18 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -1910,7 +2258,18 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -2095,6 +2454,36 @@
       ],
       "FormulaSheets": [
         {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        },
+        {
           "Reference": "UKGCSEPhysics",
           "URLReference": "ukgcsephysics",
           "Title": "UK GCSE Physics"
@@ -2177,6 +2566,26 @@
         "Singapore H3 Physics (2024 Onwards)"
       ],
       "FormulaSheets": [
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        },
         {
           "Reference": "UKGCSEPhysics",
           "URLReference": "ukgcsephysics",
@@ -2266,6 +2675,36 @@
         "Singapore H3 Physics (2024 Onwards)"
       ],
       "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        },
         {
           "Reference": "UKGCSEPhysics",
           "URLReference": "ukgcsephysics",
@@ -2382,6 +2821,36 @@
         "Singapore H3 Physics (2024 Onwards)"
       ],
       "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        },
         {
           "Reference": "UKGCSEPhysics",
           "URLReference": "ukgcsephysics",
@@ -2535,7 +3004,18 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -2632,6 +3112,36 @@
         "Singapore H3 Physics (2024 Onwards)"
       ],
       "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        },
         {
           "Reference": "UKGCSEPhysics",
           "URLReference": "ukgcsephysics",
@@ -2732,7 +3242,28 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -2811,6 +3342,36 @@
         "Singapore H3 Physics (2024 Onwards)"
       ],
       "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        },
         {
           "Reference": "UKGCSEPhysics",
           "URLReference": "ukgcsephysics",
@@ -2916,6 +3477,36 @@
       ],
       "FormulaSheets": [
         {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        },
+        {
           "Reference": "UKGCSEPhysics",
           "URLReference": "ukgcsephysics",
           "Title": "UK GCSE Physics"
@@ -3002,7 +3593,28 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -3306,7 +3918,18 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -3371,7 +3994,18 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -3443,7 +4077,18 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -3703,7 +4348,38 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -4098,7 +4774,38 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -4174,6 +4881,36 @@
         "Singapore H3 Physics (2024 Onwards)"
       ],
       "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        },
         {
           "Reference": "UKGCSEPhysics",
           "URLReference": "ukgcsephysics",
@@ -4264,6 +5001,36 @@
       ],
       "FormulaSheets": [
         {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        },
+        {
           "Reference": "UKGCSEPhysics",
           "URLReference": "ukgcsephysics",
           "Title": "UK GCSE Physics"
@@ -4339,6 +5106,36 @@
         "Singapore H3 Physics (2024 Onwards)"
       ],
       "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        },
         {
           "Reference": "UKGCSEPhysics",
           "URLReference": "ukgcsephysics",
@@ -4483,6 +5280,36 @@
       ],
       "FormulaSheets": [
         {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        },
+        {
           "Reference": "UKGCSEPhysics",
           "URLReference": "ukgcsephysics",
           "Title": "UK GCSE Physics"
@@ -4609,7 +5436,18 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -4702,7 +5540,18 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -4901,7 +5750,28 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -5012,7 +5882,28 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -5095,7 +5986,28 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -5208,7 +6120,18 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -5284,7 +6207,28 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -5433,7 +6377,28 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -5638,7 +6603,38 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -5690,7 +6686,23 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -5742,7 +6754,23 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -5910,7 +6938,18 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -5960,7 +6999,18 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -6073,7 +7123,18 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -6158,7 +7219,18 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -6227,7 +7299,18 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -6303,7 +7386,18 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -6392,7 +7486,38 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -6468,6 +7593,36 @@
       ],
       "FormulaSheets": [
         {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        },
+        {
           "Reference": "UKGCSEPhysics",
           "URLReference": "ukgcsephysics",
           "Title": "UK GCSE Physics"
@@ -6539,7 +7694,28 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -6679,6 +7855,36 @@
         "Singapore H3 Physics (2024 Onwards)"
       ],
       "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        },
         {
           "Reference": "UKGCSEPhysics",
           "URLReference": "ukgcsephysics",
@@ -6843,7 +8049,28 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -7022,7 +8249,28 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -7212,7 +8460,13 @@
       "Curricula": [
         "Singapore H3 Physics (9814)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -7493,7 +8747,28 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -7577,7 +8852,13 @@
         "lengths"
       ],
       "Curricula": [],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -7782,7 +9063,13 @@
       "Curricula": [
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -7883,7 +9170,38 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -7972,7 +9290,13 @@
       "Curricula": [
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -8224,7 +9548,28 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -8294,7 +9639,38 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -8347,7 +9723,38 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -8481,7 +9888,38 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -8599,6 +10037,36 @@
       ],
       "FormulaSheets": [
         {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        },
+        {
           "Reference": "UKGCSEPhysics",
           "URLReference": "ukgcsephysics",
           "Title": "UK GCSE Physics"
@@ -8674,7 +10142,18 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -8753,7 +10232,38 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -8831,6 +10341,36 @@
       ],
       "FormulaSheets": [
         {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        },
+        {
           "Reference": "UKGCSEPhysics",
           "URLReference": "ukgcsephysics",
           "Title": "UK GCSE Physics"
@@ -8905,7 +10445,28 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -8975,7 +10536,18 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -9135,6 +10707,36 @@
       ],
       "FormulaSheets": [
         {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        },
+        {
           "Reference": "UKGCSEPhysics",
           "URLReference": "ukgcsephysics",
           "Title": "UK GCSE Physics"
@@ -9215,7 +10817,18 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -9287,7 +10900,38 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -9435,7 +11079,28 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -9612,7 +11277,38 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -9719,7 +11415,38 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -9800,7 +11527,28 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -10047,7 +11795,13 @@
       "Curricula": [
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -10290,7 +12044,38 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -10351,7 +12136,38 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -10436,7 +12252,28 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -10996,7 +12833,38 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -11096,7 +12964,38 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -11181,7 +13080,38 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -11268,7 +13198,38 @@
         "Singapore H2 Physics (2024 Onwards)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -11506,7 +13467,13 @@
       "Curricula": [
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -11583,7 +13550,18 @@
         "Singapore H3 Physics (9814)",
         "Singapore H3 Physics (2024 Onwards)"
       ],
-      "FormulaSheets": [],
+      "FormulaSheets": [
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        }
+      ],
       "ExcludeFromFormulaOfTheDay": false
     },
     {
@@ -11732,6 +13710,36 @@
         "Singapore H3 Physics (2024 Onwards)"
       ],
       "FormulaSheets": [
+        {
+          "Reference": "SingaporeH1Physics2024Onwards",
+          "URLReference": "singapore-h1physics-2024onwards",
+          "Title": "Singapore H1 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH1Physics8867",
+          "URLReference": "singapore-h1physics-8867",
+          "Title": "Singapore H1 Physics (8867)"
+        },
+        {
+          "Reference": "SingaporeH2Physics2024Onwards",
+          "URLReference": "singapore-h2physics-2024onwards",
+          "Title": "Singapore H2 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH2Physics9749",
+          "URLReference": "singapore-h2physics-9749",
+          "Title": "Singapore H2 Physics (9749)"
+        },
+        {
+          "Reference": "SingaporeH3Physics2024Onwards",
+          "URLReference": "singapore-h3physics-2024onwards",
+          "Title": "Singapore H3 Physics (2024 Onwards)"
+        },
+        {
+          "Reference": "SingaporeH3Physics9814",
+          "URLReference": "singapore-h3physics-9814",
+          "Title": "Singapore H3 Physics (9814)"
+        },
         {
           "Reference": "UKGCSEPhysics",
           "URLReference": "ukgcsephysics",
@@ -14176,6 +16184,2370 @@
     }
   ],
   "FormulaSheets": [
+    {
+      "Reference": "SingaporeH1Physics2024Onwards",
+      "URLReference": "singapore-h1physics-2024onwards",
+      "Title": "Singapore H1 Physics (2024 Onwards)",
+      "Formulae": [
+        {
+          "Reference": "CentripetalForceForCircularMotion",
+          "URLReference": "centripetal-force-for-circular-motion",
+          "Title": "The Centripetal Force for Circular Motion",
+          "Content": "F = \\frac{mv^2}{r}"
+        },
+        {
+          "Reference": "DefinitionOfAcceleration",
+          "URLReference": "definition-of-acceleration",
+          "Title": "The Definition of Acceleration",
+          "Content": "\\textbf{a} = \\frac{\\mathrm{d} \\textbf{v}}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "DefinitionOfAngularFrequency",
+          "URLReference": "definition-of-angular-frequency",
+          "Title": "The Definition of Angular Frequency",
+          "Content": "\\omega = \\frac{2 \\pi}{T}"
+        },
+        {
+          "Reference": "DefinitionOfAngularVelocity",
+          "URLReference": "definition-of-angular-velocity",
+          "Title": "The Definition of Angular Velocity",
+          "Content": "\\omega = \\frac{\\mathrm{d} \\theta}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "DefinitionOfDensity",
+          "URLReference": "definition-of-density",
+          "Title": "The Definition of Density",
+          "Content": "\\rho = \\frac{M}{V}"
+        },
+        {
+          "Reference": "DefinitionOfEfficiency",
+          "URLReference": "definition-of-efficiency",
+          "Title": "The Definition of Efficiency",
+          "Content": "\\eta = \\frac{E_{\\text{useful}}}{E_{\\text{total}}}"
+        },
+        {
+          "Reference": "DefinitionOfElectricalResistivity",
+          "URLReference": "definition-of-electrical-resistivity",
+          "Title": "The Definition of Electrical Resistivity",
+          "Content": "\\rho = R \\frac{A}{l}"
+        },
+        {
+          "Reference": "DefinitionOfFrequency",
+          "URLReference": "definition-of-frequency",
+          "Title": "The Definition of Frequency",
+          "Content": "f = \\frac{1}{T}"
+        },
+        {
+          "Reference": "DefinitionOfImpulse",
+          "URLReference": "definition-of-impulse",
+          "Title": "The Definition of Impulse",
+          "Content": "\\textbf{J} = \\int \\textbf{F} \\mathrm{d} t"
+        },
+        {
+          "Reference": "DefinitionOfKineticEnergy",
+          "URLReference": "definition-of-kinetic-energy",
+          "Title": "The Definition of Kinetic Energy",
+          "Content": "E_{K} = \\frac{1}{2} m v^{2}"
+        },
+        {
+          "Reference": "DefinitionOfMomentum",
+          "URLReference": "definition-of-momentum",
+          "Title": "The Definition of Momentum",
+          "Content": "\\textbf{p} = m \\textbf{v}"
+        },
+        {
+          "Reference": "DefinitionOfPower",
+          "URLReference": "definition-of-power",
+          "Title": "The Definition of Power",
+          "Content": "P = \\frac{\\mathrm{d} E}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "DefinitionOfPressure",
+          "URLReference": "definition-of-pressure",
+          "Title": "The Definition of Pressure",
+          "Content": "P = \\frac{F}{A}"
+        },
+        {
+          "Reference": "DefinitionOfTheElectricField",
+          "URLReference": "definition-of-the-electric-field",
+          "Title": "The Definition of the Electric Field",
+          "Content": "\\textbf{E} = \\frac{\\textbf{F}_{e}}{q}"
+        },
+        {
+          "Reference": "DefinitionOfTorque",
+          "URLReference": "definition-of-torque",
+          "Title": "The Definition of Torque",
+          "Content": "\\tau = \\textbf{r} \\times \\textbf{F}"
+        },
+        {
+          "Reference": "DefinitionOfVelocity",
+          "URLReference": "definition-of-velocity",
+          "Title": "The Definition of Velocity",
+          "Content": "\\textbf{v} = \\frac{\\mathrm{d} \\textbf{s}}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "DefinitionOfWeight",
+          "URLReference": "definition-of-weight",
+          "Title": "The Definition of Weight",
+          "Content": "W = mg"
+        },
+        {
+          "Reference": "DefinitionOfWorkDone",
+          "URLReference": "definition-of-work-done",
+          "Title": "The Definition of Work Done by a Force",
+          "Content": "W = \\int \\textbf{F} \\cdot \\mathrm{d} \\textbf{x}"
+        },
+        {
+          "Reference": "ElasticPotentialEnergy",
+          "URLReference": "elastic-potential-energy",
+          "Title": "The Elastic Potential Energy of an Ideal Spring",
+          "Content": "E = \\frac{1}{2} k x^{2}"
+        },
+        {
+          "Reference": "FormulaForTheSurfaceGravityOnAPlanetOrMoon",
+          "URLReference": "formula-for-the-surface-gravity-on-aplanet-or-moon",
+          "Title": "The Formula for the Surface Gravity on a Planet or Moon",
+          "Content": "a = \\frac{GM}{R^{2}}"
+        },
+        {
+          "Reference": "GravitationalPotentialEnergyForARadialField",
+          "URLReference": "gravitational-potential-energy-for-aradial-field",
+          "Title": "The Gravitational Potential Energy for a Radial Field",
+          "Content": "E_{G} = G \\frac{m_{1} m_{2}}{r}"
+        },
+        {
+          "Reference": "GravitationalPotentialEnergyForAUniformField",
+          "URLReference": "gravitational-potential-energy-for-auniform-field",
+          "Title": "The Gravitational Potential Energy for a Uniform Field",
+          "Content": "E_{G} = mgh"
+        },
+        {
+          "Reference": "HookesLaw",
+          "URLReference": "hookes-law",
+          "Title": "Hooke’s Law",
+          "Content": "F = -kx"
+        },
+        {
+          "Reference": "LorentzForceEquation",
+          "URLReference": "lorentz-force-equation",
+          "Title": "The Lorentz Force Equation",
+          "Content": "\\textbf{F} = q \\textbf{E} + q \\textbf{v} \\times \\textbf{B}"
+        },
+        {
+          "Reference": "NewtonsFirstLawOfMotion",
+          "URLReference": "newtons-first-law-of-motion",
+          "Title": "Newton’s First Law of Motion",
+          "Content": "\\sum_{i} \\textbf{F}_{i} = 0"
+        },
+        {
+          "Reference": "NewtonsFirstLawOfMotionForRotation",
+          "URLReference": "newtons-first-law-of-motion-for-rotation",
+          "Title": "Newton’s First Law of Motion for Rotation",
+          "Content": "\\sum_{i} \\tau_{i} = 0"
+        },
+        {
+          "Reference": "NewtonsLawOfGravitation",
+          "URLReference": "newtons-law-of-gravitation",
+          "Title": "Newton’s Law of Gravitation",
+          "Content": "F = G \\frac{m_{1} m_{2}}{r^{2}}"
+        },
+        {
+          "Reference": "NewtonsSecondLawOfMotion",
+          "URLReference": "newtons-second-law-of-motion",
+          "Title": "Newton’s Second Law of Motion",
+          "Content": "\\textbf{F} = \\frac{\\mathrm{d} \\textbf{p}}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "NewtonsThirdLawOfMotion",
+          "URLReference": "newtons-third-law-of-motion",
+          "Title": "Newton’s Third Law of Motion",
+          "Content": "\\textbf{F}_{12} = - \\textbf{F}_{21}"
+        },
+        {
+          "Reference": "OhmsLaw",
+          "URLReference": "ohms-law",
+          "Title": "Ohm’s Law",
+          "Content": "I = \\frac{V}{R}"
+        },
+        {
+          "Reference": "PotentialDifferenceFormulaForComponentsInSeries",
+          "URLReference": "potential-difference-formula-for-components-in-series",
+          "Title": "The Formula for the Total Potential Difference across Electrical Components Connected in Series",
+          "Content": "V_{\\text{total}} = \\sum_{j} V_{j}"
+        },
+        {
+          "Reference": "PowerTransferredByAnElectricalComponent",
+          "URLReference": "power-transferred-by-an-electrical-component",
+          "Title": "The Power Transferred by an Electrical Component",
+          "Content": "P = IV"
+        },
+        {
+          "Reference": "ProjectileRangeFormula",
+          "URLReference": "projectile-range-formula",
+          "Title": "The Projectile Range Formula",
+          "Content": "R = \\frac{v_{0}^{2} \\sin (2 \\theta)}{g}"
+        },
+        {
+          "Reference": "RadialAccelerationInCircularMotion",
+          "URLReference": "radial-acceleration-in-circular-motion",
+          "Title": "Radial Acceleration in Uniform Circular Motion",
+          "Content": "a = \\frac{v^{2}}{r}"
+        },
+        {
+          "Reference": "ResistanceFormulaForComponentsInSeries",
+          "URLReference": "resistance-formula-for-components-in-series",
+          "Title": "The Formula for the Total Resistance of Electrical Components Connected in Series",
+          "Content": "R_{\\text{total}} = \\sum_{j} R_{j}"
+        },
+        {
+          "Reference": "RestMassEnergyOfAnObject",
+          "URLReference": "rest-mass-energy-of-an-object",
+          "Title": "The Rest Mass Energy of an Object",
+          "Content": "E = m_{0} c^{2}"
+        },
+        {
+          "Reference": "SUVAT1",
+          "URLReference": "suvat1",
+          "Title": "The Kinematic Equation for Distance as a Function of Time for Constant Acceleration",
+          "Content": "s(t) = s_{0} + u t + \\frac{1}{2} a t^{2}"
+        },
+        {
+          "Reference": "SUVAT2",
+          "URLReference": "suvat2",
+          "Title": "The Kinematic Equation for Distance as a Function of Time for Constant Acceleration (Using u and v)",
+          "Content": "s(t) = s_{0} + \\frac{1}{2} (u + v) t"
+        },
+        {
+          "Reference": "SUVAT3",
+          "URLReference": "suvat3",
+          "Title": "The Kinematic Equation for Final Velocity as a Function of Time for Constant Acceleration",
+          "Content": "v(t) = u + at"
+        },
+        {
+          "Reference": "SUVAT4",
+          "URLReference": "suvat4",
+          "Title": "The Kinematic Equation for Final Velocity as a Function of Distance for Constant Acceleration",
+          "Content": "v^{2} = u^{2} + 2as"
+        },
+        {
+          "Reference": "WaveSpeedFormula",
+          "URLReference": "wave-speed-formula",
+          "Title": "The Wave Speed Formula",
+          "Content": "v = f \\lambda"
+        }
+      ]
+    },
+    {
+      "Reference": "SingaporeH1Physics8867",
+      "URLReference": "singapore-h1physics-8867",
+      "Title": "Singapore H1 Physics (8867)",
+      "Formulae": [
+        {
+          "Reference": "CentripetalForceForCircularMotion",
+          "URLReference": "centripetal-force-for-circular-motion",
+          "Title": "The Centripetal Force for Circular Motion",
+          "Content": "F = \\frac{mv^2}{r}"
+        },
+        {
+          "Reference": "DefinitionOfAcceleration",
+          "URLReference": "definition-of-acceleration",
+          "Title": "The Definition of Acceleration",
+          "Content": "\\textbf{a} = \\frac{\\mathrm{d} \\textbf{v}}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "DefinitionOfAngularFrequency",
+          "URLReference": "definition-of-angular-frequency",
+          "Title": "The Definition of Angular Frequency",
+          "Content": "\\omega = \\frac{2 \\pi}{T}"
+        },
+        {
+          "Reference": "DefinitionOfAngularVelocity",
+          "URLReference": "definition-of-angular-velocity",
+          "Title": "The Definition of Angular Velocity",
+          "Content": "\\omega = \\frac{\\mathrm{d} \\theta}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "DefinitionOfDensity",
+          "URLReference": "definition-of-density",
+          "Title": "The Definition of Density",
+          "Content": "\\rho = \\frac{M}{V}"
+        },
+        {
+          "Reference": "DefinitionOfEfficiency",
+          "URLReference": "definition-of-efficiency",
+          "Title": "The Definition of Efficiency",
+          "Content": "\\eta = \\frac{E_{\\text{useful}}}{E_{\\text{total}}}"
+        },
+        {
+          "Reference": "DefinitionOfElectricalResistivity",
+          "URLReference": "definition-of-electrical-resistivity",
+          "Title": "The Definition of Electrical Resistivity",
+          "Content": "\\rho = R \\frac{A}{l}"
+        },
+        {
+          "Reference": "DefinitionOfFrequency",
+          "URLReference": "definition-of-frequency",
+          "Title": "The Definition of Frequency",
+          "Content": "f = \\frac{1}{T}"
+        },
+        {
+          "Reference": "DefinitionOfImpulse",
+          "URLReference": "definition-of-impulse",
+          "Title": "The Definition of Impulse",
+          "Content": "\\textbf{J} = \\int \\textbf{F} \\mathrm{d} t"
+        },
+        {
+          "Reference": "DefinitionOfKineticEnergy",
+          "URLReference": "definition-of-kinetic-energy",
+          "Title": "The Definition of Kinetic Energy",
+          "Content": "E_{K} = \\frac{1}{2} m v^{2}"
+        },
+        {
+          "Reference": "DefinitionOfMomentum",
+          "URLReference": "definition-of-momentum",
+          "Title": "The Definition of Momentum",
+          "Content": "\\textbf{p} = m \\textbf{v}"
+        },
+        {
+          "Reference": "DefinitionOfPower",
+          "URLReference": "definition-of-power",
+          "Title": "The Definition of Power",
+          "Content": "P = \\frac{\\mathrm{d} E}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "DefinitionOfPressure",
+          "URLReference": "definition-of-pressure",
+          "Title": "The Definition of Pressure",
+          "Content": "P = \\frac{F}{A}"
+        },
+        {
+          "Reference": "DefinitionOfTheElectricField",
+          "URLReference": "definition-of-the-electric-field",
+          "Title": "The Definition of the Electric Field",
+          "Content": "\\textbf{E} = \\frac{\\textbf{F}_{e}}{q}"
+        },
+        {
+          "Reference": "DefinitionOfTorque",
+          "URLReference": "definition-of-torque",
+          "Title": "The Definition of Torque",
+          "Content": "\\tau = \\textbf{r} \\times \\textbf{F}"
+        },
+        {
+          "Reference": "DefinitionOfVelocity",
+          "URLReference": "definition-of-velocity",
+          "Title": "The Definition of Velocity",
+          "Content": "\\textbf{v} = \\frac{\\mathrm{d} \\textbf{s}}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "DefinitionOfWeight",
+          "URLReference": "definition-of-weight",
+          "Title": "The Definition of Weight",
+          "Content": "W = mg"
+        },
+        {
+          "Reference": "DefinitionOfWorkDone",
+          "URLReference": "definition-of-work-done",
+          "Title": "The Definition of Work Done by a Force",
+          "Content": "W = \\int \\textbf{F} \\cdot \\mathrm{d} \\textbf{x}"
+        },
+        {
+          "Reference": "ElasticPotentialEnergy",
+          "URLReference": "elastic-potential-energy",
+          "Title": "The Elastic Potential Energy of an Ideal Spring",
+          "Content": "E = \\frac{1}{2} k x^{2}"
+        },
+        {
+          "Reference": "FormulaForTheSurfaceGravityOnAPlanetOrMoon",
+          "URLReference": "formula-for-the-surface-gravity-on-aplanet-or-moon",
+          "Title": "The Formula for the Surface Gravity on a Planet or Moon",
+          "Content": "a = \\frac{GM}{R^{2}}"
+        },
+        {
+          "Reference": "GravitationalPotentialEnergyForARadialField",
+          "URLReference": "gravitational-potential-energy-for-aradial-field",
+          "Title": "The Gravitational Potential Energy for a Radial Field",
+          "Content": "E_{G} = G \\frac{m_{1} m_{2}}{r}"
+        },
+        {
+          "Reference": "GravitationalPotentialEnergyForAUniformField",
+          "URLReference": "gravitational-potential-energy-for-auniform-field",
+          "Title": "The Gravitational Potential Energy for a Uniform Field",
+          "Content": "E_{G} = mgh"
+        },
+        {
+          "Reference": "HookesLaw",
+          "URLReference": "hookes-law",
+          "Title": "Hooke’s Law",
+          "Content": "F = -kx"
+        },
+        {
+          "Reference": "LorentzForceEquation",
+          "URLReference": "lorentz-force-equation",
+          "Title": "The Lorentz Force Equation",
+          "Content": "\\textbf{F} = q \\textbf{E} + q \\textbf{v} \\times \\textbf{B}"
+        },
+        {
+          "Reference": "NewtonsFirstLawOfMotion",
+          "URLReference": "newtons-first-law-of-motion",
+          "Title": "Newton’s First Law of Motion",
+          "Content": "\\sum_{i} \\textbf{F}_{i} = 0"
+        },
+        {
+          "Reference": "NewtonsFirstLawOfMotionForRotation",
+          "URLReference": "newtons-first-law-of-motion-for-rotation",
+          "Title": "Newton’s First Law of Motion for Rotation",
+          "Content": "\\sum_{i} \\tau_{i} = 0"
+        },
+        {
+          "Reference": "NewtonsLawOfGravitation",
+          "URLReference": "newtons-law-of-gravitation",
+          "Title": "Newton’s Law of Gravitation",
+          "Content": "F = G \\frac{m_{1} m_{2}}{r^{2}}"
+        },
+        {
+          "Reference": "NewtonsSecondLawOfMotion",
+          "URLReference": "newtons-second-law-of-motion",
+          "Title": "Newton’s Second Law of Motion",
+          "Content": "\\textbf{F} = \\frac{\\mathrm{d} \\textbf{p}}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "NewtonsThirdLawOfMotion",
+          "URLReference": "newtons-third-law-of-motion",
+          "Title": "Newton’s Third Law of Motion",
+          "Content": "\\textbf{F}_{12} = - \\textbf{F}_{21}"
+        },
+        {
+          "Reference": "OhmsLaw",
+          "URLReference": "ohms-law",
+          "Title": "Ohm’s Law",
+          "Content": "I = \\frac{V}{R}"
+        },
+        {
+          "Reference": "PotentialDifferenceFormulaForComponentsInSeries",
+          "URLReference": "potential-difference-formula-for-components-in-series",
+          "Title": "The Formula for the Total Potential Difference across Electrical Components Connected in Series",
+          "Content": "V_{\\text{total}} = \\sum_{j} V_{j}"
+        },
+        {
+          "Reference": "PowerTransferredByAnElectricalComponent",
+          "URLReference": "power-transferred-by-an-electrical-component",
+          "Title": "The Power Transferred by an Electrical Component",
+          "Content": "P = IV"
+        },
+        {
+          "Reference": "ProjectileRangeFormula",
+          "URLReference": "projectile-range-formula",
+          "Title": "The Projectile Range Formula",
+          "Content": "R = \\frac{v_{0}^{2} \\sin (2 \\theta)}{g}"
+        },
+        {
+          "Reference": "RadialAccelerationInCircularMotion",
+          "URLReference": "radial-acceleration-in-circular-motion",
+          "Title": "Radial Acceleration in Uniform Circular Motion",
+          "Content": "a = \\frac{v^{2}}{r}"
+        },
+        {
+          "Reference": "ResistanceFormulaForComponentsInSeries",
+          "URLReference": "resistance-formula-for-components-in-series",
+          "Title": "The Formula for the Total Resistance of Electrical Components Connected in Series",
+          "Content": "R_{\\text{total}} = \\sum_{j} R_{j}"
+        },
+        {
+          "Reference": "RestMassEnergyOfAnObject",
+          "URLReference": "rest-mass-energy-of-an-object",
+          "Title": "The Rest Mass Energy of an Object",
+          "Content": "E = m_{0} c^{2}"
+        },
+        {
+          "Reference": "SUVAT1",
+          "URLReference": "suvat1",
+          "Title": "The Kinematic Equation for Distance as a Function of Time for Constant Acceleration",
+          "Content": "s(t) = s_{0} + u t + \\frac{1}{2} a t^{2}"
+        },
+        {
+          "Reference": "SUVAT2",
+          "URLReference": "suvat2",
+          "Title": "The Kinematic Equation for Distance as a Function of Time for Constant Acceleration (Using u and v)",
+          "Content": "s(t) = s_{0} + \\frac{1}{2} (u + v) t"
+        },
+        {
+          "Reference": "SUVAT3",
+          "URLReference": "suvat3",
+          "Title": "The Kinematic Equation for Final Velocity as a Function of Time for Constant Acceleration",
+          "Content": "v(t) = u + at"
+        },
+        {
+          "Reference": "SUVAT4",
+          "URLReference": "suvat4",
+          "Title": "The Kinematic Equation for Final Velocity as a Function of Distance for Constant Acceleration",
+          "Content": "v^{2} = u^{2} + 2as"
+        },
+        {
+          "Reference": "WaveSpeedFormula",
+          "URLReference": "wave-speed-formula",
+          "Title": "The Wave Speed Formula",
+          "Content": "v = f \\lambda"
+        }
+      ]
+    },
+    {
+      "Reference": "SingaporeH2Physics2024Onwards",
+      "URLReference": "singapore-h2physics-2024onwards",
+      "Title": "Singapore H2 Physics (2024 Onwards)",
+      "Formulae": [
+        {
+          "Reference": "CentripetalForceForCircularMotion",
+          "URLReference": "centripetal-force-for-circular-motion",
+          "Title": "The Centripetal Force for Circular Motion",
+          "Content": "F = \\frac{mv^2}{r}"
+        },
+        {
+          "Reference": "CoulombsLaw",
+          "URLReference": "coulombs-law",
+          "Title": "Coulomb’s Law",
+          "Content": "F = k_{e} \\frac{q_1 q_2}{r^2}"
+        },
+        {
+          "Reference": "DefinitionOfAcceleration",
+          "URLReference": "definition-of-acceleration",
+          "Title": "The Definition of Acceleration",
+          "Content": "\\textbf{a} = \\frac{\\mathrm{d} \\textbf{v}}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "DefinitionOfAngularFrequency",
+          "URLReference": "definition-of-angular-frequency",
+          "Title": "The Definition of Angular Frequency",
+          "Content": "\\omega = \\frac{2 \\pi}{T}"
+        },
+        {
+          "Reference": "DefinitionOfAngularVelocity",
+          "URLReference": "definition-of-angular-velocity",
+          "Title": "The Definition of Angular Velocity",
+          "Content": "\\omega = \\frac{\\mathrm{d} \\theta}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "DefinitionOfCapacitance",
+          "URLReference": "definition-of-capacitance",
+          "Title": "The Definition of Capacitance",
+          "Content": "C = \\frac{Q}{V}"
+        },
+        {
+          "Reference": "DefinitionOfDeBroglieWavelength",
+          "URLReference": "definition-of-de-broglie-wavelength",
+          "Title": "The Definition of the de Broglie Wavelength",
+          "Content": "\\lambda = \\frac{h}{p}"
+        },
+        {
+          "Reference": "DefinitionOfDensity",
+          "URLReference": "definition-of-density",
+          "Title": "The Definition of Density",
+          "Content": "\\rho = \\frac{M}{V}"
+        },
+        {
+          "Reference": "DefinitionOfEffectiveHalfLife",
+          "URLReference": "definition-of-effective-half-life",
+          "Title": "The Definition of Effective Half-life",
+          "Content": "\\frac{1}{t_{e}} = \\frac{1}{t_{p}} + \\frac{1}{t_{b}}"
+        },
+        {
+          "Reference": "DefinitionOfEfficiency",
+          "URLReference": "definition-of-efficiency",
+          "Title": "The Definition of Efficiency",
+          "Content": "\\eta = \\frac{E_{\\text{useful}}}{E_{\\text{total}}}"
+        },
+        {
+          "Reference": "DefinitionOfElectricalResistivity",
+          "URLReference": "definition-of-electrical-resistivity",
+          "Title": "The Definition of Electrical Resistivity",
+          "Content": "\\rho = R \\frac{A}{l}"
+        },
+        {
+          "Reference": "DefinitionOfFrequency",
+          "URLReference": "definition-of-frequency",
+          "Title": "The Definition of Frequency",
+          "Content": "f = \\frac{1}{T}"
+        },
+        {
+          "Reference": "DefinitionOfHeatCapacity",
+          "URLReference": "definition-of-heat-capacity",
+          "Title": "The Definition of Heat Capacity",
+          "Content": "C = \\frac{\\mathrm{d} Q}{\\mathrm{d} T}"
+        },
+        {
+          "Reference": "DefinitionOfImpulse",
+          "URLReference": "definition-of-impulse",
+          "Title": "The Definition of Impulse",
+          "Content": "\\textbf{J} = \\int \\textbf{F} \\mathrm{d} t"
+        },
+        {
+          "Reference": "DefinitionOfKineticEnergy",
+          "URLReference": "definition-of-kinetic-energy",
+          "Title": "The Definition of Kinetic Energy",
+          "Content": "E_{K} = \\frac{1}{2} m v^{2}"
+        },
+        {
+          "Reference": "DefinitionOfMomentum",
+          "URLReference": "definition-of-momentum",
+          "Title": "The Definition of Momentum",
+          "Content": "\\textbf{p} = m \\textbf{v}"
+        },
+        {
+          "Reference": "DefinitionOfPhotonEnergy",
+          "URLReference": "definition-of-photon-energy",
+          "Title": "The Definition of Photon Energy",
+          "Content": "E = hf"
+        },
+        {
+          "Reference": "DefinitionOfPower",
+          "URLReference": "definition-of-power",
+          "Title": "The Definition of Power",
+          "Content": "P = \\frac{\\mathrm{d} E}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "DefinitionOfPressure",
+          "URLReference": "definition-of-pressure",
+          "Title": "The Definition of Pressure",
+          "Content": "P = \\frac{F}{A}"
+        },
+        {
+          "Reference": "DefinitionOfRefractiveIndex",
+          "URLReference": "definition-of-refractive-index",
+          "Title": "The Definition of Refractive Index",
+          "Content": "n = \\frac{c}{v}"
+        },
+        {
+          "Reference": "DefinitionOfTheElectricField",
+          "URLReference": "definition-of-the-electric-field",
+          "Title": "The Definition of the Electric Field",
+          "Content": "\\textbf{E} = \\frac{\\textbf{F}_{e}}{q}"
+        },
+        {
+          "Reference": "DefinitionOfTorque",
+          "URLReference": "definition-of-torque",
+          "Title": "The Definition of Torque",
+          "Content": "\\tau = \\textbf{r} \\times \\textbf{F}"
+        },
+        {
+          "Reference": "DefinitionOfVelocity",
+          "URLReference": "definition-of-velocity",
+          "Title": "The Definition of Velocity",
+          "Content": "\\textbf{v} = \\frac{\\mathrm{d} \\textbf{s}}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "DefinitionOfWeight",
+          "URLReference": "definition-of-weight",
+          "Title": "The Definition of Weight",
+          "Content": "W = mg"
+        },
+        {
+          "Reference": "DefinitionOfWorkDone",
+          "URLReference": "definition-of-work-done",
+          "Title": "The Definition of Work Done by a Force",
+          "Content": "W = \\int \\textbf{F} \\cdot \\mathrm{d} \\textbf{x}"
+        },
+        {
+          "Reference": "ElasticPotentialEnergy",
+          "URLReference": "elastic-potential-energy",
+          "Title": "The Elastic Potential Energy of an Ideal Spring",
+          "Content": "E = \\frac{1}{2} k x^{2}"
+        },
+        {
+          "Reference": "ElectricFieldOfAPointCharge",
+          "URLReference": "electric-field-of-apoint-charge",
+          "Title": "The Electric Field of a Point Charge",
+          "Content": "E = k_{e} \\frac{q}{r^{2}}"
+        },
+        {
+          "Reference": "ElectricPotentialEnergyOfTwoPointCharges",
+          "URLReference": "electric-potential-energy-of-two-point-charges",
+          "Title": "The Electric Potential Energy of Two Point Charges",
+          "Content": "U = k_{e} \\frac{q_{1} q_{2}}{r}"
+        },
+        {
+          "Reference": "ElectricPotentialOfAPointCharge",
+          "URLReference": "electric-potential-of-apoint-charge",
+          "Title": "The Absolute Electric Potential of a Point Charge",
+          "Content": "V = k_{e} \\frac{q}{r}"
+        },
+        {
+          "Reference": "EnergyLevelsForAParticleInAnInfiniteSquarePotentialWell",
+          "URLReference": "energy-levels-for-aparticle-in-an-infinite-square-potential-well",
+          "Title": "The Formula for the Energy Levels for a Wave-Particle in an Infinitely-Deep, Square Potential Well",
+          "Content": "E_{n} = \\frac{n^{2} \\pi^{2} \\hbar^{2}}{2 m L^{2}}"
+        },
+        {
+          "Reference": "EscapeVelocityFormula",
+          "URLReference": "escape-velocity-formula",
+          "Title": "The Escape Velocity Formula",
+          "Content": "v = \\sqrt{\\frac{2 G M}{R}}"
+        },
+        {
+          "Reference": "FirstLawOfThermodynamics",
+          "URLReference": "first-law-of-thermodynamics",
+          "Title": "The First Law of Thermodynamics",
+          "Content": "\\Delta U = Q - W"
+        },
+        {
+          "Reference": "FormulaForTheSurfaceGravityOnAPlanetOrMoon",
+          "URLReference": "formula-for-the-surface-gravity-on-aplanet-or-moon",
+          "Title": "The Formula for the Surface Gravity on a Planet or Moon",
+          "Content": "a = \\frac{GM}{R^{2}}"
+        },
+        {
+          "Reference": "FormulaForTheTotalCapacitanceOfCapacitorsConnectedInParallel",
+          "URLReference": "formula-for-the-total-capacitance-of-capacitors-connected-in-parallel",
+          "Title": "The Formula for the Total Capacitance of Capacitors Connected in Parallel",
+          "Content": "C_{\\text{total}} = \\sum_{i} C_{i}"
+        },
+        {
+          "Reference": "FormulaForTheTotalCapacitanceOfCapacitorsConnectedInSeries",
+          "URLReference": "formula-for-the-total-capacitance-of-capacitors-connected-in-series",
+          "Title": "The Formula for the Total Capacitance of Capacitors Connected in Series",
+          "Content": "\\frac{1}{C_{\\text{total}}} = \\sum_{i} \\frac{1}{C_{i}}"
+        },
+        {
+          "Reference": "GravitationalPotentialEnergyForARadialField",
+          "URLReference": "gravitational-potential-energy-for-aradial-field",
+          "Title": "The Gravitational Potential Energy for a Radial Field",
+          "Content": "E_{G} = G \\frac{m_{1} m_{2}}{r}"
+        },
+        {
+          "Reference": "GravitationalPotentialEnergyForAUniformField",
+          "URLReference": "gravitational-potential-energy-for-auniform-field",
+          "Title": "The Gravitational Potential Energy for a Uniform Field",
+          "Content": "E_{G} = mgh"
+        },
+        {
+          "Reference": "HeisenbergUncertaintyPrincipleForPositionAndMomentum",
+          "URLReference": "heisenberg-uncertainty-principle-for-position-and-momentum",
+          "Title": "The Heisenberg Uncertainty Principle for Position and Momentum",
+          "Content": "\\Delta x \\Delta p \\geq \\frac{\\hbar}{2}"
+        },
+        {
+          "Reference": "HookesLaw",
+          "URLReference": "hookes-law",
+          "Title": "Hooke’s Law",
+          "Content": "F = -kx"
+        },
+        {
+          "Reference": "IdealGasLaw",
+          "URLReference": "ideal-gas-law",
+          "Title": "The Ideal Gas Law",
+          "Content": "P V = N k_{B} T"
+        },
+        {
+          "Reference": "InternalEnergyOfAMonatomicGas",
+          "URLReference": "internal-energy-of-amonatomic-gas",
+          "Title": "The Internal Energy of a Monatomic Gas",
+          "Content": "U = \\frac{3}{2} NkT = \\frac{1}{2} Nm \\langle c^{2} \\rangle"
+        },
+        {
+          "Reference": "LawOfThePhotoelectricEffect",
+          "URLReference": "law-of-the-photoelectric-effect",
+          "Title": "The Law of the Photoelectric Effect",
+          "Content": "E_{\\text{max}} = hf - \\phi"
+        },
+        {
+          "Reference": "LorentzForceEquation",
+          "URLReference": "lorentz-force-equation",
+          "Title": "The Lorentz Force Equation",
+          "Content": "\\textbf{F} = q \\textbf{E} + q \\textbf{v} \\times \\textbf{B}"
+        },
+        {
+          "Reference": "MaxwellFaradayEquation",
+          "URLReference": "maxwell-faraday-equation",
+          "Title": "The Maxwell-Faraday Equation",
+          "Content": "\\nabla \\times \\textbf{E} = - \\frac{\\partial \\textbf{B}}{\\partial t}"
+        },
+        {
+          "Reference": "NewtonsFirstLawOfMotion",
+          "URLReference": "newtons-first-law-of-motion",
+          "Title": "Newton’s First Law of Motion",
+          "Content": "\\sum_{i} \\textbf{F}_{i} = 0"
+        },
+        {
+          "Reference": "NewtonsFirstLawOfMotionForRotation",
+          "URLReference": "newtons-first-law-of-motion-for-rotation",
+          "Title": "Newton’s First Law of Motion for Rotation",
+          "Content": "\\sum_{i} \\tau_{i} = 0"
+        },
+        {
+          "Reference": "NewtonsLawOfGravitation",
+          "URLReference": "newtons-law-of-gravitation",
+          "Title": "Newton’s Law of Gravitation",
+          "Content": "F = G \\frac{m_{1} m_{2}}{r^{2}}"
+        },
+        {
+          "Reference": "NewtonsSecondLawOfMotion",
+          "URLReference": "newtons-second-law-of-motion",
+          "Title": "Newton’s Second Law of Motion",
+          "Content": "\\textbf{F} = \\frac{\\mathrm{d} \\textbf{p}}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "NewtonsThirdLawOfMotion",
+          "URLReference": "newtons-third-law-of-motion",
+          "Title": "Newton’s Third Law of Motion",
+          "Content": "\\textbf{F}_{12} = - \\textbf{F}_{21}"
+        },
+        {
+          "Reference": "OhmsLaw",
+          "URLReference": "ohms-law",
+          "Title": "Ohm’s Law",
+          "Content": "I = \\frac{V}{R}"
+        },
+        {
+          "Reference": "PeriodOfASimplePendulum",
+          "URLReference": "period-of-asimple-pendulum",
+          "Title": "The Period of a Simple Pendulum",
+          "Content": "T \\approx 2 \\pi \\sqrt{\\frac{L}{g}}"
+        },
+        {
+          "Reference": "PhotonMomentumFormula",
+          "URLReference": "photon-momentum-formula",
+          "Title": "The Photon Momentum Formula",
+          "Content": "p = \\frac{E}{c}"
+        },
+        {
+          "Reference": "PotentialDifferenceFormulaForComponentsInSeries",
+          "URLReference": "potential-difference-formula-for-components-in-series",
+          "Title": "The Formula for the Total Potential Difference across Electrical Components Connected in Series",
+          "Content": "V_{\\text{total}} = \\sum_{j} V_{j}"
+        },
+        {
+          "Reference": "PowerTransferredByAnElectricalComponent",
+          "URLReference": "power-transferred-by-an-electrical-component",
+          "Title": "The Power Transferred by an Electrical Component",
+          "Content": "P = IV"
+        },
+        {
+          "Reference": "PressureOfAMonatomicGas",
+          "URLReference": "pressure-of-amonatomic-gas",
+          "Title": "The Pressure of a Monatomic Gas",
+          "Content": "P = \\frac{1}{3} nm \\langle c^{2} \\rangle"
+        },
+        {
+          "Reference": "ProjectileRangeFormula",
+          "URLReference": "projectile-range-formula",
+          "Title": "The Projectile Range Formula",
+          "Content": "R = \\frac{v_{0}^{2} \\sin (2 \\theta)}{g}"
+        },
+        {
+          "Reference": "RadialAccelerationInCircularMotion",
+          "URLReference": "radial-acceleration-in-circular-motion",
+          "Title": "Radial Acceleration in Uniform Circular Motion",
+          "Content": "a = \\frac{v^{2}}{r}"
+        },
+        {
+          "Reference": "RadioactiveDecay",
+          "URLReference": "radioactive-decay",
+          "Title": "The Radioactive Decay Formula",
+          "Content": "A(t) = A_{0} e^{-\\lambda t}"
+        },
+        {
+          "Reference": "ResistanceFormulaForComponentsInSeries",
+          "URLReference": "resistance-formula-for-components-in-series",
+          "Title": "The Formula for the Total Resistance of Electrical Components Connected in Series",
+          "Content": "R_{\\text{total}} = \\sum_{j} R_{j}"
+        },
+        {
+          "Reference": "RestMassEnergyOfAnObject",
+          "URLReference": "rest-mass-energy-of-an-object",
+          "Title": "The Rest Mass Energy of an Object",
+          "Content": "E = m_{0} c^{2}"
+        },
+        {
+          "Reference": "RydbergFormula",
+          "URLReference": "rydberg-formula",
+          "Title": "The Rydberg Formula",
+          "Content": "\\frac{1}{\\lambda} = R_{\\infty} \\left( \\frac{1}{n^{2}} - \\frac{1}{m^{2}} \\right)"
+        },
+        {
+          "Reference": "SUVAT1",
+          "URLReference": "suvat1",
+          "Title": "The Kinematic Equation for Distance as a Function of Time for Constant Acceleration",
+          "Content": "s(t) = s_{0} + u t + \\frac{1}{2} a t^{2}"
+        },
+        {
+          "Reference": "SUVAT2",
+          "URLReference": "suvat2",
+          "Title": "The Kinematic Equation for Distance as a Function of Time for Constant Acceleration (Using u and v)",
+          "Content": "s(t) = s_{0} + \\frac{1}{2} (u + v) t"
+        },
+        {
+          "Reference": "SUVAT3",
+          "URLReference": "suvat3",
+          "Title": "The Kinematic Equation for Final Velocity as a Function of Time for Constant Acceleration",
+          "Content": "v(t) = u + at"
+        },
+        {
+          "Reference": "SUVAT4",
+          "URLReference": "suvat4",
+          "Title": "The Kinematic Equation for Final Velocity as a Function of Distance for Constant Acceleration",
+          "Content": "v^{2} = u^{2} + 2as"
+        },
+        {
+          "Reference": "WaveSpeedFormula",
+          "URLReference": "wave-speed-formula",
+          "Title": "The Wave Speed Formula",
+          "Content": "v = f \\lambda"
+        }
+      ]
+    },
+    {
+      "Reference": "SingaporeH2Physics9749",
+      "URLReference": "singapore-h2physics-9749",
+      "Title": "Singapore H2 Physics (9749)",
+      "Formulae": [
+        {
+          "Reference": "CentripetalForceForCircularMotion",
+          "URLReference": "centripetal-force-for-circular-motion",
+          "Title": "The Centripetal Force for Circular Motion",
+          "Content": "F = \\frac{mv^2}{r}"
+        },
+        {
+          "Reference": "CoulombsLaw",
+          "URLReference": "coulombs-law",
+          "Title": "Coulomb’s Law",
+          "Content": "F = k_{e} \\frac{q_1 q_2}{r^2}"
+        },
+        {
+          "Reference": "DefinitionOfAcceleration",
+          "URLReference": "definition-of-acceleration",
+          "Title": "The Definition of Acceleration",
+          "Content": "\\textbf{a} = \\frac{\\mathrm{d} \\textbf{v}}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "DefinitionOfAngularFrequency",
+          "URLReference": "definition-of-angular-frequency",
+          "Title": "The Definition of Angular Frequency",
+          "Content": "\\omega = \\frac{2 \\pi}{T}"
+        },
+        {
+          "Reference": "DefinitionOfAngularVelocity",
+          "URLReference": "definition-of-angular-velocity",
+          "Title": "The Definition of Angular Velocity",
+          "Content": "\\omega = \\frac{\\mathrm{d} \\theta}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "DefinitionOfDeBroglieWavelength",
+          "URLReference": "definition-of-de-broglie-wavelength",
+          "Title": "The Definition of the de Broglie Wavelength",
+          "Content": "\\lambda = \\frac{h}{p}"
+        },
+        {
+          "Reference": "DefinitionOfDensity",
+          "URLReference": "definition-of-density",
+          "Title": "The Definition of Density",
+          "Content": "\\rho = \\frac{M}{V}"
+        },
+        {
+          "Reference": "DefinitionOfEffectiveHalfLife",
+          "URLReference": "definition-of-effective-half-life",
+          "Title": "The Definition of Effective Half-life",
+          "Content": "\\frac{1}{t_{e}} = \\frac{1}{t_{p}} + \\frac{1}{t_{b}}"
+        },
+        {
+          "Reference": "DefinitionOfEfficiency",
+          "URLReference": "definition-of-efficiency",
+          "Title": "The Definition of Efficiency",
+          "Content": "\\eta = \\frac{E_{\\text{useful}}}{E_{\\text{total}}}"
+        },
+        {
+          "Reference": "DefinitionOfElectricalResistivity",
+          "URLReference": "definition-of-electrical-resistivity",
+          "Title": "The Definition of Electrical Resistivity",
+          "Content": "\\rho = R \\frac{A}{l}"
+        },
+        {
+          "Reference": "DefinitionOfFrequency",
+          "URLReference": "definition-of-frequency",
+          "Title": "The Definition of Frequency",
+          "Content": "f = \\frac{1}{T}"
+        },
+        {
+          "Reference": "DefinitionOfHeatCapacity",
+          "URLReference": "definition-of-heat-capacity",
+          "Title": "The Definition of Heat Capacity",
+          "Content": "C = \\frac{\\mathrm{d} Q}{\\mathrm{d} T}"
+        },
+        {
+          "Reference": "DefinitionOfImpulse",
+          "URLReference": "definition-of-impulse",
+          "Title": "The Definition of Impulse",
+          "Content": "\\textbf{J} = \\int \\textbf{F} \\mathrm{d} t"
+        },
+        {
+          "Reference": "DefinitionOfKineticEnergy",
+          "URLReference": "definition-of-kinetic-energy",
+          "Title": "The Definition of Kinetic Energy",
+          "Content": "E_{K} = \\frac{1}{2} m v^{2}"
+        },
+        {
+          "Reference": "DefinitionOfMomentum",
+          "URLReference": "definition-of-momentum",
+          "Title": "The Definition of Momentum",
+          "Content": "\\textbf{p} = m \\textbf{v}"
+        },
+        {
+          "Reference": "DefinitionOfPhotonEnergy",
+          "URLReference": "definition-of-photon-energy",
+          "Title": "The Definition of Photon Energy",
+          "Content": "E = hf"
+        },
+        {
+          "Reference": "DefinitionOfPower",
+          "URLReference": "definition-of-power",
+          "Title": "The Definition of Power",
+          "Content": "P = \\frac{\\mathrm{d} E}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "DefinitionOfPressure",
+          "URLReference": "definition-of-pressure",
+          "Title": "The Definition of Pressure",
+          "Content": "P = \\frac{F}{A}"
+        },
+        {
+          "Reference": "DefinitionOfRefractiveIndex",
+          "URLReference": "definition-of-refractive-index",
+          "Title": "The Definition of Refractive Index",
+          "Content": "n = \\frac{c}{v}"
+        },
+        {
+          "Reference": "DefinitionOfTheElectricField",
+          "URLReference": "definition-of-the-electric-field",
+          "Title": "The Definition of the Electric Field",
+          "Content": "\\textbf{E} = \\frac{\\textbf{F}_{e}}{q}"
+        },
+        {
+          "Reference": "DefinitionOfTorque",
+          "URLReference": "definition-of-torque",
+          "Title": "The Definition of Torque",
+          "Content": "\\tau = \\textbf{r} \\times \\textbf{F}"
+        },
+        {
+          "Reference": "DefinitionOfVelocity",
+          "URLReference": "definition-of-velocity",
+          "Title": "The Definition of Velocity",
+          "Content": "\\textbf{v} = \\frac{\\mathrm{d} \\textbf{s}}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "DefinitionOfWeight",
+          "URLReference": "definition-of-weight",
+          "Title": "The Definition of Weight",
+          "Content": "W = mg"
+        },
+        {
+          "Reference": "DefinitionOfWorkDone",
+          "URLReference": "definition-of-work-done",
+          "Title": "The Definition of Work Done by a Force",
+          "Content": "W = \\int \\textbf{F} \\cdot \\mathrm{d} \\textbf{x}"
+        },
+        {
+          "Reference": "ElasticPotentialEnergy",
+          "URLReference": "elastic-potential-energy",
+          "Title": "The Elastic Potential Energy of an Ideal Spring",
+          "Content": "E = \\frac{1}{2} k x^{2}"
+        },
+        {
+          "Reference": "ElectricFieldOfAPointCharge",
+          "URLReference": "electric-field-of-apoint-charge",
+          "Title": "The Electric Field of a Point Charge",
+          "Content": "E = k_{e} \\frac{q}{r^{2}}"
+        },
+        {
+          "Reference": "ElectricPotentialEnergyOfTwoPointCharges",
+          "URLReference": "electric-potential-energy-of-two-point-charges",
+          "Title": "The Electric Potential Energy of Two Point Charges",
+          "Content": "U = k_{e} \\frac{q_{1} q_{2}}{r}"
+        },
+        {
+          "Reference": "ElectricPotentialOfAPointCharge",
+          "URLReference": "electric-potential-of-apoint-charge",
+          "Title": "The Absolute Electric Potential of a Point Charge",
+          "Content": "V = k_{e} \\frac{q}{r}"
+        },
+        {
+          "Reference": "EscapeVelocityFormula",
+          "URLReference": "escape-velocity-formula",
+          "Title": "The Escape Velocity Formula",
+          "Content": "v = \\sqrt{\\frac{2 G M}{R}}"
+        },
+        {
+          "Reference": "FirstLawOfThermodynamics",
+          "URLReference": "first-law-of-thermodynamics",
+          "Title": "The First Law of Thermodynamics",
+          "Content": "\\Delta U = Q - W"
+        },
+        {
+          "Reference": "FormulaForTheSurfaceGravityOnAPlanetOrMoon",
+          "URLReference": "formula-for-the-surface-gravity-on-aplanet-or-moon",
+          "Title": "The Formula for the Surface Gravity on a Planet or Moon",
+          "Content": "a = \\frac{GM}{R^{2}}"
+        },
+        {
+          "Reference": "GravitationalPotentialEnergyForARadialField",
+          "URLReference": "gravitational-potential-energy-for-aradial-field",
+          "Title": "The Gravitational Potential Energy for a Radial Field",
+          "Content": "E_{G} = G \\frac{m_{1} m_{2}}{r}"
+        },
+        {
+          "Reference": "GravitationalPotentialEnergyForAUniformField",
+          "URLReference": "gravitational-potential-energy-for-auniform-field",
+          "Title": "The Gravitational Potential Energy for a Uniform Field",
+          "Content": "E_{G} = mgh"
+        },
+        {
+          "Reference": "HeisenbergUncertaintyPrincipleForPositionAndMomentum",
+          "URLReference": "heisenberg-uncertainty-principle-for-position-and-momentum",
+          "Title": "The Heisenberg Uncertainty Principle for Position and Momentum",
+          "Content": "\\Delta x \\Delta p \\geq \\frac{\\hbar}{2}"
+        },
+        {
+          "Reference": "HookesLaw",
+          "URLReference": "hookes-law",
+          "Title": "Hooke’s Law",
+          "Content": "F = -kx"
+        },
+        {
+          "Reference": "IdealGasLaw",
+          "URLReference": "ideal-gas-law",
+          "Title": "The Ideal Gas Law",
+          "Content": "P V = N k_{B} T"
+        },
+        {
+          "Reference": "InternalEnergyOfAMonatomicGas",
+          "URLReference": "internal-energy-of-amonatomic-gas",
+          "Title": "The Internal Energy of a Monatomic Gas",
+          "Content": "U = \\frac{3}{2} NkT = \\frac{1}{2} Nm \\langle c^{2} \\rangle"
+        },
+        {
+          "Reference": "LawOfThePhotoelectricEffect",
+          "URLReference": "law-of-the-photoelectric-effect",
+          "Title": "The Law of the Photoelectric Effect",
+          "Content": "E_{\\text{max}} = hf - \\phi"
+        },
+        {
+          "Reference": "LorentzForceEquation",
+          "URLReference": "lorentz-force-equation",
+          "Title": "The Lorentz Force Equation",
+          "Content": "\\textbf{F} = q \\textbf{E} + q \\textbf{v} \\times \\textbf{B}"
+        },
+        {
+          "Reference": "MaxwellFaradayEquation",
+          "URLReference": "maxwell-faraday-equation",
+          "Title": "The Maxwell-Faraday Equation",
+          "Content": "\\nabla \\times \\textbf{E} = - \\frac{\\partial \\textbf{B}}{\\partial t}"
+        },
+        {
+          "Reference": "NewtonsFirstLawOfMotion",
+          "URLReference": "newtons-first-law-of-motion",
+          "Title": "Newton’s First Law of Motion",
+          "Content": "\\sum_{i} \\textbf{F}_{i} = 0"
+        },
+        {
+          "Reference": "NewtonsFirstLawOfMotionForRotation",
+          "URLReference": "newtons-first-law-of-motion-for-rotation",
+          "Title": "Newton’s First Law of Motion for Rotation",
+          "Content": "\\sum_{i} \\tau_{i} = 0"
+        },
+        {
+          "Reference": "NewtonsLawOfGravitation",
+          "URLReference": "newtons-law-of-gravitation",
+          "Title": "Newton’s Law of Gravitation",
+          "Content": "F = G \\frac{m_{1} m_{2}}{r^{2}}"
+        },
+        {
+          "Reference": "NewtonsSecondLawOfMotion",
+          "URLReference": "newtons-second-law-of-motion",
+          "Title": "Newton’s Second Law of Motion",
+          "Content": "\\textbf{F} = \\frac{\\mathrm{d} \\textbf{p}}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "NewtonsThirdLawOfMotion",
+          "URLReference": "newtons-third-law-of-motion",
+          "Title": "Newton’s Third Law of Motion",
+          "Content": "\\textbf{F}_{12} = - \\textbf{F}_{21}"
+        },
+        {
+          "Reference": "OhmsLaw",
+          "URLReference": "ohms-law",
+          "Title": "Ohm’s Law",
+          "Content": "I = \\frac{V}{R}"
+        },
+        {
+          "Reference": "PeriodOfASimplePendulum",
+          "URLReference": "period-of-asimple-pendulum",
+          "Title": "The Period of a Simple Pendulum",
+          "Content": "T \\approx 2 \\pi \\sqrt{\\frac{L}{g}}"
+        },
+        {
+          "Reference": "PotentialDifferenceFormulaForComponentsInSeries",
+          "URLReference": "potential-difference-formula-for-components-in-series",
+          "Title": "The Formula for the Total Potential Difference across Electrical Components Connected in Series",
+          "Content": "V_{\\text{total}} = \\sum_{j} V_{j}"
+        },
+        {
+          "Reference": "PowerTransferredByAnElectricalComponent",
+          "URLReference": "power-transferred-by-an-electrical-component",
+          "Title": "The Power Transferred by an Electrical Component",
+          "Content": "P = IV"
+        },
+        {
+          "Reference": "PressureOfAMonatomicGas",
+          "URLReference": "pressure-of-amonatomic-gas",
+          "Title": "The Pressure of a Monatomic Gas",
+          "Content": "P = \\frac{1}{3} nm \\langle c^{2} \\rangle"
+        },
+        {
+          "Reference": "ProjectileRangeFormula",
+          "URLReference": "projectile-range-formula",
+          "Title": "The Projectile Range Formula",
+          "Content": "R = \\frac{v_{0}^{2} \\sin (2 \\theta)}{g}"
+        },
+        {
+          "Reference": "RadialAccelerationInCircularMotion",
+          "URLReference": "radial-acceleration-in-circular-motion",
+          "Title": "Radial Acceleration in Uniform Circular Motion",
+          "Content": "a = \\frac{v^{2}}{r}"
+        },
+        {
+          "Reference": "RadioactiveDecay",
+          "URLReference": "radioactive-decay",
+          "Title": "The Radioactive Decay Formula",
+          "Content": "A(t) = A_{0} e^{-\\lambda t}"
+        },
+        {
+          "Reference": "ResistanceFormulaForComponentsInSeries",
+          "URLReference": "resistance-formula-for-components-in-series",
+          "Title": "The Formula for the Total Resistance of Electrical Components Connected in Series",
+          "Content": "R_{\\text{total}} = \\sum_{j} R_{j}"
+        },
+        {
+          "Reference": "RestMassEnergyOfAnObject",
+          "URLReference": "rest-mass-energy-of-an-object",
+          "Title": "The Rest Mass Energy of an Object",
+          "Content": "E = m_{0} c^{2}"
+        },
+        {
+          "Reference": "RydbergFormula",
+          "URLReference": "rydberg-formula",
+          "Title": "The Rydberg Formula",
+          "Content": "\\frac{1}{\\lambda} = R_{\\infty} \\left( \\frac{1}{n^{2}} - \\frac{1}{m^{2}} \\right)"
+        },
+        {
+          "Reference": "SUVAT1",
+          "URLReference": "suvat1",
+          "Title": "The Kinematic Equation for Distance as a Function of Time for Constant Acceleration",
+          "Content": "s(t) = s_{0} + u t + \\frac{1}{2} a t^{2}"
+        },
+        {
+          "Reference": "SUVAT2",
+          "URLReference": "suvat2",
+          "Title": "The Kinematic Equation for Distance as a Function of Time for Constant Acceleration (Using u and v)",
+          "Content": "s(t) = s_{0} + \\frac{1}{2} (u + v) t"
+        },
+        {
+          "Reference": "SUVAT3",
+          "URLReference": "suvat3",
+          "Title": "The Kinematic Equation for Final Velocity as a Function of Time for Constant Acceleration",
+          "Content": "v(t) = u + at"
+        },
+        {
+          "Reference": "SUVAT4",
+          "URLReference": "suvat4",
+          "Title": "The Kinematic Equation for Final Velocity as a Function of Distance for Constant Acceleration",
+          "Content": "v^{2} = u^{2} + 2as"
+        },
+        {
+          "Reference": "WaveSpeedFormula",
+          "URLReference": "wave-speed-formula",
+          "Title": "The Wave Speed Formula",
+          "Content": "v = f \\lambda"
+        }
+      ]
+    },
+    {
+      "Reference": "SingaporeH3Physics2024Onwards",
+      "URLReference": "singapore-h3physics-2024onwards",
+      "Title": "Singapore H3 Physics (2024 Onwards)",
+      "Formulae": [
+        {
+          "Reference": "AmperesCircuitalLaw",
+          "URLReference": "amperes-circuital-law",
+          "Title": "Ampère’s Circuital Law",
+          "Content": "\\nabla \\times \\textbf{B} = \\mu_{0} \\left( \\textbf{J} + \\epsilon_{0} \\frac{\\partial \\textbf{E}}{\\partial t} \\right)"
+        },
+        {
+          "Reference": "CentripetalForceForCircularMotion",
+          "URLReference": "centripetal-force-for-circular-motion",
+          "Title": "The Centripetal Force for Circular Motion",
+          "Content": "F = \\frac{mv^2}{r}"
+        },
+        {
+          "Reference": "CoulombsLaw",
+          "URLReference": "coulombs-law",
+          "Title": "Coulomb’s Law",
+          "Content": "F = k_{e} \\frac{q_1 q_2}{r^2}"
+        },
+        {
+          "Reference": "DefinitionOfAcceleration",
+          "URLReference": "definition-of-acceleration",
+          "Title": "The Definition of Acceleration",
+          "Content": "\\textbf{a} = \\frac{\\mathrm{d} \\textbf{v}}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "DefinitionOfAngularAcceleration",
+          "URLReference": "definition-of-angular-acceleration",
+          "Title": "The Definition of Angular Acceleration",
+          "Content": "\\alpha = \\frac{\\mathrm{d} \\omega}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "DefinitionOfAngularFrequency",
+          "URLReference": "definition-of-angular-frequency",
+          "Title": "The Definition of Angular Frequency",
+          "Content": "\\omega = \\frac{2 \\pi}{T}"
+        },
+        {
+          "Reference": "DefinitionOfAngularImpulse",
+          "URLReference": "definition-of-angular-impulse",
+          "Title": "The Definition of Angular Impulse",
+          "Content": "\\textbf{H} = \\int \\tau \\mathrm{d} t"
+        },
+        {
+          "Reference": "DefinitionOfAngularMomentum",
+          "URLReference": "definition-of-angular-momentum",
+          "Title": "The Definition of Angular Momentum",
+          "Content": "\\textbf{L} = \\textbf{r} \\times \\textbf{p}"
+        },
+        {
+          "Reference": "DefinitionOfAngularVelocity",
+          "URLReference": "definition-of-angular-velocity",
+          "Title": "The Definition of Angular Velocity",
+          "Content": "\\omega = \\frac{\\mathrm{d} \\theta}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "DefinitionOfCapacitance",
+          "URLReference": "definition-of-capacitance",
+          "Title": "The Definition of Capacitance",
+          "Content": "C = \\frac{Q}{V}"
+        },
+        {
+          "Reference": "DefinitionOfDeBroglieWavelength",
+          "URLReference": "definition-of-de-broglie-wavelength",
+          "Title": "The Definition of the de Broglie Wavelength",
+          "Content": "\\lambda = \\frac{h}{p}"
+        },
+        {
+          "Reference": "DefinitionOfDensity",
+          "URLReference": "definition-of-density",
+          "Title": "The Definition of Density",
+          "Content": "\\rho = \\frac{M}{V}"
+        },
+        {
+          "Reference": "DefinitionOfEffectiveHalfLife",
+          "URLReference": "definition-of-effective-half-life",
+          "Title": "The Definition of Effective Half-life",
+          "Content": "\\frac{1}{t_{e}} = \\frac{1}{t_{p}} + \\frac{1}{t_{b}}"
+        },
+        {
+          "Reference": "DefinitionOfEfficiency",
+          "URLReference": "definition-of-efficiency",
+          "Title": "The Definition of Efficiency",
+          "Content": "\\eta = \\frac{E_{\\text{useful}}}{E_{\\text{total}}}"
+        },
+        {
+          "Reference": "DefinitionOfElectricalResistivity",
+          "URLReference": "definition-of-electrical-resistivity",
+          "Title": "The Definition of Electrical Resistivity",
+          "Content": "\\rho = R \\frac{A}{l}"
+        },
+        {
+          "Reference": "DefinitionOfElectricDipoleMoment",
+          "URLReference": "definition-of-electric-dipole-moment",
+          "Title": "The Definition of Electric Dipole Moment",
+          "Content": "\\textbf{p} = q \\textbf{a}"
+        },
+        {
+          "Reference": "DefinitionOfElectricFlux",
+          "URLReference": "definition-of-electric-flux",
+          "Title": "The Definition of Electric Flux",
+          "Content": "\\phi_E = \\int_S \\textbf{E} \\cdot \\mathrm{d} \\textbf{A}"
+        },
+        {
+          "Reference": "DefinitionOfFrequency",
+          "URLReference": "definition-of-frequency",
+          "Title": "The Definition of Frequency",
+          "Content": "f = \\frac{1}{T}"
+        },
+        {
+          "Reference": "DefinitionOfHeatCapacity",
+          "URLReference": "definition-of-heat-capacity",
+          "Title": "The Definition of Heat Capacity",
+          "Content": "C = \\frac{\\mathrm{d} Q}{\\mathrm{d} T}"
+        },
+        {
+          "Reference": "DefinitionOfImpulse",
+          "URLReference": "definition-of-impulse",
+          "Title": "The Definition of Impulse",
+          "Content": "\\textbf{J} = \\int \\textbf{F} \\mathrm{d} t"
+        },
+        {
+          "Reference": "DefinitionOfKineticEnergy",
+          "URLReference": "definition-of-kinetic-energy",
+          "Title": "The Definition of Kinetic Energy",
+          "Content": "E_{K} = \\frac{1}{2} m v^{2}"
+        },
+        {
+          "Reference": "DefinitionOfMomentOfInertia",
+          "URLReference": "definition-of-moment-of-inertia",
+          "Title": "The Definition of Moment of Inertia",
+          "Content": "I = \\sum_{i} m_{i} r_{i}^{2}"
+        },
+        {
+          "Reference": "DefinitionOfMomentum",
+          "URLReference": "definition-of-momentum",
+          "Title": "The Definition of Momentum",
+          "Content": "\\textbf{p} = m \\textbf{v}"
+        },
+        {
+          "Reference": "DefinitionOfPhotonEnergy",
+          "URLReference": "definition-of-photon-energy",
+          "Title": "The Definition of Photon Energy",
+          "Content": "E = hf"
+        },
+        {
+          "Reference": "DefinitionOfPower",
+          "URLReference": "definition-of-power",
+          "Title": "The Definition of Power",
+          "Content": "P = \\frac{\\mathrm{d} E}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "DefinitionOfPressure",
+          "URLReference": "definition-of-pressure",
+          "Title": "The Definition of Pressure",
+          "Content": "P = \\frac{F}{A}"
+        },
+        {
+          "Reference": "DefinitionOfRefractiveIndex",
+          "URLReference": "definition-of-refractive-index",
+          "Title": "The Definition of Refractive Index",
+          "Content": "n = \\frac{c}{v}"
+        },
+        {
+          "Reference": "DefinitionOfRotationalKineticEnergy",
+          "URLReference": "definition-of-rotational-kinetic-energy",
+          "Title": "The Definition of Rotational Kinetic Energy",
+          "Content": "K = \\frac{1}{2} I \\omega^{2}"
+        },
+        {
+          "Reference": "DefinitionOfRotationalPower",
+          "URLReference": "definition-of-rotational-power",
+          "Title": "The Definition of Rotational Power",
+          "Content": "P = \\tau \\cdot \\omega"
+        },
+        {
+          "Reference": "DefinitionOfRotationalWork",
+          "URLReference": "definition-of-rotational-work",
+          "Title": "The Definition of Rotational Work",
+          "Content": "W = \\int \\tau \\cdot \\mathrm{d} \\theta"
+        },
+        {
+          "Reference": "DefinitionOfTheElectricField",
+          "URLReference": "definition-of-the-electric-field",
+          "Title": "The Definition of the Electric Field",
+          "Content": "\\textbf{E} = \\frac{\\textbf{F}_{e}}{q}"
+        },
+        {
+          "Reference": "DefinitionOfTorque",
+          "URLReference": "definition-of-torque",
+          "Title": "The Definition of Torque",
+          "Content": "\\tau = \\textbf{r} \\times \\textbf{F}"
+        },
+        {
+          "Reference": "DefinitionOfVelocity",
+          "URLReference": "definition-of-velocity",
+          "Title": "The Definition of Velocity",
+          "Content": "\\textbf{v} = \\frac{\\mathrm{d} \\textbf{s}}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "DefinitionOfWeight",
+          "URLReference": "definition-of-weight",
+          "Title": "The Definition of Weight",
+          "Content": "W = mg"
+        },
+        {
+          "Reference": "DefinitionOfWorkDone",
+          "URLReference": "definition-of-work-done",
+          "Title": "The Definition of Work Done by a Force",
+          "Content": "W = \\int \\textbf{F} \\cdot \\mathrm{d} \\textbf{x}"
+        },
+        {
+          "Reference": "ElasticPotentialEnergy",
+          "URLReference": "elastic-potential-energy",
+          "Title": "The Elastic Potential Energy of an Ideal Spring",
+          "Content": "E = \\frac{1}{2} k x^{2}"
+        },
+        {
+          "Reference": "ElectricFieldDueToAnInfiniteFlatSurfaceOfCharge",
+          "URLReference": "electric-field-due-to-an-infinite-flat-surface-of-charge",
+          "Title": "The Electric Field due to an Infinite Flat Surface of Charge",
+          "Content": "\\textbf{E} = \\frac{\\sigma}{2 \\varepsilon_{0}} \\hat{\\textbf{n}}"
+        },
+        {
+          "Reference": "ElectricFieldDueToAnInfiniteLineOfCharge",
+          "URLReference": "electric-field-due-to-an-infinite-line-of-charge",
+          "Title": "The Electric Field due to an Infinite Line of Charge",
+          "Content": "\\textbf{E} = \\frac{1}{2 \\pi \\varepsilon_{0}} \\frac{\\lambda}{|\\textbf{r}|} \\hat{\\textbf{r}}"
+        },
+        {
+          "Reference": "ElectricFieldOfAPointCharge",
+          "URLReference": "electric-field-of-apoint-charge",
+          "Title": "The Electric Field of a Point Charge",
+          "Content": "E = k_{e} \\frac{q}{r^{2}}"
+        },
+        {
+          "Reference": "ElectricPotentialEnergyOfTwoPointCharges",
+          "URLReference": "electric-potential-energy-of-two-point-charges",
+          "Title": "The Electric Potential Energy of Two Point Charges",
+          "Content": "U = k_{e} \\frac{q_{1} q_{2}}{r}"
+        },
+        {
+          "Reference": "ElectricPotentialOfAPointCharge",
+          "URLReference": "electric-potential-of-apoint-charge",
+          "Title": "The Absolute Electric Potential of a Point Charge",
+          "Content": "V = k_{e} \\frac{q}{r}"
+        },
+        {
+          "Reference": "EnergyLevelsForAParticleInAnInfiniteSquarePotentialWell",
+          "URLReference": "energy-levels-for-aparticle-in-an-infinite-square-potential-well",
+          "Title": "The Formula for the Energy Levels for a Wave-Particle in an Infinitely-Deep, Square Potential Well",
+          "Content": "E_{n} = \\frac{n^{2} \\pi^{2} \\hbar^{2}}{2 m L^{2}}"
+        },
+        {
+          "Reference": "EscapeVelocityFormula",
+          "URLReference": "escape-velocity-formula",
+          "Title": "The Escape Velocity Formula",
+          "Content": "v = \\sqrt{\\frac{2 G M}{R}}"
+        },
+        {
+          "Reference": "FirstLawOfThermodynamics",
+          "URLReference": "first-law-of-thermodynamics",
+          "Title": "The First Law of Thermodynamics",
+          "Content": "\\Delta U = Q - W"
+        },
+        {
+          "Reference": "FormulaForTheSurfaceGravityOnAPlanetOrMoon",
+          "URLReference": "formula-for-the-surface-gravity-on-aplanet-or-moon",
+          "Title": "The Formula for the Surface Gravity on a Planet or Moon",
+          "Content": "a = \\frac{GM}{R^{2}}"
+        },
+        {
+          "Reference": "FormulaForTheTotalCapacitanceOfCapacitorsConnectedInParallel",
+          "URLReference": "formula-for-the-total-capacitance-of-capacitors-connected-in-parallel",
+          "Title": "The Formula for the Total Capacitance of Capacitors Connected in Parallel",
+          "Content": "C_{\\text{total}} = \\sum_{i} C_{i}"
+        },
+        {
+          "Reference": "FormulaForTheTotalCapacitanceOfCapacitorsConnectedInSeries",
+          "URLReference": "formula-for-the-total-capacitance-of-capacitors-connected-in-series",
+          "Title": "The Formula for the Total Capacitance of Capacitors Connected in Series",
+          "Content": "\\frac{1}{C_{\\text{total}}} = \\sum_{i} \\frac{1}{C_{i}}"
+        },
+        {
+          "Reference": "GalileanPositionTransformation",
+          "URLReference": "galilean-position-transformation",
+          "Title": "The Galilean Transformation for Position",
+          "Content": "\\textbf{r} = \\textbf{r}^{\\prime} - \\textbf{v} t"
+        },
+        {
+          "Reference": "GalileanTimeTransformation",
+          "URLReference": "galilean-time-transformation",
+          "Title": "The Galilean Transformation for Time",
+          "Content": "t = t^{\\prime}"
+        },
+        {
+          "Reference": "GaussLawForElectricity",
+          "URLReference": "gauss-law-for-electricity",
+          "Title": "Gauss’ Law for Electricity",
+          "Content": "\\nabla \\cdot \\textbf{E} = \\frac{\\rho}{\\epsilon_0}"
+        },
+        {
+          "Reference": "GaussLawForGravity",
+          "URLReference": "gauss-law-for-gravity",
+          "Title": "Gauss’ Law for Gravity",
+          "Content": "\\nabla \\cdot \\textbf{g} = - 4 \\pi G \\rho"
+        },
+        {
+          "Reference": "GaussLawForMagnetism",
+          "URLReference": "gauss-law-for-magnetism",
+          "Title": "Gauss’ Law for Magnetism",
+          "Content": "\\nabla \\cdot \\textbf{B} = 0"
+        },
+        {
+          "Reference": "GravitationalFieldStrengthInsideAPlanet",
+          "URLReference": "gravitational-field-strength-inside-aplanet",
+          "Title": "The Gravitational Field Strength inside a Planet",
+          "Content": "a = \\frac{4}{3} G \\pi \\rho r"
+        },
+        {
+          "Reference": "GravitationalPotentialEnergyForARadialField",
+          "URLReference": "gravitational-potential-energy-for-aradial-field",
+          "Title": "The Gravitational Potential Energy for a Radial Field",
+          "Content": "E_{G} = G \\frac{m_{1} m_{2}}{r}"
+        },
+        {
+          "Reference": "GravitationalPotentialEnergyForAUniformField",
+          "URLReference": "gravitational-potential-energy-for-auniform-field",
+          "Title": "The Gravitational Potential Energy for a Uniform Field",
+          "Content": "E_{G} = mgh"
+        },
+        {
+          "Reference": "HeisenbergUncertaintyPrincipleForPositionAndMomentum",
+          "URLReference": "heisenberg-uncertainty-principle-for-position-and-momentum",
+          "Title": "The Heisenberg Uncertainty Principle for Position and Momentum",
+          "Content": "\\Delta x \\Delta p \\geq \\frac{\\hbar}{2}"
+        },
+        {
+          "Reference": "HookesLaw",
+          "URLReference": "hookes-law",
+          "Title": "Hooke’s Law",
+          "Content": "F = -kx"
+        },
+        {
+          "Reference": "IdealGasLaw",
+          "URLReference": "ideal-gas-law",
+          "Title": "The Ideal Gas Law",
+          "Content": "P V = N k_{B} T"
+        },
+        {
+          "Reference": "InternalEnergyOfAMonatomicGas",
+          "URLReference": "internal-energy-of-amonatomic-gas",
+          "Title": "The Internal Energy of a Monatomic Gas",
+          "Content": "U = \\frac{3}{2} NkT = \\frac{1}{2} Nm \\langle c^{2} \\rangle"
+        },
+        {
+          "Reference": "LawOfThePhotoelectricEffect",
+          "URLReference": "law-of-the-photoelectric-effect",
+          "Title": "The Law of the Photoelectric Effect",
+          "Content": "E_{\\text{max}} = hf - \\phi"
+        },
+        {
+          "Reference": "LengthContractionInSpecialRelativity",
+          "URLReference": "length-contraction-in-special-relativity",
+          "Title": "The Length Contraction Formula in Special Relativity",
+          "Content": "l = \\frac{l_0}{\\gamma}"
+        },
+        {
+          "Reference": "LorentzFactor",
+          "URLReference": "lorentz-factor",
+          "Title": "The Lorentz Factor",
+          "Content": "\\gamma = \\frac{1}{\\sqrt{1 - \\frac{u^2}{c^2}}}"
+        },
+        {
+          "Reference": "LorentzForceEquation",
+          "URLReference": "lorentz-force-equation",
+          "Title": "The Lorentz Force Equation",
+          "Content": "\\textbf{F} = q \\textbf{E} + q \\textbf{v} \\times \\textbf{B}"
+        },
+        {
+          "Reference": "LorentzVelocityTransformation",
+          "URLReference": "lorentz-velocity-transformation",
+          "Title": "The Lorentz Velocity Transformation",
+          "Content": "v_x^{\\prime} = \\frac{v_x - u}{1 - \\frac{uv_x}{c^2}}"
+        },
+        {
+          "Reference": "MaxwellFaradayEquation",
+          "URLReference": "maxwell-faraday-equation",
+          "Title": "The Maxwell-Faraday Equation",
+          "Content": "\\nabla \\times \\textbf{E} = - \\frac{\\partial \\textbf{B}}{\\partial t}"
+        },
+        {
+          "Reference": "NewtonsFirstLawOfMotion",
+          "URLReference": "newtons-first-law-of-motion",
+          "Title": "Newton’s First Law of Motion",
+          "Content": "\\sum_{i} \\textbf{F}_{i} = 0"
+        },
+        {
+          "Reference": "NewtonsFirstLawOfMotionForRotation",
+          "URLReference": "newtons-first-law-of-motion-for-rotation",
+          "Title": "Newton’s First Law of Motion for Rotation",
+          "Content": "\\sum_{i} \\tau_{i} = 0"
+        },
+        {
+          "Reference": "NewtonsLawOfGravitation",
+          "URLReference": "newtons-law-of-gravitation",
+          "Title": "Newton’s Law of Gravitation",
+          "Content": "F = G \\frac{m_{1} m_{2}}{r^{2}}"
+        },
+        {
+          "Reference": "NewtonsSecondLawOfMotion",
+          "URLReference": "newtons-second-law-of-motion",
+          "Title": "Newton’s Second Law of Motion",
+          "Content": "\\textbf{F} = \\frac{\\mathrm{d} \\textbf{p}}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "NewtonsSecondLawOfMotionForRotation",
+          "URLReference": "newtons-second-law-of-motion-for-rotation",
+          "Title": "Newton’s Second Law of Motion for Rotation",
+          "Content": "\\tau = \\frac{\\mathrm{d} \\textbf{L}}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "NewtonsThirdLawOfMotion",
+          "URLReference": "newtons-third-law-of-motion",
+          "Title": "Newton’s Third Law of Motion",
+          "Content": "\\textbf{F}_{12} = - \\textbf{F}_{21}"
+        },
+        {
+          "Reference": "OhmsLaw",
+          "URLReference": "ohms-law",
+          "Title": "Ohm’s Law",
+          "Content": "I = \\frac{V}{R}"
+        },
+        {
+          "Reference": "PeriodOfASimplePendulum",
+          "URLReference": "period-of-asimple-pendulum",
+          "Title": "The Period of a Simple Pendulum",
+          "Content": "T \\approx 2 \\pi \\sqrt{\\frac{L}{g}}"
+        },
+        {
+          "Reference": "PhotonMomentumFormula",
+          "URLReference": "photon-momentum-formula",
+          "Title": "The Photon Momentum Formula",
+          "Content": "p = \\frac{E}{c}"
+        },
+        {
+          "Reference": "PotentialDifferenceFormulaForComponentsInSeries",
+          "URLReference": "potential-difference-formula-for-components-in-series",
+          "Title": "The Formula for the Total Potential Difference across Electrical Components Connected in Series",
+          "Content": "V_{\\text{total}} = \\sum_{j} V_{j}"
+        },
+        {
+          "Reference": "PotentialEnergyOfAnElectricDipole",
+          "URLReference": "potential-energy-of-an-electric-dipole",
+          "Title": "The Potential Energy of an Electric Dipole in an Electric Field",
+          "Content": "U = - \\textbf{p} \\cdot \\textbf{E}"
+        },
+        {
+          "Reference": "PowerTransferredByAnElectricalComponent",
+          "URLReference": "power-transferred-by-an-electrical-component",
+          "Title": "The Power Transferred by an Electrical Component",
+          "Content": "P = IV"
+        },
+        {
+          "Reference": "PressureOfAMonatomicGas",
+          "URLReference": "pressure-of-amonatomic-gas",
+          "Title": "The Pressure of a Monatomic Gas",
+          "Content": "P = \\frac{1}{3} nm \\langle c^{2} \\rangle"
+        },
+        {
+          "Reference": "ProjectileRangeFormula",
+          "URLReference": "projectile-range-formula",
+          "Title": "The Projectile Range Formula",
+          "Content": "R = \\frac{v_{0}^{2} \\sin (2 \\theta)}{g}"
+        },
+        {
+          "Reference": "RadialAccelerationInCircularMotion",
+          "URLReference": "radial-acceleration-in-circular-motion",
+          "Title": "Radial Acceleration in Uniform Circular Motion",
+          "Content": "a = \\frac{v^{2}}{r}"
+        },
+        {
+          "Reference": "RadioactiveDecay",
+          "URLReference": "radioactive-decay",
+          "Title": "The Radioactive Decay Formula",
+          "Content": "A(t) = A_{0} e^{-\\lambda t}"
+        },
+        {
+          "Reference": "RelativisticEnergyMomentumRelation",
+          "URLReference": "relativistic-energy-momentum-relation",
+          "Title": "The Relativistic Energy-Momentum Relation",
+          "Content": "E^{2} = p^{2} c^{2} + m_{0}^{2} c^{4}"
+        },
+        {
+          "Reference": "ResistanceFormulaForComponentsInSeries",
+          "URLReference": "resistance-formula-for-components-in-series",
+          "Title": "The Formula for the Total Resistance of Electrical Components Connected in Series",
+          "Content": "R_{\\text{total}} = \\sum_{j} R_{j}"
+        },
+        {
+          "Reference": "RestMassEnergyOfAnObject",
+          "URLReference": "rest-mass-energy-of-an-object",
+          "Title": "The Rest Mass Energy of an Object",
+          "Content": "E = m_{0} c^{2}"
+        },
+        {
+          "Reference": "RydbergFormula",
+          "URLReference": "rydberg-formula",
+          "Title": "The Rydberg Formula",
+          "Content": "\\frac{1}{\\lambda} = R_{\\infty} \\left( \\frac{1}{n^{2}} - \\frac{1}{m^{2}} \\right)"
+        },
+        {
+          "Reference": "SUVAT1",
+          "URLReference": "suvat1",
+          "Title": "The Kinematic Equation for Distance as a Function of Time for Constant Acceleration",
+          "Content": "s(t) = s_{0} + u t + \\frac{1}{2} a t^{2}"
+        },
+        {
+          "Reference": "SUVAT2",
+          "URLReference": "suvat2",
+          "Title": "The Kinematic Equation for Distance as a Function of Time for Constant Acceleration (Using u and v)",
+          "Content": "s(t) = s_{0} + \\frac{1}{2} (u + v) t"
+        },
+        {
+          "Reference": "SUVAT3",
+          "URLReference": "suvat3",
+          "Title": "The Kinematic Equation for Final Velocity as a Function of Time for Constant Acceleration",
+          "Content": "v(t) = u + at"
+        },
+        {
+          "Reference": "SUVAT4",
+          "URLReference": "suvat4",
+          "Title": "The Kinematic Equation for Final Velocity as a Function of Distance for Constant Acceleration",
+          "Content": "v^{2} = u^{2} + 2as"
+        },
+        {
+          "Reference": "TimeDilationInSpecialRelativity",
+          "URLReference": "time-dilation-in-special-relativity",
+          "Title": "The Time Dilation Formula in Special Relativity",
+          "Content": "\\Delta t = \\gamma \\Delta t_0"
+        },
+        {
+          "Reference": "TorqueOnAnElectricDipole",
+          "URLReference": "torque-on-an-electric-dipole",
+          "Title": "The Torque on an Electric Dipole",
+          "Content": "\\tau = \\textbf{p} \\times \\textbf{E}"
+        },
+        {
+          "Reference": "WaveSpeedFormula",
+          "URLReference": "wave-speed-formula",
+          "Title": "The Wave Speed Formula",
+          "Content": "v = f \\lambda"
+        }
+      ]
+    },
+    {
+      "Reference": "SingaporeH3Physics9814",
+      "URLReference": "singapore-h3physics-9814",
+      "Title": "Singapore H3 Physics (9814)",
+      "Formulae": [
+        {
+          "Reference": "AmperesCircuitalLaw",
+          "URLReference": "amperes-circuital-law",
+          "Title": "Ampère’s Circuital Law",
+          "Content": "\\nabla \\times \\textbf{B} = \\mu_{0} \\left( \\textbf{J} + \\epsilon_{0} \\frac{\\partial \\textbf{E}}{\\partial t} \\right)"
+        },
+        {
+          "Reference": "CentripetalForceForCircularMotion",
+          "URLReference": "centripetal-force-for-circular-motion",
+          "Title": "The Centripetal Force for Circular Motion",
+          "Content": "F = \\frac{mv^2}{r}"
+        },
+        {
+          "Reference": "CoulombsLaw",
+          "URLReference": "coulombs-law",
+          "Title": "Coulomb’s Law",
+          "Content": "F = k_{e} \\frac{q_1 q_2}{r^2}"
+        },
+        {
+          "Reference": "DefinitionOfAcceleration",
+          "URLReference": "definition-of-acceleration",
+          "Title": "The Definition of Acceleration",
+          "Content": "\\textbf{a} = \\frac{\\mathrm{d} \\textbf{v}}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "DefinitionOfAngularAcceleration",
+          "URLReference": "definition-of-angular-acceleration",
+          "Title": "The Definition of Angular Acceleration",
+          "Content": "\\alpha = \\frac{\\mathrm{d} \\omega}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "DefinitionOfAngularFrequency",
+          "URLReference": "definition-of-angular-frequency",
+          "Title": "The Definition of Angular Frequency",
+          "Content": "\\omega = \\frac{2 \\pi}{T}"
+        },
+        {
+          "Reference": "DefinitionOfAngularImpulse",
+          "URLReference": "definition-of-angular-impulse",
+          "Title": "The Definition of Angular Impulse",
+          "Content": "\\textbf{H} = \\int \\tau \\mathrm{d} t"
+        },
+        {
+          "Reference": "DefinitionOfAngularMomentum",
+          "URLReference": "definition-of-angular-momentum",
+          "Title": "The Definition of Angular Momentum",
+          "Content": "\\textbf{L} = \\textbf{r} \\times \\textbf{p}"
+        },
+        {
+          "Reference": "DefinitionOfAngularVelocity",
+          "URLReference": "definition-of-angular-velocity",
+          "Title": "The Definition of Angular Velocity",
+          "Content": "\\omega = \\frac{\\mathrm{d} \\theta}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "DefinitionOfCapacitance",
+          "URLReference": "definition-of-capacitance",
+          "Title": "The Definition of Capacitance",
+          "Content": "C = \\frac{Q}{V}"
+        },
+        {
+          "Reference": "DefinitionOfDeBroglieWavelength",
+          "URLReference": "definition-of-de-broglie-wavelength",
+          "Title": "The Definition of the de Broglie Wavelength",
+          "Content": "\\lambda = \\frac{h}{p}"
+        },
+        {
+          "Reference": "DefinitionOfDensity",
+          "URLReference": "definition-of-density",
+          "Title": "The Definition of Density",
+          "Content": "\\rho = \\frac{M}{V}"
+        },
+        {
+          "Reference": "DefinitionOfEffectiveHalfLife",
+          "URLReference": "definition-of-effective-half-life",
+          "Title": "The Definition of Effective Half-life",
+          "Content": "\\frac{1}{t_{e}} = \\frac{1}{t_{p}} + \\frac{1}{t_{b}}"
+        },
+        {
+          "Reference": "DefinitionOfEfficiency",
+          "URLReference": "definition-of-efficiency",
+          "Title": "The Definition of Efficiency",
+          "Content": "\\eta = \\frac{E_{\\text{useful}}}{E_{\\text{total}}}"
+        },
+        {
+          "Reference": "DefinitionOfElectricalResistivity",
+          "URLReference": "definition-of-electrical-resistivity",
+          "Title": "The Definition of Electrical Resistivity",
+          "Content": "\\rho = R \\frac{A}{l}"
+        },
+        {
+          "Reference": "DefinitionOfElectricDipoleMoment",
+          "URLReference": "definition-of-electric-dipole-moment",
+          "Title": "The Definition of Electric Dipole Moment",
+          "Content": "\\textbf{p} = q \\textbf{a}"
+        },
+        {
+          "Reference": "DefinitionOfElectricFlux",
+          "URLReference": "definition-of-electric-flux",
+          "Title": "The Definition of Electric Flux",
+          "Content": "\\phi_E = \\int_S \\textbf{E} \\cdot \\mathrm{d} \\textbf{A}"
+        },
+        {
+          "Reference": "DefinitionOfFrequency",
+          "URLReference": "definition-of-frequency",
+          "Title": "The Definition of Frequency",
+          "Content": "f = \\frac{1}{T}"
+        },
+        {
+          "Reference": "DefinitionOfHeatCapacity",
+          "URLReference": "definition-of-heat-capacity",
+          "Title": "The Definition of Heat Capacity",
+          "Content": "C = \\frac{\\mathrm{d} Q}{\\mathrm{d} T}"
+        },
+        {
+          "Reference": "DefinitionOfImpulse",
+          "URLReference": "definition-of-impulse",
+          "Title": "The Definition of Impulse",
+          "Content": "\\textbf{J} = \\int \\textbf{F} \\mathrm{d} t"
+        },
+        {
+          "Reference": "DefinitionOfKineticEnergy",
+          "URLReference": "definition-of-kinetic-energy",
+          "Title": "The Definition of Kinetic Energy",
+          "Content": "E_{K} = \\frac{1}{2} m v^{2}"
+        },
+        {
+          "Reference": "DefinitionOfMomentOfInertia",
+          "URLReference": "definition-of-moment-of-inertia",
+          "Title": "The Definition of Moment of Inertia",
+          "Content": "I = \\sum_{i} m_{i} r_{i}^{2}"
+        },
+        {
+          "Reference": "DefinitionOfMomentum",
+          "URLReference": "definition-of-momentum",
+          "Title": "The Definition of Momentum",
+          "Content": "\\textbf{p} = m \\textbf{v}"
+        },
+        {
+          "Reference": "DefinitionOfPhotonEnergy",
+          "URLReference": "definition-of-photon-energy",
+          "Title": "The Definition of Photon Energy",
+          "Content": "E = hf"
+        },
+        {
+          "Reference": "DefinitionOfPower",
+          "URLReference": "definition-of-power",
+          "Title": "The Definition of Power",
+          "Content": "P = \\frac{\\mathrm{d} E}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "DefinitionOfPressure",
+          "URLReference": "definition-of-pressure",
+          "Title": "The Definition of Pressure",
+          "Content": "P = \\frac{F}{A}"
+        },
+        {
+          "Reference": "DefinitionOfRefractiveIndex",
+          "URLReference": "definition-of-refractive-index",
+          "Title": "The Definition of Refractive Index",
+          "Content": "n = \\frac{c}{v}"
+        },
+        {
+          "Reference": "DefinitionOfRotationalKineticEnergy",
+          "URLReference": "definition-of-rotational-kinetic-energy",
+          "Title": "The Definition of Rotational Kinetic Energy",
+          "Content": "K = \\frac{1}{2} I \\omega^{2}"
+        },
+        {
+          "Reference": "DefinitionOfRotationalPower",
+          "URLReference": "definition-of-rotational-power",
+          "Title": "The Definition of Rotational Power",
+          "Content": "P = \\tau \\cdot \\omega"
+        },
+        {
+          "Reference": "DefinitionOfRotationalWork",
+          "URLReference": "definition-of-rotational-work",
+          "Title": "The Definition of Rotational Work",
+          "Content": "W = \\int \\tau \\cdot \\mathrm{d} \\theta"
+        },
+        {
+          "Reference": "DefinitionOfTheElectricField",
+          "URLReference": "definition-of-the-electric-field",
+          "Title": "The Definition of the Electric Field",
+          "Content": "\\textbf{E} = \\frac{\\textbf{F}_{e}}{q}"
+        },
+        {
+          "Reference": "DefinitionOfTorque",
+          "URLReference": "definition-of-torque",
+          "Title": "The Definition of Torque",
+          "Content": "\\tau = \\textbf{r} \\times \\textbf{F}"
+        },
+        {
+          "Reference": "DefinitionOfVelocity",
+          "URLReference": "definition-of-velocity",
+          "Title": "The Definition of Velocity",
+          "Content": "\\textbf{v} = \\frac{\\mathrm{d} \\textbf{s}}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "DefinitionOfWeight",
+          "URLReference": "definition-of-weight",
+          "Title": "The Definition of Weight",
+          "Content": "W = mg"
+        },
+        {
+          "Reference": "DefinitionOfWorkDone",
+          "URLReference": "definition-of-work-done",
+          "Title": "The Definition of Work Done by a Force",
+          "Content": "W = \\int \\textbf{F} \\cdot \\mathrm{d} \\textbf{x}"
+        },
+        {
+          "Reference": "ElasticPotentialEnergy",
+          "URLReference": "elastic-potential-energy",
+          "Title": "The Elastic Potential Energy of an Ideal Spring",
+          "Content": "E = \\frac{1}{2} k x^{2}"
+        },
+        {
+          "Reference": "ElectricFieldDueToAnInfiniteFlatSurfaceOfCharge",
+          "URLReference": "electric-field-due-to-an-infinite-flat-surface-of-charge",
+          "Title": "The Electric Field due to an Infinite Flat Surface of Charge",
+          "Content": "\\textbf{E} = \\frac{\\sigma}{2 \\varepsilon_{0}} \\hat{\\textbf{n}}"
+        },
+        {
+          "Reference": "ElectricFieldDueToAnInfiniteLineOfCharge",
+          "URLReference": "electric-field-due-to-an-infinite-line-of-charge",
+          "Title": "The Electric Field due to an Infinite Line of Charge",
+          "Content": "\\textbf{E} = \\frac{1}{2 \\pi \\varepsilon_{0}} \\frac{\\lambda}{|\\textbf{r}|} \\hat{\\textbf{r}}"
+        },
+        {
+          "Reference": "ElectricFieldOfAPointCharge",
+          "URLReference": "electric-field-of-apoint-charge",
+          "Title": "The Electric Field of a Point Charge",
+          "Content": "E = k_{e} \\frac{q}{r^{2}}"
+        },
+        {
+          "Reference": "ElectricPotentialEnergyOfTwoPointCharges",
+          "URLReference": "electric-potential-energy-of-two-point-charges",
+          "Title": "The Electric Potential Energy of Two Point Charges",
+          "Content": "U = k_{e} \\frac{q_{1} q_{2}}{r}"
+        },
+        {
+          "Reference": "ElectricPotentialOfAPointCharge",
+          "URLReference": "electric-potential-of-apoint-charge",
+          "Title": "The Absolute Electric Potential of a Point Charge",
+          "Content": "V = k_{e} \\frac{q}{r}"
+        },
+        {
+          "Reference": "EscapeVelocityFormula",
+          "URLReference": "escape-velocity-formula",
+          "Title": "The Escape Velocity Formula",
+          "Content": "v = \\sqrt{\\frac{2 G M}{R}}"
+        },
+        {
+          "Reference": "FirstLawOfThermodynamics",
+          "URLReference": "first-law-of-thermodynamics",
+          "Title": "The First Law of Thermodynamics",
+          "Content": "\\Delta U = Q - W"
+        },
+        {
+          "Reference": "FormulaForTheSurfaceGravityOnAPlanetOrMoon",
+          "URLReference": "formula-for-the-surface-gravity-on-aplanet-or-moon",
+          "Title": "The Formula for the Surface Gravity on a Planet or Moon",
+          "Content": "a = \\frac{GM}{R^{2}}"
+        },
+        {
+          "Reference": "FormulaForTheTotalCapacitanceOfCapacitorsConnectedInParallel",
+          "URLReference": "formula-for-the-total-capacitance-of-capacitors-connected-in-parallel",
+          "Title": "The Formula for the Total Capacitance of Capacitors Connected in Parallel",
+          "Content": "C_{\\text{total}} = \\sum_{i} C_{i}"
+        },
+        {
+          "Reference": "FormulaForTheTotalCapacitanceOfCapacitorsConnectedInSeries",
+          "URLReference": "formula-for-the-total-capacitance-of-capacitors-connected-in-series",
+          "Title": "The Formula for the Total Capacitance of Capacitors Connected in Series",
+          "Content": "\\frac{1}{C_{\\text{total}}} = \\sum_{i} \\frac{1}{C_{i}}"
+        },
+        {
+          "Reference": "GalileanPositionTransformation",
+          "URLReference": "galilean-position-transformation",
+          "Title": "The Galilean Transformation for Position",
+          "Content": "\\textbf{r} = \\textbf{r}^{\\prime} - \\textbf{v} t"
+        },
+        {
+          "Reference": "GalileanTimeTransformation",
+          "URLReference": "galilean-time-transformation",
+          "Title": "The Galilean Transformation for Time",
+          "Content": "t = t^{\\prime}"
+        },
+        {
+          "Reference": "GaussLawForElectricity",
+          "URLReference": "gauss-law-for-electricity",
+          "Title": "Gauss’ Law for Electricity",
+          "Content": "\\nabla \\cdot \\textbf{E} = \\frac{\\rho}{\\epsilon_0}"
+        },
+        {
+          "Reference": "GaussLawForGravity",
+          "URLReference": "gauss-law-for-gravity",
+          "Title": "Gauss’ Law for Gravity",
+          "Content": "\\nabla \\cdot \\textbf{g} = - 4 \\pi G \\rho"
+        },
+        {
+          "Reference": "GaussLawForMagnetism",
+          "URLReference": "gauss-law-for-magnetism",
+          "Title": "Gauss’ Law for Magnetism",
+          "Content": "\\nabla \\cdot \\textbf{B} = 0"
+        },
+        {
+          "Reference": "GravitationalFieldStrengthInsideAPlanet",
+          "URLReference": "gravitational-field-strength-inside-aplanet",
+          "Title": "The Gravitational Field Strength inside a Planet",
+          "Content": "a = \\frac{4}{3} G \\pi \\rho r"
+        },
+        {
+          "Reference": "GravitationalPotentialEnergyForARadialField",
+          "URLReference": "gravitational-potential-energy-for-aradial-field",
+          "Title": "The Gravitational Potential Energy for a Radial Field",
+          "Content": "E_{G} = G \\frac{m_{1} m_{2}}{r}"
+        },
+        {
+          "Reference": "GravitationalPotentialEnergyForAUniformField",
+          "URLReference": "gravitational-potential-energy-for-auniform-field",
+          "Title": "The Gravitational Potential Energy for a Uniform Field",
+          "Content": "E_{G} = mgh"
+        },
+        {
+          "Reference": "HeisenbergUncertaintyPrincipleForPositionAndMomentum",
+          "URLReference": "heisenberg-uncertainty-principle-for-position-and-momentum",
+          "Title": "The Heisenberg Uncertainty Principle for Position and Momentum",
+          "Content": "\\Delta x \\Delta p \\geq \\frac{\\hbar}{2}"
+        },
+        {
+          "Reference": "HookesLaw",
+          "URLReference": "hookes-law",
+          "Title": "Hooke’s Law",
+          "Content": "F = -kx"
+        },
+        {
+          "Reference": "IdealGasLaw",
+          "URLReference": "ideal-gas-law",
+          "Title": "The Ideal Gas Law",
+          "Content": "P V = N k_{B} T"
+        },
+        {
+          "Reference": "InternalEnergyOfAMonatomicGas",
+          "URLReference": "internal-energy-of-amonatomic-gas",
+          "Title": "The Internal Energy of a Monatomic Gas",
+          "Content": "U = \\frac{3}{2} NkT = \\frac{1}{2} Nm \\langle c^{2} \\rangle"
+        },
+        {
+          "Reference": "KeplersThirdLaw",
+          "URLReference": "keplers-third-law",
+          "Title": "Kepler’s Third Law of Planetary Motion",
+          "Content": "\\frac{a^{3}}{T^{2}} = \\frac{G (M + m)}{4 \\pi^{2}}"
+        },
+        {
+          "Reference": "LawOfThePhotoelectricEffect",
+          "URLReference": "law-of-the-photoelectric-effect",
+          "Title": "The Law of the Photoelectric Effect",
+          "Content": "E_{\\text{max}} = hf - \\phi"
+        },
+        {
+          "Reference": "LorentzForceEquation",
+          "URLReference": "lorentz-force-equation",
+          "Title": "The Lorentz Force Equation",
+          "Content": "\\textbf{F} = q \\textbf{E} + q \\textbf{v} \\times \\textbf{B}"
+        },
+        {
+          "Reference": "MaxwellFaradayEquation",
+          "URLReference": "maxwell-faraday-equation",
+          "Title": "The Maxwell-Faraday Equation",
+          "Content": "\\nabla \\times \\textbf{E} = - \\frac{\\partial \\textbf{B}}{\\partial t}"
+        },
+        {
+          "Reference": "NewtonsFirstLawOfMotion",
+          "URLReference": "newtons-first-law-of-motion",
+          "Title": "Newton’s First Law of Motion",
+          "Content": "\\sum_{i} \\textbf{F}_{i} = 0"
+        },
+        {
+          "Reference": "NewtonsFirstLawOfMotionForRotation",
+          "URLReference": "newtons-first-law-of-motion-for-rotation",
+          "Title": "Newton’s First Law of Motion for Rotation",
+          "Content": "\\sum_{i} \\tau_{i} = 0"
+        },
+        {
+          "Reference": "NewtonsLawOfGravitation",
+          "URLReference": "newtons-law-of-gravitation",
+          "Title": "Newton’s Law of Gravitation",
+          "Content": "F = G \\frac{m_{1} m_{2}}{r^{2}}"
+        },
+        {
+          "Reference": "NewtonsSecondLawOfMotion",
+          "URLReference": "newtons-second-law-of-motion",
+          "Title": "Newton’s Second Law of Motion",
+          "Content": "\\textbf{F} = \\frac{\\mathrm{d} \\textbf{p}}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "NewtonsSecondLawOfMotionForRotation",
+          "URLReference": "newtons-second-law-of-motion-for-rotation",
+          "Title": "Newton’s Second Law of Motion for Rotation",
+          "Content": "\\tau = \\frac{\\mathrm{d} \\textbf{L}}{\\mathrm{d} t}"
+        },
+        {
+          "Reference": "NewtonsThirdLawOfMotion",
+          "URLReference": "newtons-third-law-of-motion",
+          "Title": "Newton’s Third Law of Motion",
+          "Content": "\\textbf{F}_{12} = - \\textbf{F}_{21}"
+        },
+        {
+          "Reference": "OhmsLaw",
+          "URLReference": "ohms-law",
+          "Title": "Ohm’s Law",
+          "Content": "I = \\frac{V}{R}"
+        },
+        {
+          "Reference": "PeriodOfASimplePendulum",
+          "URLReference": "period-of-asimple-pendulum",
+          "Title": "The Period of a Simple Pendulum",
+          "Content": "T \\approx 2 \\pi \\sqrt{\\frac{L}{g}}"
+        },
+        {
+          "Reference": "PotentialDifferenceFormulaForComponentsInSeries",
+          "URLReference": "potential-difference-formula-for-components-in-series",
+          "Title": "The Formula for the Total Potential Difference across Electrical Components Connected in Series",
+          "Content": "V_{\\text{total}} = \\sum_{j} V_{j}"
+        },
+        {
+          "Reference": "PotentialEnergyOfAnElectricDipole",
+          "URLReference": "potential-energy-of-an-electric-dipole",
+          "Title": "The Potential Energy of an Electric Dipole in an Electric Field",
+          "Content": "U = - \\textbf{p} \\cdot \\textbf{E}"
+        },
+        {
+          "Reference": "PowerTransferredByAnElectricalComponent",
+          "URLReference": "power-transferred-by-an-electrical-component",
+          "Title": "The Power Transferred by an Electrical Component",
+          "Content": "P = IV"
+        },
+        {
+          "Reference": "PressureOfAMonatomicGas",
+          "URLReference": "pressure-of-amonatomic-gas",
+          "Title": "The Pressure of a Monatomic Gas",
+          "Content": "P = \\frac{1}{3} nm \\langle c^{2} \\rangle"
+        },
+        {
+          "Reference": "ProjectileRangeFormula",
+          "URLReference": "projectile-range-formula",
+          "Title": "The Projectile Range Formula",
+          "Content": "R = \\frac{v_{0}^{2} \\sin (2 \\theta)}{g}"
+        },
+        {
+          "Reference": "RadialAccelerationInCircularMotion",
+          "URLReference": "radial-acceleration-in-circular-motion",
+          "Title": "Radial Acceleration in Uniform Circular Motion",
+          "Content": "a = \\frac{v^{2}}{r}"
+        },
+        {
+          "Reference": "RadioactiveDecay",
+          "URLReference": "radioactive-decay",
+          "Title": "The Radioactive Decay Formula",
+          "Content": "A(t) = A_{0} e^{-\\lambda t}"
+        },
+        {
+          "Reference": "ResistanceFormulaForComponentsInSeries",
+          "URLReference": "resistance-formula-for-components-in-series",
+          "Title": "The Formula for the Total Resistance of Electrical Components Connected in Series",
+          "Content": "R_{\\text{total}} = \\sum_{j} R_{j}"
+        },
+        {
+          "Reference": "RestMassEnergyOfAnObject",
+          "URLReference": "rest-mass-energy-of-an-object",
+          "Title": "The Rest Mass Energy of an Object",
+          "Content": "E = m_{0} c^{2}"
+        },
+        {
+          "Reference": "RydbergFormula",
+          "URLReference": "rydberg-formula",
+          "Title": "The Rydberg Formula",
+          "Content": "\\frac{1}{\\lambda} = R_{\\infty} \\left( \\frac{1}{n^{2}} - \\frac{1}{m^{2}} \\right)"
+        },
+        {
+          "Reference": "SUVAT1",
+          "URLReference": "suvat1",
+          "Title": "The Kinematic Equation for Distance as a Function of Time for Constant Acceleration",
+          "Content": "s(t) = s_{0} + u t + \\frac{1}{2} a t^{2}"
+        },
+        {
+          "Reference": "SUVAT2",
+          "URLReference": "suvat2",
+          "Title": "The Kinematic Equation for Distance as a Function of Time for Constant Acceleration (Using u and v)",
+          "Content": "s(t) = s_{0} + \\frac{1}{2} (u + v) t"
+        },
+        {
+          "Reference": "SUVAT3",
+          "URLReference": "suvat3",
+          "Title": "The Kinematic Equation for Final Velocity as a Function of Time for Constant Acceleration",
+          "Content": "v(t) = u + at"
+        },
+        {
+          "Reference": "SUVAT4",
+          "URLReference": "suvat4",
+          "Title": "The Kinematic Equation for Final Velocity as a Function of Distance for Constant Acceleration",
+          "Content": "v^{2} = u^{2} + 2as"
+        },
+        {
+          "Reference": "TorqueOnAnElectricDipole",
+          "URLReference": "torque-on-an-electric-dipole",
+          "Title": "The Torque on an Electric Dipole",
+          "Content": "\\tau = \\textbf{p} \\times \\textbf{E}"
+        },
+        {
+          "Reference": "WaveSpeedFormula",
+          "URLReference": "wave-speed-formula",
+          "Title": "The Wave Speed Formula",
+          "Content": "v = f \\lambda"
+        }
+      ]
+    },
     {
       "Reference": "UKGCSEPhysics",
       "URLReference": "ukgcsephysics",

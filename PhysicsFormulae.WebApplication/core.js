@@ -5,21 +5,20 @@ function getColourOfWord(word) {
     word = (word.length > 36) ? word.substr(0, 12) : word;
 
     var m = letters.length;
-    var p = [0, 0, 0];
+    var h = 0;
+    var s = 70;
+    var l = 50;
 
     for (var i = 0; i < word.length; i++) {
         var c = word[i];
         var j = letters.indexOf(c);
 
         j = (j < 0) ? 0 : j;
-        j = Math.round(255 * j / m);
-        p[i % 3] = p[i % 3] + j;
+        j = Math.round(360 * j / m);
+        h = ( h + j) % 360;
     }
 
-    p = p.map(q => ((q % 200) + 25).toString(16));
-    p = p.map(q => (q.length < 2) ? "0" + q : q);
-
-    return "#" + p.join("");
+    return "hsl(" + h + ", " + s + "%, " + l + "%)";
 }
 
 function createMathematicsTag(content, displayStyle) {

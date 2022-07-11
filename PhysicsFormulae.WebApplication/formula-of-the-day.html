@@ -21,7 +21,7 @@
     </div>
     <p class="formula-interpretation" compile="replaceMathematicsMarkers(formula.Interpretation)"></p>
     <div class="formula-fields">
-        <span class="field" ng-repeat="field in formula.Fields"><a href="#/field/{{field}}" title="Search for other formulae in {{field}}.">{{field}}</a></span>
+        <span class="field" ng-repeat="field in formula.Fields" style="background-color: {{getColourOfWord(field)}};"><a href="#/field/{{field}}" title="Search for other formulae in {{field}}.">{{field}}</a></span>
     </div>
     <div class="formula-variants" ng-show="formula.Variants != null && formula.Variants.length > 0">
         <h3>Variants</h3>
