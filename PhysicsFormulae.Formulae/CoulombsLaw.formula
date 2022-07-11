@@ -9,7 +9,7 @@ F = k_{e} \frac{q_1 q_2}{r^2}
 where:
 
 F [var. scal. Force, M L T^{-2}, N] is the magnitude of the force experienced by each point charge
-k_{e} [const. scal. CoulombConstant] is the Coulomb Constant, equal to $\frac{1}{4 \pi \epsilon_{0}}$
+k_{e} [const. scal. CoulombConstant, M L^{3} T^{-2} Q^{-2}, N m^{2} C^{-2}] is the Coulomb Constant, equal to $\frac{1}{4 \pi \epsilon_{0}}$
 q_1 [var. scal. Charge, Q, C] is the electric charge of the first point charge
 q_2 [var. scal. Charge, Q, C] is the electric charge of the second point charge
 r [var. scal. RadialDistance, L, m] is the distance between the point charges

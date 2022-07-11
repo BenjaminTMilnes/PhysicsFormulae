@@ -262,7 +262,7 @@
       "Reference": "CentripetalForceForCircularMotion",
       "URLReference": "centripetal-force-for-circular-motion",
       "Title": "The Formula for the Centripetal Force for Circular Motion",
-      "Interpretation": "For an object to move along a circular path, there must be a force acting on it pointing towards the centre of the circle with a magnitude that is proportional to the mass of the object and its linear velocity squared, and inversely proportional to the radius of the circle.",
+      "Interpretation": "For an object to move along a circular path, there must be a force acting on it pointing towards the centre of the path with a magnitude that is proportional to the mass of the object and its linear velocity squared, and inversely proportional to the radius of the circular path.",
       "Content": "F = \\frac{mv^2}{r}",
       "Identifiers": [
         {
@@ -386,7 +386,6 @@
         "acting",
         "pointing",
         "centre",
-        "circle",
         "magnitude",
         "mass",
         "squared",
@@ -639,8 +638,8 @@
           "Type": "Constant",
           "ObjectType": "Scalar",
           "Reference": "CoulombConstant",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{M L^{3} T^{-2} Q^{-2}}",
+          "Units": "\\mathrm{N\\,m^{2}\\,C^{-2}}",
           "Definition": "is the Coulomb Constant, equal to $\\frac{1}{4 \\pi \\epsilon_{0}}$"
         },
         {
@@ -890,8 +889,8 @@
           "Type": "Variable",
           "ObjectType": "Vector",
           "Reference": "Acceleration",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{L T^{-2}}",
+          "Units": "\\mathrm{m\\,s^{-2}}",
           "Definition": "is the acceleration of the object"
         },
         {
@@ -899,8 +898,8 @@
           "Type": "Variable",
           "ObjectType": "Vector",
           "Reference": "Velocity",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{L T^{-1}}",
+          "Units": "\\mathrm{m\\,s^{-1}}",
           "Definition": "is the velocity of the object"
         },
         {
@@ -908,8 +907,8 @@
           "Type": "Variable",
           "ObjectType": "Scalar",
           "Reference": "Time",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{T}",
+          "Units": "\\mathrm{s}",
           "Definition": "is time"
         }
       ],
@@ -930,8 +929,39 @@
       "Fields": [
         "Classical Mechanics"
       ],
-      "References": [],
-      "SeeMore": [],
+      "References": [
+        {
+          "Title": "Sears and Zemansky's University Physics with Modern Physics",
+          "Authors": [
+            "H. D. Young",
+            "R. A. Freedman"
+          ],
+          "Edition": 12,
+          "Year": 0,
+          "PublisherName": "Pearson",
+          "PublisherAddress": null,
+          "ISBN": "9780321501301",
+          "URL": null,
+          "Volume": 0,
+          "PageNumber": 75,
+          "CitationKey": "SearsAndZemanskysUniversityPhysics",
+          "Type": "Book"
+        }
+      ],
+      "SeeMore": [
+        {
+          "Name": "Hyperphysics",
+          "URL": "http://hyperphysics.phy-astr.gsu.edu/hbase/acca.html"
+        },
+        {
+          "Name": "The Physics Hypertextbook",
+          "URL": "https://physics.info/acceleration/"
+        },
+        {
+          "Name": "Wikipedia",
+          "URL": "https://en.wikipedia.org/wiki/Acceleration"
+        }
+      ],
       "Tags": [
         "rate of change",
         "velocity",

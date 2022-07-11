@@ -8,9 +8,9 @@ The acceleration of an object is the rate of change in that object's velocity. I
 
 where:
 
-\textbf{a} [var. vec. Acceleration] is the acceleration of the object
-\textbf{v} [var. vec. Velocity] is the velocity of the object
-t [var. scal. Time] is time
+\textbf{a} [var. vec. Acceleration, L T^{-2}, m s^{-2}] is the acceleration of the object
+\textbf{v} [var. vec. Velocity, L T^{-1}, m s^{-1}] is the velocity of the object
+t [var. scal. Time, T, s] is time
 
 variants:
 
@@ -38,8 +38,13 @@ derived from:
 
 references:
 
+book: SearsAndZemanskysUniversityPhysics, p. 75
 
 see more:
+
+http://hyperphysics.phy-astr.gsu.edu/hbase/acca.html
+https://physics.info/acceleration/
+https://en.wikipedia.org/wiki/Acceleration
 
 tags:
 
