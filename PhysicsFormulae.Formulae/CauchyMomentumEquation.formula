@@ -1,0 +1,35 @@
+﻿CauchyMomentumEquation
+
+The Cauchy Momentum Equation
+
+...
+
+\frac{D\textbf{u}}{Dt} = \frac{1}{\rho} \nabla \cdot \textbf{\sigma} + \textbf{f}
+
+where:
+
+\textbf{u} [var. vec. FlowVelocity] is the flow velocity vector field
+t [var. scal. Time] is time
+\rho [var. scal. Density] is the density at a given point
+\textbf{\sigma} [var. vec. StressTensor] is the stress tensor
+\textbf{f} [var. vec. Acceleration] is a vector containing all of the accelerations caused by body forces
+
+variants:
+
+fields:
+
+Continuum Mechanics
+
+references:
+
+webpage: "Cauchy momentum equation", Wikipedia, https://en.wikipedia.org/wiki/Cauchy_momentum_equation (2024-06-18)
+
+see more:
+
+https://en.wikipedia.org/wiki/Cauchy_momentum_equation
+
+tags:
+
+curricula:
+
+rating: ***
