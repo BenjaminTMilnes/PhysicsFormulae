@@ -171,16 +171,16 @@
       "Reference": "CauchyMomentumEquation",
       "URLReference": "cauchy-momentum-equation",
       "Title": "The Cauchy Momentum Equation",
-      "Interpretation": "...",
-      "Content": "\\frac{D\\textbf{u}}{Dt} = \\frac{1}{\\rho} \\nabla \\cdot \\textbf{\\sigma} + \\textbf{f}",
+      "Interpretation": "The rate of change of the flow velocity is equal to the sum of the product of the density and the divergence of the stress tensor and the accelerations caused by body forces.",
+      "Content": "\\frac{D\\textbf{u}}{Dt} = \\frac{1}{\\rho} \\nabla \\cdot \\sigma + \\textbf{f}",
       "Identifiers": [
         {
           "Content": "\\textbf{u}",
           "Type": "Variable",
           "ObjectType": "Vector",
           "Reference": "FlowVelocity",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{L T^{-1}}",
+          "Units": "\\mathrm{m/s}",
           "Definition": "is the flow velocity vector field"
         },
         {
@@ -188,8 +188,8 @@
           "Type": "Variable",
           "ObjectType": "Scalar",
           "Reference": "Time",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{T}",
+          "Units": "\\mathrm{s}",
           "Definition": "is time"
         },
         {
@@ -197,17 +197,17 @@
           "Type": "Variable",
           "ObjectType": "Scalar",
           "Reference": "Density",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{M L^{-3}}",
+          "Units": "\\mathrm{kg/m^{3}}",
           "Definition": "is the density at a given point"
         },
         {
-          "Content": "\\textbf{\\sigma}",
+          "Content": "\\sigma",
           "Type": "Variable",
           "ObjectType": "Vector",
           "Reference": "StressTensor",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{M L^{-1} T^{-2}}",
+          "Units": "\\mathrm{N/m^{2}}",
           "Definition": "is the stress tensor"
         },
         {
@@ -215,8 +215,8 @@
           "Type": "Variable",
           "ObjectType": "Vector",
           "Reference": "Acceleration",
-          "Dimensions": null,
-          "Units": null,
+          "Dimensions": "\\mathrm{L T^{-2}}",
+          "Units": "\\mathrm{m/s^{2}}",
           "Definition": "is a vector containing all of the accelerations caused by body forces"
         }
       ],
@@ -243,10 +243,25 @@
         }
       ],
       "Tags": [
+        "rate of change",
+        "force",
         "moment",
+        "velocity",
+        "density",
         "momentum",
+        "force",
         "cauchy",
-        "equation"
+        "equation",
+        "flow",
+        "sum",
+        "product",
+        "divergence",
+        "stress",
+        "tensor",
+        "accelerations",
+        "caused",
+        "body",
+        "forces"
       ],
       "Curricula": [],
       "FormulaSheets": [],

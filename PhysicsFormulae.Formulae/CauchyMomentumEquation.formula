@@ -2,17 +2,17 @@
 
 The Cauchy Momentum Equation
 
-...
+The rate of change of the flow velocity is equal to the sum of the product of the density and the divergence of the stress tensor and the accelerations caused by body forces.
 
-\frac{D\textbf{u}}{Dt} = \frac{1}{\rho} \nabla \cdot \textbf{\sigma} + \textbf{f}
+\frac{D\textbf{u}}{Dt} = \frac{1}{\rho} \nabla \cdot \sigma + \textbf{f}
 
 where:
 
-\textbf{u} [var. vec. FlowVelocity] is the flow velocity vector field
-t [var. scal. Time] is time
-\rho [var. scal. Density] is the density at a given point
-\textbf{\sigma} [var. vec. StressTensor] is the stress tensor
-\textbf{f} [var. vec. Acceleration] is a vector containing all of the accelerations caused by body forces
+\textbf{u} [var. vec. FlowVelocity, L T^{-1}, m/s] is the flow velocity vector field
+t [var. scal. Time, T, s] is time
+\rho [var. scal. Density, M L^{-3}, kg/m^{3}] is the density at a given point
+\sigma [var. vec. StressTensor, M L^{-1} T^{-2}, N/m^{2}] is the stress tensor
+\textbf{f} [var. vec. Acceleration, L T^{-2}, m/s^{2}] is a vector containing all of the accelerations caused by body forces
 
 variants:
 
