@@ -168,6 +168,91 @@
       "ExcludeFromFormulaOfTheDay": false
     },
     {
+      "Reference": "CauchyMomentumEquation",
+      "URLReference": "cauchy-momentum-equation",
+      "Title": "The Cauchy Momentum Equation",
+      "Interpretation": "...",
+      "Content": "\\frac{D\\textbf{u}}{Dt} = \\frac{1}{\\rho} \\nabla \\cdot \\textbf{\\sigma} + \\textbf{f}",
+      "Identifiers": [
+        {
+          "Content": "\\textbf{u}",
+          "Type": "Variable",
+          "ObjectType": "Vector",
+          "Reference": "FlowVelocity",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the flow velocity vector field"
+        },
+        {
+          "Content": "t",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Time",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is time"
+        },
+        {
+          "Content": "\\rho",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Density",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the density at a given point"
+        },
+        {
+          "Content": "\\textbf{\\sigma}",
+          "Type": "Variable",
+          "ObjectType": "Vector",
+          "Reference": "StressTensor",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the stress tensor"
+        },
+        {
+          "Content": "\\textbf{f}",
+          "Type": "Variable",
+          "ObjectType": "Vector",
+          "Reference": "Acceleration",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is a vector containing all of the accelerations caused by body forces"
+        }
+      ],
+      "Variants": [],
+      "DerivedFrom": [],
+      "Derivation": null,
+      "Fields": [
+        "Continuum Mechanics"
+      ],
+      "References": [
+        {
+          "Title": "Cauchy momentum equation",
+          "WebsiteTitle": "Wikipedia",
+          "URL": "https://en.wikipedia.org/wiki/Cauchy_momentum_equation",
+          "DateAccessed": "0001-01-01T00:00:00",
+          "CitationKey": "",
+          "Type": "Webpage"
+        }
+      ],
+      "SeeMore": [
+        {
+          "Name": "Wikipedia",
+          "URL": "https://en.wikipedia.org/wiki/Cauchy_momentum_equation"
+        }
+      ],
+      "Tags": [
+        "moment",
+        "momentum",
+        "cauchy",
+        "equation"
+      ],
+      "Curricula": [],
+      "FormulaSheets": [],
+      "ExcludeFromFormulaOfTheDay": false
+    },
+    {
       "Reference": "CentreOfMassForASystemOfParticles",
       "URLReference": "centre-of-mass-for-asystem-of-particles",
       "Title": "The Formula for the Centre of Mass for a System of Particles",
