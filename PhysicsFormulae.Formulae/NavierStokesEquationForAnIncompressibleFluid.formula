@@ -1,0 +1,35 @@
+﻿NavierStokesEquationForAnIncompressibleFluid
+
+The Navier-Stokes Equation for an Incompressible Fluid
+
+The Navier-Stokes Equation relates the change in the velocity over both time and space to the changes in pressure across the fluid and its density and viscosity.
+
+\frac{\partial \textbf{u}}{\partial t} + (\textbf{u} \cdot \nabla) \textbf{u} = - \frac{1}{\rho} \nabla p + \nu \nabla^{2} \textbf{u}
+
+where:
+
+\textbf{u} [var. vec. Velocity, L T^{-1}, m/s] is the vector velocity field
+t [var. scal. Time, T, s] is time
+\rho [var. scal. Density, M L^{-3}, kg/m^{3}] is the density at a given point
+p [var. scal. Pressure, M L^{-1} T^{-2}, N/m^{2}] is the pressure at a given point
+\nu [var. scal. KinematicViscosity, L^{2} T^{-1}, m^{2}/s] is the kinematic viscosity
+
+variants:
+
+fields:
+
+Fluid Mechanics
+
+references:
+
+webpage: "Fluid mechanics", Wikipedia, https://en.wikipedia.org/wiki/Fluid_mechanics (2024-06-20)
+
+see more:
+
+https://en.wikipedia.org/wiki/Fluid_mechanics
+
+tags:
+
+curricula:
+
+rating: ***

@@ -9795,6 +9795,101 @@
       "ExcludeFromFormulaOfTheDay": false
     },
     {
+      "Reference": "NavierStokesEquationForAnIncompressibleFluid",
+      "URLReference": "navier-stokes-equation-for-an-incompressible-fluid",
+      "Title": "The Navier-Stokes Equation for an Incompressible Fluid",
+      "Interpretation": "The Navier-Stokes Equation relates the change in the velocity over both time and space to the changes in pressure across the fluid and its density and viscosity.",
+      "Content": "\\frac{\\partial \\textbf{u}}{\\partial t} + (\\textbf{u} \\cdot \\nabla) \\textbf{u} = - \\frac{1}{\\rho} \\nabla p + \\nu \\nabla^{2} \\textbf{u}",
+      "Identifiers": [
+        {
+          "Content": "\\textbf{u}",
+          "Type": "Variable",
+          "ObjectType": "Vector",
+          "Reference": "Velocity",
+          "Dimensions": "\\mathrm{L T^{-1}}",
+          "Units": "\\mathrm{m/s}",
+          "Definition": "is the vector velocity field"
+        },
+        {
+          "Content": "t",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Time",
+          "Dimensions": "\\mathrm{T}",
+          "Units": "\\mathrm{s}",
+          "Definition": "is time"
+        },
+        {
+          "Content": "\\rho",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Density",
+          "Dimensions": "\\mathrm{M L^{-3}}",
+          "Units": "\\mathrm{kg/m^{3}}",
+          "Definition": "is the density at a given point"
+        },
+        {
+          "Content": "p",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Pressure",
+          "Dimensions": "\\mathrm{M L^{-1} T^{-2}}",
+          "Units": "\\mathrm{N/m^{2}}",
+          "Definition": "is the pressure at a given point"
+        },
+        {
+          "Content": "\\nu",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "KinematicViscosity",
+          "Dimensions": "\\mathrm{L^{2} T^{-1}}",
+          "Units": "\\mathrm{m^{2}/s}",
+          "Definition": "is the kinematic viscosity"
+        }
+      ],
+      "Variants": [],
+      "DerivedFrom": [],
+      "Derivation": null,
+      "Fields": [
+        "Fluid Mechanics"
+      ],
+      "References": [
+        {
+          "Title": "Fluid mechanics",
+          "WebsiteTitle": "Wikipedia",
+          "URL": "https://en.wikipedia.org/wiki/Fluid_mechanics",
+          "DateAccessed": "0001-01-01T00:00:00",
+          "CitationKey": "",
+          "Type": "Webpage"
+        }
+      ],
+      "SeeMore": [
+        {
+          "Name": "Wikipedia",
+          "URL": "https://en.wikipedia.org/wiki/Fluid_mechanics"
+        }
+      ],
+      "Tags": [
+        "velocity",
+        "space",
+        "density",
+        "Stokes",
+        "navier-stokes",
+        "equation",
+        "incompressible",
+        "fluid",
+        "relates",
+        "change",
+        "time",
+        "changes",
+        "pressure",
+        "viscosity"
+      ],
+      "Curricula": [],
+      "FormulaSheets": [],
+      "ExcludeFromFormulaOfTheDay": false
+    },
+    {
       "Reference": "NewtonsFirstLawOfMotion",
       "URLReference": "newtons-first-law-of-motion",
       "Title": "Newton’s First Law of Motion",
