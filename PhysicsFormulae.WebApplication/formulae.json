@@ -718,6 +718,87 @@
       "ExcludeFromFormulaOfTheDay": false
     },
     {
+      "Reference": "ConstitutiveEquationForANewtonianFluid",
+      "URLReference": "constitutive-equation-for-anewtonian-fluid",
+      "Title": "The Constitutive Equation for an Incompressible and Isotropic Newtonian Fluid",
+      "Interpretation": "The shear stress in the fluid is proportional to the derivative of the flow velocity.",
+      "Content": "\\tau = \\mu \\frac{\\mathrm{d}u}{\\mathrm{d}y}",
+      "Identifiers": [
+        {
+          "Content": "\\tau",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "ShearStress",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the shear stress"
+        },
+        {
+          "Content": "\\mu",
+          "Type": "Constant",
+          "ObjectType": "Scalar",
+          "Reference": "DynamicViscosity",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the dynamic viscosity of the fluid"
+        },
+        {
+          "Content": "u",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "FlowVelocityX",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the flow velocity in the x-direction"
+        }
+      ],
+      "Variants": [],
+      "DerivedFrom": [],
+      "Derivation": null,
+      "Fields": [
+        "Fluid Mechanics"
+      ],
+      "References": [
+        {
+          "Title": "Newtonian fluid",
+          "WebsiteTitle": "Wikipedia",
+          "URL": "https://en.wikipedia.org/wiki/Newtonian_fluid",
+          "DateAccessed": "0001-01-01T00:00:00",
+          "CitationKey": "",
+          "Type": "Webpage"
+        }
+      ],
+      "SeeMore": [
+        {
+          "Name": "Wikipedia",
+          "URL": "https://en.wikipedia.org/wiki/Newtonian_fluid"
+        },
+        {
+          "Name": "Wikipedia",
+          "URL": "https://en.wikipedia.org/wiki/Fluid_mechanics"
+        }
+      ],
+      "Tags": [
+        "Newton",
+        "velocity",
+        "Newton",
+        "constitutive",
+        "equation",
+        "incompressible",
+        "isotropic",
+        "newtonian",
+        "fluid",
+        "shear",
+        "stress",
+        "proportional",
+        "derivative",
+        "flow"
+      ],
+      "Curricula": [],
+      "FormulaSheets": [],
+      "ExcludeFromFormulaOfTheDay": false
+    },
+    {
       "Reference": "CoulombsLaw",
       "URLReference": "coulombs-law",
       "Title": "Coulomb’s Law",

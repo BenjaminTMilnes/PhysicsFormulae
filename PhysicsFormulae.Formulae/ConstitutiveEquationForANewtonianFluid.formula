@@ -1,0 +1,34 @@
+﻿ConstitutiveEquationForANewtonianFluid
+
+The Constitutive Equation for an Incompressible and Isotropic Newtonian Fluid
+
+The shear stress in the fluid is proportional to the derivative of the flow velocity.
+
+\tau = \mu \frac{\mathrm{d}u}{\mathrm{d}y}
+
+where:
+
+\tau [var. scal. ShearStress] is the shear stress
+\mu [const. scal. DynamicViscosity] is the dynamic viscosity of the fluid
+u [var. scal. FlowVelocityX] is the flow velocity in the x-direction
+
+variants:
+
+fields:
+
+Fluid Mechanics
+
+references:
+
+webpage: "Newtonian fluid", Wikipedia, https://en.wikipedia.org/wiki/Newtonian_fluid (2024-06-21)
+
+see more:
+
+https://en.wikipedia.org/wiki/Newtonian_fluid
+https://en.wikipedia.org/wiki/Fluid_mechanics
+
+tags:
+
+curricula:
+
+rating: ***
