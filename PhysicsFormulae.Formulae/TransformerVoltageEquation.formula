@@ -1,0 +1,33 @@
+﻿TransformerVoltageEquation
+
+The Transformer Voltage Equation
+
+The ratio of the voltage across the primary coil of a transformer to the voltage across the secondary coil of the transformer is equal to the ratio of the number of turns on the primary coil to the number of turns on the secondary coil.
+
+\frac{V_{P}}{V_{S}} = \frac{N_{P}}{N_{S}}
+
+where:
+
+V_{P} [var. scal. PotentialDifference1] is the voltage across the primary coil of the transformer
+V_{S} [var. scal. PotentialDifference2] is the voltage across the secondary coil of the transformer
+N_{P} [var. scal. NumberOfTurns1] is the number of turns on the primary coil
+N_{S} [var. scal. NumberOfTurns2] is the number of turns on the secondary coil
+
+variants:
+
+fields:
+
+Electric Circuits
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+tags:
+
+curricula:

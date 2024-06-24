@@ -14107,6 +14107,71 @@
       "ExcludeFromFormulaOfTheDay": false
     },
     {
+      "Reference": "TransformerVoltageEquation",
+      "URLReference": "transformer-voltage-equation",
+      "Title": "The Transformer Voltage Equation",
+      "Interpretation": "The ratio of the voltage across the primary coil of a transformer to the voltage across the secondary coil of the transformer is equal to the ratio of the number of turns on the primary coil to the number of turns on the secondary coil.",
+      "Content": "\\frac{V_{P}}{V_{S}} = \\frac{N_{P}}{N_{S}}",
+      "Identifiers": [
+        {
+          "Content": "V_{P}",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "PotentialDifference1",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the voltage across the primary coil of the transformer"
+        },
+        {
+          "Content": "V_{S}",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "PotentialDifference2",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the voltage across the secondary coil of the transformer"
+        },
+        {
+          "Content": "N_{P}",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "NumberOfTurns1",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the number of turns on the primary coil"
+        },
+        {
+          "Content": "N_{S}",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "NumberOfTurns2",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the number of turns on the secondary coil"
+        }
+      ],
+      "Variants": [],
+      "DerivedFrom": [],
+      "Derivation": null,
+      "Fields": [
+        "Electric Circuits"
+      ],
+      "References": [],
+      "SeeMore": [],
+      "Tags": [
+        "primary coil",
+        "secondary coil",
+        "transformer",
+        "voltage",
+        "equation",
+        "ratio",
+        "turns"
+      ],
+      "Curricula": [],
+      "FormulaSheets": [],
+      "ExcludeFromFormulaOfTheDay": false
+    },
+    {
       "Reference": "WaveSpeedFormula",
       "URLReference": "wave-speed-formula",
       "Title": "The Wave Speed Formula",

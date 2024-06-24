@@ -107,4 +107,6 @@
  change of state
  molecular bonds
  specific latent heat
- unit mass 
+ unit mass
+ primary coil
+ secondary coil 
