@@ -1,0 +1,32 @@
+﻿DefinitionOfSpecificLatentHeat
+
+The Definition of Specific Latent Heat
+
+The latent heat of a change of state of an amount of a certain material is the amount of energy released or absorbed during the state change due to the breaking forming or breaking of molecular bonds. The specific latent heat of a substance for a given state change is the latent heat per unit mass of the substance.
+
+L = \frac{Q}{m}
+
+where:
+
+L [var. scal. SpecificLatentHeat] is the specific latent heat of the substance for a given state change
+Q [var. scal. LatentHeat] is the latent heat of the state change
+m [var. scal. Mass] is the mass of the sample of the substance
+
+variants:
+
+fields:
+
+Classical Thermodynamics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+tags:
+
+curricula:

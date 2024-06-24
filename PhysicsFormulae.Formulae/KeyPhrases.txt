@@ -102,4 +102,9 @@
  rotational force 
  force 
  magnetic vector potential 
- electric potential 
+ electric potential
+ latent heat
+ change of state
+ molecular bonds
+ specific latent heat
+ unit mass 

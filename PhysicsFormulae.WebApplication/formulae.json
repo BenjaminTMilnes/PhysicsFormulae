@@ -4341,6 +4341,68 @@
       "ExcludeFromFormulaOfTheDay": false
     },
     {
+      "Reference": "DefinitionOfSpecificLatentHeat",
+      "URLReference": "definition-of-specific-latent-heat",
+      "Title": "The Definition of Specific Latent Heat",
+      "Interpretation": "The latent heat of a change of state of an amount of a certain material is the amount of energy released or absorbed during the state change due to the breaking forming or breaking of molecular bonds. The specific latent heat of a substance for a given state change is the latent heat per unit mass of the substance.",
+      "Content": "L = \\frac{Q}{m}",
+      "Identifiers": [
+        {
+          "Content": "L",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "SpecificLatentHeat",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the specific latent heat of the substance for a given state change"
+        },
+        {
+          "Content": "Q",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "LatentHeat",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the latent heat of the state change"
+        },
+        {
+          "Content": "m",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Mass",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the mass of the sample of the substance"
+        }
+      ],
+      "Variants": [],
+      "DerivedFrom": [],
+      "Derivation": null,
+      "Fields": [
+        "Classical Thermodynamics"
+      ],
+      "References": [],
+      "SeeMore": [],
+      "Tags": [
+        "energy",
+        "latent heat",
+        "change of state",
+        "molecular bonds",
+        "specific latent heat",
+        "unit mass",
+        "definition",
+        "material",
+        "released",
+        "absorbed",
+        "breaking",
+        "forming",
+        "substance"
+      ],
+      "Curricula": [],
+      "FormulaSheets": [],
+      "ExcludeFromFormulaOfTheDay": false
+    },
+    {
       "Reference": "DefinitionOfStress",
       "URLReference": "definition-of-stress",
       "Title": "The Definition of Stress",
