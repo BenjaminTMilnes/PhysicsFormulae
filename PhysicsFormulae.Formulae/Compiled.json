@@ -1709,6 +1709,7 @@
       "References": [],
       "SeeMore": [],
       "Tags": [
+        "potential difference",
         "definition",
         "capacitance",
         "insulating",
@@ -1716,9 +1717,7 @@
         "ratio",
         "magnitude",
         "charge",
-        "separated",
-        "potential",
-        "difference"
+        "separated"
       ],
       "Curricula": [
         "Singapore H3 Physics (9814)",
@@ -10783,13 +10782,12 @@
       "Tags": [
         "directly proportional",
         "Ohm",
+        "potential difference",
         "ohm’s",
         "law",
         "current",
         "electrical",
-        "conductor",
-        "potential",
-        "difference"
+        "conductor"
       ],
       "Curricula": [
         "Singapore H1 Physics (8867)",
@@ -11146,9 +11144,8 @@
       "References": [],
       "SeeMore": [],
       "Tags": [
+        "potential difference",
         "total",
-        "potential",
-        "difference",
         "electrical",
         "components",
         "connected",
@@ -11343,13 +11340,13 @@
       "SeeMore": [],
       "Tags": [
         "electric potential",
+        "potential difference",
         "power",
         "transferred",
         "electrical",
         "component",
         "product",
-        "current",
-        "difference"
+        "current"
       ],
       "Curricula": [
         "UK GCSE",
@@ -14101,6 +14098,72 @@
         "rest",
         "mass",
         "squared"
+      ],
+      "Curricula": [],
+      "FormulaSheets": [],
+      "ExcludeFromFormulaOfTheDay": false
+    },
+    {
+      "Reference": "TransformerPowerEquation",
+      "URLReference": "transformer-power-equation",
+      "Title": "The Transformer Power Equation for an Ideal Transformer",
+      "Interpretation": "For an ideal transformer, the product of the current in and potential difference across the primary coil is equal to the product of the current in and potential difference across the secondary coil.",
+      "Content": "I_{P}V_{P} = I_{S}V_{S}",
+      "Identifiers": [
+        {
+          "Content": "I_{P}",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Current1",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the current in the primary coil"
+        },
+        {
+          "Content": "V_{P}",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "PotentialDifference1",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the potential difference across the primary coil"
+        },
+        {
+          "Content": "I_{S}",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Current1",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the current in the secondary coil"
+        },
+        {
+          "Content": "V_{S}",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "PotentialDifference1",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the potential difference across the secondary coil"
+        }
+      ],
+      "Variants": [],
+      "DerivedFrom": [],
+      "Derivation": null,
+      "Fields": [
+        "Electric Circuits"
+      ],
+      "References": [],
+      "SeeMore": [],
+      "Tags": [
+        "primary coil",
+        "secondary coil",
+        "potential difference",
+        "ideal transformer",
+        "power",
+        "equation",
+        "product",
+        "current"
       ],
       "Curricula": [],
       "FormulaSheets": [],

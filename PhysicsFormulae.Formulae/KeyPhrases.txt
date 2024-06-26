@@ -109,4 +109,6 @@
  specific latent heat
  unit mass
  primary coil
- secondary coil 
+ secondary coil
+ potential difference
+ ideal transformer 

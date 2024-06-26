@@ -1,0 +1,33 @@
+﻿TransformerPowerEquation
+
+The Transformer Power Equation for an Ideal Transformer
+
+For an ideal transformer, the product of the current in and potential difference across the primary coil is equal to the product of the current in and potential difference across the secondary coil.
+
+I_{P}V_{P} = I_{S}V_{S}
+
+where:
+
+I_{P} [var. scal. Current1] is the current in the primary coil
+V_{P} [var. scal. PotentialDifference1] is the potential difference across the primary coil
+I_{S} [var. scal. Current1] is the current in the secondary coil
+V_{S} [var. scal. PotentialDifference1] is the potential difference across the secondary coil
+
+variants:
+
+fields:
+
+Electric Circuits
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+tags:
+
+curricula:
