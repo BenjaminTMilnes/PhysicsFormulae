@@ -5601,6 +5601,7 @@
       "SeeMore": [],
       "Tags": [
         "energy",
+        "equilibrium position",
         "elastic",
         "potential",
         "ideal",
@@ -5608,9 +5609,7 @@
         "stored",
         "proportional",
         "square",
-        "displacement",
-        "equilibrium",
-        "position"
+        "displacement"
       ],
       "Curricula": [
         "Singapore H1 Physics (8867)",
@@ -8261,6 +8260,67 @@
           "Title": "UK GCSE Physics"
         }
       ],
+      "ExcludeFromFormulaOfTheDay": false
+    },
+    {
+      "Reference": "HookesLawForTorsionalSprings",
+      "URLReference": "hookes-law-for-torsional-springs",
+      "Title": "Hooke’s Law for Torsional Springs",
+      "Interpretation": "The torque exerted by a torsional spring is equal to the negative of the torsional constant of the spring multiplied by the angular displacement of the spring from its equilibrium position.",
+      "Content": "\\tau = -k \\theta",
+      "Identifiers": [
+        {
+          "Content": "\\tau",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Torque",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the torque exerted by the spring"
+        },
+        {
+          "Content": "k",
+          "Type": "Constant",
+          "ObjectType": "Scalar",
+          "Reference": "TorsionalConstant",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the torsional constant of the spring"
+        },
+        {
+          "Content": "\\theta",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "AngularDisplacement",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the angular displacement of the spring from its equilibrium position"
+        }
+      ],
+      "Variants": [],
+      "DerivedFrom": [],
+      "Derivation": null,
+      "Fields": [
+        "Classical Mechanics"
+      ],
+      "References": [],
+      "SeeMore": [],
+      "Tags": [
+        "Hooke",
+        "equilibrium position",
+        "angular displacement",
+        "torsional constant",
+        "torsional spring",
+        "torsional",
+        "hooke’s",
+        "law",
+        "springs",
+        "torque",
+        "exerted",
+        "negative"
+      ],
+      "Curricula": [],
+      "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
     },
     {

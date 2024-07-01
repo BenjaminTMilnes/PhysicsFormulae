@@ -112,3 +112,8 @@
  secondary coil
  potential difference
  ideal transformer 
+ equilibrium position
+ angular displacement
+ torsional constant
+ torsional spring
+ torsional

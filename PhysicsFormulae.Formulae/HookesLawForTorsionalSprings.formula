@@ -1,0 +1,32 @@
+﻿HookesLawForTorsionalSprings
+
+Hooke's Law for Torsional Springs
+
+The torque exerted by a torsional spring is equal to the negative of the torsional constant of the spring multiplied by the angular displacement of the spring from its equilibrium position.
+
+\tau = -k \theta
+
+where:
+
+\tau [var. scal. Torque] is the torque exerted by the spring
+k [const. scal. TorsionalConstant] is the torsional constant of the spring
+\theta [var. scal. AngularDisplacement] is the angular displacement of the spring from its equilibrium position
+
+variants:
+
+fields:
+
+Classical Mechanics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+tags:
+
+curricula:
