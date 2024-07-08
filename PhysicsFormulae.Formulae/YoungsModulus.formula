@@ -1,0 +1,32 @@
+﻿YoungsModulus
+
+Young's Modulus
+
+Young's Modulus is the ratio of the tensile or compressive stress applied to a material to the resulting axial strain of the material.
+
+E = \frac{\sigma}{\epsilon}
+
+where:
+
+E [var. scal. YoungsModulus] is Young's Modulus
+\sigma [var. scal. Stress] is the stress
+\epsilon [var. scal. Strain] is the strain
+
+variants:
+
+fields:
+
+Classical Mechanics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+tags:
+
+curricula:

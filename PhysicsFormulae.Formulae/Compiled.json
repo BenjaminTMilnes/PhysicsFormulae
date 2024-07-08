@@ -14458,6 +14458,67 @@
       "Curricula": [],
       "FormulaSheets": [],
       "ExcludeFromFormulaOfTheDay": false
+    },
+    {
+      "Reference": "YoungsModulus",
+      "URLReference": "youngs-modulus",
+      "Title": "Young’s Modulus",
+      "Interpretation": "Young's Modulus is the ratio of the tensile or compressive stress applied to a material to the resulting axial strain of the material.",
+      "Content": "E = \\frac{\\sigma}{\\epsilon}",
+      "Identifiers": [
+        {
+          "Content": "E",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "YoungsModulus",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is Young's Modulus"
+        },
+        {
+          "Content": "\\sigma",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Stress",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the stress"
+        },
+        {
+          "Content": "\\epsilon",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Strain",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the strain"
+        }
+      ],
+      "Variants": [],
+      "DerivedFrom": [],
+      "Derivation": null,
+      "Fields": [
+        "Classical Mechanics"
+      ],
+      "References": [],
+      "SeeMore": [],
+      "Tags": [
+        "young’s",
+        "modulus",
+        "young's",
+        "ratio",
+        "tensile",
+        "compressive",
+        "stress",
+        "applied",
+        "material",
+        "resulting",
+        "axial",
+        "strain"
+      ],
+      "Curricula": [],
+      "FormulaSheets": [],
+      "ExcludeFromFormulaOfTheDay": false
     }
   ],
   "Constants": [
