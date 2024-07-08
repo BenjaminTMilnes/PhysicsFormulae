@@ -117,3 +117,9 @@
  torsional constant
  torsional spring
  torsional
+ stress
+ strain
+ axial strain
+ tensile stress
+ compressive stress
+ Young's Modulus
