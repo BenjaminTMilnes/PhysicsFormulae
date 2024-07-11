@@ -168,6 +168,61 @@
       "ExcludeFromFormulaOfTheDay": false
     },
     {
+      "Reference": "BulkModulus",
+      "URLReference": "bulk-modulus",
+      "Title": "The Bulk Modulus",
+      "Interpretation": "The bulk modulus of a substance quantifies the resistance of the substance to bulk compression.",
+      "Content": "K = -V \\frac{\\mathrm{d}P}{\\mathrm{d}V}",
+      "Identifiers": [
+        {
+          "Content": "K",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "BulkModulus",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the bulk modulus"
+        },
+        {
+          "Content": "V",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Volume",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the volume of the substance"
+        },
+        {
+          "Content": "P",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Pressure",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the pressure applied to the substance"
+        }
+      ],
+      "Variants": [],
+      "DerivedFrom": [],
+      "Derivation": null,
+      "Fields": [
+        "Classical Mechanics"
+      ],
+      "References": [],
+      "SeeMore": [],
+      "Tags": [
+        "bulk",
+        "modulus",
+        "substance",
+        "quantifies",
+        "resistance",
+        "compression"
+      ],
+      "Curricula": [],
+      "FormulaSheets": [],
+      "ExcludeFromFormulaOfTheDay": false
+    },
+    {
       "Reference": "CauchyMomentumEquation",
       "URLReference": "cauchy-momentum-equation",
       "Title": "The Cauchy Momentum Equation",

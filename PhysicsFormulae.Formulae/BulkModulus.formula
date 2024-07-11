@@ -1,0 +1,32 @@
+﻿BulkModulus
+
+The Bulk Modulus
+
+The bulk modulus of a substance quantifies the resistance of the substance to bulk compression.
+
+K = -V \frac{\mathrm{d}P}{\mathrm{d}V}
+
+where:
+
+K [var. scal. BulkModulus] is the bulk modulus
+V [var. scal. Volume] is the volume of the substance
+P [var. scal. Pressure] is the pressure applied to the substance
+
+variants:
+
+fields:
+
+Classical Mechanics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+tags:
+
+curricula:
