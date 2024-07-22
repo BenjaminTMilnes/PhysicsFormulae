@@ -7170,6 +7170,63 @@
       "ExcludeFromFormulaOfTheDay": false
     },
     {
+      "Reference": "FrictionFormula",
+      "URLReference": "friction-formula",
+      "Title": "The Friction Formula",
+      "Interpretation": "The friction force experienced by an object in contact with a surface is always less than or equal to the normal force experienced by the object multiplied by the coefficient of friction between the object and surface.",
+      "Content": "F_{f} \\leq \\mu F_{n}",
+      "Identifiers": [
+        {
+          "Content": "F_{f}",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "FrictionForce",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the magnitude of the friction force"
+        },
+        {
+          "Content": "\\mu",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "CoefficientOfFriction",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the coefficient of friction"
+        },
+        {
+          "Content": "F_{n}",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "NormalForce",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the magnitude of the normal force"
+        }
+      ],
+      "Variants": [],
+      "DerivedFrom": [],
+      "Derivation": null,
+      "Fields": [
+        "Classical Mechanics"
+      ],
+      "References": [],
+      "SeeMore": [],
+      "Tags": [
+        "force",
+        "force",
+        "friction",
+        "object",
+        "contact",
+        "surface",
+        "normal",
+        "coefficient"
+      ],
+      "Curricula": [],
+      "FormulaSheets": [],
+      "ExcludeFromFormulaOfTheDay": false
+    },
+    {
       "Reference": "FundamentalThermodynamicRelation",
       "URLReference": "fundamental-thermodynamic-relation",
       "Title": "The Fundamental Thermodynamic Relation",

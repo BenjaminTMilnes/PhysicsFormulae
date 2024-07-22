@@ -1,0 +1,32 @@
+﻿FrictionFormula
+
+The Friction Formula
+
+The friction force experienced by an object in contact with a surface is always less than or equal to the normal force experienced by the object multiplied by the coefficient of friction between the object and surface.
+
+F_{f} \leq \mu F_{n}
+
+where:
+
+F_{f} [var. scal. FrictionForce] is the magnitude of the friction force
+\mu [var. scal. CoefficientOfFriction] is the coefficient of friction
+F_{n} [var. scal. NormalForce] is the magnitude of the normal force
+
+variants:
+
+fields:
+
+Classical Mechanics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+tags:
+
+curricula:
