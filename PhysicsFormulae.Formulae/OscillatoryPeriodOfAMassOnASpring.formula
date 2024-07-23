@@ -1,0 +1,32 @@
+﻿OscillatoryPeriodOfAMassOfASpring
+
+The Oscillatory Period of a Mass on a Spring
+
+An undamped spring-mass system undergoes simple harmonic motion. Its oscillatory period is dependent on the mass of the object and the spring constant of the spring.
+
+T = 2 \pi \sqrt{\frac{m}{k}}
+
+where:
+
+T [var. scal. Period] is the period of oscillation
+m [var. scal. Mass] is the mass
+k [var. scal. SpringConstant] is the spring constant
+
+variants:
+
+fields:
+
+Classical Mechanics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+tags:
+
+curricula:

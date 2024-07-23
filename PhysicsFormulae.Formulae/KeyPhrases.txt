@@ -123,3 +123,4 @@
  tensile stress
  compressive stress
  Young's Modulus
+ simple harmonic motion

@@ -11009,6 +11009,66 @@
       "ExcludeFromFormulaOfTheDay": false
     },
     {
+      "Reference": "OscillatoryPeriodOfAMassOfASpring",
+      "URLReference": "oscillatory-period-of-amass-of-aspring",
+      "Title": "The Oscillatory Period of a Mass on a Spring",
+      "Interpretation": "An undamped spring-mass system undergoes simple harmonic motion. Its oscillatory period is dependent on the mass of the object and the spring constant of the spring.",
+      "Content": "T = 2 \\pi \\sqrt{\\frac{m}{k}}",
+      "Identifiers": [
+        {
+          "Content": "T",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Period",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the period of oscillation"
+        },
+        {
+          "Content": "m",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Mass",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the mass"
+        },
+        {
+          "Content": "k",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "SpringConstant",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the spring constant"
+        }
+      ],
+      "Variants": [],
+      "DerivedFrom": [],
+      "Derivation": null,
+      "Fields": [
+        "Classical Mechanics"
+      ],
+      "References": [],
+      "SeeMore": [],
+      "Tags": [
+        "simple harmonic motion",
+        "oscillatory",
+        "period",
+        "mass",
+        "spring",
+        "undamped",
+        "spring-mass",
+        "system",
+        "dependent",
+        "object",
+        "constant"
+      ],
+      "Curricula": [],
+      "FormulaSheets": [],
+      "ExcludeFromFormulaOfTheDay": false
+    },
+    {
       "Reference": "PeriodOfASimplePendulum",
       "URLReference": "period-of-asimple-pendulum",
       "Title": "The Period of a Simple Pendulum",

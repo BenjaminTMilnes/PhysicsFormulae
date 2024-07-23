@@ -165,3 +165,5 @@ potentials
 certain
 during
 resulting
+undergo
+undergoes
