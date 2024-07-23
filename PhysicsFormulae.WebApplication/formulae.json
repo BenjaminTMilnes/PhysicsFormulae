@@ -1108,6 +1108,65 @@
       "ExcludeFromFormulaOfTheDay": false
     },
     {
+      "Reference": "CriticalDampingCoefficientFormula",
+      "URLReference": "critical-damping-coefficient-formula",
+      "Title": "The Formula for the Critical Damping Coefficient",
+      "Interpretation": "For a damped mass-spring system, the critical value for the damping coefficient is dependent on the mass and the spring constant.",
+      "Content": "c_{c} = 2 \\sqrt{km}",
+      "Identifiers": [
+        {
+          "Content": "c_{c}",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "CriticalDampingCoefficient",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the critical damping coefficient"
+        },
+        {
+          "Content": "m",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Mass",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the mass"
+        },
+        {
+          "Content": "k",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "SpringConstant",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the spring constant"
+        }
+      ],
+      "Variants": [],
+      "DerivedFrom": [],
+      "Derivation": null,
+      "Fields": [
+        "Classical Mechanics"
+      ],
+      "References": [],
+      "SeeMore": [],
+      "Tags": [
+        "critical",
+        "damping",
+        "coefficient",
+        "damped",
+        "mass-spring",
+        "system",
+        "dependent",
+        "mass",
+        "spring",
+        "constant"
+      ],
+      "Curricula": [],
+      "FormulaSheets": [],
+      "ExcludeFromFormulaOfTheDay": false
+    },
+    {
       "Reference": "DefinitionOfAcceleration",
       "URLReference": "definition-of-acceleration",
       "Title": "The Definition of Acceleration",

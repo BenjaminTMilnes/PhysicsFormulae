@@ -1,0 +1,32 @@
+﻿CriticalDampingCoefficientFormula
+
+The Formula for the Critical Damping Coefficient
+
+For a damped mass-spring system, the critical value for the damping coefficient is dependent on the mass and the spring constant.
+
+c_{c} = 2 \sqrt{km}
+
+where:
+
+c_{c} [var. scal. CriticalDampingCoefficient] is the critical damping coefficient
+m [var. scal. Mass] is the mass
+k [var. scal. SpringConstant] is the spring constant
+
+variants:
+
+fields:
+
+Classical Mechanics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+tags:
+
+curricula:
