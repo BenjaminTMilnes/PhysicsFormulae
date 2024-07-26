@@ -1167,6 +1167,74 @@
       "ExcludeFromFormulaOfTheDay": false
     },
     {
+      "Reference": "DampingRatio",
+      "URLReference": "damping-ratio",
+      "Title": "The Formula for the Damping Ratio",
+      "Interpretation": "The damping ratio expresses whether a mass-spring-damper system is underdamped, critically damped, or overdamped.",
+      "Content": "\\zeta = \\frac{c}{2\\sqrt{km}}",
+      "Identifiers": [
+        {
+          "Content": "\\zeta",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "DampingRatio",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the damping ratio"
+        },
+        {
+          "Content": "c",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "DampingCoefficient",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the damping coefficient"
+        },
+        {
+          "Content": "m",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "Mass",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the mass"
+        },
+        {
+          "Content": "k",
+          "Type": "Variable",
+          "ObjectType": "Scalar",
+          "Reference": "SpringConstant",
+          "Dimensions": null,
+          "Units": null,
+          "Definition": "is the spring constant"
+        }
+      ],
+      "Variants": [],
+      "DerivedFrom": [],
+      "Derivation": null,
+      "Fields": [
+        "Classical Mechanics"
+      ],
+      "References": [],
+      "SeeMore": [],
+      "Tags": [
+        "damping",
+        "ratio",
+        "expresses",
+        "whether",
+        "mass-spring-damper",
+        "system",
+        "underdamped",
+        "critically",
+        "damped",
+        "overdamped"
+      ],
+      "Curricula": [],
+      "FormulaSheets": [],
+      "ExcludeFromFormulaOfTheDay": false
+    },
+    {
       "Reference": "DefinitionOfAcceleration",
       "URLReference": "definition-of-acceleration",
       "Title": "The Definition of Acceleration",

@@ -1,0 +1,33 @@
+﻿DampingRatio
+
+The Formula for the Damping Ratio
+
+The damping ratio expresses whether a mass-spring-damper system is underdamped, critically damped, or overdamped.
+
+\zeta = \frac{c}{2\sqrt{km}}
+
+where:
+
+\zeta [var. scal. DampingRatio] is the damping ratio
+c [var. scal. DampingCoefficient] is the damping coefficient
+m [var. scal. Mass] is the mass
+k [var. scal. SpringConstant] is the spring constant
+
+variants:
+
+fields:
+
+Classical Mechanics
+
+derived from:
+
+
+
+references:
+
+
+see more:
+
+tags:
+
+curricula:
